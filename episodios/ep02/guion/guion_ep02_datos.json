@@ -1,0 +1,546 @@
+{
+ "final": {
+  "titulo_youtube": "Sistema 2: Deuda | Ejemplo: tu pago mínimo te puede costar casi 10 años (y la ruta al nivel cero)",
+  "bloques": [
+   {
+    "numero": "01",
+    "nombre": "Arranque",
+    "puesta_en_escena": "[CARA] Fernando a cuadro con el celular en la mano. A los ~8 s, en 'Esto es Sistema dos: deuda.', corte de 3 s a la placa sobre negro SISTEMA 2 · DEUDA / PAGO MÍNIMO · INTERESES · BURÓ; regresa a [CARA] en 'Vas a entender tu pago mínimo' y sigue a cuadro hasta 'Empecemos.' (~10 s).",
+    "narracion": "Tienes una tarjeta de crédito, pagas cada mes, y la deuda casi no baja. Hoy vas a ver por qué, con tus propios números.\n\nEsto es Sistema dos: deuda. Vas a entender tu pago mínimo, vas a dejar de pagar intereses que no necesitas y vas a cuidar tu historial en Buró de Crédito. Y vas a saber exactamente en qué nivel estás.\n\nEmpecemos."
+   },
+   {
+    "numero": "02",
+    "nombre": "Abre tu tarjeta",
+    "puesta_en_escena": "[CAPTURA: app de la tarjeta de crédito abriendo el último estado de cuenta] -> [CAPTURA: la misma pantalla con cuatro recuadros rojos: saldo, pago mínimo, pago para no generar intereses, fecha límite].",
+    "narracion": "Abre ahorita la aplicación de tu tarjeta de crédito y entra a tu último estado de cuenta. Si tienes varias tarjetas, empieza por la que más usas.\n\nBusca cuatro datos: cuánto debes, tu pago mínimo, el pago para no generar intereses y la fecha límite de pago. El primero lo usas ahorita."
+   },
+   {
+    "numero": "03",
+    "nombre": "La tercera columna y tu nivel",
+    "puesta_en_escena": "[CAPTURA: notas del teléfono con las dos columnas de Sistema 1; aparece la tercera, LO QUE DEBO, con el saldo de la tarjeta] -> en '¿En qué nivel estás?', [GRÁFICA: escala vertical de -10 a 0, negativos en rojo, el 0 en blanco: NO DEBER NADA] hasta 'Esa cantidad es un nivel.' -> [GRÁFICA: EJEMPLO · 20,000 ÷ 10 = 2,000 por nivel, flecha subiendo -10 → -9 → -8] desde 'Si debes veinte mil pesos' -> [GRÁFICA: 36% de los adultos tiene alguna deuda · de ellos, más de 1 de cada 4 se atrasó en algún pago (ENSAFI 2023, INEGI y CONDUSEF)].",
+    "narracion": "En Sistema uno hiciste dos columnas en las notas de tu teléfono: lo que entra y lo que sale. Hoy agregas una tercera: lo que debo.\n\n¿En qué nivel estás? El nivel cero es no deber nada. Todo lo que está abajo es negativo, y medirlo es fácil: toma lo que debes y divídelo entre diez. Esa cantidad es un nivel. Si debes veinte mil pesos, cada nivel son dos mil. Si debes algo, hoy estás en menos diez. Cada vez que bajas tu deuda una décima parte, subes uno: menos nueve, menos ocho, hasta llegar a cero.\n\nY no eres el único. Según la encuesta ENSAFI del INEGI y la CONDUSEF, el treinta y seis por ciento de los adultos en México tenía algún tipo de deuda. Y de quienes tenían deuda, más de uno de cada cuatro se atrasó en algún pago."
+   },
+   {
+    "numero": "04",
+    "nombre": "Cómo se calcula tu mínimo",
+    "puesta_en_escena": "[CAPTURA: pago mínimo resaltado en el estado de cuenta] -> [GRÁFICA: REGLA DE BANXICO, gana la más alta: A) 1.5% de lo que debes + intereses + IVA · B) 1.25% de tu límite] -> [GRÁFICA: EL PISO: tu banco puede pedir más, nunca menos].",
+    "narracion": "Mira tu pago mínimo. No es una cifra al azar. Sale de una regla de Banxico.\n\nTu pago mínimo es lo que salga más alto entre dos cuentas. La primera: el uno punto cinco por ciento de lo que debes, más los intereses del mes y su IVA. La segunda: el uno punto veinticinco por ciento de tu límite de crédito.\n\nEso es el piso. Tu banco puede pedirte más, pero nunca menos.\n\nEsta regla existe para que al menos una parte de tu pago baje la deuda. La pregunta es qué tan grande es esa parte."
+   },
+   {
+    "numero": "05",
+    "nombre": "El ejemplo de los veinte mil",
+    "puesta_en_escena": "[GRÁFICA: EJEMPLO ILUSTRATIVO · debes $20,000 · límite $30,000 · tasa 60% anual · sin compras nuevas, tasa fija] -> [GRÁFICA: barra de $1,460 partida en $1,160 intereses + IVA (rojo) y $300 a tu deuda (blanco), etiqueta EJEMPLO] -> [GRÁFICA: 'PAGAS $1,460 · TU DEUDA BAJA $300' en letra grande, etiqueta EJEMPLO].",
+    "narracion": "Vamos con un ejemplo con números redondos. Debes veinte mil pesos, tu límite es de treinta mil, tu tarjeta cobra sesenta por ciento al año y ya no haces compras nuevas. Es una tasa alta, solo para el ejemplo; la tuya viene en los documentos de tu tarjeta.\n\nCon esos números, tu primer mínimo sería de unos mil cuatrocientos sesenta pesos. Pero de eso, mil ciento sesenta se van en intereses e IVA. Solo trescientos pesos bajan lo que debes.\n\nPagas mil cuatrocientos sesenta, y tu deuda baja trescientos."
+   },
+   {
+    "numero": "06",
+    "nombre": "El mapa del mínimo",
+    "puesta_en_escena": "[GRÁFICA: escala de niveles con línea de tiempo, etiqueta EJEMPLO · sin compras nuevas, tasa fija: '-9: 7 meses' · '-5: casi 4 años'] -> en 'llegarías a cero en casi diez años', [GRÁFICA: '0 · CASI 10 AÑOS · UNOS $83,000 POR $20,000' en rojo y grande, etiqueta EJEMPLO] -> [CAPTURA: recuadro del estado de cuenta con el tiempo y el total pagando solo el mínimo].",
+    "narracion": "Ahora ponlo en el mapa. En este ejemplo, cada nivel son dos mil pesos. Pagando solo el mínimo, subir de menos diez a menos nueve te toma siete meses. Llegar a menos cinco, casi cuatro años. Y como el mínimo se hace más chico conforme baja tu saldo, el final se alarga todavía más: llegarías a cero en casi diez años, y pagarías alrededor de ochenta y tres mil pesos por una deuda de veinte mil.\n\nTu estado de cuenta trae un recuadro que te dice cuánto tardarías y cuánto pagarías dando solo el mínimo. Ese número ya no es del ejemplo, es tuyo."
+   },
+   {
+    "numero": "07",
+    "nombre": "La liberación",
+    "puesta_en_escena": "[CARA] Fernando a cuadro (unos 22 s). A los ~12 s, corte de 3 s a [GRÁFICA: EL PAGO MÍNIMO MANTIENE TU TARJETA AL CORRIENTE. NO TE SACA DE LA DEUDA.]; regresa a [CARA] para la frase ancla, que aparece en rojo: NO ES FALTA DE DISCIPLINA. ES FALTA DE SISTEMA.",
+    "narracion": "Y cuando veas tu número, no te enojes con tu banco ni contigo. El pago mínimo no está fallando. Funciona exactamente como lo diseñaron: mantiene tu tarjeta al corriente. Lo que nunca prometió fue sacarte de la deuda. Esa parte te toca a ti, y hasta hoy nadie te había explicado las reglas.\n\nNo es falta de disciplina. Es falta de sistema. Y esta es la ruta."
+   },
+   {
+    "numero": "08",
+    "nombre": "Dejar de pagar intereses",
+    "puesta_en_escena": "[CAPTURA: 'pago para no generar intereses' resaltado junto al pago mínimo] -> [CAPTURA: sección de meses sin intereses del estado de cuenta] -> [GRÁFICA: EL PAGO MÍNIMO, POR SÍ SOLO, NO INCLUYE TUS MSI · se pagan aparte (CONDUSEF)].",
+    "narracion": "Busca en tu estado de cuenta el pago para no generar intereses. Si pagas esa cantidad antes de la fecha límite, ese mes no te cobran intereses.\n\nEsa cantidad ya trae tus compras normales y las mensualidades de tus meses sin intereses. El pago mínimo, por sí solo, no: esas mensualidades se pagan aparte. Si cubres el mínimo y nada más, CONDUSEF advierte que esa mensualidad se pasa a tu saldo y empieza a cobrar intereses.\n\nEsa es tu meta de cada mes. Si todavía no llegas, sigue la ruta."
+   },
+   {
+    "numero": "09",
+    "nombre": "Paso uno: deja de bajar",
+    "puesta_en_escena": "[CAPTURA: app de compras, Métodos de pago, eliminando la tarjeta guardada] -> [CAPTURA: cartera del celular quitando la tarjeta].",
+    "narracion": "Paso uno: deja de bajar. Si una tarjeta tiene deuda, quítala de las aplicaciones y tiendas en línea donde está guardada, y de la cartera de tu celular. En Sistema uno borraste las apps de impulso; hoy borras la tarjeta de las que quedaron. Para las compras chicas del día a día, usa efectivo, como ya empezaste a hacer. No vas a subir de nivel mientras la deuda siga creciendo."
+   },
+   {
+    "numero": "10",
+    "nombre": "Paso dos: congela tu pago",
+    "puesta_en_escena": "[GRÁFICA: TU MÍNIMO DE HOY + MENSUALIDADES DE MSI = TU PAGO FIJO] -> [GRÁFICA: dos rutas sobre la escala de niveles; texto fijo en pantalla: 'EJEMPLO ILUSTRATIVO: deuda $20,000 · límite $30,000 · tasa 60% anual · sin compras nuevas'; FIJO $1,460: 29 meses · unos $41,000 | SOLO EL MÍNIMO: 119 meses · unos $83,000] -> [CAPTURA: calendario del teléfono con el recordatorio mensual PAGAR $1,460 (EJEMPLO)].",
+    "narracion": "Paso dos: congela tu pago. Toma tu mínimo de este mes y paga siempre esa cantidad, aunque te pidan menos. Si tienes meses sin intereses, súmale esas mensualidades.\n\nCon una deuda de ejemplo de veinte mil pesos, el primer mínimo es de mil cuatrocientos sesenta. Como tu pago ya no se encoge, los niveles llegan cada vez más rápido. Terminas en unos dos años y medio y pagas cerca de cuarenta y un mil pesos. Solo con el mínimo serían casi diez años y ochenta y tres mil. Con el mismo dinero que ya pagabas el primer mes."
+   },
+   {
+    "numero": "11",
+    "nombre": "Paso tres: aumenta tu pago con tus dos columnas",
+    "puesta_en_escena": "[CAPTURA: notas con las dos columnas de Sistema 1; se marca dónde recortar (comida a domicilio, suscripciones) y una flecha lo mueve a LO QUE DEBO] -> [GRÁFICA: tercera ruta, etiqueta EJEMPLO · sin compras nuevas: $1,460 + $1,040 = FIJO $2,500: 12 meses · unos $27,700 · más de $55,000 de diferencia].",
+    "narracion": "Paso tres: aumenta tu pago con lo de Sistema uno. Regresa a tus dos columnas y marca dónde puedes recortar. Lo que dejas de gastar en comida a domicilio, en suscripciones y en compras de impulso ya no se va: ahora tiene trabajo.\n\nSi a esos mil cuatrocientos sesenta les sumas mil cuarenta pesos que recortaste, y pagas dos mil quinientos al mes, subes casi un nivel cada mes. Terminas en un año y pagas unos veintisiete mil setecientos. Son más de cincuenta y cinco mil pesos de diferencia contra el mínimo."
+   },
+   {
+    "numero": "12",
+    "nombre": "Paso cuatro: una deuda a la vez",
+    "puesta_en_escena": "[CAPTURA: tercera columna con varias deudas, cada una con saldo, tasa, mínimo y fecha límite] -> en 'No le pagues un poquito a cada una', [GRÁFICA: MÍNIMO · MÍNIMO · TODO LO EXTRA → UNA SOLA DEUDA] -> [GRÁFICA: AVALANCHA: primero la tasa más alta = menos intereses (Fed de San Luis, material educativo, 2023)] -> [GRÁFICA: CONCENTRA TUS PAGOS · tasas parecidas: primero la más chica (Kettle, Trudel, Blanchard y Häubl, 2016)] -> [CAPTURA: una deuda tachada y su pago pasando a la siguiente].",
+    "narracion": "Paso cuatro. Si tienes varias deudas, pon cada una en un renglón de tu tercera columna. Tarjetas, préstamos, abonos en tiendas y lo que le debes a tu familia. En cada renglón, cuánto debes, la tasa, el mínimo y la fecha límite.\n\nNo le pagues un poquito a cada una. A todas les das el mínimo, menos a una. A esa le mandas todo lo extra.\n\n¿A cuál? Si solo ves los números, gana atacar primero la de tasa más alta, porque te cobra menos intereses. Así lo explica la Reserva Federal de San Luis, en Estados Unidos. Pero investigadores de varias universidades encontraron que quien concentra su dinero en una sola deuda se motiva más y paga más rápido, sobre todo si esa deuda es la más chica, porque ves que se acaba. Entonces: si las tasas son muy distintas, ataca la más cara. Si se parecen, la más chica. Cuando terminas una, su pago pasa a la siguiente."
+   },
+   {
+    "numero": "13",
+    "nombre": "Paso cinco: Buró de Crédito",
+    "puesta_en_escena": "[GRÁFICA: BURÓ NO ES LISTA NEGRA · es tu historial: lo bueno y lo malo] -> [CAPTURA: fecha límite de pago resaltada en el estado de cuenta] -> [GRÁFICA: cuánto dura un atraso, según lo que debías: hasta ~$220 = 1 año · hasta ~$4,400 = 2 años · hasta ~$8,800 = 4 años · más = hasta 6 años (montos aproximados en UDIS; CONDUSEF)].",
+    "narracion": "Paso cinco: cuida tu historial. Si tienes o tuviste una tarjeta, un préstamo o incluso un plan de celular, ya estás en Buró de Crédito. No es una lista negra; es tu historial, y ahí aparece lo bueno y lo malo.\n\nCada mes tu banco le dice al Buró si pagaste a tiempo o tarde. Si cubres por lo menos el mínimo antes de la fecha límite, tu tarjeta queda al corriente. Si te atrasas, aunque sean pocos días, puede quedar marcado.\n\nY un atraso no desaparece cuando pagas. Cuánto dura depende de cuánto debías. Hasta unos doscientos veinte pesos, un año. Hasta unos cuatro mil cuatrocientos, dos años. Hasta unos ocho mil ochocientos, cuatro años. Más que eso, hasta seis años, contados desde que se reportó el atraso por primera vez."
+   },
+   {
+    "numero": "14",
+    "nombre": "Si ya no puedes con el mínimo",
+    "puesta_en_escena": "[GRÁFICA: REESTRUCTURA = nuevo plan de pagos · QUITA = queda como quebranto] -> [GRÁFICA: COBRAR POR BORRARTE DEL BURÓ = FRAUDE · UN ERROR SÍ SE CORRIGE (CONDUSEF)] -> [GRÁFICA: CONDUSEF 55 53 400 999 · condusef.gob.mx · gratis].",
+    "narracion": "Si ya no puedes ni con el mínimo, no esperes a atrasarte. Habla antes con tu banco y pide una reestructura, que es un nuevo plan de pagos. Se anota en tu historial, pero es mucho mejor que dejar de pagar. Y si te ofrecen pagar con descuento, que es una quita, queda marcada como quebranto.\n\nY si alguien te cobra por sacarte del Buró, es un fraude. Nadie puede borrar tus registros negativos antes del plazo que marca la ley. Pero si hay un error en tu reporte, eso sí se corrige, y CONDUSEF te orienta gratis. Llamas al cincuenta y cinco, cincuenta y tres, cuatrocientos, novecientos noventa y nueve."
+   },
+   {
+    "numero": "15",
+    "nombre": "El paso de hoy",
+    "puesta_en_escena": "[CAPTURA: notas, total de LO QUE DEBO (todas las deudas) dividido entre diez] -> [CAPTURA: calendario del teléfono creando un evento mensual dos días antes de la fecha límite, con el título PAGAR $1,460 (cantidad de ejemplo)] -> [CAPTURA: página oficial de Buró de Crédito, sección de reporte gratis].",
+    "narracion": "Ahora el paso de hoy, con el celular, en menos de cinco minutos.\n\nEn tus notas, suma tu tercera columna, con todas tus deudas, y divídela entre diez: ese es el tamaño de tu nivel, y ya no cambia. Después abre el calendario y crea un recordatorio que se repita cada mes, dos días antes de tu fecha límite, con tu pago congelado escrito en el título.\n\nY un paso extra: la ley te da derecho a un reporte de crédito gratis cada doce meses. Lo pides en la página oficial de Buró de Crédito, y también en la de Círculo de Crédito. Revisa que todo sea tuyo."
+   },
+   {
+    "numero": "16",
+    "nombre": "Cierre de nivel y gancho a Sistema tres",
+    "puesta_en_escena": "[CARA] Fernando a cuadro (unos 25 s). A los ~10 s, corte de 4 s a [GRÁFICA: las tres columnas completas y la escala de niveles, la flecha sube de -10 hacia 0]; regresa a [CARA]. Frase ancla en rojo: NO TIENES UN PROBLEMA DE DINERO. TIENES UN PROBLEMA DE SISTEMA. Placa final: SISTEMA 3 · EL AHORRO QUE NO SE PUEDE TOCAR.",
+    "narracion": "Con esto terminas Sistema dos. Tienes tu tercera columna, sabes en qué nivel estás y tienes una ruta con números para subir.\n\nPero llegar al cero no basta; hay que quedarse ahí. Si mañana llega un gasto que no esperabas, termina en la tarjeta y vuelves a bajar. En Sistema tres vamos a construir el ahorro que no se puede tocar.\n\nNo tienes un problema de dinero. Tienes un problema de sistema.\n\nNos vemos en Sistema tres."
+   }
+  ],
+  "clips": [
+   {
+    "n": 1,
+    "titulo": "¿En qué nivel de deuda estás? Mídelo así",
+    "bloques": "03",
+    "primera_frase": "¿En qué nivel estás?",
+    "ultima_frase": "Cada vez que bajas tu deuda una décima parte, subes uno: menos nueve, menos ocho, hasta llegar a cero.",
+    "palabras": 72,
+    "descripcion_redes": "Divide lo que debes entre diez y ya sabes en qué nivel estás y cuánto te falta para el cero.\n#deudas #finanzaspersonales #tarjetadecredito #dinero #mexico #shorts\nContenido educativo; no es asesoría financiera. Voz generada con IA."
+   },
+   {
+    "n": 2,
+    "titulo": "Tu pago mínimo no es al azar: la regla de Banxico",
+    "bloques": "04",
+    "primera_frase": "Mira tu pago mínimo.",
+    "ultima_frase": "Tu banco puede pedirte más, pero nunca menos.",
+    "palabras": 73,
+    "descripcion_redes": "Tu pago mínimo sale de una regla de Banxico: lo más alto entre dos cuentas. Abre tu estado de cuenta y compruébalo.\n#pagominimo #banxico #tarjetadecredito #finanzaspersonales #mexico #shorts\nContenido educativo; no es asesoría financiera. Voz generada con IA."
+   },
+   {
+    "n": 3,
+    "titulo": "Ejemplo: pagas $1,460 y tu deuda solo baja $300",
+    "bloques": "05",
+    "primera_frase": "Vamos con un ejemplo con números redondos.",
+    "ultima_frase": "Pagas mil cuatrocientos sesenta, y tu deuda baja trescientos.",
+    "palabras": 89,
+    "descripcion_redes": "Ejemplo ilustrativo (deuda de $20,000, tasa de 60% anual, sin compras nuevas): así se reparte tu pago mínimo entre intereses e IVA y lo que de verdad baja tu deuda.\n#pagominimo #intereses #tarjetadecredito #deudas #finanzaspersonales #shorts\nContenido educativo; no es asesoría financiera. Voz generada con IA."
+   },
+   {
+    "n": 4,
+    "titulo": "No es falta de disciplina. Es falta de sistema.",
+    "bloques": "07",
+    "primera_frase": "Y cuando veas tu número, no te enojes con tu banco ni contigo.",
+    "ultima_frase": "Es falta de sistema.",
+    "palabras": 62,
+    "descripcion_redes": "El pago mínimo mantiene tu tarjeta al corriente. No está hecho para sacarte de la deuda; esa parte te toca a ti.\n#deudas #finanzaspersonales #tarjetadecredito #dinero #123sistema #shorts\nContenido educativo; no es asesoría financiera. Voz generada con IA."
+   },
+   {
+    "n": 5,
+    "titulo": "El número para no pagar intereses este mes",
+    "bloques": "08",
+    "primera_frase": "Busca en tu estado de cuenta el pago para no generar intereses.",
+    "ultima_frase": "Si cubres el mínimo y nada más, CONDUSEF advierte que esa mensualidad se pasa a tu saldo y empieza a cobrar intereses.",
+    "palabras": 76,
+    "descripcion_redes": "El pago para no generar intereses contra el pago mínimo, y por qué tus meses sin intereses se pagan aparte.\n#mesessinintereses #intereses #tarjetadecredito #condusef #finanzaspersonales #shorts\nContenido educativo; no es asesoría financiera. Voz generada con IA."
+   },
+   {
+    "n": 6,
+    "titulo": "Congela tu pago: de casi 10 años a dos y medio",
+    "bloques": "10",
+    "primera_frase": "Toma tu mínimo de este mes y paga siempre esa cantidad, aunque te pidan menos.",
+    "ultima_frase": "Con el mismo dinero que ya pagabas el primer mes.",
+    "palabras": 93,
+    "descripcion_redes": "Paga siempre tu primer mínimo, aunque te pidan menos. En el ejemplo (deuda de $20,000, 60% anual, sin compras nuevas) la diferencia son siete años y más de cuarenta mil pesos.\n#pagominimo #deudas #tarjetadecredito #finanzaspersonales #mexico #shorts\nContenido educativo; no es asesoría financiera. Voz generada con IA."
+   },
+   {
+    "n": 7,
+    "titulo": "¿Qué deuda pagar primero? La más cara o la más chica",
+    "bloques": "12",
+    "primera_frase": "Si tienes varias deudas, pon cada una en un renglón de tu tercera columna.",
+    "ultima_frase": "Cuando terminas una, su pago pasa a la siguiente.",
+    "palabras": 158,
+    "descripcion_redes": "Los números dicen tasa más alta primero; un estudio encontró que concentrarte en una sola deuda, sobre todo la más chica, te hace pagar más rápido.\n#deudas #salirdedeudas #tarjetadecredito #finanzaspersonales #dinero #shorts\nContenido educativo; no es asesoría financiera. Voz generada con IA."
+   },
+   {
+    "n": 8,
+    "titulo": "Buró de Crédito no es lista negra: lo que sí cuenta",
+    "bloques": "13",
+    "primera_frase": "Si tienes o tuviste una tarjeta, un préstamo o incluso un plan de celular, ya estás en Buró de Crédito.",
+    "ultima_frase": "Más que eso, hasta seis años, contados desde que se reportó el atraso por primera vez.",
+    "palabras": 127,
+    "descripcion_redes": "Qué se reporta cada mes y cuánto dura un atraso en tu historial según lo que debías.\n#burodecredito #historialcrediticio #deudas #finanzaspersonales #mexico #shorts\nContenido educativo; no es asesoría financiera. Voz generada con IA."
+   }
+  ],
+  "sistema3": "Sistema 3 · El ahorro que no se puede tocar (fondo de emergencia). Gancho en el bloque 16: \"Pero llegar al cero no basta; hay que quedarse ahí. Si mañana llega un gasto que no esperabas, termina en la tarjeta y vuelves a bajar. En Sistema tres vamos a construir el ahorro que no se puede tocar.\" Por qué este tema: es lo que sigue en el mapa de niveles. Sistema 1 encuentra el dinero, Sistema 2 sube al cero y Sistema 3 evita volver a bajar. Lo que más regresa a alguien a negativo es un imprevisto pagado con tarjeta. Está en el banco de ideas aprobadas, sale del excedente de las tres columnas una vez que se termina la deuda y entra por la puerta del dinero, no por la del bienestar. Ahí caben los Cetes con grabación de pantalla y \"ganar lo que los bancos ganan con tu dinero\". Buró ya se cubrió en este episodio. El gancho no usa ninguna cifra nueva.",
+  "fuentes_usadas": [
+   "Banxico, Circular 34/2010, numerales 4.1 y 4.2 (regla del pago mínimo; el piso): https://www.banxico.org.mx/marco-normativo/normativa-emitida-por-el-banco-de-mexico/circular-34-2010/%7B0C55B906-6DB4-6B88-FED0-67987E9FB3CC%7D.pdf",
+   "Ejemplo ilustrativo con la regla de Banxico ($20,000, límite $30,000, 60% anual, IVA 16%, sin compras nuevas, tasa fija): primer mínimo $1,460 = $1,160 intereses e IVA + $300; solo el mínimo = 119 meses y $82,858 (-9 al mes 7, -5 al mes 46); fijo $1,460 = 29 meses y $40,980; fijo $2,500 = 12 meses y $27,656. Coincide con la hoja verificada y con rev_sim.py.",
+   "CONDUSEF, El ajuste del pago mínimo y su impacto: https://www.gob.mx/condusef/prensa/el-ajuste-del-pago-minimo-y-su-impacto",
+   "Estado de Cuenta Universal, recuadro de plazo y total pagando solo el mínimo (fuente secundaria consistente): https://www.adn40.mx/finanzas/2024-10-29/caracteristicas-del-nuevo-estado-cuenta-universal-para-tarjetas-credito-en-mexico/",
+   "CONDUSEF, pago para no generar intereses contra pago mínimo: https://www.condusef.gob.mx/?p=contenido&idc=905&idcat=1",
+   "CONDUSEF, la mensualidad de MSI va aparte del mínimo: https://www.gob.mx/condusef/prensa/cuidado-con-los-meses-sin-intereses-en-este-buen-fin",
+   "INEGI, ENSAFI 2023, comunicado 385/24 (36.2% tiene deuda; 27.3% de quienes tienen deuda se atrasó): https://inegi.org.mx/contenidos/saladeprensa/boletines/2024/ENSAFI/ENSAFI.pdf",
+   "Fed de St. Louis, Page One Economics, feb. 2023: https://www.stlouisfed.org/publications/page-one-economics/2023/02/01/what-is-the-best-strategy-for-paying-off-credit-card-debt",
+   "Kettle, Trudel, Blanchard y Häubl, Journal of Consumer Research 2016 (resumen): https://econpapers.repec.org/RePEc:oup:jconrs:v:43:y:2016:i:3:p:460-477.",
+   "Trudel, HBR 2016, y la condición de tasas parecidas citada por CBS: https://hbr.org/2016/12/research-the-best-strategy-for-paying-off-credit-card-debt ; https://www.cbsnews.com/news/what-research-says-about-erasing-credit-card-debt",
+   "CONDUSEF, Buró no es lista negra; reporte mensual; atrasos aunque sean de pocos días: https://www.condusef.gob.mx/?p=contenido&idc=267&idcat=3 y https://www.condusef.gob.mx/index.php?idc=2614&idcat=3&p=contenido",
+   "LRSIC, art. 23 (hasta 6 años desde el primer incumplimiento) y art. 41 (reporte gratis cada 12 meses): https://www.diputados.gob.mx/LeyesBiblio/pdf/LRSIC.pdf",
+   "Banxico, Circular 27/2008, regla Decimosegunda (plazos por monto en UDIS): https://www.banxico.org.mx/marco-normativo/normativa-emitida-por-el-banco-de-mexico/circular-27-2008/{BC4333FE-070F-E727-199E-CA6BCF2CBA66}.pdf",
+   "CONDUSEF, cobrar por borrarte del Buró es fraude; renegociar con el banco; quita = quebranto: https://www.condusef.gob.mx/index.php?idc=2614&idcat=3&p=contenido",
+   "CONDUSEF, servicios gratuitos, atención de problemas con el reporte y teléfono 55 53 400 999: https://www.condusef.gob.mx/uau/"
+  ],
+  "notas": "VERIFICACIÓN CON PYTHON (/tmp/claude-0/-home-user-Contenido/c707b9c1-1608-56cc-adb1-dcba079b9a65/scratchpad/v2/build.py)\n- Palabras narradas: 1,555, unos 8:50 a 176 ppm. Está dentro del rango de 1,480 a 1,560.\n- Palabras por bloque: 64/52/144/97/89/104/67/90/70/98/92/160/132/111/108/77.\n- Hay 8 clips. Cada primera y cada última frase aparece una sola vez y literal en la narración final. Los clips van en orden, no se enciman y todos miden entre 44 y 176 palabras.\n- Duración de cada clip, que se quitó de las descripciones para redes: C1 72 palabras, 24.5 s · C2 73, 24.9 s · C3 89, 30.3 s · C4 62, 21.1 s · C5 76, 25.9 s · C6 93, 31.7 s · C7 158, 53.9 s · C8 127, 43.3 s.\n- Títulos de 52 caracteres o menos.\n- \"sin que te des cuenta\" e \"imagínate\" no aparecen ninguna vez. \"Ese número\" queda una sola vez.\n- Texto continuo para ElevenLabs: /tmp/claude-0/-home-user-Contenido/c707b9c1-1608-56cc-adb1-dcba079b9a65/scratchpad/v2/narracion_ep02_v2.txt\n- Bloques y clips en JSON: /tmp/claude-0/-home-user-Contenido/c707b9c1-1608-56cc-adb1-dcba079b9a65/scratchpad/v2/out.json\n- No se tocaron archivos del repositorio.\n\nCAMBIOS APLICADOS (gravedad alta y media)\n1. Bloque 10 (alta): congelar el mínimo contradecía la advertencia de meses sin intereses. Ahora dice \"paga siempre esa cantidad, aunque te pidan menos. Si tienes meses sin intereses, súmale esas mensualidades\". La gráfica lleva la fórmula \"mínimo + MSI = pago fijo\".\n2. Clip 6 y bloque 10 (alta): el clip ya se entiende solo.\n   - \"Con una deuda de ejemplo de veinte mil pesos, el primer mínimo es de...\"\n   - Se quitó \"seis meses en lugar de siete\".\n   - \"Solo con el mínimo serían casi diez años y ochenta y tres mil.\"\n   - En pantalla, durante todo el clip: \"EJEMPLO ILUSTRATIVO: deuda $20,000 · límite $30,000 · tasa 60% anual · sin compras nuevas\".\n   - \"Cada nivel llega más rápido que el anterior\" pasó a \"los niveles llegan cada vez más rápido\", que es lo que sostiene la simulación.\n3. Supuestos del ejemplo (bloque 05): en voz se agrega \"y ya no haces compras nuevas\". Las gráficas de los bloques 05, 06, 10 y 11 llevan \"sin compras nuevas, tasa fija\".\n4. Título: se aplicó la opción A, \"Ejemplo: ... casi 10 años\", porque mantiene las cifras ya verificadas. En la miniatura debe ir la palabra EJEMPLO. La opción B, cambiar al 48%, se descartó: sus pagos fijos y sus meses por nivel no están verificados.\n5. Gráfica de la ENSAFI (bloque 03): ahora dice \"36% de los adultos tiene alguna deuda · de ellos, más de 1 de cada 4\". En voz se usa el pasado (\"tenía\", \"tenían\"). El año 2023 va solo en pantalla, para no gastar palabras.\n6. Bloque 14: ahora dice \"registros negativos\" y \"si hay un error en tu reporte, eso sí se corrige, y CONDUSEF te orienta gratis\". Esa frase se fusionó con la del teléfono para no repetirla.\n7. Niveles (bloques 03 y 15): \"Si debes algo, hoy estás en menos diez\". En el paso de hoy: \"con todas tus deudas... y ya no cambia\".\n8. Puesta en escena:\n   - Bloque 01: los tiempos ahora cuadran.\n   - Bloque 03: se partió la escala en dos planos.\n   - Bloque 06: corte en \"llegarías a cero en casi diez años\".\n   - Bloque 12: plano nuevo \"MÍNIMO · MÍNIMO · TODO LO EXTRA\".\n9. Bloque 02: \"empieza por la que más usas\", para no chocar con el bloque 12. La promesa falsa de \"en un minuto\" pasó a \"El primero lo usas ahorita\".\n10. Bloque 11: \"súbele\" pasó a \"aumenta tu pago con lo de Sistema uno... marca dónde puedes recortar... Lo que dejas de gastar\". También se corrigió la suma: ahora son mil cuarenta pesos, porque 1,460 + 1,040 = 2,500.\n11. Clips:\n   - Clip 2: termina en \"nunca menos\".\n   - Clip 3: abre con \"Vamos con un ejemplo...\" y su título empieza con \"Ejemplo:\".\n   - Clip 7: el guion dice \"Paso cuatro. Si tienes...\". El clip arranca en \"Si tienes varias deudas\"; hay que cortar el audio después de \"Paso cuatro.\"\n   - Se sacaron los metadatos de las descripciones para redes.\n\nCAMBIOS DE GRAVEDAD BAJA QUE TAMBIÉN APLIQUÉ (sin costo de palabras, o con muy poco)\n- \"No es una cifra al azar\" en el bloque 04 y \"Esa cantidad ya trae\" en el 08, para no repetir \"Ese número\".\n- El párrafo del bloque 08 se compactó, con el matiz \"por sí solo\".\n- Bloque 09: \"No vas a subir de nivel mientras la deuda siga creciendo\".\n- Bloque 05: \"la tuya viene en los documentos de tu tarjeta\".\n- Bloque 12: \"en Estados Unidos\", y en la gráfica \"Fed de San Luis, material educativo, 2023\".\n- Bloque 13: \"desde que se reportó el atraso por primera vez\".\n- La captura del banco en el bloque 10 se cambió por el recordatorio del calendario, para que coincida con el paso de hoy.\n- Clip 1: abre con \"¿En qué nivel estás?\".\n- Clip 4: empieza una frase antes y llega a 21 s.\n\nDESCARTADOS O AJUSTADOS\n- \"De ahí va a salir el dinero para subir\" (bloque 03), \"Anota ahí lo que debes en esa tarjeta\", \"ENSAFI dos mil veintitrés\" en voz y la explicación de \"quebranto\". Los quité para no pasar de 1,560 palabras. La continuidad de \"dónde recortar\" con el Ep01 queda en el bloque 11. La captura del bloque 03 sigue mostrando el saldo en LO QUE DEBO. El año 2023 va en pantalla.\n- Recortes extra para ajustar el conteo: \"Busca ese dato en tu tarjeta\" (bloque 06), \"y déjalos a la vista\" (bloque 02) y \"para que se vea claro\" (bloque 05).\n- El cambio a la tasa del 48% (ver el punto 4).\n- La sugerencia de la lente de clips de conservar \"seis meses, no siete\". Se impuso el recorte de la lente de coherencia, porque esa frase dependía del bloque 06.\n- La regla \"si las tasas son muy distintas, ataca la más cara\" se mantiene. Es la conclusión de las dos fuentes juntas: la Fed dice que la avalancha cuesta menos intereses, y la recomendación de la más chica de Trudel solo aplica cuando las tasas se parecen.\n\nPENDIENTE ANTES DE GRABAR\n- Confirmar en una tarjeta real los nombres del recuadro del mínimo y del \"pago para no generar intereses\".\n- Verificar que la tabla de plazos de Buró sigue vigente, porque Banxico tuvo una consulta pública que cerró en abril de 2026.\n- Medir los cortes de 20 s con el audio real.\n- La corrección del dato de Deloitte del Ep01 va en su comentario fijado."
+ },
+ "factSheet": [
+  {
+   "key": "deloitte54",
+   "facts": [
+    {
+     "claim": "Según Deloitte, el 54% de los mexicanos se queda sin dinero antes de que termine la quincena (frase del Episodio 1)",
+     "status": "falso",
+     "source_url": "https://es-us.noticias.yahoo.com/50-mexicanos-llega-mes-cartera-170000030.html",
+     "quote": "Según el estudio Global State of the Consumer Tracker (GSCT), 54% de la población tiene su cuenta bancaria en ceros al final del periodo. [...] Según el estudio GSCT que elabora Deloitte, en agosto de 2025, sólo 46% de la población nacional cumplió con sus compromisos financieros y le quedó dinero en el bolso.",
+     "safe_wording": "Según un sondeo de Deloitte, en agosto de 2025 solo el 46% de los mexicanos terminó el mes con dinero de sobra. O sea, a más de la mitad no le sobró nada.",
+     "notes": "La atribución a Deloitte es correcta. Lo que está mal es 'antes de que termine la quincena': ninguna fuente lo dice. El dato se refiere al mes ('al final del periodo', 'fin de mes'). Además, el 54% no es una pregunta directa de Deloitte. Es el complemento que calculó El Economista: 100 menos el 46% que dijo 'Have money left over at the end of the month'. Ese 54% incluye a quien quedó justo, no solo a quien quedó en ceros. Por eso conviene presentarlo como 'no le sobró dinero' y no como 'se quedó sin dinero'."
+    },
+    {
+     "claim": "El 54% viene del Global State of the Consumer Tracker de Deloitte (nota de El Economista, sindicada por Yahoo, octubre de 2025)",
+     "status": "fuente_secundaria_consistente",
+     "source_url": "https://www.yahoo.com/news/articles/m-50-los-mexicanos-llega-204919944.html",
+     "quote": "De acuerdo con el estudio Global State of the Consumer Tracker, el 54% de la población termina con su cuenta en ceros. (og:description de la nota; autor Fernando Franco, El Economista; también en La Prensa de Coahuila, 19-oct-2025, vía PressReader)",
+     "safe_wording": "Según el rastreador del consumidor de Deloitte (agosto de 2025), a más de la mitad de los mexicanos no le sobra dinero al final del mes.",
+     "notes": "La página de Deloitte (ConsumerSignals, antes Global State of the Consumer Tracker) sí tiene la métrica 'Have money left over at the end of the month' y a México en su lista de países: https://www.deloitte.com/us/en/insights/industry/retail-distribution/consumer-behavior-trends-state-of-the-consumer-tracker.html . El tablero es interactivo y no pude leer el 46% de México en agosto de 2025, así que la cifra queda confirmada solo por prensa. La nota dice que la muestra es de 17 países y que China es el más alto, con 65%, 19 puntos arriba de México. La URL de yahoo.com/news solo muestra el resumen. El texto completo está en es-us.noticias.yahoo.com/50-mexicanos-llega-mes-cartera-170000030.html."
+    },
+    {
+     "claim": "No existe ningún estudio de Deloitte con el 54%; la cifra es de la CONDUSEF (afirmación del archivo LEEME_antes_de_publicar.md)",
+     "status": "falso",
+     "source_url": "https://es-us.noticias.yahoo.com/50-mexicanos-llega-mes-cartera-170000030.html",
+     "quote": "Según el estudio GSCT que elabora Deloitte, en agosto de 2025, sólo 46% de la población nacional cumplió con sus compromisos financieros y le quedó dinero en el bolso.",
+     "safe_wording": "No usar. El 54% sí aparece atribuido a Deloitte en prensa (El Economista, octubre de 2025).",
+     "notes": "El LEEME se equivoca al decir que no hay dato de Deloitte. Pero también acierta en algo: la CONDUSEF publicó por separado otro 54% (ver el siguiente punto). Las dos atribuciones existen, con cifras de origen distinto."
+    },
+    {
+     "claim": "La CONDUSEF dijo que el 54% de las personas en México llega a fin de mes sin dinero",
+     "status": "fuente_secundaria_consistente",
+     "source_url": "https://www.razon.com.mx/negocios/2023/10/04/viven-con-estres-financiero-casi-6-de-cada-10-mexicanos-condusef/",
+     "quote": "En México, 54 por ciento de las personas llegan a fin de mes sin dinero y 57.3 afirma que el estrés que le generan sus finanzas impacta en su vida diaria, reveló el presidente de la Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros (Condusef), Oscar Rosado Jiménez.",
+     "safe_wording": "No recomendado. Si se usa: 'En 2023, el presidente de la CONDUSEF dijo que el 54% de las personas llega a fin de mes sin dinero.'",
+     "notes": "Es una declaración del presidente de la CONDUSEF en La Razón, el 4 de octubre de 2023. No encontré la encuesta ni la publicación oficial de donde sale ese 54%. Tampoco es una cifra de la ENSAFI: la ENSAFI 2023 da 45.9% y 30.5%. Es más vieja y menos rastreable que el dato de Deloitte."
+    },
+    {
+     "claim": "ENSAFI 2023 (INEGI–CONDUSEF): el 45.9% de la población de 18 años y más dice que casi nunca o nunca le sobra dinero al final del mes",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.condusef.gob.mx/?p=contenido&idc=2448&idcat=1",
+     "quote": "Cerca de la mitad (45.9 %) de la población de 18 años y más consideró que casi nunca o nunca le sobra dinero al final del mes; 34.7 % respondió a veces, y 19.4 %, siempre o casi siempre (ver gráfica 18).",
+     "safe_wording": "Según la encuesta oficial del INEGI y la CONDUSEF, casi la mitad de los adultos en México dice que casi nunca o nunca le sobra dinero al final del mes.",
+     "notes": "Es la alternativa oficial más sólida. La CONDUSEF no publica un 54% en la ENSAFI. El texto se tomó de la página de la CONDUSEF, que reproduce el boletín del INEGI. Es la opción más segura para el guion."
+    },
+    {
+     "claim": "ENSAFI 2023: el 30.5% no tuvo dinero suficiente para cubrir sus gastos del último mes sin endeudarse",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.condusef.gob.mx/?p=contenido&idc=2448&idcat=1",
+     "quote": "De la población de estudio, 30.5 % informó que, durante el último mes, no tuvo dinero suficiente para cubrir sus gastos sin endeudarse.",
+     "safe_wording": "Casi uno de cada tres adultos no tuvo dinero suficiente el último mes para cubrir sus gastos sin endeudarse (ENSAFI 2023, INEGI y CONDUSEF).",
+     "notes": "Dato complementario, útil si Sistema 2 necesita una cifra de déficit real y no solo de 'no sobra'."
+    }
+   ]
+  },
+  {
+   "key": "pago_minimo",
+   "facts": [
+    {
+     "claim": "La regla de Banxico: el pago mínimo es lo que resulte MAYOR entre (a) 1.5% del saldo + los intereses del periodo + su IVA, y (b) 1.25% del límite de crédito. La opción (b) NO suma intereses ni IVA.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.banxico.org.mx/marco-normativo/normativa-emitida-por-el-banco-de-mexico/circular-34-2010/%7B0C55B906-6DB4-6B88-FED0-67987E9FB3CC%7D.pdf",
+     "quote": "4.1 El Pago Mínimo será el monto que resulte mayor conforme a los incisos siguientes: a) La suma de: i) 1.5 por ciento del saldo insoluto de la parte revolvente de la línea de crédito al corte del periodo, sin tomar en cuenta los intereses del periodo ni el impuesto al valor agregado (I.V.A.), mas ii) los referidos intereses y el I.V.A., y b) El 1.25 por ciento del límite de la línea de crédito. En el evento de que el Pago Mínimo sea mayor que el saldo insoluto ... las Emisoras deberán cobrar éste último.",
+     "safe_wording": "Por regla de Banxico, tu pago mínimo es lo que salga más alto entre dos cuentas: el 1.5% de lo que debes más los intereses del mes y su IVA, o el 1.25% de tu límite de crédito.",
+     "notes": "CORRIGE la premisa del encargo: la fórmula max(1.5% saldo, 1.25% límite) + intereses + IVA está MAL. A los bancos (banca múltiple) se les aplica la Circular 34/2010, numeral 4.1 (Emisora = instituciones de banca múltiple y SOFOM reguladas ligadas a bancos, def. modificada por Circ. 13/2014). La Circular 13/2011 (texto compilado con la Circ. 14/2014) tiene la misma regla, pero solo para SOFOM no reguladas, SOFIPO, cooperativas, banca de desarrollo, etc., NO para bancos comerciales. En el guion: 'la regla de Banxico', no 'la Circular 13/2011' a secas. Vigente al 100% desde el 4 de enero de 2013 (antes había porcentajes graduales: 0.5% y 1.0%)."
+    },
+    {
+     "claim": "Cada banco puede pedir un pago mínimo más alto que el que marca Banxico, pero no uno más bajo.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.banxico.org.mx/marco-normativo/normativa-emitida-por-el-banco-de-mexico/circular-34-2010/%7B0C55B906-6DB4-6B88-FED0-67987E9FB3CC%7D.pdf",
+     "quote": "4.2 La Emisora podrá determinar libremente el importe del Pago Mínimo, siempre y cuando dicho importe sea mayor al que corresponda conforme a lo establecido en el numeral 4.1 de las presentes Reglas.",
+     "safe_wording": "Eso es el piso: tu banco puede pedirte más, pero nunca menos.",
+     "notes": "CONDUSEF lo confirma: 'las disposiciones únicamente establecen ... un límite inferior o mínimo exigible, por lo que están en libertad de fijar un importe de pago mínimo más elevado' (https://www.gob.mx/condusef/prensa/el-ajuste-del-pago-minimo-y-su-impacto, 28 ene 2013)."
+    },
+    {
+     "claim": "Si pagas más que el mínimo y tu tarjeta tiene saldos con tasas distintas, el excedente se aplica primero al saldo con la tasa más alta.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.banxico.org.mx/marco-normativo/normativa-emitida-por-el-banco-de-mexico/circular-34-2010/%7B0C55B906-6DB4-6B88-FED0-67987E9FB3CC%7D.pdf",
+     "quote": "4.3 ... la Emisora deberá aplicar el excedente de dicho Pago Mínimo, en primera instancia, a la amortización del saldo insoluto de la parte revolvente con la tasa más alta.",
+     "safe_wording": "Lo que pagues de más sobre el mínimo se va primero a la deuda que te cobra la tasa más alta.",
+     "notes": "Dato opcional; añadido por la Circular 13/2014."
+    },
+    {
+     "claim": "EJEMPLO RECALCULADO CON LA REGLA CORRECTA (saldo $20,000, límite $30,000, 60% anual = 5% mensual, IVA 16% sobre intereses, sin compras nuevas): el primer pago mínimo es $1,460, no $1,535. De esos $1,460, $1,160 son intereses + IVA ($1,000 + $160) y solo $300 bajan tu deuda.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.banxico.org.mx/marco-normativo/normativa-emitida-por-el-banco-de-mexico/circular-34-2010/%7B0C55B906-6DB4-6B88-FED0-67987E9FB3CC%7D.pdf",
+     "quote": "Cálculo propio (python, redondeo a centavos): a) 1.5% x 20,000 = 300 + intereses 1,000 + IVA 160 = 1,460; b) 1.25% x 30,000 = 375. Mayor = 1,460.",
+     "safe_wording": "Con 20 mil de deuda, límite de 30 mil y una tasa de 60% al año, tu primer mínimo sería de unos 1,460 pesos. De eso, 1,160 se van en intereses e IVA y solo 300 bajan lo que debes.",
+     "notes": "FALSO lo del borrador: '$1,535 con $1,160 intereses+IVA y $375 capital' sale de sumar intereses a la opción del 1.25% del límite, lo cual la norma no hace. Los $1,160 de intereses+IVA sí son correctos. Script: /tmp/claude-0/-home-user-Contenido/c707b9c1-1608-56cc-adb1-dcba079b9a65/scratchpad/pm2.py"
+    },
+    {
+     "claim": "Pagando solo el mínimo (regla correcta), esa deuda de $20,000 tarda 119 meses (casi 10 años) en liquidarse y pagas en total $82,857.75 (unos $62,858 de intereses + IVA).",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.banxico.org.mx/marco-normativo/normativa-emitida-por-el-banco-de-mexico/circular-34-2010/%7B0C55B906-6DB4-6B88-FED0-67987E9FB3CC%7D.pdf",
+     "quote": "Simulación propia: mínimo mensual = max(1.5% saldo + interés 5% + IVA 16% del interés, 1.25% x 30,000 = 375), tope = saldo total. Resultado: 119 meses, total pagado 82,857.75, intereses+IVA 62,857.75.",
+     "safe_wording": "Si solo pagas el mínimo, tardarías casi diez años en terminar y pagarías alrededor de 83 mil pesos por una deuda de 20 mil.",
+     "notes": "FALSO lo del borrador: '54 meses y $51,516' solo sale con la fórmula equivocada (ese valor sí lo reproduje: 54 meses, $51,515.75, con max(1.5%,1.25% límite)+intereses+IVA). Con la regla real el mínimo baja al piso de $375 cuando el saldo cae, y ahí se alarga. Supuesto ilustrativo: tasa constante y sin compras, comisiones ni seguros."
+    },
+    {
+     "claim": "Pago fijo de $1,535 al mes: 25 meses y $38,371 en total. Pago fijo de $2,500: 12 meses y $27,656. Pago fijo de $1,460 (igual al primer mínimo, pero sin bajarlo): 29 meses y $40,980.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.banxico.org.mx/marco-normativo/normativa-emitida-por-el-banco-de-mexico/circular-34-2010/%7B0C55B906-6DB4-6B88-FED0-67987E9FB3CC%7D.pdf",
+     "quote": "Simulación propia: fijo 1,535 = 25 meses, 38,371.11; fijo 2,500 = 12 meses, 27,656.48; fijo 1,460 = 29 meses, 40,980.04; fijo 2,000 = 16 meses, 30,786.54.",
+     "safe_wording": "Si en lugar de seguir el mínimo pagas siempre la misma cantidad que tu primer mínimo, unos 1,460 pesos, terminas en unos dos años y medio y pagas cerca de 41 mil. Si subes a 2,500 al mes, terminas en un año y pagas unos 27 mil 700.",
+     "notes": "Las cifras de $1,535 (25 meses, $38,371) y $2,500 (12 meses, $27,656) del borrador SÍ son exactas aritméticamente. Pero como $1,535 ya no es el primer mínimo, se recomienda usar $1,460 para la comparación 'congela tu primer mínimo' (29 meses vs 119 meses)."
+    },
+    {
+     "claim": "El estado de cuenta de tu tarjeta debe mostrar cuánto tardarías en liquidar y cuánto pagarías si solo das el mínimo (y con pagos mayores al mínimo).",
+     "status": "fuente_secundaria_consistente",
+     "source_url": "https://www.adn40.mx/finanzas/2024-10-29/caracteristicas-del-nuevo-estado-cuenta-universal-para-tarjetas-credito-en-mexico/",
+     "quote": "Prensa: el Estado de Cuenta Universal de CONDUSEF (acuerdo publicado en el DOF el 29 de diciembre de 2022, obligatorio desde octubre de 2024) incluye el total a pagar y el tiempo estimado para liquidar pagando solo el mínimo o de una a cinco veces el mínimo, además del pago para no generar intereses.",
+     "safe_wording": "Tu estado de cuenta trae un recuadro que te dice cuánto tardarías y cuánto pagarías si solo das el mínimo. Búscalo.",
+     "notes": "No pude abrir el texto en el DOF ni el sitio de CONDUSEF (dominios gob.mx, dof.gob.mx y banxico.org.mx bloqueados en la red de esta sesión para WebFetch; Firecrawl se quedó sin créditos). Fecha exacta de obligatoriedad no confirmada: la prensa dice 15 o 17 de octubre de 2024. Micrositio citado: nuevoestadodecuentadetdc.condusef.gob.mx. Otras fuentes: https://www.taxtodaymexico.com/publican-nuevo-formato-de-estado-de-cuenta-en-tarjeta-de-credito/ , https://www.bloomberglinea.com/2022/12/29/tarjetas-de-credito-en-mexico-estados-de-cuenta-cambiaran-de-formato/ . No nombrar número de norma ni fecha exacta en voz."
+    },
+    {
+     "claim": "El estado de cuenta muestra el 'pago para no generar intereses': lo que tienes que pagar antes de la fecha límite para no pagar intereses ese mes.",
+     "status": "fuente_secundaria_consistente",
+     "source_url": "https://www.nmas.com.mx/economia/tarjeta-de-credito-que-es-el-pago-para-no-generar-intereses/",
+     "quote": "Prensa: el formato estandarizado muestra la fecha de corte, la fecha límite de pago, el pago para no generar intereses y el pago mínimo. Las definiciones en prensa varían: N+ lo describe como saldos anteriores + intereses + comisiones + parcialidades de meses sin intereses; Nu México, como tus consumos del periodo más las mensualidades de MSI.",
+     "safe_wording": "En tu estado de cuenta hay una cifra que se llama 'pago para no generar intereses'. Si pagas esa cantidad antes de la fecha límite, ese mes no te cobran intereses.",
+     "notes": "No confirmé la definición legal exacta en una fuente oficial. Evitar dar la fórmula de cómo se calcula; quedarse en para qué sirve."
+    },
+    {
+     "claim": "El CAT (Costo Anual Total) es el costo anual del crédito expresado en porcentaje, y para fines informativos y de comparación incluye todos los costos y gastos del crédito, no solo la tasa.",
+     "status": "fuente_secundaria_consistente",
+     "source_url": "https://www.diputados.gob.mx/LeyesBiblio/ref/ltosf/LTOSF_orig_15jun07.pdf",
+     "quote": "LTOSF: 'CAT: al costo anual total de financiamiento expresado en términos porcentuales anuales que, para fines informativos y de comparación, incorpora la totalidad de los costos y gastos inherentes a los créditos, préstamos o financiamientos que otorgan las Entidades.' Banxico fija la metodología de cálculo (art. 8 LTOSF).",
+     "safe_wording": "El CAT es el costo total del crédito en un año, en porcentaje: junta la tasa con comisiones y otros cargos. Sirve para comparar tarjetas entre sí.",
+     "notes": "La redacción se vio en el fragmento de búsqueda de la LTOSF (Cámara de Diputados); no abrí el PDF ni confirmé el número de artículo o fracción (posiblemente art. 3, fracc. VI). No decirlo en voz. Que el CAT aparece en el estado de cuenta y en la carátula del contrato: no confirmado en fuente original en esta sesión; decir 'aparece en la publicidad y en los documentos de tu tarjeta'."
+    },
+    {
+     "claim": "CONDUSEF tiene una Calculadora de Pagos Mínimos gratuita: eliges tu banco y tu tarjeta, escribes tu deuda, tasa, límite y fecha de corte, y te dice cuánto tardarías en pagar y cuánto pagarías dando solo el mínimo.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.condusef.gob.mx/?p=contenido&idc=941&idcat=1",
+     "quote": "'...Calculadora de Pagos Mínimos ... diseñado para dar a conocer el importe del pago mínimo, el saldo pendiente a liquidar y el tiempo que tardaría en liquidar su deuda si sólo se realiza el importe mínimo, siempre y cuando no se efectúen nuevas compras.' Herramienta: https://phpapps.condusef.gob.mx/condusef_pagomin/index.php",
+     "safe_wording": "CONDUSEF tiene una calculadora gratis de pagos mínimos. Pones los datos de tu estado de cuenta y te dice cuánto tardarías y cuánto pagarías.",
+     "notes": "URL de la herramienta (resultado de búsqueda titulado 'Calculadora de Pagos Mínimos en Tarjeta de Crédito'): https://phpapps.condusef.gob.mx/condusef_pagomin/index.php ; la portada de condusef.gob.mx enlaza también a .../condusef_pagomin/datos.php. El comunicado es de 2013; la herramienta aparecía en el índice, pero no comprobé que funcione hoy. En pantalla basta con 'búscala en condusef.gob.mx'."
+    },
+    {
+     "claim": "Una tasa de 60% anual en tarjeta de crédito es realista en México.",
+     "status": "no_confirmado",
+     "source_url": "https://fazaconta.com/mx/mejores-tasas-de-credito/",
+     "quote": "Comparador con datos de Banxico (jun 2025): tasa promedio del sistema 23.9% con todos los clientes y 37.1% solo con quienes pagan intereses (no totaleros). Banxico dic 2017: tarjetas con límite de hasta 5 mil pesos con TEPP de 51.8%. Prensa (Banxico/Condusef, dic 2025): CAT de 23% a 206% según la categoría.",
+     "safe_wording": "Para no exagerar: 'con una tasa alta, de 60% al año, como la de algunas tarjetas'. O mejor, usa una tasa más cercana al promedio de quienes no pagan el total.",
+     "notes": "No pude abrir el reporte más reciente de Banxico (banxico.org.mx bloqueado para WebFetch). El 60% está muy por arriba del promedio de los no totaleros (~37%), pero dentro del rango de algunas tarjetas de límite bajo o de nicho. ALTERNATIVAS CALCULADAS (regla correcta, mismo saldo y límite): 42% anual (3.5% mensual): primer mínimo $1,112, solo mínimo = 105 meses y $61,479; fijo $1,500 = 20 meses y $29,385; fijo $2,500 = 10 meses y $24,677. 48% anual (4% mensual): primer mínimo $1,228 ($928 intereses+IVA, $300 capital), solo mínimo = 110 meses y $68,519; fijo $1,500 = 22 meses y $31,891; fijo $2,500 = 11 meses y $25,582."
+    },
+    {
+     "claim": "Antes de 2013 no había una regla común para el pago mínimo, y a veces el mínimo apenas cubría los intereses y el IVA.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.gob.mx/condusef/prensa/el-ajuste-del-pago-minimo-y-su-impacto",
+     "quote": "'...antes de que Banco de México emitiera las disposiciones no existía un criterio homogéneo para el cálculo del pago mínimo ... en algunas ocasiones el monto del pago mínimo apenas era suficiente para cubrir los intereses y el IVA del periodo...'",
+     "safe_wording": "Antes de que Banxico pusiera esta regla, había mínimos que apenas cubrían los intereses. La regla existe para que al menos una parte de tu pago baje la deuda.",
+     "notes": "Dato de contexto opcional."
+    }
+   ]
+  },
+  {
+   "key": "buro",
+   "facts": [
+    {
+     "claim": "En México tienes derecho a pedir tu Reporte de Crédito Especial gratis cada 12 meses (artículo 41 de la Ley para Regular las Sociedades de Información Crediticia), y puedes pedirlo a cada una de las dos sociedades: Buró de Crédito y Círculo de Crédito.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LRSIC.pdf",
+     "quote": "Artículo 41.- Los Clientes tendrán derecho a solicitar a las Sociedades el envío gratuito de su Reporte de Crédito Especial cada vez que transcurran doce meses. Lo anterior, siempre que soliciten que el envío respectivo se lleve a cabo por correo electrónico o que acudan a recogerlo a la unidad especializada de la Sociedad. [Última Reforma DOF 24-01-2024] || CONDUSEF (idc=2614): 'Puedes solicitarlo gratis una vez al año en el portal oficial del Buró de Crédito o del Círculo de Crédito, que son las dos sociedades de información crediticia autorizadas'",
+     "safe_wording": "La ley te da derecho a un reporte de crédito gratis cada doce meses. Lo pides directo en la página oficial de Buró de Crédito, y también en la de Círculo de Crédito.",
+     "notes": "Es el artículo 41, NO el 40 (el 40 regula cómo se solicita y entrega el reporte; plazo de entrega 5 días hábiles; obligación de teléfono gratuito y página web). La gratuidad aplica si se pide por correo electrónico o se recoge en la unidad especializada. La ley dice 'a las Sociedades' y CONDUSEF menciona ambas; decir 'en cada una' es una lectura razonable, pero no hay frase textual 'por cada sociedad'. Las reglas de Banxico (Circular 27/2008, regla Sexta) dicen 'sin costo una vez por año'. Reportes adicionales tienen costo regulado (tope 12 UDIS en unidad especializada)."
+    },
+    {
+     "claim": "La regla general de la ley es de 72 meses (seis años): un incumplimiento se borra del historial seis años después de haberse registrado por primera vez.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LRSIC.pdf",
+     "quote": "Artículo 23. - Las Sociedades están obligadas a conservar los historiales crediticios ... al menos durante un plazo de setenta y dos meses. ... En caso de información que refleje el incumplimiento ininterrumpido de cualquier obligación exigible así como las claves de prevención que les correspondan, las Sociedades deberán eliminarlas del historial crediticio del Cliente correspondiente, después de setenta y dos meses de haberse incorporado el incumplimiento por primera vez en dicho historial. ... Las Sociedades deberán eliminar la información relativa a créditos menores al equivalente a mil UDIS en los términos que establezca el Banco de México",
+     "safe_wording": "Para deudas grandes, el atraso se queda hasta seis años en tu historial, contados desde que se reportó por primera vez el incumplimiento, no desde que pagas.",
+     "notes": "Artículo 24: no se borra si la deuda es igual o mayor a 400 mil UDIS, ni si hay sentencia firme por delito patrimonial intencional. El artículo 23 también suspende el borrado mientras el adeudo esté en juicio. Pagar con convenio de finiquito/quita: se reporta con clave de observación y se borra en el mismo plazo, contado desde el primer incumplimiento."
+    },
+    {
+     "claim": "Tabla de permanencia por monto (saldo del principal en UDIS): hasta 25 UDIS se borra en 1 año; más de 25 y hasta 500 UDIS en 2 años; más de 500 y hasta 1,000 UDIS en 4 años; más de 1,000 UDIS en 6 años (si es menor a 400 mil UDIS, no está en juicio y no hay fraude).",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.banxico.org.mx/marco-normativo/normativa-emitida-por-el-banco-de-mexico/circular-27-2008/{BC4333FE-070F-E727-199E-CA6BCF2CBA66}.pdf",
+     "quote": "DECIMOSEGUNDA.- ... I. Si el saldo insoluto del principal es igual o menor al equivalente a veinticinco UDIS, transcurridos doce meses ... II. Si el saldo insoluto del principal es mayor al equivalente a veinticinco y hasta quinientas UDIS, transcurridos veinticuatro meses ... III. Si el saldo insoluto del principal es mayor al equivalente a quinientas y hasta mil UDIS, transcurridos cuarenta y ocho meses contados a partir de la fecha que ocurra primero, ya sea la fecha en la que el crédito haya sido reportado por primera vez como vencido, o bien a partir de la última vez en que el Usuario haya actualizado el registro ... El cálculo en UDIS ... utilizando el valor de la UDI correspondiente al primer día hábil bancario del año calendario en que deba llevarse a cabo el borrado. || CONDUSEF (idc=267): 'Deudas menores o iguales a 25 UDIS, se eliminan después de un año. Deudas mayores a 25 UDIS y hasta 500 UDIS, se eliminan después de dos años. Deudas mayores a 500 UDIS y hasta 1000 UDIS, se eliminan después de cuatro años. Deudas mayores a 1000 UDIS, se eliminan después de seis años siempre y cuando: sean menores a 400 mil UDIS, el crédito no se encuentre en proceso judicial y/o no hayas cometido algún fraude'",
+     "safe_wording": "Cuánto dura depende de cuánto debías. Hasta unos doscientos veinte pesos, un año. Hasta unos cuatro mil cuatrocientos, dos años. Hasta unos ocho mil ochocientos, cuatro años. Más de eso, hasta seis años.",
+     "notes": "OJO: la tabla por montos NO está en el artículo 23. Está en la Regla Decimosegunda de la Circular 27/2008 de Banxico, a la que remite el art. 23. CONDUSEF cita ambas: 'Artículos 23 y 24 de la Ley ... y la regla décimo segunda de las Reglas Generales ... emitidas por Banco de México'. Se mide sobre el saldo del principal sin intereses ni comisiones. Conversión aprox. con UDI = 8.877222 pesos (1 nov 2026, dato de Banxico vía senhub.mx; no pude abrir banxico.org.mx ni dof.gob.mx): 25 UDIS ≈ $222; 500 UDIS ≈ $4,439; 1,000 UDIS ≈ $8,877; 400,000 UDIS ≈ $3.55 millones. CONDUSEF (idc=2614) redondea a ~$220, ~$4,400 y ~$8,800. Recomiendo decir 'unos' y redondear, porque la UDI cambia a diario. Hubo consulta pública de Banxico para reformar la Circular 27/2008, cerrada el 17/04/2026; no confirmé si ya se publicó una reforma que cambie la tabla."
+    },
+    {
+     "claim": "No existe forma legal de que alguien te 'limpie' o 'borre' del Buró por dinero; CONDUSEF advierte que quienes lo ofrecen son fraudes.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.condusef.gob.mx/index.php?idc=2614&idcat=3&p=contenido",
+     "quote": "Evita empresas que prometen “borrarte del buró” por dinero: es ilegal e imposible. Ninguna institución puede eliminar legalmente tus registros negativos antes del plazo que marca la Ley. || (idc=267) 'Ofrecen borrarte del Buró de Crédito a cambio de dinero; eso no se puede hacer.' ... 'Tienen servicio de chat online. El Buró de Crédito no atiende por chat.'",
+     "safe_wording": "Si alguien te cobra por sacarte del Buró, es un fraude. CONDUSEF lo dice claro: nadie puede borrar tus registros antes del plazo que marca la ley.",
+     "notes": "Otras señales de alerta según CONDUSEF: piden depositar a cuenta de persona física, se anuncian en blogs o redes, dicen ser el Buró y cobran (el Buró no hace cobranza), y repiten el mito de la 'lista negra'. Las quitas solo las da el acreedor original, nunca terceros."
+    },
+    {
+     "claim": "Estar en Buró no es estar en una lista negra: todos los que han tenido un crédito tienen historial ahí, y se registran tanto los pagos puntuales como los atrasos.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.condusef.gob.mx/index.php?idc=2614&idcat=3&p=contenido",
+     "quote": "Estar en el Buró de Crédito no es algo negativo por sí mismo: todos los que han solicitado algún tipo de financiamiento, como una tarjeta de crédito o un préstamo, tienen un historial en esta base de datos. || Revista CONDUSEF sep-2026: '“Buró de Crédito es una lista negra.” Falso. No es una lista de personas morosas. Es una base de datos que registra tanto el cumplimiento de tus pagos como los atrasos.' || (idc=267): 'Aparecer en el Buró no es malo, si tienes o tuviste contratado algún tipo de crédito de consumo ... una tarjeta departamental; un servicio de telefonía o televisión de paga ...'",
+     "safe_wording": "Si tienes o tuviste una tarjeta, un préstamo o incluso un plan de celular, ya estás en Buró. No es una lista negra; es tu historial, y ahí aparece lo bueno y lo malo.",
+     "notes": "Buró y Círculo son empresas privadas autorizadas, las dos únicas Sociedades de Información Crediticia del país; no prestan ni deciden si te dan crédito, eso lo decide la institución."
+    },
+    {
+     "claim": "Cada mes las instituciones reportan si pagaste puntual o con atraso. Para evitar un registro negativo hay que pagar a tiempo, antes de la fecha límite; un atraso, aunque sea de pocos días, se reporta.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.condusef.gob.mx/?p=contenido&idc=267&idcat=3",
+     "quote": "Las instituciones crediticias reportan mensualmente la forma como se pagan tus créditos, seas puntual o presentes retrasos, es decir, se refleja lo bueno y lo malo. || Revista CONDUSEF sep-2026 (https://revista.condusef.gob.mx/credito/2026/09/desmitificando-el-buro/): 'Cada pago puntual queda registrado, pero también los atrasos o incumplimientos.' ... 'Paga tus créditos a tiempo. Evita atrasarte, aunque sea por pocos días.'",
+     "safe_wording": "Cada mes tu banco le dice al Buró si pagaste a tiempo o tarde. Si pagas completo antes de la fecha límite, no hay registro negativo. Si te atrasas, aunque sean pocos días, puede quedar marcado.",
+     "notes": "CONDUSEF no da un número exacto de días de tolerancia; no afirmar 'desde un día'. Ponerse al corriente mejora el historial sin esperar al borrado. Pagar la deuda no la borra de inmediato: el registro sigue los plazos de la ley. CONDUSEF también recomienda evitar el pago mínimo."
+    },
+    {
+     "claim": "Una reestructura es renegociar el crédito con el mismo acreedor (cambiar plazo, tasa o pagos) y sí queda registrada en tu historial con una clave especial; una quita (pagar con descuento) queda marcada como quebranto.",
+     "status": "fuente_secundaria_consistente",
+     "source_url": "https://www.condusef.gob.mx/index.php?idc=2614&idcat=3&p=contenido",
+     "quote": "CONDUSEF: 'Negociar con la institución financiera: Algunas ofrecen convenios o descuentos.' ... 'Una quita o descuento sobre tu deuda ... tu historial queda marcado con la clave 97 en rojo (quebranto), lo que reduce tu puntuación' ... 'Prioriza la renegociación de tu deuda con el banco y sólo considera una quita con plena conciencia de sus consecuencias.' || (idc=267) 'Cuando pagas una deuda con descuento, tu información aún permanece en el Buró de Crédito' || Secundarias (yotepresto.com, Revista del Consumidor PROFECO ene-2015): clave 'RV, Cuenta reestructurada sin pago menor' y 'LC' para reestructura con quita.",
+     "safe_wording": "Si ya no puedes pagar, primero habla con tu banco y pide una reestructura: un nuevo plan de pagos. Ojo, se anota en tu historial, pero es mucho mejor que dejar de pagar. Y si te ofrecen pagar con descuento, que es una quita, sepa que queda marcada como quebranto.",
+     "notes": "Lo de quita = clave 97 / quebranto y 'renegociar con el banco' sí está en CONDUSEF (fuente original). La existencia de claves de observación específicas para reestructura (RV, etc.) solo la confirmé en fuentes secundarias; no pude abrir el catálogo de claves de burodecredito.com.mx (bloqueado). El art. 23 de la ley confirma que el convenio de finiquito se reporta 'con la correspondiente clave de observación'."
+    },
+    {
+     "claim": "CONDUSEF orienta gratis: todos sus servicios son gratuitos. Su teléfono nacional es 55 53 400 999 y su página oficial es condusef.gob.mx.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.condusef.gob.mx/uau/",
+     "quote": "Centro de Contacto de Atención Telefónica y Medios Remotos 55 53 400 999 ... Estamos contigo en cualquiera de las 35 oficinas de atención en la República Mexicana o en las 3 Metropolitanas en la Ciudad de México, todos nuestros servicios son gratuitos. || https://www.condusef.gob.mx/?p=contacto: 'A nivel nacional: 55 53 400 999'",
+     "safe_wording": "Si tienes un problema con tu banco o con tu reporte, CONDUSEF te orienta gratis. Llamas al cincuenta y cinco, cincuenta y tres, cuatrocientos, novecientos noventa y nueve, o entras a condusef punto gob punto mx.",
+     "notes": "CONDUSEF también atiende problemas con el reporte de crédito, por ejemplo correcciones no hechas o créditos que no reconoces. Ante el Buró hay 2 reclamaciones gratis al año (Regla Décima de Banxico; CONDUSEF idc=267). CONDUSEF (idc=2614) dice que la respuesta a una aclaración se da en 29 días hábiles."
+    },
+    {
+     "claim": "Según la ENSAFI 2023 del INEGI y CONDUSEF, el 36.2% de la población de 18 años y más reportó tener algún tipo de deuda.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://inegi.org.mx/contenidos/saladeprensa/boletines/2024/ENSAFI/ENSAFI.pdf",
+     "quote": "De la población de 18 años y más, 36.2 % reportó tener algún tipo de deuda. La diferencia entre mujeres y hombres fue de 4.6 puntos porcentuales (34.1 y 38.7 %, respectivamente) [Comunicado de prensa 385/24, 25 de junio de 2024]",
+     "safe_wording": "Según la encuesta ENSAFI 2023 del INEGI, más de un tercio de los adultos en México, el treinta y seis por ciento, tiene algún tipo de deuda.",
+     "notes": "Es la población de 18 años y más, no 'la población' en general. Incluye deuda formal e informal (familiares, casas de empeño). CONDUSEF lo redondea a 36% pero dice 'tiene un crédito con alguna institución financiera o tienda departamental', lo cual es menos preciso; mejor usar la cifra del INEGI."
+    },
+    {
+     "claim": "De la población con deuda, el 27.3% se atrasó en el pago de algún préstamo o crédito (ENSAFI 2023).",
+     "status": "verificado_fuente_original",
+     "source_url": "https://inegi.org.mx/contenidos/saladeprensa/boletines/2024/ENSAFI/ENSAFI.pdf",
+     "quote": "De la población con deuda, 27.3 % se atrasó en el pago de algún préstamo o crédito: las mujeres sumaron 26.1 % y los hombres, 28.5 por ciento. El grupo de edad que reportó mayor porcentaje en el atraso de pagos fue el de 18 a 29 años, con 28.6 %",
+     "safe_wording": "Y de quienes tienen deuda, más de uno de cada cuatro, el veintisiete por ciento, se atrasó en algún pago.",
+     "notes": "El 27.3% es de quienes tienen deuda, no del total de la población. La ENSAFI también reporta que 17.1% consideró su nivel de deuda alto o excesivo; el resumen del boletín dice 16.1%, y hay una inconsistencia interna en el documento, así que mejor no usar ese dato."
+    }
+   ]
+  },
+  {
+   "key": "metodos",
+   "facts": [
+    {
+     "claim": "Remi Trudel publicó en Harvard Business Review, el 27 de diciembre de 2016, 'Research: The Best Strategy for Paying Off Credit Card Debt', cuyo subtítulo dice: paga primero la deuda más chica.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://hbr.org/2016/12/research-the-best-strategy-for-paying-off-credit-card-debt",
+     "quote": "Research: The Best Strategy for Paying Off Credit Card Debt — by Remi Trudel — December 27, 2016 — [description] 'Pay off the smallest debt first.'",
+     "safe_wording": "Un investigador, Remi Trudel, lo resumió en Harvard Business Review en 2016: si tus deudas cobran tasas parecidas, empieza por la más chica.",
+     "notes": "Se abrió la página original, pero el cuerpo está detrás de muro de pago y solo se pudo leer el encabezado y el subtítulo. La frase con la condición sobre las tasas viene de una cita textual que reproduce CBS (ver hecho siguiente). El artículo de HBR resume un estudio académico: Kettle, Trudel, Blanchard y Häubl (2016), Journal of Consumer Research 43(3):460-477."
+    },
+    {
+     "claim": "Trudel aclara que la estrategia de empezar por la deuda más chica aplica cuando las deudas tienen tasas de interés parecidas.",
+     "status": "fuente_secundaria_consistente",
+     "source_url": "https://www.cbsnews.com/news/what-research-says-about-erasing-credit-card-debt",
+     "quote": "\"To the extent that a consumer's debt accounts have similar interest rates, he or she should concentrate repayments first on the cards or accounts with the smallest debts, paying off those first,\" wrote researcher Remi Trudel in the Harvard Business Review in December.",
+     "safe_wording": "Ojo con el detalle que casi nadie cuenta: el mismo investigador dice que esto aplica cuando tus deudas cobran tasas parecidas.",
+     "notes": "La cita de HBR es textual, pero se leyó en CBS News (2 de enero de 2017) porque el cuerpo de HBR está bloqueado. La Universidad de Alberta (comunicado oficial del coautor Häubl) pone una condición equivalente: 'Unless it's possible to consolidate your credit card debts at a substantially lower interest rate...'. Es importante para el guion: no presentar la bola de nieve como superior en todos los casos."
+    },
+    {
+     "claim": "El estudio académico detrás del artículo de HBR encontró que concentrar los pagos en una sola cuenta, en lugar de repartirlos entre todas, aumenta la motivación para salir de deudas y lleva a pagar de forma más agresiva. El efecto es mayor cuando se concentra en la cuenta más chica.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://econpapers.repec.org/RePEc:oup:jconrs:v:43:y:2016:i:3:p:460-477.",
+     "quote": "Evidence from a field study of indebted consumers with multiple debt accounts and from three experiments shows that concentrated (vs. dispersed) repayment strategies tend to boost consumers' motivation to become debt free, leading them to repay their debts more aggressively. Importantly, this motivating effect is most pronounced when the repayments are concentrated into consumers' smallest accounts because consumers tend to infer overall progress in debt repayment from the greatest proportional balance reduction (proportion of starting balance repaid) within any one account.",
+     "safe_wording": "Investigadores de varias universidades analizaron datos reales de personas endeudadas e hicieron tres experimentos. Encontraron que quien concentra su dinero en una sola deuda se motiva más y paga más rápido que quien reparte un poquito entre todas. Y el efecto es más fuerte si esa deuda es la más chica, porque ves que se acaba.",
+     "notes": "Kettle, Trudel, Blanchard y Häubl, Journal of Consumer Research, 2016, 43(3), pp. 460-477, DOI 10.1093/jcr/ucw037. La fuente es el resumen (abstract) oficial indexado en RePEc."
+    },
+    {
+     "claim": "Quienes concentraron sus pagos en una sola cuenta liquidaron su deuda de tarjeta un 15% más rápido; la muestra fue de unas 6,000 personas en Estados Unidos.",
+     "status": "fuente_secundaria_consistente",
+     "source_url": "https://www.ualberta.ca/en/folio/2017/01/the-secret-to-paying-off-credit-card-debt.html",
+     "quote": "Häubl and University of Alberta colleagues Keri Kettle, Rémi Trudel and Simon Blanchard used tightly controlled experiments and the credit data of 6,000 Americans to arrive at their finding. Their Journal of Consumer Research study showed that consumers who concentrated their repayment on one of their several accounts paid down their credit card debt 15 per cent faster than those who paid back equal amounts to all their accounts.",
+     "safe_wording": "En ese estudio, con datos de unas seis mil personas, quienes concentraron sus pagos en una sola tarjeta terminaron de pagar alrededor de un 15% más rápido.",
+     "notes": "Viene del comunicado institucional de la Universidad de Alberta, no del texto completo del artículo, que no se pudo abrir. Fox Business/Motley Fool coincide: 'almost 6,000 clients of a financial services company over three years'. Hay una discrepancia: CBS dice '2.5 million accounts'. Si se usa una cifra de muestra, que sea 'unas seis mil personas' y atribuida al comunicado; lo más seguro es omitir la muestra. El 15% también sale solo de prensa institucional."
+    },
+    {
+     "claim": "Matemáticamente, pagar primero la deuda con la tasa más alta (método avalancha) es lo que menos intereses te cuesta y te deja libre de deudas antes.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.stlouisfed.org/publications/page-one-economics/2023/02/01/what-is-the-best-strategy-for-paying-off-credit-card-debt",
+     "quote": "Economists tend to recommend Option 2: Pay off the credit card with the higher interest rate first. Why? This strategy leads you to pay off all the debt faster and save money (compared with the other options). ... Table 2: 1: Pay off smaller balance first — 4 years, 10 months — interest $3,976; 2: Pay off higher interest rate balance first — 4 years, 7 months — interest $3,396.",
+     "safe_wording": "Si solo ves los números, gana la avalancha: atacar primero la deuda con la tasa más alta te cobra menos intereses. Así lo explica, por ejemplo, la Reserva Federal de San Luis.",
+     "notes": "Publicación educativa de la Fed de St. Louis (Page One Economics, 1 de febrero de 2023, Mary Clare Peate). En su ejemplo, la avalancha ahorró unos 580 dólares de intereses y 3 meses frente a la bola de nieve. Su conclusión: 'Ultimately, the best strategy is the one that helps someone pay off the total debt balance.' La misma fuente señala que la mayoría de la gente reparte los pagos en proporción al saldo (Gathergood et al., AER 2019)."
+    },
+    {
+     "claim": "Gal y McShane (2012) encontraron que cerrar cuentas de deuda, sin importar su saldo, predice que la persona termine eliminando toda su deuda; el monto de dinero de las cuentas cerradas no lo predice.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://psycnet.apa.org/record/2012-19560-004",
+     "quote": "Using a data set obtained from a debt settlement firm, they find that (1) closing debt accounts is predictive of debt elimination regardless of the dollar balance of the closed accounts, whereas (2) the dollar balance of closed accounts is not predictive of debt elimination when controlling for balance of accounts closed. These findings suggest that completing discrete subtasks might motivate consumers to persist in pursuit of a goal.",
+     "safe_wording": "Otro estudio, con datos de una empresa que ayuda a liquidar deudas, encontró que las personas que iban cerrando cuentas completas tenían más probabilidad de terminar de pagar todo, sin importar cuánto debían en cada una. Tachar una deuda de la lista parece darte gasolina para seguir.",
+     "notes": "Título real: 'Can Small Victories Help Win the War? Evidence from Consumer Debt Management', Journal of Marketing Research 49(4):487-501, DOI 10.1509/jmr.11.0272. La ficha de Kellogg lo cataloga como 'Can Fighting Small Battles Help Win the War?'; mejor no citar el título en voz. Es un estudio correlacional: se puede decir 'predice' o 'se asocia con', no 'causa'. La muestra de unos 6,000 consumidores solo aparece en un fragmento de ResearchGate: no está confirmada, no se debe decir."
+    },
+    {
+     "claim": "CONDUSEF: la mensualidad de meses sin intereses se suma al pago mínimo, y si no se cubre además del mínimo, al mes siguiente se suma al saldo y genera intereses.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.gob.mx/condusef/prensa/cuidado-con-los-meses-sin-intereses-en-este-buen-fin",
+     "quote": "dicha mensualidad, se paga de manera adicional al pago mínimo que aparece en tu crédito revolvente, de tal forma que el monto de las mensualidades deberá cubrirse además del pago mínimo solicitado, de lo contrario, para el siguiente mes se sumará al saldo y generará intereses.",
+     "safe_wording": "Cuidado: la mensualidad de tus meses sin intereses no está incluida en el pago mínimo, se suma aparte. Si solo pagas el mínimo, CONDUSEF advierte que esa mensualidad se pasa a tu saldo y empieza a cobrar intereses.",
+     "notes": "Comunicado de CONDUSEF del 16 de noviembre de 2017. El texto se repite en la ficha de CONDUSEF del Buen Fin 2018 (https://www.condusef.gob.mx/?p=contenido&idc=355&idcat=1). PRECISIÓN: CONDUSEF NO dice que se pierda toda la promoción de MSI; dice que la mensualidad no pagada se suma al saldo y genera intereses. Si en casos concretos se cancela la promoción completa, eso depende del contrato de cada banco."
+    },
+    {
+     "claim": "Si no pagas una mensualidad de MSI, pierdes toda la promoción y se cobran intereses sobre el total de la compra.",
+     "status": "no_confirmado",
+     "source_url": "https://revista.condusef.gob.mx/credito/tarjeta/2012/05/meses-sin-intereses/",
+     "quote": "Paga a tiempo: si no cumples con una de las mensualidades, el banco o la tienda comercial te cobrará intereses. ... En tu estado de cuenta ... La clasificación que aparecerá en tu estado de cuenta varía dependiendo del banco o tienda departamental",
+     "safe_wording": "No decir que 'pierdes todos los meses sin intereses'. Decir: 'si te atrasas en una mensualidad, te van a cobrar intereses, y lo que pase exactamente depende del contrato de tu banco; revísalo'.",
+     "notes": "Ninguna fuente oficial de CONDUSEF o Banxico revisada confirma la cancelación total de la promoción. Algunas notas de prensa dicen 'la oferta se invalidará', pero no se verificó en una fuente original. Esto depende de cada banco o tienda."
+    },
+    {
+     "claim": "El 'pago para no generar intereses' incluye el total de los cargos de la cuenta normal más las mensualidades de las promociones a meses sin intereses, y es distinto del pago mínimo.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.condusef.gob.mx/?p=contenido&idc=905&idcat=1",
+     "quote": "Pago para no generar intereses. Es el importe de los consumos realizados, el cual tiene que ser liquidado totalmente. (Se incluye el total de cargos en la cuenta normal y los pagos de las promociones a meses sin intereses). Pago mínimo. Es la cantidad mínima a pagar para conservar al corriente tu línea de crédito.",
+     "safe_wording": "En tu estado de cuenta busca el 'pago para no generar intereses'. Ese ya trae tus compras normales y las mensualidades de tus meses sin intereses. El pago mínimo solo mantiene tu tarjeta al corriente.",
+     "notes": "Otra ficha de CONDUSEF (idc=1667) lo define como 'la suma total de los saldos anteriores, intereses, comisiones y si existen parcialidades de compras a meses'. La revista Proteja su Dinero (2012) añade que el nombre del rubro 'varía dependiendo del banco o tienda departamental'."
+    },
+    {
+     "claim": "CONDUSEF advierte que al comprar a meses sin intereses estás comprometiendo tus ingresos futuros, y que la suma de pagos chiquitos puede volverse una cantidad muy grande.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.gob.mx/condusef/prensa/no-te-sobreendeudes-con-los-meses-sin-intereses",
+     "quote": "Quizá los pagos al momento de la compra se te hagan pequeños, pero la suma de pequeñas parcialidades puede dar como resultado una muy grande a la hora de pagar. Si derivado de esto, te atrasas en los pagos, acabarás pagando intereses que no tenías contemplados. ... Recuerda que estás comprometiendo tus ingresos futuros.",
+     "safe_wording": "Como dice la propia CONDUSEF: cada compra a meses es dinero de tus sueldos futuros que ya gastaste. Y muchas mensualidades chiquitas juntas se vuelven una grandota.",
+     "notes": "Comunicado de CONDUSEF del 16 de septiembre de 2013; el mensaje se repite en sus comunicados de 2017 y 2018. Recomienda además no usar MSI para compras que se repiten cada mes, como la despensa, y no hacer más compras si todavía se deben las del año anterior."
+    },
+    {
+     "claim": "Si quieres liquidar antes una compra a MSI, en algunos bancos tienes que avisar; si no, tu pago se toma como saldo a favor y te siguen cobrando la mensualidad.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.gob.mx/condusef/prensa/no-te-sobreendeudes-con-los-meses-sin-intereses",
+     "quote": "Liquida tu adeudo: puedes liquidar el monto restante de la promoción antes del plazo establecido. En algunos bancos tienes que avisar que deseas liquidar tu adeudo, directamente en sucursal o por teléfono, de lo contrario cualquier pago que realices a tu tarjeta se tomará como saldo a favor y te seguirán cobrando la mensualidad sobre promociones.",
+     "safe_wording": "Si quieres adelantar y terminar de pagar unos meses sin intereses, pregunta a tu banco cómo hacerlo, porque en algunos tienes que avisar.",
+     "notes": "Es un ejemplo explícito de algo que depende del banco."
+    },
+    {
+     "claim": "CONDUSEF advierte sobre las apps 'montadeudas': ofrecen préstamos fáciles e inmediatos casi sin requisitos, suben los intereses sin aviso hasta que no se pueden pagar y luego extorsionan al deudor.",
+     "status": "verificado_fuente_original",
+     "source_url": "https://www.condusef.gob.mx/?idc=2055&idcat=3&p=contenido",
+     "quote": "¿Cómo opera una app montadeudas? La estafa parte de la oferta de un préstamo fácil e inmediato; Prácticamente sin requisitos; A través de aplicaciones para dispositivos móviles; Los intereses se incrementan sin previo aviso hasta volverse impagables; Ahí empiezan las amenazas para extorsionar al deudor ... Asegúrate que la institución financiera esté registrada en el SIPRES de la CONDUSEF",
+     "safe_wording": "Y si estás pensando en sacar un préstamo de una app para tapar otra deuda, cuidado. CONDUSEF advierte sobre las llamadas 'montadeudas': te prestan rápido y sin requisitos, los intereses suben hasta volverse impagables y luego viene la extorsión. Antes de pedir un préstamo, revisa que la institución esté registrada en el SIPRES de CONDUSEF.",
+     "notes": "Ficha 'Cuídate de las app montadeudas', sin fecha visible. Útil como advertencia breve; no hace falta entrar en detalles gráficos."
+    },
+    {
+     "claim": "Según una tipología oficial de la UIF, en 2022 hubo 11,594 denuncias ciudadanas por apps montadeudas, que cobraban intereses de hasta 85% semanal y pedían permiso para ver contactos y fotos.",
+     "status": "fuente_secundaria_consistente",
+     "source_url": "https://www.gob.mx/cms/uploads/attachment/file/873271/Tipolog_a_montadeudas_VF.PDF",
+     "quote": "Durante 2022 se identificaron 11,594 denuncias ciudadanas bajo la modalidad descrita, según datos del Consejo Ciudadano para la Seguridad Jurídica de la Ciudad de México. ... más el pago de intereses, los cuales llegaron hasta del 85% semanal. ... otorgar permiso para el acceso a sus contactos, fotografías, ubicación, cámara...",
+     "safe_wording": "Si se usa: 'Solo en 2022 se registraron más de once mil denuncias por este tipo de apps, según un documento de la Unidad de Inteligencia Financiera'. Mejor no decir el 85% semanal como algo general, porque se refiere a un caso documentado.",
+     "notes": "El documento es oficial (UIF, publicado en gob.mx), pero la cifra de denuncias la toma del Consejo Ciudadano de la CDMX, y el 85% semanal describe un caso concreto. Es opcional y se puede omitir sin perder nada."
+    }
+   ]
+  }
+ ]
+}
