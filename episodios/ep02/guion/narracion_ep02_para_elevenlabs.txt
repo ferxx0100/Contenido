@@ -12,11 +12,11 @@ En Sistema uno hiciste dos columnas en las notas de tu teléfono: lo que entra y
 
 ¿En qué nivel estás? El nivel cero es no deber nada. Todo lo que está abajo es negativo, y medirlo es fácil: toma lo que debes y divídelo entre diez. Esa cantidad es un nivel. Si debes veinte mil pesos, cada nivel son dos mil. Si debes algo, hoy estás en menos diez. Cada vez que bajas tu deuda una décima parte, subes uno: menos nueve, menos ocho, hasta llegar a cero.
 
-Y no eres el único. Según la encuesta ENSAFI del INEGI y la CONDUSEF, el treinta y seis por ciento de los adultos en México tenía algún tipo de deuda. Y de quienes tenían deuda, más de uno de cada cuatro se atrasó en algún pago.
+Y no eres el único. Según la encuesta Ensafi del Inegi y la Condusef, el treinta y seis por ciento de los adultos en México tenía algún tipo de deuda. Y de quienes tenían deuda, más de uno de cada cuatro se atrasó en algún pago.
 
 Mira tu pago mínimo. No es una cifra al azar. Sale de una regla de Banxico.
 
-Tu pago mínimo es lo que salga más alto entre dos cuentas. La primera: el uno punto cinco por ciento de lo que debes, más los intereses del mes y su IVA. La segunda: el uno punto veinticinco por ciento de tu límite de crédito.
+Tu pago mínimo es lo que salga más alto entre dos cuentas. La primera: el uno punto cinco por ciento de lo que debes, más los intereses del mes y su iva. La segunda: el uno punto veinticinco por ciento de tu límite de crédito.
 
 Eso es el piso. Tu banco puede pedirte más, pero nunca menos.
 
@@ -24,7 +24,7 @@ Esta regla existe para que al menos una parte de tu pago baje la deuda. La pregu
 
 Vamos con un ejemplo con números redondos. Debes veinte mil pesos, tu límite es de treinta mil, tu tarjeta cobra sesenta por ciento al año y ya no haces compras nuevas. Es una tasa alta, solo para el ejemplo; la tuya viene en los documentos de tu tarjeta.
 
-Con esos números, tu primer mínimo sería de unos mil cuatrocientos sesenta pesos. Pero de eso, mil ciento sesenta se van en intereses e IVA. Solo trescientos pesos bajan lo que debes.
+Con esos números, tu primer mínimo sería de unos mil cuatrocientos sesenta pesos. Pero de eso, mil ciento sesenta se van en intereses e iva. Solo trescientos pesos bajan lo que debes.
 
 Pagas mil cuatrocientos sesenta, y tu deuda baja trescientos.
 
@@ -38,7 +38,7 @@ No es falta de disciplina. Es falta de sistema. Y esta es la ruta.
 
 Busca en tu estado de cuenta el pago para no generar intereses. Si pagas esa cantidad antes de la fecha límite, ese mes no te cobran intereses.
 
-Esa cantidad ya trae tus compras normales y las mensualidades de tus meses sin intereses. El pago mínimo, por sí solo, no: esas mensualidades se pagan aparte. Si cubres el mínimo y nada más, CONDUSEF advierte que esa mensualidad se pasa a tu saldo y empieza a cobrar intereses.
+Esa cantidad ya trae tus compras normales y las mensualidades de tus meses sin intereses. El pago mínimo, por sí solo, no: esas mensualidades se pagan aparte. Si cubres el mínimo y nada más, Condusef advierte que esa mensualidad se pasa a tu saldo y empieza a cobrar intereses.
 
 Esa es tu meta de cada mes. Si todavía no llegas, sigue la ruta.
 
@@ -66,7 +66,7 @@ Y un atraso no desaparece cuando pagas. Cuánto dura depende de cuánto debías.
 
 Si ya no puedes ni con el mínimo, no esperes a atrasarte. Habla antes con tu banco y pide una reestructura, que es un nuevo plan de pagos. Se anota en tu historial, pero es mucho mejor que dejar de pagar. Y si te ofrecen pagar con descuento, que es una quita, queda marcada como quebranto.
 
-Y si alguien te cobra por sacarte del Buró, es un fraude. Nadie puede borrar tus registros negativos antes del plazo que marca la ley. Pero si hay un error en tu reporte, eso sí se corrige, y CONDUSEF te orienta gratis. Llamas al cincuenta y cinco, cincuenta y tres, cuatrocientos, novecientos noventa y nueve.
+Y si alguien te cobra por sacarte del Buró, es un fraude. Nadie puede borrar tus registros negativos antes del plazo que marca la ley. Pero si hay un error en tu reporte, eso sí se corrige, y Condusef te orienta gratis. Llamas al cincuenta y cinco, cincuenta y tres, cuatrocientos, novecientos noventa y nueve.
 
 Ahora el paso de hoy, con el celular, en menos de cinco minutos.
 
