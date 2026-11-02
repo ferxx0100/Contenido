@@ -17,6 +17,21 @@ Este repositorio guarda todo lo necesario para producir y publicar cada episodio
 
 **Antes de publicar, lee `episodios/ep01/kit_publicacion/LEEME_antes_de_publicar.md`.**
 
+## Episodio 2 · Sistema 2 · Deuda
+
+| Qué | Dónde |
+|---|---|
+| Video 16:9 para YouTube (9:11, 1080p30, −14 LUFS) | `episodios/ep02/out/SISTEMA_Ep02_16x9_YouTube.mp4` |
+| 8 clips verticales 9:16 con subtítulos | `episodios/ep02/out/SISTEMA_Ep02_clip*_9x16.mp4` |
+| Audio para podcast (MP3 192 kbps) | `episodios/ep02/audio/SISTEMA_Ep02_audio.mp3` |
+| Subtítulos SRT (es-MX) | `episodios/ep02/timing/ep02_es.srt` |
+| Miniatura | `marca/direccion_A_libro_mayor/png/f20_thumbnail_ep02.png` |
+| Título, descripción, capítulos, fuentes y comentario fijado del Ep01 | `episodios/ep02/kit_publicacion/youtube.md` |
+| Página de publicación (descargas + textos para copiar) | `episodios/ep02/kit_publicacion/publicar_checklist.html` |
+| Guion por bloques con escenas, clips y fuentes verificadas | `episodios/ep02/guion/guion_ep02.md` |
+
+Cómo se hizo: narración con ElevenLabs desde aquí (`tools/eleven_tts.py`, la clave la inyecta el entorno); la alineación por palabra viene de la propia respuesta de ElevenLabs (`timing/timeline_words.json`), así que no hace falta `align.py`. Escenas en `video/scenes_g1..g5.js`.
+
 ## Cómo está hecho
 - **Voz:** ElevenLabs (flow "Sistema 01 - A dónde se va el dinero (narración)", modelo `eleven_v4`).
 - **Sincronía:** `tools/align.py` alinea el texto exacto de la narración con las pausas del audio (programación dinámica, sin ASR) → `timing/timing.js` con el tiempo de cada palabra.

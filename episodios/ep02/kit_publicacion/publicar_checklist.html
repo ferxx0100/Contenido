@@ -1,0 +1,225 @@
+<title>Publicar Sistema 2</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Libro mayor: una hoja de papel con renglones, columna de margen bermellón, una fila por video */
+:root {
+  --papel: #F3EDE3; --hoja: #FBF8F2; --tinta: #1C1916; --gris: #6E655B; --linea: #E2D9CA; --verm: #C4361C; --ok: #2F6B3A; --ok-bg: #E3EDDF;
+  --f-ui: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --papel: #1A1714; --hoja: #24201C; --tinta: #F1EBE2; --gris: #A79C8F; --linea: #3A332C; --verm: #E2563A; --ok: #8CC796; --ok-bg: #22301F; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --papel: #1A1714; --hoja: #24201C; --tinta: #F1EBE2; --gris: #A79C8F; --linea: #3A332C; --verm: #E2563A; --ok: #8CC796; --ok-bg: #22301F; color-scheme: dark }
+* { box-sizing: border-box; }
+body { background: var(--papel); color: var(--tinta); font: 400 16px/1.5 var(--f-ui); }
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 28px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 22px; }
+.brand { display: flex; align-items: center; gap: 8px; font: 800 13px/1 var(--f-ui); letter-spacing: .08em; }
+.brand b { background: var(--verm); color: var(--hoja); padding: 4px 7px; }
+h1 { font: 800 clamp(30px, 7vw, 44px)/1.05 var(--f-ui); letter-spacing: -.03em; margin: 0; text-wrap: balance; }
+.lead { margin: 0; color: var(--gris); max-width: 60ch; }
+.prog { display: grid; gap: 8px; }
+.prog-top { display: flex; justify-content: space-between; font: 700 13px/1 var(--f-mono); letter-spacing: .04em; }
+.bar { height: 8px; background: var(--linea); overflow: hidden; }
+.bar i { display: block; height: 100%; width: 0; background: var(--verm); transition: width .3s; }
+details.how { background: var(--hoja); border: 1px solid var(--linea); padding: 14px 16px; }
+details.how summary { font-weight: 700; cursor: pointer; }
+.how-grid { display: grid; gap: 14px; margin-top: 12px; }
+.how-grid h3 { margin: 0 0 4px; font: 700 12px/1 var(--f-mono); letter-spacing: .08em; color: var(--verm); text-transform: uppercase; }
+.how-grid ol { margin: 0; padding-left: 20px; display: grid; gap: 3px; }
+.list { display: grid; gap: 14px; }
+.clip { background: var(--hoja); border: 1px solid var(--linea); display: grid; grid-template-columns: 56px 1fr; }
+.clip.done { border-color: var(--ok); }
+.day { border-right: 2px solid var(--verm); display: flex; flex-direction: column; align-items: center; padding-top: 14px; gap: 2px; }
+.day small { font: 700 10px/1 var(--f-mono); letter-spacing: .08em; color: var(--gris); }
+.day span { font: 800 26px/1 var(--f-ui); font-variant-numeric: tabular-nums; }
+.clip.done .day span { color: var(--ok); }
+.body { padding: 14px 16px 16px; display: grid; gap: 12px; min-width: 0; }
+.dl-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+.dl { display: inline-flex; align-items: center; min-height: 44px; padding: 10px 18px; background: var(--verm); color: var(--hoja); font: 800 15px/1 var(--f-ui); text-decoration: none; }
+.dl:focus-visible { outline: 3px solid var(--tinta); outline-offset: 2px; }
+.file { font: 500 12px/1.3 var(--f-mono); color: var(--gris); overflow-wrap: anywhere; }
+.file em { font-style: normal; color: var(--verm); font-weight: 700; }
+.field { display: grid; gap: 6px; }
+.field-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.lab { font: 700 11px/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--gris); }
+.txt { margin: 0; white-space: pre-wrap; background: var(--papel); border: 1px solid var(--linea); padding: 10px 12px; font-size: 15px; user-select: all; overflow-wrap: anywhere; }
+.ttl .txt { font-weight: 700; }
+button.copy { font: 700 13px/1 var(--f-ui); background: var(--tinta); color: var(--hoja); border: 0; padding: 9px 14px; cursor: pointer; min-height: 36px; }
+button.copy.ok { background: var(--ok); }
+button:focus-visible, input:focus-visible + span { outline: 3px solid var(--verm); outline-offset: 2px; }
+.checks { display: flex; flex-wrap: wrap; gap: 8px; }
+.checks label { display: flex; align-items: center; gap: 8px; border: 1px solid var(--linea); padding: 8px 12px; cursor: pointer; font-weight: 600; font-size: 14px; background: var(--papel); }
+.checks input { width: 18px; height: 18px; accent-color: var(--ok); margin: 0; }
+.checks label:has(input:checked) { background: var(--ok-bg); border-color: var(--ok); color: var(--ok); }
+.long { background: var(--hoja); border: 1px solid var(--linea); border-left: 4px solid var(--verm); padding: 16px; display: grid; gap: 12px; }
+.long h2 { margin: 0; font: 800 20px/1.2 var(--f-ui); }
+.dl.alt { background: var(--tinta); }
+.note { font-size: 13px; color: var(--gris); margin: 0; }
+.foot { font-size: 13px; color: var(--gris); margin: 0; }
+@media (prefers-reduced-motion: reduce) { .bar i { transition: none; } }
+</style>
+
+<div class="wrap">
+  <div class="brand">SISTEMA <b>2</b> · DEUDA</div>
+  <h1>Sistema 2: video y 8 Shorts</h1>
+  <p class="lead">Primero el video largo; después los Shorts, uno por día. En cada video: copia el título y la descripción, pégalos en la app y palomea dónde ya lo subiste. Toca Descargar video y se guarda en tu teléfono.</p>
+
+
+  <section class="long" aria-labelledby="ltitle">
+    <h2 id="ltitle">Video largo · YouTube y Spotify</h2>
+    <div class="dl-row">
+      <a class="dl" target="_blank" rel="noopener" href="https://raw.githubusercontent.com/ferxx0100/Contenido/538e647a89183ba10c1b8c1447bb556cfc6d175c/episodios/ep02/out/SISTEMA_Ep02_16x9_YouTube.mp4">⬇ Video 9:11 (1080p)</a>
+      <a class="dl alt" target="_blank" rel="noopener" href="https://raw.githubusercontent.com/ferxx0100/Contenido/538e647a89183ba10c1b8c1447bb556cfc6d175c/marca/direccion_A_libro_mayor/png/f20_thumbnail_ep02.png">⬇ Miniatura</a>
+      <a class="dl alt" target="_blank" rel="noopener" href="https://raw.githubusercontent.com/ferxx0100/Contenido/538e647a89183ba10c1b8c1447bb556cfc6d175c/episodios/ep02/timing/ep02_es.srt">⬇ Subtítulos</a>
+      <a class="dl alt" target="_blank" rel="noopener" href="https://raw.githubusercontent.com/ferxx0100/Contenido/538e647a89183ba10c1b8c1447bb556cfc6d175c/episodios/ep02/audio/SISTEMA_Ep02_audio.mp3">⬇ Audio Spotify</a>
+    </div>
+    <div id="longFields"></div>
+    <p class="note">En YouTube Studio: sube los subtítulos como "Español (México)", miniatura personalizada, "no es para niños", y en Video relacionado de cada Short elige este video.</p>
+  </section>
+
+  <div class="prog">
+    <div class="prog-top"><span id="progTxt">0 de 8 listos</span><span id="progPct">0%</span></div>
+    <div class="bar"><i id="progBar"></i></div>
+  </div>
+
+  <details class="how" id="how" open>
+    <summary>Dónde se pega en cada app (celular)</summary>
+    <div class="how-grid">
+      <div><h3>YouTube</h3><ol>
+        <li>+ → Subir video (o Crear un Short) → elige el video → Siguiente.</li>
+        <li><b>Título</b> en "Agrega un título". Si hay "Descripción", pega ahí la <b>descripción</b>.</li>
+        <li>Público: "No, no es contenido para niños".</li>
+        <li>Si aparece "Contenido alterado o sintético": Sí.</li></ol></div>
+      <div><h3>TikTok</h3><ol>
+        <li>+ → elige el video → Siguiente.</li>
+        <li>Pega la <b>descripción</b> en "Agrega una descripción". El título no se usa.</li>
+        <li>Más opciones → activa "Contenido generado por IA".</li></ol></div>
+      <div><h3>Instagram + Facebook</h3><ol>
+        <li>+ → Reel → elige el video → Siguiente.</li>
+        <li>Pega la <b>descripción</b> en "Escribe un pie de foto". El título no se usa.</li>
+        <li>Activa "Compartir en Facebook" (así sale en las dos).</li>
+        <li>Más opciones → activa "Etiqueta de IA".</li></ol></div>
+    </div>
+  </details>
+
+  <div class="list" id="list"></div>
+  <p class="foot">Las palomitas se guardan solo en este teléfono o navegador.</p>
+</div>
+
+<script>
+const PIE = "\n\nContenido educativo; no es asesoría financiera. Voz generada con IA.\n\n";
+const CLIPS = [
+ [
+  "clip3_pago_minimo_ejemplo",
+  "Ejemplo: pagas $1,460 y tu deuda solo baja $300",
+  "Ejemplo ilustrativo (deuda de $20,000, tasa de 60% anual, sin compras nuevas): así se reparte tu pago mínimo entre intereses e IVA y lo que de verdad baja tu deuda.",
+  "#pagominimo #intereses #tarjetadecredito #deudas #finanzaspersonales #shorts",
+  "Dura 34 s."
+ ],
+ [
+  "clip4_falta_de_sistema",
+  "No es falta de disciplina. Es falta de sistema.",
+  "El pago mínimo mantiene tu tarjeta al corriente. No está hecho para sacarte de la deuda; esa parte te toca a ti.",
+  "#deudas #finanzaspersonales #tarjetadecredito #dinero #123sistema #shorts",
+  "Dura 25 s."
+ ],
+ [
+  "clip6_congela_tu_pago",
+  "Congela tu pago: de casi 10 años a dos y medio",
+  "Paga siempre tu primer mínimo, aunque te pidan menos. En el ejemplo (deuda de $20,000, 60% anual, sin compras nuevas) la diferencia son siete años y más de cuarenta mil pesos.",
+  "#pagominimo #deudas #tarjetadecredito #finanzaspersonales #mexico #shorts",
+  "Dura 32 s."
+ ],
+ [
+  "clip7_que_deuda_primero",
+  "¿Qué deuda pagar primero? La más cara o la más chica",
+  "Los números dicen tasa más alta primero; un estudio encontró que concentrarte en una sola deuda, sobre todo la más chica, te hace pagar más rápido.",
+  "#deudas #salirdedeudas #tarjetadecredito #finanzaspersonales #dinero #shorts",
+  "Dura 58 s. Es el más largo: bueno para TikTok."
+ ],
+ [
+  "clip8_buro_de_credito",
+  "Buró de Crédito no es lista negra: lo que sí cuenta",
+  "Qué se reporta cada mes y cuánto dura un atraso en tu historial según lo que debías.",
+  "#burodecredito #historialcrediticio #deudas #finanzaspersonales #mexico #shorts",
+  "Dura 49 s."
+ ],
+ [
+  "clip1_nivel_de_deuda",
+  "¿En qué nivel de deuda estás? Mídelo así",
+  "Divide lo que debes entre diez y ya sabes en qué nivel estás y cuánto te falta para el cero.",
+  "#deudas #finanzaspersonales #tarjetadecredito #dinero #mexico #shorts",
+  "Dura 28 s."
+ ],
+ [
+  "clip5_sin_intereses",
+  "El número para no pagar intereses este mes",
+  "El pago para no generar intereses contra el pago mínimo, y por qué tus meses sin intereses se pagan aparte.",
+  "#mesessinintereses #intereses #tarjetadecredito #condusef #finanzaspersonales #shorts",
+  "Dura 29 s."
+ ],
+ [
+  "clip2_regla_banxico",
+  "Tu pago mínimo no es al azar: la regla de Banxico",
+  "Tu pago mínimo sale de una regla de Banxico: lo más alto entre dos cuentas. Abre tu estado de cuenta y compruébalo.",
+  "#pagominimo #banxico #tarjetadecredito #finanzaspersonales #mexico #shorts",
+  "Dura 27 s."
+ ]
+];
+const RAW = "https://raw.githubusercontent.com/ferxx0100/Contenido/538e647a89183ba10c1b8c1447bb556cfc6d175c/episodios/ep02/out/SISTEMA_Ep02_";
+const NETS = [["yt", "YouTube"], ["tt", "TikTok"], ["ig", "Instagram + Facebook"]];
+const KEY = "sistema2-shorts-v1";
+let state = {};
+try { state = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) { state = {}; }
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} };
+
+const el = (tag, attrs = {}, ...kids) => { const n = document.createElement(tag); for (const [k, v] of Object.entries(attrs)) { if (k === "class") n.className = v; else if (k === "text") n.textContent = v; else n.setAttribute(k, v); } n.append(...kids); return n; };
+
+function copyBtn(getText, label) {
+  const b = el("button", { class: "copy", type: "button", text: label });
+  b.addEventListener("click", () => {
+    const done = () => { b.textContent = "Copiado ✓"; b.classList.add("ok"); setTimeout(() => { b.textContent = label; b.classList.remove("ok"); }, 1800); };
+    const fallback = () => { const pre = b.closest(".field").querySelector(".txt"); const r = document.createRange(); r.selectNodeContents(pre); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = "Mantén presionado y copia"; };
+    try { navigator.clipboard.writeText(getText()).then(done, fallback); } catch (e) { fallback(); }
+  });
+  return b;
+}
+function field(lab, text, cls) {
+  const pre = el("p", { class: "txt", text });
+  return el("div", { class: "field " + cls }, el("div", { class: "field-top" }, el("span", { class: "lab", text: lab }), copyBtn(() => text, "Copiar")), pre);
+}
+
+const list = document.getElementById("list");
+CLIPS.forEach(([file, title, desc, tags, note], i) => {
+  const id = file;
+  state[id] ||= {};
+  const full = desc + PIE + tags;
+  const checks = el("div", { class: "checks" });
+  NETS.forEach(([k, name]) => {
+    const inp = el("input", { type: "checkbox", id: `${id}-${k}` });
+    inp.checked = !!state[id][k];
+    inp.addEventListener("change", () => { state[id][k] = inp.checked; save(); refresh(); });
+    checks.append(el("label", { for: `${id}-${k}` }, inp, el("span", { text: name })));
+  });
+  const fileLine = el("div", { class: "file" }, "Video: SISTEMA_Ep02_", el("em", { text: file }), "_9x16.mp4");
+  const dl = el("a", { class: "dl", href: RAW + file + "_9x16.mp4", target: "_blank", rel: "noopener" }, "⬇ Descargar video");
+  const body = el("div", { class: "body" }, el("div", { class: "dl-row" }, dl, fileLine), field("Título · solo YouTube", title, "ttl"), field("Descripción · todas las apps", full, "dsc"));
+  if (note) body.append(el("p", { class: "note", text: note }));
+  body.append(el("div", { class: "lab", text: "Ya lo subí a:" }), checks);
+  const card = el("article", { class: "clip", "data-id": id }, el("div", { class: "day" }, el("small", { text: "DÍA" }), el("span", { text: String(i + 1) })), body);
+  list.append(card);
+});
+
+function refresh() {
+  let n = 0;
+  document.querySelectorAll(".clip").forEach(c => { const s = state[c.dataset.id] || {}; const ok = NETS.every(([k]) => s[k]); c.classList.toggle("done", ok); if (ok) n++; });
+  document.getElementById("progTxt").textContent = `${n} de ${CLIPS.length} listos en las 3 apps`;
+  const p = Math.round(n / CLIPS.length * 100);
+  document.getElementById("progPct").textContent = p + "%";
+  document.getElementById("progBar").style.width = p + "%";
+}
+refresh();
+document.getElementById("longFields").append(field("Título", "Sistema 2: Deuda | Ejemplo: tu pago mínimo te puede costar casi 10 años (y la ruta al nivel cero)", "ttl"), field("Descripción (con capítulos y fuentes)", "Si pagas tu tarjeta cada mes y la deuda casi no baja, aquí está la explicación con números: cómo se calcula tu pago mínimo, cuánto se va en intereses, cómo dejar de pagarlos y cómo subir de nivel hasta el cero: no deber nada.\n\nEn este episodio:\n• Tu tercera columna: lo que debo, y cómo medir en qué nivel estás.\n• La regla de Banxico del pago mínimo.\n• Ejemplo: pagas $1,460 y tu deuda solo baja $300.\n• El pago para no generar intereses y los meses sin intereses.\n• 5 pasos: deja de bajar, congela tu pago, usa tus dos columnas, una deuda a la vez y cuida tu Buró.\n• El paso de hoy, en menos de 5 minutos.\n\nCapítulos\n0:00 Intro: por qué tu deuda casi no baja\n0:23 Abre tu tarjeta\n0:43 La tercera columna y tu nivel\n1:33 Cómo se calcula tu pago mínimo\n2:05 Ejemplo: deuda de 20 mil pesos\n2:37 Cuánto tardas pagando solo el mínimo\n3:14 No es falta de disciplina\n3:39 El pago para no generar intereses\n4:11 Paso 1: deja de bajar\n4:34 Paso 2: congela tu pago\n5:06 Paso 3: usa tus dos columnas\n5:38 Paso 4: una deuda a la vez\n6:35 Paso 5: Buró de Crédito\n7:24 Si ya no puedes con el mínimo\n8:00 El paso de hoy\n8:35 Cierre y Sistema 3\n\nFuentes\n• ENSAFI 2023, INEGI y CONDUSEF: 36.2% de los adultos tiene algún tipo de deuda; de ellos, 27.3% se atrasó en algún pago. https://inegi.org.mx/contenidos/saladeprensa/boletines/2024/ENSAFI/ENSAFI.pdf\n• Banxico, regla del pago mínimo (Circular 13/2011 y modificaciones).\n• CONDUSEF, Calculadora de Pagos Mínimos: https://www.condusef.gob.mx/?p=contenido&idc=941&idcat=1\n• CONDUSEF, meses sin intereses: https://www.gob.mx/condusef/prensa/cuidado-con-los-meses-sin-intereses-en-este-buen-fin\n• Reserva Federal de San Luis, cómo pagar deudas: https://www.stlouisfed.org/publications/page-one-economics/2023/02/01/what-is-the-best-strategy-to-pay-off-debt\n• Gal y McShane (2012), Journal of Marketing Research; Trudel, Harvard Business Review (2016): https://hbr.org/2016/12/research-the-best-strategy-for-paying-off-credit-card-debt\n• Ley para Regular las Sociedades de Información Crediticia (reporte gratis cada 12 meses y permanencia en el historial): https://www.diputados.gob.mx/LeyesBiblio/pdf/LRSIC.pdf\n• CONDUSEF, Buró de Crédito y fraudes de \"limpieza\": https://www.condusef.gob.mx/index.php?idc=2614&idcat=3&p=contenido\n\nEl ejemplo de la tarjeta es ilustrativo: deuda de $20,000, límite de $30,000, tasa de 60% anual más IVA, sin compras nuevas y con tasa fija. Tu tasa y tu CAT vienen en los documentos de tu tarjeta.\n\nEpisodio anterior: Sistema 1 · A dónde se va tu dinero.\nSiguiente: Sistema 3 · El ahorro que no se puede tocar.\n\nContenido educativo; no es asesoría financiera. Voz generada con IA.\n\n#finanzaspersonales #deudas #tarjetadecredito #pagominimo #burodecredito", "dsc"));
+</script>
