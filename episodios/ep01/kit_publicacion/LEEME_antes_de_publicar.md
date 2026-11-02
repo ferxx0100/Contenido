@@ -30,4 +30,4 @@ Con el audio nuevo, el pipeline realinea la voz solo y las escenas 05 y 16 se aj
 ## 4. Lista de subida
 - [ ] YouTube: video 16:9, miniatura, SRT es-MX, capítulos, pantalla final, lista de reproducción (`youtube.md`)
 - [ ] Spotify for Creators: el mismo MP4 como video podcast y la portada 3000×3000 (`spotify_y_podcasts.md`)
-- [ ] Clips: el 3 primero; el 1 y el 2 después de corregir el audio (`clips_redes.md`)
+- [ ] Shorts: sigue `shorts_plan.md` (10 clips listos; el 1 y el 2 solo después de corregir el audio)
