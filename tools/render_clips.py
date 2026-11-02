@@ -9,7 +9,7 @@ for c in clips:
     dur = round(t1 - t0, 3)
     wav = f"{ep}/out/{c['id']}_audio.wav"
     # audio: voz+efectos del maestro de t0 a freeze, con fundido corto y silencio hasta t1
-    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', str(t0), '-t', str(fr - t0 + 0.05), '-i', f'{ep}/audio/ep01_master.wav',
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', str(t0), '-t', str(fr - t0 + 0.05), '-i', f'{ep}/audio/{os.path.basename(os.path.normpath(ep))}_master.wav',
                     '-af', f"afade=t=in:st=0:d=0.06,afade=t=out:st={fr - t0 - 0.15:.3f}:d=0.2,apad=whole_dur={dur}", '-ar', '48000', wav], check=True)
     q = f"fmt=9x16&t0={t0}&freeze={fr}&t1={t1}"
     out = f"{ep}/out/{c['file']}"
