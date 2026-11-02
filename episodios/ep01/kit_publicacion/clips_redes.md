@@ -4,7 +4,7 @@ Los tres clips están en `out/` (1080×1920, 30 fps, subtítulos palabra por pal
 
 | Clip | Archivo | Duración | Gancho |
 |---|---|---|---|
-| 1 | `SISTEMA_Ep01_clip1_54porciento_9x16.mp4` | 26 s | "Según Deloitte, el 54% de los mexicanos se queda sin dinero antes de la quincena" |
+| 1 | `SISTEMA_Ep01_clip1_54porciento_9x16.mp4` | 26 s | "Según Deloitte, el 54% de los mexicanos se queda sin dinero antes de la quincena" ⚠️ la cifra es de la CONDUSEF, no de Deloitte: corrige el audio antes de publicar (ver LEEME) |
 | 2 | `SISTEMA_Ep01_clip2_falta_de_sistema_9x16.mp4` | 33 s | "15–40% de lo que ganas… No es falta de disciplina, es falta de sistema" ⚠️ usa el dato de BBVA sin respaldo: corrígelo antes de publicar |
 | 3 | `SISTEMA_Ep01_clip3_cancela_suscripciones_9x16.mp4` | 19 s | "Cancela tus suscripciones en iPhone ahora mismo" |
 
