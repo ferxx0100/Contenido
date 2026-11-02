@@ -41,3 +41,9 @@ Cuadros sueltos: `node ../../tools/render.js --page video/index.html --query fmt
 2. Copia `episodios/ep01` → `episodios/ep02`, pon los textos en `timing/texto/` y corre `tools/align.py` + `tools/offsets.py` + `tools/build_timing.py`.
 3. Reescribe las escenas (`scenes_*.js`) usando los mismos componentes y `cue('frase exacta')` para amarrarlas a la voz.
 4. Render 16:9 + clips, miniatura y kit.
+
+## Formato de entrega de Shorts (usar siempre)
+Cada episodio se entrega igual que el Ep01:
+1. Clips 9:16 en `episodios/epXX/out/`, definidos en `video/clips.json` y renderizados con `tools/render_clips.py`. Cada clip empieza y termina en frase completa y no usa datos sin fuente verificada.
+2. Una página de publicación como `episodios/ep01/kit_publicacion/shorts_checklist.html`, publicada como Artifact. Por cada clip, en orden de publicación (uno por día), trae: botón **Descargar video** (enlace a raw.githubusercontent.com fijado al commit), **título** (solo YouTube) con botón Copiar, **descripción** con hashtags + "Contenido educativo; no es asesoría financiera. Voz generada con IA." con botón Copiar, y casillas YouTube / TikTok / Instagram + Facebook.
+3. Arriba de la página, los pasos de dónde pegar cada cosa en cada app del celular, incluida la etiqueta de IA.
