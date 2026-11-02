@@ -39,7 +39,7 @@
         W5 = Words(Box(L, M, V(450, 470), 'col', { width: tw + 'px' }), 'Con tus propios números.', 'd3 muted').sync('con tus propios números');
         const cw = Box(L, V(1272, 280), V(170, 520), '', { width: V(540, 520) + 'px' });
         card = CCard(cw); css(card, { height: V(330, 320) });
-        const chH = V(380, 340), chY = V(550, 900);
+        const chH = V(380, 460), chY = V(550, 900);
         CH = chH;
         chart = Box(L, M, chY, 'g1-chart', { width: CW + 'px', height: chH + 'px' });
         chart.append(h('div', { class: 'kicker g1-chart-k' }, 'LO QUE DEBES · MES CON MES'));
@@ -179,8 +179,8 @@
         DL.forEach((s, i) => { const r = h('div', { class: 'g1-drow' }, h('span', { class: 'g1-dn' }, String(i + 1)), h('span', {}, s)); drows.append(r); drs.push(r); });
         nowTag = h('span', { class: 'g1-now' }, 'LO USAS AHORITA'); drs[0].append(nowTag);
         // teléfono
-        const pw = Box(L, V(1300, 324), V(150, 560), 'phone-wrap');
-        const P1 = Phone(pw, { w: V(450, 560), hgt: V(750, 940) }); ph = P1.el;
+        const pw = Box(L, V(1300, 315), V(150, 560), 'phone-wrap');
+        const P1 = Phone(pw, { w: V(450, 600), hgt: V(750, 960) }); ph = P1.el;
         scrA = h('div', { class: 'g1-scr' }); scrB = h('div', { class: 'g1-scr' }); P1.screen.append(scrA, scrB);
         scrA.append(h('div', { class: 'app-head' }, h('span', { class: 'app-logo' }), h('span', {}, 'Mi tarjeta')));
         CCard(scrA, 'sm');
@@ -206,8 +206,8 @@
         inout(ph.parentNode, t, a + 0.1, out, { dy: 160, din: 0.9, oy: 120 });
         // pantalla A -> toque en "Estado de cuenta" -> pantalla B
         const tTap = ec - 0.25, sw = P(t, ec + 0.15, 0.55, Ease.move);
-        css(scrA, { transform: tr(-sw * 100, 0, 1), opacity: 1 - sw });
-        css(scrB, { transform: tr((1 - sw) * 460, 0, 1) });
+        css(scrA, { transform: `translate3d(${(-sw * 30).toFixed(2)}%,0,0)`, opacity: 1 - sw });
+        css(scrB, { transform: `translate3d(${((1 - sw) * 102).toFixed(2)}%,0,0)` });
         target.classList.toggle('press', t > tTap && t < ec + 0.5);
         if (!tap.__xy && target.offsetWidth) tap.__xy = [target.offsetLeft + target.offsetWidth * 0.4, target.offsetTop + target.offsetHeight / 2];
         if (tap.__xy) { const tp = P(t, tTap - 0.3, 0.3) * (1 - P(t, tTap + 0.35, 0.25)); css(tap, { left: tap.__xy[0], top: tap.__xy[1], opacity: tp, transform: `scale(${lerp(1.5, 1, P(t, tTap - 0.3, 0.3)).toFixed(3)})` }); }

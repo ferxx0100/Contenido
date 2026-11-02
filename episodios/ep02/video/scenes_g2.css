@@ -87,8 +87,8 @@
 .g2-dot { fill: var(--hoja); stroke: var(--tinta); stroke-width: 5; }
 .g2-dot.red { fill: var(--verm); stroke: var(--verm); }
 .g2-drop { stroke: var(--tinta); stroke-width: 2; stroke-dasharray: 6 8; }
-.g2-ylab { text-align: right; font: 600 24px/1 var(--f-mono); color: var(--tinta2); padding-top: 4px; }
-.g2-ylab.zero { color: var(--verm); font-weight: 700; font-size: 30px; }
+.g2-ylab { text-align: right; font: 700 28px/1 var(--f-mono); color: var(--tinta); padding-top: 2px; font-variant-numeric: tabular-nums; }
+.g2-ylab.zero { color: var(--verm); font-weight: 700; font-size: 32px; padding-top: 0; }
 .g2-xlab { text-align: center; font: 600 18px/1 var(--f-mono); letter-spacing: .1em; color: var(--tinta2); }
 .g2-ann { white-space: nowrap; padding-left: 14px; border-left: 3px solid var(--tinta); }
 .g2-ann-v { margin-top: 8px; font: 700 54px/1 var(--f-display); letter-spacing: -0.03em; }

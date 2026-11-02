@@ -1,1 +1,120 @@
-/* grupo 3 */
+/* Grupo 3 · bloques 07–09 (la liberación, pago para no generar intereses, paso 1). Todas las clases con prefijo g3-. */
+.g3-h { font: 600 72px/1.08 var(--f-display); letter-spacing: -0.025em; }
+[data-fmt="9x16"] .g3-h { font-size: 64px; }
+.g3-step-t { font-size: 104px; }
+[data-fmt="9x16"] .g3-step-t { font-size: 84px; }
+
+/* tarjeta: lo que sí hace / lo que nunca prometió */
+.g3-card { background: var(--hoja); border: 2px solid var(--tinta); padding: 18px 40px; box-sizing: border-box; box-shadow: 10px 10px 0 var(--sombra); }
+.g3-pr { display: grid; grid-template-columns: 76px 1fr auto; align-items: center; gap: 26px; padding: 34px 0; border-bottom: 1px solid var(--regla2); }
+.g3-pr:last-child { border-bottom: 0; }
+.g3-pr-t { font: 600 64px/1.1 var(--f-display); letter-spacing: -0.02em; color: var(--tinta); }
+.g3-pr-k { white-space: nowrap; }
+.g3-strk { position: relative; display: inline-block; color: var(--tinta2); }
+.g3-strk .strike { height: 7px; top: 54%; }
+.g3-x { position: relative; width: 60px; height: 60px; justify-self: center; }
+.g3-x::before, .g3-x::after { content: ''; position: absolute; left: 50%; top: 50%; width: 64px; height: 8px; margin: -4px 0 0 -32px; background: var(--verm); transform: rotate(45deg); }
+.g3-x::after { transform: rotate(-45deg); }
+.g3-x.sm { position: absolute; left: 50%; top: 50%; width: 44px; height: 44px; display: none; }
+[data-fmt="9x16"] .g3-card { padding: 10px 30px; }
+[data-fmt="9x16"] .g3-pr { grid-template-columns: 64px 1fr; gap: 10px 22px; padding: 30px 0; }
+[data-fmt="9x16"] .g3-pr-t { font-size: 56px; }
+[data-fmt="9x16"] .g3-pr-k { grid-column: 2; }
+
+/* ruta de 5 pasos */
+.g3-route { position: absolute; height: 150px; }
+.g3-route-line { position: absolute; left: 0; right: 0; top: 34px; height: 4px; background: var(--tinta); transform-origin: left center; }
+.g3-node { position: absolute; top: 0; display: flex; flex-direction: column; align-items: center; gap: 14px; transform-origin: 50% 34px; }
+.g3-node b { display: grid; place-items: center; width: 64px; height: 64px; box-sizing: border-box; border: 3px solid var(--tinta); background: var(--papel); font: 700 34px/1 var(--f-display); color: var(--tinta); }
+.g3-node span { font: 600 17px/1 var(--f-mono); letter-spacing: .14em; color: var(--tinta2); }
+.g3-node.on b { background: var(--verm); border-color: var(--verm); color: var(--papel); }
+.g3-node.on span { color: var(--verm); }
+
+/* teléfono */
+[data-fmt="9x16"] .g3-phwrap .phone { zoom: 1; }
+.g3-st-k { margin-top: 22px; font: 600 15px/1 var(--f-mono); letter-spacing: .12em; color: var(--tinta2); padding-bottom: 14px; border-bottom: 2px solid var(--tinta); }
+.g3-st-row { position: relative; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 22px 6px; border-bottom: 1px solid var(--regla); font: 500 22px/1.2 var(--f-text); color: var(--tinta2); }
+.g3-st-row b { font: 600 21px/1.2 var(--f-mono); color: var(--tinta); white-space: nowrap; }
+.g3-st-row.on { color: var(--tinta); font-weight: 700; background: linear-gradient(var(--resalte), var(--resalte)) no-repeat 0 50% / 100% 100%; }
+.g3-st-row .bracket { inset: -6px -10px; }
+.g3-st-ok { margin-top: 34px; padding: 20px 22px; background: var(--verm); color: var(--papel); display: flex; flex-direction: column; gap: 10px; }
+.g3-st-ok .kicker { color: #F3C9BD; font-size: 16px; }
+.g3-st-ok b { font: 700 40px/1 var(--f-display); letter-spacing: -0.02em; }
+[data-fmt="9x16"] .g3-st-row { font-size: 26px; padding: 22px 8px; }
+[data-fmt="9x16"] .g3-st-row b { font-size: 24px; }
+[data-fmt="9x16"] .g3-st-k { font-size: 17px; }
+
+/* barras: pago para no generar intereses vs. mínimo */
+.g3-bar { position: absolute; display: flex; border-top: 3px solid var(--tinta); border-bottom: 3px solid var(--tinta); box-sizing: border-box; }
+.g3-seg { position: relative; height: 100%; box-sizing: border-box; display: flex; align-items: center; padding: 0 24px; font: 600 30px/1.1 var(--f-display); letter-spacing: -0.01em; white-space: nowrap; overflow: hidden; }
+.g3-seg.n { background: var(--hoja); border-left: 3px solid var(--tinta); color: var(--tinta); }
+.g3-seg.m { background: var(--verm); color: var(--papel); }
+.g3-seg.i { background: var(--tinta); color: var(--papel); }
+.g3-seg.g { position: absolute; top: 0; bottom: 0; border: 3px dashed var(--verm); color: var(--verm); background: transparent; }
+[data-fmt="9x16"] .g3-seg { font-size: 26px; padding: 0 16px; white-space: normal; }
+
+/* flujo CONDUSEF */
+.g3-flow { display: flex; align-items: stretch; }
+.g3-fb { flex: 1; display: flex; flex-direction: column; justify-content: space-between; gap: 40px; min-height: 300px; padding: 30px 32px; box-sizing: border-box; background: var(--hoja); border: 2px solid var(--tinta); box-shadow: 8px 8px 0 var(--sombra); }
+.g3-fb b { font: 600 52px/1.1 var(--f-display); letter-spacing: -0.02em; }
+.g3-fb.hot { border-color: var(--verm); }
+.g3-fb.hot b { color: var(--verm); }
+.g3-fb.hot.on { background: var(--verm); }
+.g3-fb.hot.on b, .g3-fb.hot.on .kicker { color: var(--papel); }
+.g3-arr { position: relative; flex: none; width: 90px; align-self: center; height: 4px; margin: 0 16px; background: var(--verm); transform-origin: left center; }
+.g3-arr::after { content: ''; position: absolute; right: -6px; top: -11px; border: 13px solid transparent; border-left: 20px solid var(--verm); border-right: 0; }
+[data-fmt="9x16"] .g3-flow { flex-direction: column; }
+[data-fmt="9x16"] .g3-fb { min-height: 0; gap: 16px; padding: 24px 28px; }
+[data-fmt="9x16"] .g3-fb b { font-size: 50px; }
+[data-fmt="9x16"] .g3-arr { width: 4px; height: 50px; margin: 14px 0 22px 60px; align-self: flex-start; transform-origin: center top; }
+[data-fmt="9x16"] .g3-arr::after { right: auto; left: -11px; top: auto; bottom: -16px; border: 13px solid transparent; border-top: 20px solid var(--verm); border-bottom: 0; }
+
+/* paso 1: lista y pantallas */
+.g3-crumbs .crumb { font-size: 40px; }
+.g3-crumbs .crumb.on .g3-cr-t { text-decoration: line-through; text-decoration-color: var(--verm); text-decoration-thickness: 4px; }
+[data-fmt="9x16"] .g3-crumbs .crumb { font-size: 40px; }
+.g3-scr { position: absolute; inset: 0; padding: 70px 28px 28px; box-sizing: border-box; background: var(--hoja); }
+.g3-logo-b { background: var(--tinta); }
+.g3-ph-t { margin: 34px 0 22px; font: 700 40px/1 var(--f-display); letter-spacing: -0.02em; }
+.g3-pay { position: relative; display: flex; align-items: center; gap: 16px; padding: 22px 16px; border: 2px solid var(--tinta); background: var(--papel); }
+.g3-pay b { display: block; font: 600 21px/1.2 var(--f-text); white-space: nowrap; }
+.g3-pay .num { font-size: 17px; color: var(--tinta2); }
+.g3-pay.add { margin-top: 16px; border-style: dashed; border-color: var(--tinta3); color: var(--tinta2); font: 500 20px/1 var(--f-text); }
+.g3-mc { flex: none; width: 58px; height: 38px; border-radius: 6px; background: var(--verm); position: relative; }
+.g3-mc::after { content: ''; position: absolute; left: 8px; top: 9px; width: 14px; height: 11px; border-radius: 2px; background: #E9B9AC; }
+.g3-mc.big { width: 190px; height: 120px; border-radius: 14px; }
+.g3-mc.big::after { left: 22px; top: 30px; width: 40px; height: 30px; }
+.g3-del { margin-left: auto; padding: 10px 14px; background: var(--verm); color: var(--papel); font: 700 18px/1 var(--f-text); }
+.g3-del.press, .g3-quit.press { transform: scale(.94); }
+.g3-toast { position: absolute; left: 28px; right: 28px; bottom: 40px; padding: 20px; background: var(--tinta); color: var(--papel); font: 600 22px/1 var(--f-text); text-align: center; }
+.g3-wal { position: relative; height: 230px; }
+.g3-wcard { position: absolute; left: 0; right: 0; top: 0; height: 220px; box-sizing: border-box; border-radius: 18px; padding: 26px; background: var(--verm); color: var(--papel); display: flex; flex-direction: column; justify-content: space-between; }
+.g3-wcard .kicker { color: #F3C9BD; }
+.g3-wcard b { font-size: 30px; }
+.g3-wcard.empty { background: transparent; border: 3px dashed var(--tinta3); color: var(--tinta3); align-items: center; justify-content: center; font: 600 22px/1 var(--f-text); }
+.g3-quit { position: relative; margin-top: 26px; padding: 20px; border: 2px solid var(--verm); color: var(--verm); text-align: center; font: 700 24px/1 var(--f-text); }
+
+/* apps que quedaron */
+.g3-home { padding: 36px; gap: 26px; }
+.g3-home .app-ic { overflow: visible; }
+.g3-cc { position: absolute; right: -10px; bottom: -8px; width: 40px; height: 27px; border-radius: 4px; background: var(--verm); border: 3px solid var(--tinta); }
+
+/* tarjeta → efectivo */
+.g3-swap { display: flex; align-items: center; gap: 50px; }
+.g3-sw-i { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 22px; width: 330px; height: 250px; padding: 30px; box-sizing: border-box; background: var(--hoja); border: 2px solid var(--tinta); box-shadow: 10px 10px 0 var(--sombra); }
+.g3-bills { margin-top: 0; height: 130px; transform: translateX(46px) scale(.74); transform-origin: center bottom; }
+.g3-sw-ar { width: 130px; }
+[data-fmt="9x16"] .g3-swap { gap: 34px; }
+[data-fmt="9x16"] .g3-sw-i { width: 330px; }
+[data-fmt="9x16"] .g3-sw-ar { width: 70px; }
+
+/* nivel bloqueado + deuda que crece */
+.g3-lvl { width: 300px; }
+.g3-lvl .lvl-n { font-size: 150px; }
+.g3-graph { position: absolute; }
+.g3-graph svg { position: absolute; left: 0; top: 0; overflow: visible; }
+.g3-ax { stroke: var(--tinta); stroke-width: 3; }
+.g3-up { fill: none; stroke: var(--verm); stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+.g3-dot { fill: var(--verm); }
+.g3-glab { position: absolute; right: 0; top: -10px; }
+[data-fmt="9x16"] .g3-lvl { width: 260px; }
