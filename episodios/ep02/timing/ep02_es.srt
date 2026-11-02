@@ -1,0 +1,758 @@
+1
+00:00:00,000 --> 00:00:04,950
+Tienes una tarjeta de crédito,
+pagas cada mes, y la deuda casi no baja.
+
+2
+00:00:05,280 --> 00:00:08,390
+Hoy vas a ver por qué,
+con tus propios números.
+
+3
+00:00:08,640 --> 00:00:11,190
+Esto es Sistema dos: deuda.
+
+4
+00:00:11,520 --> 00:00:13,500
+Vas a entender tu pago mínimo,
+
+5
+00:00:13,520 --> 00:00:16,150
+vas a dejar de pagar
+intereses que no necesitas
+
+6
+00:00:16,320 --> 00:00:19,220
+y vas a cuidar tu historial
+en Buró de Crédito.
+
+7
+00:00:19,240 --> 00:00:22,630
+Y vas a saber exactamente
+en qué nivel estás.
+
+8
+00:00:22,720 --> 00:00:23,710
+Empecemos.
+
+9
+00:00:23,840 --> 00:00:25,900
+Abre ahorita la aplicación de tu tarjeta
+
+10
+00:00:25,920 --> 00:00:28,870
+de crédito y entra
+a tu último estado de cuenta.
+
+11
+00:00:29,120 --> 00:00:32,310
+Si tienes varias tarjetas,
+empieza por la que más usas.
+
+12
+00:00:32,720 --> 00:00:36,860
+Busca cuatro datos:
+cuánto debes, tu pago mínimo,
+
+13
+00:00:36,880 --> 00:00:40,790
+el pago para no generar intereses
+y la fecha límite de pago.
+
+14
+00:00:41,040 --> 00:00:43,110
+El primero lo usas ahorita.
+
+15
+00:00:43,280 --> 00:00:47,060
+En Sistema uno hiciste dos columnas
+en las notas de tu teléfono:
+
+16
+00:00:47,080 --> 00:00:48,790
+lo que entra y lo que sale.
+
+17
+00:00:49,120 --> 00:00:51,830
+Hoy agregas una tercera: lo que debo.
+
+18
+00:00:52,240 --> 00:00:53,670
+¿En qué nivel estás?
+
+19
+00:00:53,840 --> 00:00:56,150
+El nivel cero es no deber nada.
+
+20
+00:00:56,400 --> 00:01:00,140
+Todo lo que está abajo es negativo,
+y medirlo es fácil:
+
+21
+00:01:00,160 --> 00:01:02,390
+toma lo que debes y divídelo entre diez.
+
+22
+00:01:02,560 --> 00:01:04,310
+Esa cantidad es un nivel.
+
+23
+00:01:04,640 --> 00:01:07,910
+Si debes veinte mil pesos,
+cada nivel son dos mil.
+
+24
+00:01:08,160 --> 00:01:11,030
+Si debes algo, hoy estás en menos diez.
+
+25
+00:01:11,440 --> 00:01:15,180
+Cada vez que bajas tu deuda
+una décima parte, subes uno:
+
+26
+00:01:15,200 --> 00:01:18,390
+menos nueve, menos ocho,
+hasta llegar a cero.
+
+27
+00:01:18,800 --> 00:01:20,300
+Y no eres el único.
+
+28
+00:01:20,320 --> 00:01:23,180
+Según la encuesta ENSAFI
+del INEGI y la CONDUSEF,
+
+29
+00:01:23,200 --> 00:01:28,100
+el treinta y seis por ciento de los adultos
+en México tenía algún tipo de deuda.
+
+30
+00:01:28,120 --> 00:01:32,790
+Y de quienes tenían deuda,
+más de uno de cada cuatro se atrasó en algún pago.
+
+31
+00:01:33,360 --> 00:01:34,830
+Mira tu pago mínimo.
+
+32
+00:01:34,880 --> 00:01:36,310
+No es una cifra al azar.
+
+33
+00:01:36,400 --> 00:01:38,150
+Sale de una regla de Banxico.
+
+34
+00:01:38,480 --> 00:01:42,230
+Tu pago mínimo es lo que salga
+más alto entre dos cuentas.
+
+35
+00:01:42,400 --> 00:01:45,940
+La primera: el uno punto cinco
+por ciento de lo que debes,
+
+36
+00:01:45,960 --> 00:01:48,150
+más los intereses del mes y su IVA.
+
+37
+00:01:48,560 --> 00:01:53,270
+La segunda: el uno punto veinticinco
+por ciento de tu límite de crédito.
+
+38
+00:01:53,360 --> 00:01:54,710
+Eso es el piso.
+
+39
+00:01:54,880 --> 00:01:57,830
+Tu banco puede pedirte más,
+pero nunca menos.
+
+40
+00:01:58,240 --> 00:02:02,310
+Esta regla existe para que al menos
+una parte de tu pago baje la deuda.
+
+41
+00:02:02,560 --> 00:02:05,350
+La pregunta es qué tan
+grande es esa parte.
+
+42
+00:02:05,920 --> 00:02:08,550
+Vamos con un ejemplo con números redondos.
+
+43
+00:02:08,640 --> 00:02:12,140
+Debes veinte mil pesos,
+tu límite es de treinta mil,
+
+44
+00:02:12,160 --> 00:02:16,620
+tu tarjeta cobra sesenta por ciento
+al año y ya no haces compras nuevas.
+
+45
+00:02:16,640 --> 00:02:18,900
+Es una tasa alta, solo para el ejemplo;
+
+46
+00:02:18,920 --> 00:02:21,660
+la tuya viene en los documentos
+de tu tarjeta.
+
+47
+00:02:21,680 --> 00:02:26,673
+Con esos números, tu primer mínimo sería
+de unos mil cuatrocientos sesenta pesos.
+
+48
+00:02:26,693 --> 00:02:30,820
+Pero de eso, mil ciento sesenta
+se van en intereses e IVA.
+
+49
+00:02:30,840 --> 00:02:33,270
+Solo trescientos pesos bajan lo que debes.
+
+50
+00:02:33,520 --> 00:02:37,900
+Pagas mil cuatrocientos sesenta,
+y tu deuda baja trescientos.
+
+51
+00:02:37,920 --> 00:02:39,350
+Ahora ponlo en el mapa.
+
+52
+00:02:39,600 --> 00:02:42,550
+En este ejemplo,
+cada nivel son dos mil pesos.
+
+53
+00:02:42,800 --> 00:02:47,740
+Pagando solo el mínimo, subir de menos
+diez a menos nueve te toma siete meses.
+
+54
+00:02:47,760 --> 00:02:50,910
+Llegar a menos cinco, casi cuatro años.
+
+55
+00:02:50,960 --> 00:02:54,460
+Y como el mínimo se hace más
+chico conforme baja tu saldo,
+
+56
+00:02:54,480 --> 00:02:56,900
+el final se alarga todavía más:
+
+57
+00:02:56,920 --> 00:02:59,700
+llegarías a cero en casi diez años,
+
+58
+00:02:59,720 --> 00:03:04,470
+y pagarías alrededor de ochenta y tres
+mil pesos por una deuda de veinte mil.
+
+59
+00:03:04,560 --> 00:03:07,580
+Tu estado de cuenta trae
+un recuadro que te dice cuánto
+
+60
+00:03:07,600 --> 00:03:11,110
+tardarías y cuánto pagarías
+dando solo el mínimo.
+
+61
+00:03:11,200 --> 00:03:14,230
+Ese número ya no es del ejemplo, es tuyo.
+
+62
+00:03:14,759 --> 00:03:18,669
+Y cuando veas tu número,
+no te enojes con tu banco ni contigo.
+
+63
+00:03:18,919 --> 00:03:20,989
+El pago mínimo no está fallando.
+
+64
+00:03:21,159 --> 00:03:26,309
+Funciona exactamente como lo diseñaron:
+mantiene tu tarjeta al corriente.
+
+65
+00:03:26,439 --> 00:03:29,229
+Lo que nunca prometió
+fue sacarte de la deuda.
+
+66
+00:03:29,479 --> 00:03:33,949
+Esa parte te toca a ti,
+y hasta hoy nadie te había explicado las reglas.
+
+67
+00:03:34,279 --> 00:03:35,909
+No es falta de disciplina.
+
+68
+00:03:35,959 --> 00:03:37,549
+Es falta de sistema.
+
+69
+00:03:37,799 --> 00:03:39,629
+Y esta es la ruta.
+
+70
+00:03:39,799 --> 00:03:43,509
+Busca en tu estado de cuenta
+el pago para no generar intereses.
+
+71
+00:03:43,559 --> 00:03:48,749
+Si pagas esa cantidad antes de la fecha límite,
+ese mes no te cobran intereses.
+
+72
+00:03:48,839 --> 00:03:51,299
+Esa cantidad ya trae tus compras normales
+
+73
+00:03:51,319 --> 00:03:54,229
+y las mensualidades
+de tus meses sin intereses.
+
+74
+00:03:54,279 --> 00:03:58,829
+El pago mínimo, por sí solo, no:
+esas mensualidades se pagan aparte.
+
+75
+00:03:59,159 --> 00:04:01,339
+Si cubres el mínimo y nada más,
+
+76
+00:04:01,359 --> 00:04:03,899
+CONDUSEF advierte que esa
+mensualidad se pasa
+
+77
+00:04:03,919 --> 00:04:06,699
+a tu saldo y empieza a cobrar intereses.
+
+78
+00:04:06,719 --> 00:04:08,859
+Esa es tu meta de cada mes.
+
+79
+00:04:08,879 --> 00:04:11,469
+Si todavía no llegas, sigue la ruta.
+
+80
+00:04:11,639 --> 00:04:13,949
+Paso uno: deja de bajar.
+
+81
+00:04:14,119 --> 00:04:15,739
+Si una tarjeta tiene deuda,
+
+82
+00:04:15,759 --> 00:04:19,259
+quítala de las aplicaciones y tiendas
+en línea donde está guardada,
+
+83
+00:04:19,279 --> 00:04:20,829
+y de la cartera de tu celular.
+
+84
+00:04:21,079 --> 00:04:23,699
+En Sistema uno borraste
+las apps de impulso;
+
+85
+00:04:23,719 --> 00:04:26,189
+hoy borras la tarjeta de las que quedaron.
+
+86
+00:04:26,279 --> 00:04:30,549
+Para las compras chicas del día a día,
+usa efectivo, como ya empezaste a hacer.
+
+87
+00:04:30,599 --> 00:04:34,109
+No vas a subir de nivel mientras
+la deuda siga creciendo.
+
+88
+00:04:34,359 --> 00:04:36,509
+Paso dos: congela tu pago.
+
+89
+00:04:36,839 --> 00:04:41,589
+Toma tu mínimo de este mes y paga siempre
+esa cantidad, aunque te pidan menos.
+
+90
+00:04:41,639 --> 00:04:45,229
+Si tienes meses sin intereses,
+súmale esas mensualidades.
+
+91
+00:04:45,319 --> 00:04:47,619
+Con una deuda de ejemplo
+de veinte mil pesos,
+
+92
+00:04:47,639 --> 00:04:50,659
+el primer mínimo es de mil
+cuatrocientos sesenta.
+
+93
+00:04:50,679 --> 00:04:54,669
+Como tu pago ya no se encoge,
+los niveles llegan cada vez más rápido.
+
+94
+00:04:54,839 --> 00:04:59,339
+Terminas en unos dos años y medio
+y pagas cerca de cuarenta y un mil pesos.
+
+95
+00:04:59,359 --> 00:05:03,099
+Solo con el mínimo serían casi
+diez años y ochenta y tres mil.
+
+96
+00:05:03,119 --> 00:05:06,109
+Con el mismo dinero que ya
+pagabas el primer mes.
+
+97
+00:05:06,759 --> 00:05:10,229
+Paso tres:
+aumenta tu pago con lo de Sistema uno.
+
+98
+00:05:10,359 --> 00:05:13,989
+Regresa a tus dos columnas
+y marca dónde puedes recortar.
+
+99
+00:05:14,039 --> 00:05:16,219
+Lo que dejas de gastar
+en comida a domicilio,
+
+100
+00:05:16,239 --> 00:05:21,149
+en suscripciones y en compras de impulso
+ya no se va: ahora tiene trabajo.
+
+101
+00:05:21,239 --> 00:05:25,579
+Si a esos mil cuatrocientos sesenta les
+sumas mil cuarenta pesos que recortaste,
+
+102
+00:05:25,599 --> 00:05:29,789
+y pagas dos mil quinientos al mes,
+subes casi un nivel cada mes.
+
+103
+00:05:29,959 --> 00:05:33,699
+Terminas en un año y pagas unos
+veintisiete mil setecientos.
+
+104
+00:05:33,719 --> 00:05:37,829
+Son más de cincuenta y cinco mil
+pesos de diferencia contra el mínimo.
+
+105
+00:05:38,119 --> 00:05:38,989
+Paso cuatro.
+
+106
+00:05:39,159 --> 00:05:43,469
+Si tienes varias deudas,
+pon cada una en un renglón de tu tercera columna.
+
+107
+00:05:43,639 --> 00:05:47,789
+Tarjetas, préstamos,
+abonos en tiendas y lo que le debes a tu familia.
+
+108
+00:05:47,959 --> 00:05:52,899
+En cada renglón, cuánto debes,
+la tasa, el mínimo y la fecha límite.
+
+109
+00:05:52,919 --> 00:05:55,339
+No le pagues un poquito a cada una.
+
+110
+00:05:55,359 --> 00:05:58,619
+A todas les das el mínimo, menos a una.
+
+111
+00:05:58,639 --> 00:06:01,086
+A esa le mandas todo lo extra.
+
+112
+00:06:01,106 --> 00:06:02,029
+¿A cuál?
+
+113
+00:06:02,199 --> 00:06:06,259
+Si solo ves los números,
+gana atacar primero la de tasa más alta,
+
+114
+00:06:06,279 --> 00:06:08,339
+porque te cobra menos intereses.
+
+115
+00:06:08,359 --> 00:06:12,286
+Así lo explica la Reserva Federal
+de San Luis, en Estados Unidos.
+
+116
+00:06:12,306 --> 00:06:15,939
+Pero investigadores de varias
+universidades encontraron que quien
+
+117
+00:06:15,959 --> 00:06:21,099
+concentra su dinero en una sola deuda
+se motiva más y paga más rápido,
+
+118
+00:06:21,119 --> 00:06:25,339
+sobre todo si esa deuda es la más chica,
+porque ves que se acaba.
+
+119
+00:06:25,359 --> 00:06:29,739
+Entonces: si las tasas son muy distintas,
+ataca la más cara.
+
+120
+00:06:29,759 --> 00:06:31,819
+Si se parecen, la más chica.
+
+121
+00:06:31,839 --> 00:06:34,989
+Cuando terminas una,
+su pago pasa a la siguiente.
+
+122
+00:06:35,527 --> 00:06:38,077
+Paso cinco: cuida tu historial.
+
+123
+00:06:38,407 --> 00:06:40,947
+Si tienes o tuviste una tarjeta,
+
+124
+00:06:40,967 --> 00:06:45,997
+un préstamo o incluso un plan de celular,
+ya estás en Buró de Crédito.
+
+125
+00:06:46,087 --> 00:06:50,877
+No es una lista negra; es tu historial,
+y ahí aparece lo bueno y lo malo.
+
+126
+00:06:51,207 --> 00:06:54,957
+Cada mes tu banco le dice al Buró
+si pagaste a tiempo o tarde.
+
+127
+00:06:55,207 --> 00:06:58,507
+Si cubres por lo menos el mínimo
+antes de la fecha límite,
+
+128
+00:06:58,527 --> 00:07:00,277
+tu tarjeta queda al corriente.
+
+129
+00:07:00,327 --> 00:07:04,077
+Si te atrasas, aunque sean pocos días,
+puede quedar marcado.
+
+130
+00:07:04,327 --> 00:07:07,117
+Y un atraso no desaparece cuando pagas.
+
+131
+00:07:07,207 --> 00:07:09,597
+Cuánto dura depende de cuánto debías.
+
+132
+00:07:09,767 --> 00:07:12,677
+Hasta unos doscientos
+veinte pesos, un año.
+
+133
+00:07:12,727 --> 00:07:15,827
+Hasta unos cuatro mil cuatrocientos,
+dos años.
+
+134
+00:07:15,847 --> 00:07:19,107
+Hasta unos ocho mil ochocientos,
+cuatro años.
+
+135
+00:07:19,127 --> 00:07:21,667
+Más que eso, hasta seis años,
+
+136
+00:07:21,687 --> 00:07:24,637
+contados desde que se reportó
+el atraso por primera vez.
+
+137
+00:07:24,967 --> 00:07:28,597
+Si ya no puedes ni con el mínimo,
+no esperes a atrasarte.
+
+138
+00:07:28,647 --> 00:07:33,557
+Habla antes con tu banco y pide una reestructura,
+que es un nuevo plan de pagos.
+
+139
+00:07:33,607 --> 00:07:37,197
+Se anota en tu historial,
+pero es mucho mejor que dejar de pagar.
+
+140
+00:07:37,287 --> 00:07:42,077
+Y si te ofrecen pagar con descuento,
+que es una quita, queda marcada como quebranto.
+
+141
+00:07:42,327 --> 00:07:45,837
+Y si alguien te cobra por sacarte del Buró,
+es un fraude.
+
+142
+00:07:45,927 --> 00:07:50,077
+Nadie puede borrar tus registros negativos
+antes del plazo que marca la ley.
+
+143
+00:07:50,247 --> 00:07:55,397
+Pero si hay un error en tu reporte,
+eso sí se corrige, y CONDUSEF te orienta gratis.
+
+144
+00:07:55,447 --> 00:07:58,147
+Llamas al cincuenta y cinco,
+cincuenta y tres,
+
+145
+00:07:58,167 --> 00:08:00,947
+cuatrocientos,
+novecientos noventa y nueve.
+
+146
+00:08:00,967 --> 00:08:05,117
+Ahora el paso de hoy, con el celular,
+en menos de cinco minutos.
+
+147
+00:08:05,207 --> 00:08:09,067
+En tus notas, suma tu tercera columna,
+con todas tus deudas,
+
+148
+00:08:09,087 --> 00:08:13,677
+y divídela entre diez:
+ese es el tamaño de tu nivel, y ya no cambia.
+
+149
+00:08:13,767 --> 00:08:18,067
+Después abre el calendario y crea
+un recordatorio que se repita cada mes,
+
+150
+00:08:18,087 --> 00:08:22,557
+dos días antes de tu fecha límite,
+con tu pago congelado escrito en el título.
+
+151
+00:08:22,887 --> 00:08:24,147
+Y un paso extra:
+
+152
+00:08:24,167 --> 00:08:28,237
+la ley te da derecho a un reporte
+de crédito gratis cada doce meses.
+
+153
+00:08:28,407 --> 00:08:30,827
+Lo pides en la página
+oficial de Buró de Crédito,
+
+154
+00:08:30,847 --> 00:08:33,237
+y también en la de Círculo de Crédito.
+
+155
+00:08:33,287 --> 00:08:35,397
+Revisa que todo sea tuyo.
+
+156
+00:08:35,527 --> 00:08:37,437
+Con esto terminas Sistema dos.
+
+157
+00:08:37,607 --> 00:08:39,107
+Tienes tu tercera columna,
+
+158
+00:08:39,127 --> 00:08:43,080
+sabes en qué nivel estás y tienes
+una ruta con números para subir.
+
+159
+00:08:43,100 --> 00:08:46,397
+Pero llegar al cero no basta;
+hay que quedarse ahí.
+
+160
+00:08:46,487 --> 00:08:51,467
+Si mañana llega un gasto que no esperabas,
+termina en la tarjeta y vuelves a bajar.
+
+161
+00:08:51,487 --> 00:08:55,507
+En Sistema tres vamos a construir
+el ahorro que no se puede tocar.
+
+162
+00:08:55,527 --> 00:08:57,347
+No tienes un problema de dinero.
+
+163
+00:08:57,367 --> 00:08:59,507
+Tienes un problema de sistema.
+
+164
+00:08:59,527 --> 00:09:01,437
+Nos vemos en Sistema tres.

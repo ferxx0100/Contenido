@@ -1,0 +1,98 @@
+[
+ {
+  "n": "01",
+  "nombre": "Arranque",
+  "cue": "Tienes una tarjeta de crédito,",
+  "t": 0.0
+ },
+ {
+  "n": "02",
+  "nombre": "Abre tu tarjeta",
+  "cue": "Abre ahorita la aplicación de",
+  "t": 23.84
+ },
+ {
+  "n": "03",
+  "nombre": "La tercera columna y tu nivel",
+  "cue": "En Sistema uno hiciste dos",
+  "t": 43.28
+ },
+ {
+  "n": "04",
+  "nombre": "Cómo se calcula tu mínimo",
+  "cue": "Mira tu pago mínimo. No",
+  "t": 93.36
+ },
+ {
+  "n": "05",
+  "nombre": "El ejemplo de los veinte mil",
+  "cue": "Vamos con un ejemplo con",
+  "t": 125.92
+ },
+ {
+  "n": "06",
+  "nombre": "El mapa del mínimo",
+  "cue": "Ahora ponlo en el mapa.",
+  "t": 157.92
+ },
+ {
+  "n": "07",
+  "nombre": "La liberación",
+  "cue": "Y cuando veas tu número,",
+  "t": 194.759
+ },
+ {
+  "n": "08",
+  "nombre": "Dejar de pagar intereses",
+  "cue": "Busca en tu estado de",
+  "t": 219.799
+ },
+ {
+  "n": "09",
+  "nombre": "Paso uno: deja de bajar",
+  "cue": "Paso uno: deja de bajar.",
+  "t": 251.639
+ },
+ {
+  "n": "10",
+  "nombre": "Paso dos: congela tu pago",
+  "cue": "Paso dos: congela tu pago.",
+  "t": 274.359
+ },
+ {
+  "n": "11",
+  "nombre": "Paso tres: aumenta tu pago con tus dos columnas",
+  "cue": "Paso tres: aumenta tu pago",
+  "t": 306.759
+ },
+ {
+  "n": "12",
+  "nombre": "Paso cuatro: una deuda a la vez",
+  "cue": "Paso cuatro. Si tienes varias",
+  "t": 338.119
+ },
+ {
+  "n": "13",
+  "nombre": "Paso cinco: Buró de Crédito",
+  "cue": "Paso cinco: cuida tu historial.",
+  "t": 395.527
+ },
+ {
+  "n": "14",
+  "nombre": "Si ya no puedes con el mínimo",
+  "cue": "Si ya no puedes ni",
+  "t": 444.967
+ },
+ {
+  "n": "15",
+  "nombre": "El paso de hoy",
+  "cue": "Ahora el paso de hoy,",
+  "t": 480.967
+ },
+ {
+  "n": "16",
+  "nombre": "Cierre de nivel y gancho a Sistema tres",
+  "cue": "Con esto terminas Sistema dos.",
+  "t": 515.527
+ }
+]

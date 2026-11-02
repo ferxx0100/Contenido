@@ -1,13 +1,17 @@
 """Genera timing.js (palabras, frases, captions) y subtítulos SRT a partir de la alineación.
-Uso: python3 -I tools/build_timing.py <timeline_words.json> <out_dir>
+Uso: python3 -I tools/build_timing.py <timeline_words.json> <out_dir> [nombre.srt]
+Las siglas que se escriben en minúscula para que la voz las diga como palabra (Condusef, iva…) se muestran en mayúsculas en pantalla.
 """
 import sys, json, re
 src, outdir = sys.argv[1], sys.argv[2]
 T = json.load(open(src, encoding='utf-8'))
 words = T['words']; segs = T['segments']; dur = T['duration']
 
+SIGLAS = {'condusef': 'CONDUSEF', 'inegi': 'INEGI', 'ensafi': 'ENSAFI', 'iva': 'IVA', 'msi': 'MSI', 'cat': 'CAT'}
+def show(w):
+    return re.sub(r'[A-Za-zÁÉÍÓÚáéíóúÑñ]+', lambda m: SIGLAS.get(m.group(0).lower(), m.group(0)) if m.group(0).lower() in SIGLAS and m.group(0) != m.group(0).lower().capitalize() or m.group(0).lower() in ('condusef', 'inegi', 'ensafi', 'iva') else m.group(0), w)
 def clean(w):
-    return re.sub(r'[.,:;!?¿¡]+$', '', w)
+    return re.sub(r'[.,:;!?¿¡]+$', '', show(w))
 
 # --- sentences (for SRT / sentence-level cues)
 sentences = []; cur = []
@@ -71,7 +75,7 @@ for s in sentences:
     cues.extend(split_block(words[s['i0']:s['i1']]))
 lines = []
 for k, b in enumerate(cues, 1):
-    text = ' '.join(x['w'] for x in b)
+    text = show(' '.join(x['w'] for x in b))
     if len(text) > 42:  # 2 lines: prefer a comma near the middle, else the space closest to the middle
         mid = len(text) // 2; sp = [i for i, c in enumerate(text) if c == ' ']
         def sc(i):
@@ -81,5 +85,5 @@ for k, b in enumerate(cues, 1):
     end = b[-1]['end'] + 0.15
     if k < len(cues): end = min(end, cues[k][0]['start'] - 0.02)
     lines.append(f"{k}\n{fmt(b[0]['start'])} --> {fmt(end)}\n{text}\n")
-open(f'{outdir}/ep01_es.srt', 'w', encoding='utf-8').write('\n'.join(lines))
+open(f'{outdir}/' + (sys.argv[3] if len(sys.argv) > 3 else 'ep01_es.srt'), 'w', encoding='utf-8').write('\n'.join(lines))
 print(f"words={len(words)} sentences={len(sentences)} chunks={len(chunks)} srt_cues={len(cues)}")

@@ -1,0 +1,11102 @@
+{
+"words": [
+{
+"w": "Tienes",
+"start": 0.0,
+"end": 0.32,
+"punct": "",
+"para_end": false
+},
+{
+"w": "una",
+"start": 0.36,
+"end": 0.4,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tarjeta",
+"start": 0.48,
+"end": 0.88,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 0.92,
+"end": 0.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "crédito,",
+"start": 1.04,
+"end": 1.76,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "pagas",
+"start": 1.84,
+"end": 2.16,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cada",
+"start": 2.24,
+"end": 2.48,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mes,",
+"start": 2.56,
+"end": 3.12,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "y",
+"start": 3.16,
+"end": 3.2,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 3.24,
+"end": 3.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "deuda",
+"start": 3.36,
+"end": 3.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "casi",
+"start": 3.84,
+"end": 4.16,
+"punct": "",
+"para_end": false
+},
+{
+"w": "no",
+"start": 4.24,
+"end": 4.32,
+"punct": "",
+"para_end": false
+},
+{
+"w": "baja.",
+"start": 4.4,
+"end": 4.8,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Hoy",
+"start": 5.28,
+"end": 5.52,
+"punct": "",
+"para_end": false
+},
+{
+"w": "vas",
+"start": 5.76,
+"end": 5.92,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 5.947,
+"end": 5.973,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ver",
+"start": 6.0,
+"end": 6.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "por",
+"start": 6.16,
+"end": 6.32,
+"punct": "",
+"para_end": false
+},
+{
+"w": "qué,",
+"start": 6.4,
+"end": 6.8,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "con",
+"start": 6.88,
+"end": 6.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tus",
+"start": 7.04,
+"end": 7.2,
+"punct": "",
+"para_end": false
+},
+{
+"w": "propios",
+"start": 7.28,
+"end": 7.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "números.",
+"start": 7.76,
+"end": 8.24,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Esto",
+"start": 8.64,
+"end": 8.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 9.04,
+"end": 9.12,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Sistema",
+"start": 9.36,
+"end": 9.84,
+"punct": "",
+"para_end": false
+},
+{
+"w": "dos:",
+"start": 9.92,
+"end": 10.56,
+"punct": ":",
+"para_end": false
+},
+{
+"w": "deuda.",
+"start": 10.64,
+"end": 11.04,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Vas",
+"start": 11.52,
+"end": 11.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 11.707,
+"end": 11.733,
+"punct": "",
+"para_end": false
+},
+{
+"w": "entender",
+"start": 11.76,
+"end": 12.16,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 12.24,
+"end": 12.32,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pago",
+"start": 12.4,
+"end": 12.64,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mínimo,",
+"start": 12.72,
+"end": 13.44,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "vas",
+"start": 13.52,
+"end": 13.6,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 13.64,
+"end": 13.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "dejar",
+"start": 13.72,
+"end": 14.0,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 14.08,
+"end": 14.16,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pagar",
+"start": 14.24,
+"end": 14.4,
+"punct": "",
+"para_end": false
+},
+{
+"w": "intereses",
+"start": 14.56,
+"end": 14.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 15.04,
+"end": 15.12,
+"punct": "",
+"para_end": false
+},
+{
+"w": "no",
+"start": 15.28,
+"end": 15.36,
+"punct": "",
+"para_end": false
+},
+{
+"w": "necesitas",
+"start": 15.44,
+"end": 16.0,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 16.32,
+"end": 16.4,
+"punct": "",
+"para_end": false
+},
+{
+"w": "vas",
+"start": 16.48,
+"end": 16.56,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 16.64,
+"end": 16.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuidar",
+"start": 16.72,
+"end": 17.04,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 17.12,
+"end": 17.2,
+"punct": "",
+"para_end": false
+},
+{
+"w": "historial",
+"start": 17.36,
+"end": 17.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 17.76,
+"end": 17.92,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Buró",
+"start": 18.0,
+"end": 18.16,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 18.2,
+"end": 18.24,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Crédito.",
+"start": 18.32,
+"end": 19.2,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Y",
+"start": 19.24,
+"end": 19.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "vas",
+"start": 19.36,
+"end": 19.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 19.48,
+"end": 19.52,
+"punct": "",
+"para_end": false
+},
+{
+"w": "saber",
+"start": 19.6,
+"end": 19.84,
+"punct": "",
+"para_end": false
+},
+{
+"w": "exactamente",
+"start": 20.0,
+"end": 20.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 21.04,
+"end": 21.2,
+"punct": "",
+"para_end": false
+},
+{
+"w": "qué",
+"start": 21.36,
+"end": 21.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "nivel",
+"start": 21.52,
+"end": 21.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "estás.",
+"start": 21.84,
+"end": 22.48,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Empecemos.",
+"start": 22.72,
+"end": 23.56,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Abre",
+"start": 23.84,
+"end": 24.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ahorita",
+"start": 24.16,
+"end": 24.56,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 24.6,
+"end": 24.64,
+"punct": "",
+"para_end": false
+},
+{
+"w": "aplicación",
+"start": 24.72,
+"end": 25.2,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 25.24,
+"end": 25.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 25.36,
+"end": 25.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tarjeta",
+"start": 25.52,
+"end": 25.84,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 25.92,
+"end": 25.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "crédito",
+"start": 26.0,
+"end": 26.48,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 26.56,
+"end": 26.72,
+"punct": "",
+"para_end": false
+},
+{
+"w": "entra",
+"start": 26.84,
+"end": 27.04,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 27.12,
+"end": 27.16,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 27.2,
+"end": 27.36,
+"punct": "",
+"para_end": false
+},
+{
+"w": "último",
+"start": 27.4,
+"end": 27.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "estado",
+"start": 27.92,
+"end": 28.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 28.16,
+"end": 28.24,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuenta.",
+"start": 28.32,
+"end": 28.72,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Si",
+"start": 29.12,
+"end": 29.2,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tienes",
+"start": 29.28,
+"end": 29.52,
+"punct": "",
+"para_end": false
+},
+{
+"w": "varias",
+"start": 29.6,
+"end": 29.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tarjetas,",
+"start": 29.84,
+"end": 30.48,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "empieza",
+"start": 30.6,
+"end": 30.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "por",
+"start": 31.04,
+"end": 31.12,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 31.2,
+"end": 31.24,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 31.28,
+"end": 31.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "más",
+"start": 31.52,
+"end": 31.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "usas.",
+"start": 31.76,
+"end": 32.16,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Busca",
+"start": 32.72,
+"end": 33.04,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuatro",
+"start": 33.28,
+"end": 33.6,
+"punct": "",
+"para_end": false
+},
+{
+"w": "datos:",
+"start": 33.68,
+"end": 34.56,
+"punct": ":",
+"para_end": false
+},
+{
+"w": "cuánto",
+"start": 34.6,
+"end": 34.88,
+"punct": "",
+"para_end": false
+},
+{
+"w": "debes,",
+"start": 34.96,
+"end": 35.6,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 35.64,
+"end": 35.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pago",
+"start": 35.76,
+"end": 36.0,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mínimo,",
+"start": 36.08,
+"end": 36.8,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "el",
+"start": 36.88,
+"end": 36.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pago",
+"start": 37.04,
+"end": 37.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "para",
+"start": 37.36,
+"end": 37.52,
+"punct": "",
+"para_end": false
+},
+{
+"w": "no",
+"start": 37.68,
+"end": 37.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "generar",
+"start": 37.84,
+"end": 38.16,
+"punct": "",
+"para_end": false
+},
+{
+"w": "intereses",
+"start": 38.24,
+"end": 38.88,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 39.04,
+"end": 39.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 39.12,
+"end": 39.2,
+"punct": "",
+"para_end": false
+},
+{
+"w": "fecha",
+"start": 39.36,
+"end": 39.6,
+"punct": "",
+"para_end": false
+},
+{
+"w": "límite",
+"start": 39.76,
+"end": 40.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 40.12,
+"end": 40.16,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pago.",
+"start": 40.24,
+"end": 40.64,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "El",
+"start": 41.04,
+"end": 41.12,
+"punct": "",
+"para_end": false
+},
+{
+"w": "primero",
+"start": 41.2,
+"end": 41.52,
+"punct": "",
+"para_end": false
+},
+{
+"w": "lo",
+"start": 41.68,
+"end": 41.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "usas",
+"start": 41.84,
+"end": 42.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ahorita.",
+"start": 42.16,
+"end": 42.96,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "En",
+"start": 43.28,
+"end": 43.36,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Sistema",
+"start": 43.4,
+"end": 43.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "uno",
+"start": 43.84,
+"end": 44.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "hiciste",
+"start": 44.16,
+"end": 44.64,
+"punct": "",
+"para_end": false
+},
+{
+"w": "dos",
+"start": 44.72,
+"end": 44.88,
+"punct": "",
+"para_end": false
+},
+{
+"w": "columnas",
+"start": 44.96,
+"end": 45.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 45.48,
+"end": 45.52,
+"punct": "",
+"para_end": false
+},
+{
+"w": "las",
+"start": 45.6,
+"end": 45.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "notas",
+"start": 45.76,
+"end": 46.0,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 46.04,
+"end": 46.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 46.16,
+"end": 46.2,
+"punct": "",
+"para_end": false
+},
+{
+"w": "teléfono:",
+"start": 46.24,
+"end": 47.04,
+"punct": ":",
+"para_end": false
+},
+{
+"w": "lo",
+"start": 47.08,
+"end": 47.12,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 47.2,
+"end": 47.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "entra",
+"start": 47.36,
+"end": 47.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 47.92,
+"end": 47.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "lo",
+"start": 48.0,
+"end": 48.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 48.12,
+"end": 48.16,
+"punct": "",
+"para_end": false
+},
+{
+"w": "sale.",
+"start": 48.24,
+"end": 48.64,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Hoy",
+"start": 49.12,
+"end": 49.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "agregas",
+"start": 49.52,
+"end": 49.92,
+"punct": "",
+"para_end": false
+},
+{
+"w": "una",
+"start": 50.0,
+"end": 50.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tercera:",
+"start": 50.16,
+"end": 50.96,
+"punct": ":",
+"para_end": false
+},
+{
+"w": "lo",
+"start": 51.04,
+"end": 51.12,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 51.2,
+"end": 51.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "debo.",
+"start": 51.36,
+"end": 51.68,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "¿En",
+"start": 52.24,
+"end": 52.32,
+"punct": "",
+"para_end": false
+},
+{
+"w": "qué",
+"start": 52.4,
+"end": 52.48,
+"punct": "",
+"para_end": false
+},
+{
+"w": "nivel",
+"start": 52.6,
+"end": 52.72,
+"punct": "",
+"para_end": false
+},
+{
+"w": "estás?",
+"start": 52.8,
+"end": 53.52,
+"punct": "?",
+"para_end": false
+},
+{
+"w": "El",
+"start": 53.84,
+"end": 53.92,
+"punct": "",
+"para_end": false
+},
+{
+"w": "nivel",
+"start": 54.0,
+"end": 54.24,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cero",
+"start": 54.32,
+"end": 54.64,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 54.72,
+"end": 54.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "no",
+"start": 55.12,
+"end": 55.2,
+"punct": "",
+"para_end": false
+},
+{
+"w": "deber",
+"start": 55.28,
+"end": 55.6,
+"punct": "",
+"para_end": false
+},
+{
+"w": "nada.",
+"start": 55.68,
+"end": 56.0,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Todo",
+"start": 56.4,
+"end": 56.64,
+"punct": "",
+"para_end": false
+},
+{
+"w": "lo",
+"start": 56.68,
+"end": 56.72,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 56.8,
+"end": 56.84,
+"punct": "",
+"para_end": false
+},
+{
+"w": "está",
+"start": 56.88,
+"end": 57.04,
+"punct": "",
+"para_end": false
+},
+{
+"w": "abajo",
+"start": 57.24,
+"end": 57.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 57.52,
+"end": 57.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "negativo,",
+"start": 57.76,
+"end": 58.56,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "y",
+"start": 58.6,
+"end": 58.64,
+"punct": "",
+"para_end": false
+},
+{
+"w": "medirlo",
+"start": 58.72,
+"end": 59.12,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 59.2,
+"end": 59.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "fácil:",
+"start": 59.36,
+"end": 60.08,
+"punct": ":",
+"para_end": false
+},
+{
+"w": "toma",
+"start": 60.16,
+"end": 60.32,
+"punct": "",
+"para_end": false
+},
+{
+"w": "lo",
+"start": 60.36,
+"end": 60.4,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 60.48,
+"end": 60.52,
+"punct": "",
+"para_end": false
+},
+{
+"w": "debes",
+"start": 60.56,
+"end": 60.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 61.0,
+"end": 61.04,
+"punct": "",
+"para_end": false
+},
+{
+"w": "divídelo",
+"start": 61.12,
+"end": 61.56,
+"punct": "",
+"para_end": false
+},
+{
+"w": "entre",
+"start": 61.6,
+"end": 61.84,
+"punct": "",
+"para_end": false
+},
+{
+"w": "diez.",
+"start": 61.92,
+"end": 62.24,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Esa",
+"start": 62.56,
+"end": 62.72,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cantidad",
+"start": 62.8,
+"end": 63.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 63.44,
+"end": 63.6,
+"punct": "",
+"para_end": false
+},
+{
+"w": "un",
+"start": 63.64,
+"end": 63.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "nivel.",
+"start": 63.76,
+"end": 64.16,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Si",
+"start": 64.64,
+"end": 64.72,
+"punct": "",
+"para_end": false
+},
+{
+"w": "debes",
+"start": 64.8,
+"end": 65.04,
+"punct": "",
+"para_end": false
+},
+{
+"w": "veinte",
+"start": 65.08,
+"end": 65.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mil",
+"start": 65.44,
+"end": 65.52,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pesos,",
+"start": 65.6,
+"end": 66.24,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "cada",
+"start": 66.293,
+"end": 66.4,
+"punct": "",
+"para_end": false
+},
+{
+"w": "nivel",
+"start": 66.48,
+"end": 66.8,
+"punct": "",
+"para_end": false
+},
+{
+"w": "son",
+"start": 66.88,
+"end": 67.12,
+"punct": "",
+"para_end": false
+},
+{
+"w": "dos",
+"start": 67.2,
+"end": 67.36,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mil.",
+"start": 67.44,
+"end": 67.76,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Si",
+"start": 68.16,
+"end": 68.24,
+"punct": "",
+"para_end": false
+},
+{
+"w": "debes",
+"start": 68.32,
+"end": 68.56,
+"punct": "",
+"para_end": false
+},
+{
+"w": "algo,",
+"start": 68.72,
+"end": 69.12,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "hoy",
+"start": 69.16,
+"end": 69.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "estás",
+"start": 69.56,
+"end": 69.92,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 70.0,
+"end": 70.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "menos",
+"start": 70.16,
+"end": 70.4,
+"punct": "",
+"para_end": false
+},
+{
+"w": "diez.",
+"start": 70.48,
+"end": 70.88,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Cada",
+"start": 71.44,
+"end": 71.6,
+"punct": "",
+"para_end": false
+},
+{
+"w": "vez",
+"start": 71.68,
+"end": 71.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 71.84,
+"end": 71.92,
+"punct": "",
+"para_end": false
+},
+{
+"w": "bajas",
+"start": 72.027,
+"end": 72.24,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 72.28,
+"end": 72.32,
+"punct": "",
+"para_end": false
+},
+{
+"w": "deuda",
+"start": 72.4,
+"end": 72.72,
+"punct": "",
+"para_end": false
+},
+{
+"w": "una",
+"start": 72.8,
+"end": 73.04,
+"punct": "",
+"para_end": false
+},
+{
+"w": "décima",
+"start": 73.08,
+"end": 73.36,
+"punct": "",
+"para_end": false
+},
+{
+"w": "parte,",
+"start": 73.44,
+"end": 74.0,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "subes",
+"start": 74.12,
+"end": 74.4,
+"punct": "",
+"para_end": false
+},
+{
+"w": "uno:",
+"start": 74.48,
+"end": 75.12,
+"punct": ":",
+"para_end": false
+},
+{
+"w": "menos",
+"start": 75.2,
+"end": 75.36,
+"punct": "",
+"para_end": false
+},
+{
+"w": "nueve,",
+"start": 75.44,
+"end": 76.0,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "menos",
+"start": 76.08,
+"end": 76.32,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ocho,",
+"start": 76.4,
+"end": 76.88,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "hasta",
+"start": 76.92,
+"end": 77.12,
+"punct": "",
+"para_end": false
+},
+{
+"w": "llegar",
+"start": 77.2,
+"end": 77.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 77.72,
+"end": 77.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cero.",
+"start": 77.92,
+"end": 78.24,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Y",
+"start": 78.8,
+"end": 78.88,
+"punct": "",
+"para_end": false
+},
+{
+"w": "no",
+"start": 78.96,
+"end": 79.12,
+"punct": "",
+"para_end": false
+},
+{
+"w": "eres",
+"start": 79.24,
+"end": 79.36,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 79.4,
+"end": 79.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "único.",
+"start": 79.52,
+"end": 80.24,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Según",
+"start": 80.32,
+"end": 80.48,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 80.52,
+"end": 80.56,
+"punct": "",
+"para_end": false
+},
+{
+"w": "encuesta",
+"start": 80.64,
+"end": 80.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Ensafi",
+"start": 81.08,
+"end": 81.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "del",
+"start": 81.52,
+"end": 81.6,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Inegi",
+"start": 81.68,
+"end": 82.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 82.12,
+"end": 82.16,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 82.24,
+"end": 82.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Condusef,",
+"start": 82.32,
+"end": 83.12,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "el",
+"start": 83.2,
+"end": 83.36,
+"punct": "",
+"para_end": false
+},
+{
+"w": "treinta",
+"start": 83.44,
+"end": 83.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 83.76,
+"end": 83.84,
+"punct": "",
+"para_end": false
+},
+{
+"w": "seis",
+"start": 83.88,
+"end": 84.0,
+"punct": "",
+"para_end": false
+},
+{
+"w": "por",
+"start": 84.16,
+"end": 84.24,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ciento",
+"start": 84.32,
+"end": 84.56,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 84.64,
+"end": 84.72,
+"punct": "",
+"para_end": false
+},
+{
+"w": "los",
+"start": 84.8,
+"end": 84.88,
+"punct": "",
+"para_end": false
+},
+{
+"w": "adultos",
+"start": 85.04,
+"end": 85.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 85.36,
+"end": 85.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "México",
+"start": 85.48,
+"end": 85.84,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tenía",
+"start": 85.92,
+"end": 86.4,
+"punct": "",
+"para_end": false
+},
+{
+"w": "algún",
+"start": 86.56,
+"end": 86.88,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tipo",
+"start": 87.04,
+"end": 87.2,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 87.24,
+"end": 87.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "deuda.",
+"start": 87.36,
+"end": 88.08,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Y",
+"start": 88.12,
+"end": 88.16,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 88.2,
+"end": 88.24,
+"punct": "",
+"para_end": false
+},
+{
+"w": "quienes",
+"start": 88.32,
+"end": 88.56,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tenían",
+"start": 88.64,
+"end": 88.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "deuda,",
+"start": 89.04,
+"end": 89.6,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "más",
+"start": 89.68,
+"end": 89.84,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 89.96,
+"end": 90.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "uno",
+"start": 90.16,
+"end": 90.32,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 90.4,
+"end": 90.48,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cada",
+"start": 90.56,
+"end": 90.72,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuatro",
+"start": 90.8,
+"end": 91.12,
+"punct": "",
+"para_end": false
+},
+{
+"w": "se",
+"start": 91.28,
+"end": 91.36,
+"punct": "",
+"para_end": false
+},
+{
+"w": "atrasó",
+"start": 91.44,
+"end": 91.84,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 91.88,
+"end": 91.92,
+"punct": "",
+"para_end": false
+},
+{
+"w": "algún",
+"start": 92.0,
+"end": 92.24,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pago.",
+"start": 92.32,
+"end": 92.64,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Mira",
+"start": 93.36,
+"end": 93.6,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 93.68,
+"end": 93.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pago",
+"start": 93.84,
+"end": 94.0,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mínimo.",
+"start": 94.08,
+"end": 94.68,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "No",
+"start": 94.88,
+"end": 94.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 95.04,
+"end": 95.12,
+"punct": "",
+"para_end": false
+},
+{
+"w": "una",
+"start": 95.2,
+"end": 95.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cifra",
+"start": 95.36,
+"end": 95.6,
+"punct": "",
+"para_end": false
+},
+{
+"w": "al",
+"start": 95.68,
+"end": 95.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "azar.",
+"start": 95.92,
+"end": 96.16,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Sale",
+"start": 96.4,
+"end": 96.64,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 96.68,
+"end": 96.72,
+"punct": "",
+"para_end": false
+},
+{
+"w": "una",
+"start": 96.8,
+"end": 96.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "regla",
+"start": 97.04,
+"end": 97.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 97.36,
+"end": 97.4,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Banxico.",
+"start": 97.44,
+"end": 98.0,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Tu",
+"start": 98.48,
+"end": 98.56,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pago",
+"start": 98.64,
+"end": 98.8,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mínimo",
+"start": 98.88,
+"end": 99.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 99.36,
+"end": 99.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "lo",
+"start": 99.52,
+"end": 99.56,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 99.6,
+"end": 99.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "salga",
+"start": 99.76,
+"end": 100.0,
+"punct": "",
+"para_end": false
+},
+{
+"w": "más",
+"start": 100.16,
+"end": 100.4,
+"punct": "",
+"para_end": false
+},
+{
+"w": "alto",
+"start": 100.48,
+"end": 100.72,
+"punct": "",
+"para_end": false
+},
+{
+"w": "entre",
+"start": 100.88,
+"end": 101.2,
+"punct": "",
+"para_end": false
+},
+{
+"w": "dos",
+"start": 101.28,
+"end": 101.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuentas.",
+"start": 101.52,
+"end": 102.08,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "La",
+"start": 102.4,
+"end": 102.48,
+"punct": "",
+"para_end": false
+},
+{
+"w": "primera:",
+"start": 102.56,
+"end": 103.28,
+"punct": ":",
+"para_end": false
+},
+{
+"w": "el",
+"start": 103.36,
+"end": 103.52,
+"punct": "",
+"para_end": false
+},
+{
+"w": "uno",
+"start": 103.6,
+"end": 103.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "punto",
+"start": 103.84,
+"end": 104.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cinco",
+"start": 104.24,
+"end": 104.4,
+"punct": "",
+"para_end": false
+},
+{
+"w": "por",
+"start": 104.48,
+"end": 104.64,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ciento",
+"start": 104.72,
+"end": 104.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 105.04,
+"end": 105.12,
+"punct": "",
+"para_end": false
+},
+{
+"w": "lo",
+"start": 105.16,
+"end": 105.2,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 105.28,
+"end": 105.36,
+"punct": "",
+"para_end": false
+},
+{
+"w": "debes,",
+"start": 105.44,
+"end": 105.92,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "más",
+"start": 105.96,
+"end": 106.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "los",
+"start": 106.16,
+"end": 106.24,
+"punct": "",
+"para_end": false
+},
+{
+"w": "intereses",
+"start": 106.32,
+"end": 106.8,
+"punct": "",
+"para_end": false
+},
+{
+"w": "del",
+"start": 106.88,
+"end": 106.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mes",
+"start": 107.04,
+"end": 107.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 107.36,
+"end": 107.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "su",
+"start": 107.52,
+"end": 107.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "iva.",
+"start": 107.8,
+"end": 108.0,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "La",
+"start": 108.56,
+"end": 108.64,
+"punct": "",
+"para_end": false
+},
+{
+"w": "segunda:",
+"start": 108.72,
+"end": 109.44,
+"punct": ":",
+"para_end": false
+},
+{
+"w": "el",
+"start": 109.52,
+"end": 109.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "uno",
+"start": 109.76,
+"end": 109.92,
+"punct": "",
+"para_end": false
+},
+{
+"w": "punto",
+"start": 110.08,
+"end": 110.24,
+"punct": "",
+"para_end": false
+},
+{
+"w": "veinticinco",
+"start": 110.32,
+"end": 110.88,
+"punct": "",
+"para_end": false
+},
+{
+"w": "por",
+"start": 111.04,
+"end": 111.2,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ciento",
+"start": 111.24,
+"end": 111.52,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 111.6,
+"end": 111.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 111.76,
+"end": 111.84,
+"punct": "",
+"para_end": false
+},
+{
+"w": "límite",
+"start": 111.92,
+"end": 112.24,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 112.32,
+"end": 112.36,
+"punct": "",
+"para_end": false
+},
+{
+"w": "crédito.",
+"start": 112.4,
+"end": 113.12,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Eso",
+"start": 113.36,
+"end": 113.6,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 113.76,
+"end": 113.92,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 113.96,
+"end": 114.0,
+"punct": "",
+"para_end": false
+},
+{
+"w": "piso.",
+"start": 114.16,
+"end": 114.56,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Tu",
+"start": 114.88,
+"end": 114.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "banco",
+"start": 115.04,
+"end": 115.36,
+"punct": "",
+"para_end": false
+},
+{
+"w": "puede",
+"start": 115.4,
+"end": 115.6,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pedirte",
+"start": 115.68,
+"end": 116.0,
+"punct": "",
+"para_end": false
+},
+{
+"w": "más,",
+"start": 116.08,
+"end": 116.48,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "pero",
+"start": 116.56,
+"end": 116.72,
+"punct": "",
+"para_end": false
+},
+{
+"w": "nunca",
+"start": 116.88,
+"end": 117.2,
+"punct": "",
+"para_end": false
+},
+{
+"w": "menos.",
+"start": 117.28,
+"end": 117.68,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Esta",
+"start": 118.24,
+"end": 118.4,
+"punct": "",
+"para_end": false
+},
+{
+"w": "regla",
+"start": 118.48,
+"end": 118.72,
+"punct": "",
+"para_end": false
+},
+{
+"w": "existe",
+"start": 118.8,
+"end": 119.12,
+"punct": "",
+"para_end": false
+},
+{
+"w": "para",
+"start": 119.2,
+"end": 119.36,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 119.4,
+"end": 119.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "al",
+"start": 119.52,
+"end": 119.6,
+"punct": "",
+"para_end": false
+},
+{
+"w": "menos",
+"start": 119.68,
+"end": 119.84,
+"punct": "",
+"para_end": false
+},
+{
+"w": "una",
+"start": 120.0,
+"end": 120.24,
+"punct": "",
+"para_end": false
+},
+{
+"w": "parte",
+"start": 120.32,
+"end": 120.56,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 120.64,
+"end": 120.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 120.72,
+"end": 120.88,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pago",
+"start": 120.92,
+"end": 121.2,
+"punct": "",
+"para_end": false
+},
+{
+"w": "baje",
+"start": 121.28,
+"end": 121.6,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 121.64,
+"end": 121.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "deuda.",
+"start": 121.76,
+"end": 122.16,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "La",
+"start": 122.56,
+"end": 122.64,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pregunta",
+"start": 122.72,
+"end": 123.12,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 123.2,
+"end": 123.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "qué",
+"start": 123.6,
+"end": 123.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tan",
+"start": 123.76,
+"end": 123.92,
+"punct": "",
+"para_end": false
+},
+{
+"w": "grande",
+"start": 124.0,
+"end": 124.4,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 124.48,
+"end": 124.56,
+"punct": "",
+"para_end": false
+},
+{
+"w": "esa",
+"start": 124.64,
+"end": 124.72,
+"punct": "",
+"para_end": false
+},
+{
+"w": "parte.",
+"start": 124.8,
+"end": 125.2,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Vamos",
+"start": 125.92,
+"end": 126.16,
+"punct": "",
+"para_end": false
+},
+{
+"w": "con",
+"start": 126.24,
+"end": 126.32,
+"punct": "",
+"para_end": false
+},
+{
+"w": "un",
+"start": 126.4,
+"end": 126.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ejemplo",
+"start": 126.48,
+"end": 126.88,
+"punct": "",
+"para_end": false
+},
+{
+"w": "con",
+"start": 126.96,
+"end": 127.12,
+"punct": "",
+"para_end": false
+},
+{
+"w": "números",
+"start": 127.16,
+"end": 127.52,
+"punct": "",
+"para_end": false
+},
+{
+"w": "redondos.",
+"start": 127.64,
+"end": 128.4,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Debes",
+"start": 128.64,
+"end": 128.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "veinte",
+"start": 129.04,
+"end": 129.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mil",
+"start": 129.36,
+"end": 129.52,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pesos,",
+"start": 129.6,
+"end": 130.24,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 130.32,
+"end": 130.4,
+"punct": "",
+"para_end": false
+},
+{
+"w": "límite",
+"start": 130.48,
+"end": 130.88,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 130.96,
+"end": 131.04,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 131.08,
+"end": 131.12,
+"punct": "",
+"para_end": false
+},
+{
+"w": "treinta",
+"start": 131.2,
+"end": 131.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mil,",
+"start": 131.6,
+"end": 132.08,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 132.16,
+"end": 132.2,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tarjeta",
+"start": 132.24,
+"end": 132.64,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cobra",
+"start": 132.72,
+"end": 133.04,
+"punct": "",
+"para_end": false
+},
+{
+"w": "sesenta",
+"start": 133.12,
+"end": 133.52,
+"punct": "",
+"para_end": false
+},
+{
+"w": "por",
+"start": 133.6,
+"end": 133.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ciento",
+"start": 133.76,
+"end": 134.0,
+"punct": "",
+"para_end": false
+},
+{
+"w": "al",
+"start": 134.08,
+"end": 134.16,
+"punct": "",
+"para_end": false
+},
+{
+"w": "año",
+"start": 134.24,
+"end": 134.56,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 134.6,
+"end": 134.64,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ya",
+"start": 134.8,
+"end": 134.88,
+"punct": "",
+"para_end": false
+},
+{
+"w": "no",
+"start": 134.96,
+"end": 135.04,
+"punct": "",
+"para_end": false
+},
+{
+"w": "haces",
+"start": 135.08,
+"end": 135.36,
+"punct": "",
+"para_end": false
+},
+{
+"w": "compras",
+"start": 135.44,
+"end": 135.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "nuevas.",
+"start": 135.8,
+"end": 136.56,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Es",
+"start": 136.64,
+"end": 136.72,
+"punct": "",
+"para_end": false
+},
+{
+"w": "una",
+"start": 136.8,
+"end": 136.88,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tasa",
+"start": 136.96,
+"end": 137.2,
+"punct": "",
+"para_end": false
+},
+{
+"w": "alta,",
+"start": 137.36,
+"end": 137.68,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "solo",
+"start": 137.72,
+"end": 137.92,
+"punct": "",
+"para_end": false
+},
+{
+"w": "para",
+"start": 138.0,
+"end": 138.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 138.12,
+"end": 138.16,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ejemplo;",
+"start": 138.24,
+"end": 138.88,
+"punct": ";",
+"para_end": false
+},
+{
+"w": "la",
+"start": 138.92,
+"end": 138.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tuya",
+"start": 139.04,
+"end": 139.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "viene",
+"start": 139.36,
+"end": 139.52,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 139.6,
+"end": 139.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "los",
+"start": 139.72,
+"end": 139.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "documentos",
+"start": 140.0,
+"end": 140.32,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 140.36,
+"end": 140.4,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 140.48,
+"end": 140.56,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tarjeta.",
+"start": 140.64,
+"end": 141.6,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Con",
+"start": 141.68,
+"end": 141.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "esos",
+"start": 141.8,
+"end": 142.0,
+"punct": "",
+"para_end": false
+},
+{
+"w": "números,",
+"start": 142.04,
+"end": 142.56,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 142.64,
+"end": 142.72,
+"punct": "",
+"para_end": false
+},
+{
+"w": "primer",
+"start": 142.88,
+"end": 143.04,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mínimo",
+"start": 143.12,
+"end": 143.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "sería",
+"start": 143.52,
+"end": 143.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 143.84,
+"end": 143.92,
+"punct": "",
+"para_end": false
+},
+{
+"w": "unos",
+"start": 144.04,
+"end": 144.16,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mil",
+"start": 144.32,
+"end": 144.48,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuatrocientos",
+"start": 144.56,
+"end": 145.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "sesenta",
+"start": 145.36,
+"end": 145.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pesos.",
+"start": 145.76,
+"end": 146.64,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Pero",
+"start": 146.693,
+"end": 146.8,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 146.84,
+"end": 146.88,
+"punct": "",
+"para_end": false
+},
+{
+"w": "eso,",
+"start": 146.96,
+"end": 147.6,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "mil",
+"start": 147.68,
+"end": 147.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ciento",
+"start": 147.92,
+"end": 148.16,
+"punct": "",
+"para_end": false
+},
+{
+"w": "sesenta",
+"start": 148.24,
+"end": 148.64,
+"punct": "",
+"para_end": false
+},
+{
+"w": "se",
+"start": 148.8,
+"end": 148.88,
+"punct": "",
+"para_end": false
+},
+{
+"w": "van",
+"start": 148.96,
+"end": 149.04,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 149.08,
+"end": 149.12,
+"punct": "",
+"para_end": false
+},
+{
+"w": "intereses",
+"start": 149.2,
+"end": 149.84,
+"punct": "",
+"para_end": false
+},
+{
+"w": "e",
+"start": 149.92,
+"end": 150.0,
+"punct": "",
+"para_end": false
+},
+{
+"w": "iva.",
+"start": 150.08,
+"end": 150.72,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Solo",
+"start": 150.84,
+"end": 150.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "trescientos",
+"start": 151.04,
+"end": 151.6,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pesos",
+"start": 151.76,
+"end": 152.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "bajan",
+"start": 152.16,
+"end": 152.4,
+"punct": "",
+"para_end": false
+},
+{
+"w": "lo",
+"start": 152.48,
+"end": 152.52,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 152.56,
+"end": 152.64,
+"punct": "",
+"para_end": false
+},
+{
+"w": "debes.",
+"start": 152.72,
+"end": 153.12,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Pagas",
+"start": 153.52,
+"end": 153.92,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mil",
+"start": 154.0,
+"end": 154.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuatrocientos",
+"start": 154.16,
+"end": 154.8,
+"punct": "",
+"para_end": false
+},
+{
+"w": "sesenta,",
+"start": 154.88,
+"end": 155.52,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "y",
+"start": 155.56,
+"end": 155.6,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 155.68,
+"end": 155.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "deuda",
+"start": 155.84,
+"end": 156.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "baja",
+"start": 156.24,
+"end": 156.48,
+"punct": "",
+"para_end": false
+},
+{
+"w": "trescientos.",
+"start": 156.56,
+"end": 157.84,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Ahora",
+"start": 157.92,
+"end": 158.16,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ponlo",
+"start": 158.32,
+"end": 158.56,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 158.6,
+"end": 158.64,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 158.72,
+"end": 158.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mapa.",
+"start": 158.8,
+"end": 159.2,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "En",
+"start": 159.6,
+"end": 159.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "este",
+"start": 159.76,
+"end": 159.84,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ejemplo,",
+"start": 159.92,
+"end": 160.48,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "cada",
+"start": 160.52,
+"end": 160.72,
+"punct": "",
+"para_end": false
+},
+{
+"w": "nivel",
+"start": 160.8,
+"end": 161.04,
+"punct": "",
+"para_end": false
+},
+{
+"w": "son",
+"start": 161.12,
+"end": 161.36,
+"punct": "",
+"para_end": false
+},
+{
+"w": "dos",
+"start": 161.44,
+"end": 161.6,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mil",
+"start": 161.68,
+"end": 161.84,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pesos.",
+"start": 161.92,
+"end": 162.4,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Pagando",
+"start": 162.8,
+"end": 163.2,
+"punct": "",
+"para_end": false
+},
+{
+"w": "solo",
+"start": 163.28,
+"end": 163.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 163.52,
+"end": 163.6,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mínimo,",
+"start": 163.68,
+"end": 164.16,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "subir",
+"start": 164.24,
+"end": 164.48,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 164.52,
+"end": 164.56,
+"punct": "",
+"para_end": false
+},
+{
+"w": "menos",
+"start": 164.64,
+"end": 164.88,
+"punct": "",
+"para_end": false
+},
+{
+"w": "diez",
+"start": 164.96,
+"end": 165.2,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 165.36,
+"end": 165.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "menos",
+"start": 165.52,
+"end": 165.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "nueve",
+"start": 165.76,
+"end": 166.0,
+"punct": "",
+"para_end": false
+},
+{
+"w": "te",
+"start": 166.16,
+"end": 166.24,
+"punct": "",
+"para_end": false
+},
+{
+"w": "toma",
+"start": 166.32,
+"end": 166.64,
+"punct": "",
+"para_end": false
+},
+{
+"w": "siete",
+"start": 166.72,
+"end": 167.04,
+"punct": "",
+"para_end": false
+},
+{
+"w": "meses.",
+"start": 167.12,
+"end": 167.68,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Llegar",
+"start": 167.76,
+"end": 168.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 168.107,
+"end": 168.133,
+"punct": "",
+"para_end": false
+},
+{
+"w": "menos",
+"start": 168.16,
+"end": 168.4,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cinco,",
+"start": 168.48,
+"end": 169.2,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "casi",
+"start": 169.24,
+"end": 169.52,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuatro",
+"start": 169.68,
+"end": 170.0,
+"punct": "",
+"para_end": false
+},
+{
+"w": "años.",
+"start": 170.08,
+"end": 170.76,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Y",
+"start": 170.96,
+"end": 171.04,
+"punct": "",
+"para_end": false
+},
+{
+"w": "como",
+"start": 171.12,
+"end": 171.2,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 171.24,
+"end": 171.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mínimo",
+"start": 171.36,
+"end": 171.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "se",
+"start": 171.76,
+"end": 171.84,
+"punct": "",
+"para_end": false
+},
+{
+"w": "hace",
+"start": 171.92,
+"end": 172.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "más",
+"start": 172.16,
+"end": 172.4,
+"punct": "",
+"para_end": false
+},
+{
+"w": "chico",
+"start": 172.48,
+"end": 172.8,
+"punct": "",
+"para_end": false
+},
+{
+"w": "conforme",
+"start": 172.92,
+"end": 173.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "baja",
+"start": 173.32,
+"end": 173.52,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 173.6,
+"end": 173.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "saldo,",
+"start": 173.76,
+"end": 174.4,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "el",
+"start": 174.48,
+"end": 174.56,
+"punct": "",
+"para_end": false
+},
+{
+"w": "final",
+"start": 174.64,
+"end": 174.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "se",
+"start": 175.04,
+"end": 175.12,
+"punct": "",
+"para_end": false
+},
+{
+"w": "alarga",
+"start": 175.2,
+"end": 175.52,
+"punct": "",
+"para_end": false
+},
+{
+"w": "todavía",
+"start": 175.6,
+"end": 176.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "más:",
+"start": 176.16,
+"end": 176.88,
+"punct": ":",
+"para_end": false
+},
+{
+"w": "llegarías",
+"start": 176.92,
+"end": 177.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 177.493,
+"end": 177.547,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cero",
+"start": 177.6,
+"end": 177.84,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 177.92,
+"end": 178.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "casi",
+"start": 178.16,
+"end": 178.4,
+"punct": "",
+"para_end": false
+},
+{
+"w": "diez",
+"start": 178.56,
+"end": 178.88,
+"punct": "",
+"para_end": false
+},
+{
+"w": "años,",
+"start": 178.96,
+"end": 179.68,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "y",
+"start": 179.72,
+"end": 179.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pagarías",
+"start": 179.84,
+"end": 180.32,
+"punct": "",
+"para_end": false
+},
+{
+"w": "alrededor",
+"start": 180.4,
+"end": 180.88,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 180.96,
+"end": 181.04,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ochenta",
+"start": 181.12,
+"end": 181.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 181.52,
+"end": 181.6,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tres",
+"start": 181.68,
+"end": 181.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mil",
+"start": 181.92,
+"end": 182.0,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pesos",
+"start": 182.16,
+"end": 182.48,
+"punct": "",
+"para_end": false
+},
+{
+"w": "por",
+"start": 182.64,
+"end": 182.72,
+"punct": "",
+"para_end": false
+},
+{
+"w": "una",
+"start": 182.8,
+"end": 182.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "deuda",
+"start": 183.04,
+"end": 183.28,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 183.36,
+"end": 183.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "veinte",
+"start": 183.48,
+"end": 183.68,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mil.",
+"start": 183.84,
+"end": 184.32,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Tu",
+"start": 184.56,
+"end": 184.64,
+"punct": "",
+"para_end": false
+},
+{
+"w": "estado",
+"start": 184.8,
+"end": 184.96,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 185.0,
+"end": 185.04,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuenta",
+"start": 185.12,
+"end": 185.52,
+"punct": "",
+"para_end": false
+},
+{
+"w": "trae",
+"start": 185.6,
+"end": 185.84,
+"punct": "",
+"para_end": false
+},
+{
+"w": "un",
+"start": 185.88,
+"end": 185.92,
+"punct": "",
+"para_end": false
+},
+{
+"w": "recuadro",
+"start": 186.0,
+"end": 186.48,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 186.56,
+"end": 186.64,
+"punct": "",
+"para_end": false
+},
+{
+"w": "te",
+"start": 186.68,
+"end": 186.72,
+"punct": "",
+"para_end": false
+},
+{
+"w": "dice",
+"start": 186.8,
+"end": 187.04,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuánto",
+"start": 187.2,
+"end": 187.52,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tardarías",
+"start": 187.6,
+"end": 188.24,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 188.28,
+"end": 188.32,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuánto",
+"start": 188.48,
+"end": 188.8,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pagarías",
+"start": 188.88,
+"end": 189.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "dando",
+"start": 189.48,
+"end": 189.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "solo",
+"start": 189.92,
+"end": 190.16,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 190.2,
+"end": 190.24,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mínimo.",
+"start": 190.32,
+"end": 190.96,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Ese",
+"start": 191.2,
+"end": 191.36,
+"punct": "",
+"para_end": false
+},
+{
+"w": "número",
+"start": 191.44,
+"end": 191.76,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ya",
+"start": 191.92,
+"end": 192.08,
+"punct": "",
+"para_end": false
+},
+{
+"w": "no",
+"start": 192.16,
+"end": 192.24,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 192.28,
+"end": 192.32,
+"punct": "",
+"para_end": false
+},
+{
+"w": "del",
+"start": 192.4,
+"end": 192.48,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ejemplo,",
+"start": 192.56,
+"end": 193.28,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "es",
+"start": 193.36,
+"end": 193.44,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tuyo.",
+"start": 193.52,
+"end": 194.08,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Y",
+"start": 194.759,
+"end": 194.839,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuando",
+"start": 194.879,
+"end": 195.079,
+"punct": "",
+"para_end": false
+},
+{
+"w": "veas",
+"start": 195.119,
+"end": 195.319,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 195.399,
+"end": 195.479,
+"punct": "",
+"para_end": false
+},
+{
+"w": "número,",
+"start": 195.519,
+"end": 196.119,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "no",
+"start": 196.279,
+"end": 196.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "te",
+"start": 196.439,
+"end": 196.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "enojes",
+"start": 196.639,
+"end": 196.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "con",
+"start": 196.999,
+"end": 197.079,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 197.159,
+"end": 197.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "banco",
+"start": 197.319,
+"end": 197.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ni",
+"start": 197.799,
+"end": 197.879,
+"punct": "",
+"para_end": false
+},
+{
+"w": "contigo.",
+"start": 197.959,
+"end": 198.519,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "El",
+"start": 198.919,
+"end": 198.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pago",
+"start": 199.079,
+"end": 199.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mínimo",
+"start": 199.319,
+"end": 199.719,
+"punct": "",
+"para_end": false
+},
+{
+"w": "no",
+"start": 199.879,
+"end": 199.959,
+"punct": "",
+"para_end": false
+},
+{
+"w": "está",
+"start": 200.039,
+"end": 200.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "fallando.",
+"start": 200.279,
+"end": 200.839,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Funciona",
+"start": 201.159,
+"end": 201.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "exactamente",
+"start": 201.719,
+"end": 202.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "como",
+"start": 202.679,
+"end": 202.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "lo",
+"start": 202.839,
+"end": 202.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "diseñaron:",
+"start": 202.999,
+"end": 203.879,
+"punct": ":",
+"para_end": false
+},
+{
+"w": "mantiene",
+"start": 203.959,
+"end": 204.439,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 204.519,
+"end": 204.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tarjeta",
+"start": 204.679,
+"end": 205.079,
+"punct": "",
+"para_end": false
+},
+{
+"w": "al",
+"start": 205.159,
+"end": 205.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "corriente.",
+"start": 205.319,
+"end": 206.159,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Lo",
+"start": 206.439,
+"end": 206.479,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 206.519,
+"end": 206.679,
+"punct": "",
+"para_end": false
+},
+{
+"w": "nunca",
+"start": 206.759,
+"end": 206.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "prometió",
+"start": 207.079,
+"end": 207.559,
+"punct": "",
+"para_end": false
+},
+{
+"w": "fue",
+"start": 207.719,
+"end": 207.879,
+"punct": "",
+"para_end": false
+},
+{
+"w": "sacarte",
+"start": 207.959,
+"end": 208.439,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 208.479,
+"end": 208.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 208.599,
+"end": 208.679,
+"punct": "",
+"para_end": false
+},
+{
+"w": "deuda.",
+"start": 208.719,
+"end": 209.079,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Esa",
+"start": 209.479,
+"end": 209.719,
+"punct": "",
+"para_end": false
+},
+{
+"w": "parte",
+"start": 209.799,
+"end": 210.039,
+"punct": "",
+"para_end": false
+},
+{
+"w": "te",
+"start": 210.119,
+"end": 210.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "toca",
+"start": 210.279,
+"end": 210.439,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 210.479,
+"end": 210.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ti,",
+"start": 210.599,
+"end": 211.079,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "y",
+"start": 211.119,
+"end": 211.159,
+"punct": "",
+"para_end": false
+},
+{
+"w": "hasta",
+"start": 211.199,
+"end": 211.399,
+"punct": "",
+"para_end": false
+},
+{
+"w": "hoy",
+"start": 211.479,
+"end": 211.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "nadie",
+"start": 212.039,
+"end": 212.279,
+"punct": "",
+"para_end": false
+},
+{
+"w": "te",
+"start": 212.359,
+"end": 212.439,
+"punct": "",
+"para_end": false
+},
+{
+"w": "había",
+"start": 212.479,
+"end": 212.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "explicado",
+"start": 212.679,
+"end": 213.079,
+"punct": "",
+"para_end": false
+},
+{
+"w": "las",
+"start": 213.159,
+"end": 213.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "reglas.",
+"start": 213.319,
+"end": 213.799,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "No",
+"start": 214.279,
+"end": 214.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 214.439,
+"end": 214.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "falta",
+"start": 214.639,
+"end": 214.839,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 214.919,
+"end": 214.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "disciplina.",
+"start": 215.079,
+"end": 215.759,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Es",
+"start": 215.959,
+"end": 216.119,
+"punct": "",
+"para_end": false
+},
+{
+"w": "falta",
+"start": 216.199,
+"end": 216.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 216.679,
+"end": 216.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "sistema.",
+"start": 216.839,
+"end": 217.399,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Y",
+"start": 217.799,
+"end": 217.879,
+"punct": "",
+"para_end": false
+},
+{
+"w": "esta",
+"start": 217.959,
+"end": 218.279,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 218.519,
+"end": 218.679,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 218.719,
+"end": 218.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ruta.",
+"start": 218.839,
+"end": 219.479,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Busca",
+"start": 219.799,
+"end": 220.039,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 220.079,
+"end": 220.119,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 220.159,
+"end": 220.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "estado",
+"start": 220.359,
+"end": 220.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 220.559,
+"end": 220.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuenta",
+"start": 220.679,
+"end": 220.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 221.079,
+"end": 221.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pago",
+"start": 221.399,
+"end": 221.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "para",
+"start": 221.719,
+"end": 221.879,
+"punct": "",
+"para_end": false
+},
+{
+"w": "no",
+"start": 222.039,
+"end": 222.119,
+"punct": "",
+"para_end": false
+},
+{
+"w": "generar",
+"start": 222.199,
+"end": 222.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "intereses.",
+"start": 222.639,
+"end": 223.359,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Si",
+"start": 223.559,
+"end": 223.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pagas",
+"start": 223.719,
+"end": 224.039,
+"punct": "",
+"para_end": false
+},
+{
+"w": "esa",
+"start": 224.159,
+"end": 224.279,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cantidad",
+"start": 224.359,
+"end": 224.839,
+"punct": "",
+"para_end": false
+},
+{
+"w": "antes",
+"start": 224.919,
+"end": 225.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 225.279,
+"end": 225.319,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 225.359,
+"end": 225.399,
+"punct": "",
+"para_end": false
+},
+{
+"w": "fecha",
+"start": 225.479,
+"end": 225.719,
+"punct": "",
+"para_end": false
+},
+{
+"w": "límite,",
+"start": 225.799,
+"end": 226.439,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "ese",
+"start": 226.559,
+"end": 226.679,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mes",
+"start": 226.799,
+"end": 226.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "no",
+"start": 227.159,
+"end": 227.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "te",
+"start": 227.319,
+"end": 227.399,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cobran",
+"start": 227.479,
+"end": 227.719,
+"punct": "",
+"para_end": false
+},
+{
+"w": "intereses.",
+"start": 227.799,
+"end": 228.599,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Esa",
+"start": 228.839,
+"end": 228.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cantidad",
+"start": 229.079,
+"end": 229.559,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ya",
+"start": 229.719,
+"end": 229.879,
+"punct": "",
+"para_end": false
+},
+{
+"w": "trae",
+"start": 229.959,
+"end": 230.119,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tus",
+"start": 230.199,
+"end": 230.279,
+"punct": "",
+"para_end": false
+},
+{
+"w": "compras",
+"start": 230.359,
+"end": 230.679,
+"punct": "",
+"para_end": false
+},
+{
+"w": "normales",
+"start": 230.799,
+"end": 231.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 231.319,
+"end": 231.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "las",
+"start": 231.399,
+"end": 231.479,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mensualidades",
+"start": 231.559,
+"end": 232.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 232.239,
+"end": 232.279,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tus",
+"start": 232.359,
+"end": 232.439,
+"punct": "",
+"para_end": false
+},
+{
+"w": "meses",
+"start": 232.519,
+"end": 232.839,
+"punct": "",
+"para_end": false
+},
+{
+"w": "sin",
+"start": 233.079,
+"end": 233.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "intereses.",
+"start": 233.399,
+"end": 234.079,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "El",
+"start": 234.279,
+"end": 234.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pago",
+"start": 234.439,
+"end": 234.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mínimo,",
+"start": 234.679,
+"end": 235.159,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "por",
+"start": 235.199,
+"end": 235.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "sí",
+"start": 235.319,
+"end": 235.439,
+"punct": "",
+"para_end": false
+},
+{
+"w": "solo,",
+"start": 235.479,
+"end": 236.039,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "no:",
+"start": 236.199,
+"end": 236.759,
+"punct": ":",
+"para_end": false
+},
+{
+"w": "esas",
+"start": 236.839,
+"end": 236.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mensualidades",
+"start": 237.079,
+"end": 237.719,
+"punct": "",
+"para_end": false
+},
+{
+"w": "se",
+"start": 237.799,
+"end": 237.879,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pagan",
+"start": 237.959,
+"end": 238.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "aparte.",
+"start": 238.279,
+"end": 238.679,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Si",
+"start": 239.159,
+"end": 239.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cubres",
+"start": 239.319,
+"end": 239.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 239.679,
+"end": 239.719,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mínimo",
+"start": 239.799,
+"end": 240.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 240.279,
+"end": 240.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "nada",
+"start": 240.439,
+"end": 240.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "más,",
+"start": 240.679,
+"end": 241.239,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "Condusef",
+"start": 241.359,
+"end": 241.799,
+"punct": "",
+"para_end": false
+},
+{
+"w": "advierte",
+"start": 241.879,
+"end": 242.279,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 242.399,
+"end": 242.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "esa",
+"start": 242.639,
+"end": 242.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mensualidad",
+"start": 242.839,
+"end": 243.399,
+"punct": "",
+"para_end": false
+},
+{
+"w": "se",
+"start": 243.519,
+"end": 243.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pasa",
+"start": 243.719,
+"end": 243.879,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 243.919,
+"end": 243.959,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 244.039,
+"end": 244.119,
+"punct": "",
+"para_end": false
+},
+{
+"w": "saldo",
+"start": 244.199,
+"end": 244.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 244.639,
+"end": 244.679,
+"punct": "",
+"para_end": false
+},
+{
+"w": "empieza",
+"start": 244.799,
+"end": 245.159,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 245.199,
+"end": 245.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cobrar",
+"start": 245.319,
+"end": 245.559,
+"punct": "",
+"para_end": false
+},
+{
+"w": "intereses.",
+"start": 245.719,
+"end": 246.679,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Esa",
+"start": 246.719,
+"end": 247.079,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 247.159,
+"end": 247.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 247.279,
+"end": 247.319,
+"punct": "",
+"para_end": false
+},
+{
+"w": "meta",
+"start": 247.399,
+"end": 247.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 247.719,
+"end": 247.799,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cada",
+"start": 247.879,
+"end": 248.039,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mes.",
+"start": 248.119,
+"end": 248.839,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Si",
+"start": 248.879,
+"end": 248.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "todavía",
+"start": 248.999,
+"end": 249.319,
+"punct": "",
+"para_end": false
+},
+{
+"w": "no",
+"start": 249.399,
+"end": 249.479,
+"punct": "",
+"para_end": false
+},
+{
+"w": "llegas,",
+"start": 249.519,
+"end": 250.199,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "sigue",
+"start": 250.279,
+"end": 250.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 250.559,
+"end": 250.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ruta.",
+"start": 250.679,
+"end": 251.319,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Paso",
+"start": 251.639,
+"end": 251.879,
+"punct": "",
+"para_end": false
+},
+{
+"w": "uno:",
+"start": 251.959,
+"end": 252.599,
+"punct": ":",
+"para_end": false
+},
+{
+"w": "deja",
+"start": 252.679,
+"end": 252.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 252.999,
+"end": 253.079,
+"punct": "",
+"para_end": false
+},
+{
+"w": "bajar.",
+"start": 253.212,
+"end": 253.799,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Si",
+"start": 254.119,
+"end": 254.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "una",
+"start": 254.279,
+"end": 254.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tarjeta",
+"start": 254.439,
+"end": 254.839,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tiene",
+"start": 254.879,
+"end": 255.079,
+"punct": "",
+"para_end": false
+},
+{
+"w": "deuda,",
+"start": 255.159,
+"end": 255.719,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "quítala",
+"start": 255.759,
+"end": 256.119,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 256.159,
+"end": 256.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "las",
+"start": 256.279,
+"end": 256.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "aplicaciones",
+"start": 256.439,
+"end": 257.079,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 257.159,
+"end": 257.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tiendas",
+"start": 257.319,
+"end": 257.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 257.679,
+"end": 257.719,
+"punct": "",
+"para_end": false
+},
+{
+"w": "línea",
+"start": 257.799,
+"end": 258.039,
+"punct": "",
+"para_end": false
+},
+{
+"w": "donde",
+"start": 258.119,
+"end": 258.279,
+"punct": "",
+"para_end": false
+},
+{
+"w": "está",
+"start": 258.359,
+"end": 258.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "guardada,",
+"start": 258.639,
+"end": 259.239,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "y",
+"start": 259.279,
+"end": 259.319,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 259.359,
+"end": 259.399,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 259.479,
+"end": 259.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cartera",
+"start": 259.559,
+"end": 259.959,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 259.999,
+"end": 260.039,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 260.119,
+"end": 260.159,
+"punct": "",
+"para_end": false
+},
+{
+"w": "celular.",
+"start": 260.199,
+"end": 260.679,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "En",
+"start": 261.079,
+"end": 261.159,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Sistema",
+"start": 261.239,
+"end": 261.559,
+"punct": "",
+"para_end": false
+},
+{
+"w": "uno",
+"start": 261.639,
+"end": 261.879,
+"punct": "",
+"para_end": false
+},
+{
+"w": "borraste",
+"start": 261.959,
+"end": 262.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "las",
+"start": 262.439,
+"end": 262.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "apps",
+"start": 262.599,
+"end": 262.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 262.799,
+"end": 262.839,
+"punct": "",
+"para_end": false
+},
+{
+"w": "impulso;",
+"start": 262.919,
+"end": 263.639,
+"punct": ";",
+"para_end": false
+},
+{
+"w": "hoy",
+"start": 263.719,
+"end": 263.959,
+"punct": "",
+"para_end": false
+},
+{
+"w": "borras",
+"start": 264.199,
+"end": 264.439,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 264.519,
+"end": 264.559,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tarjeta",
+"start": 264.599,
+"end": 264.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 265.079,
+"end": 265.119,
+"punct": "",
+"para_end": false
+},
+{
+"w": "las",
+"start": 265.159,
+"end": 265.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 265.319,
+"end": 265.399,
+"punct": "",
+"para_end": false
+},
+{
+"w": "quedaron.",
+"start": 265.452,
+"end": 266.039,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Para",
+"start": 266.279,
+"end": 266.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "las",
+"start": 266.439,
+"end": 266.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "compras",
+"start": 266.599,
+"end": 266.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "chicas",
+"start": 266.959,
+"end": 267.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "del",
+"start": 267.279,
+"end": 267.319,
+"punct": "",
+"para_end": false
+},
+{
+"w": "día",
+"start": 267.399,
+"end": 267.559,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 267.599,
+"end": 267.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "día,",
+"start": 267.719,
+"end": 268.119,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "usa",
+"start": 268.239,
+"end": 268.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "efectivo,",
+"start": 268.399,
+"end": 269.079,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "como",
+"start": 269.159,
+"end": 269.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ya",
+"start": 269.319,
+"end": 269.399,
+"punct": "",
+"para_end": false
+},
+{
+"w": "empezaste",
+"start": 269.439,
+"end": 269.799,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 269.879,
+"end": 269.959,
+"punct": "",
+"para_end": false
+},
+{
+"w": "hacer.",
+"start": 270.039,
+"end": 270.399,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "No",
+"start": 270.599,
+"end": 270.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "vas",
+"start": 270.839,
+"end": 270.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 270.959,
+"end": 270.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "subir",
+"start": 271.079,
+"end": 271.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 271.319,
+"end": 271.399,
+"punct": "",
+"para_end": false
+},
+{
+"w": "nivel",
+"start": 271.559,
+"end": 271.719,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mientras",
+"start": 271.799,
+"end": 272.119,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 272.199,
+"end": 272.279,
+"punct": "",
+"para_end": false
+},
+{
+"w": "deuda",
+"start": 272.359,
+"end": 272.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "siga",
+"start": 272.759,
+"end": 272.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "creciendo.",
+"start": 272.999,
+"end": 273.959,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Paso",
+"start": 274.359,
+"end": 274.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "dos:",
+"start": 274.679,
+"end": 275.319,
+"punct": ":",
+"para_end": false
+},
+{
+"w": "congela",
+"start": 275.439,
+"end": 275.799,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 275.879,
+"end": 275.959,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pago.",
+"start": 275.999,
+"end": 276.359,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Toma",
+"start": 276.839,
+"end": 276.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 277.079,
+"end": 277.159,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mínimo",
+"start": 277.239,
+"end": 277.559,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 277.599,
+"end": 277.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "este",
+"start": 277.759,
+"end": 277.879,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mes",
+"start": 277.959,
+"end": 278.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 278.279,
+"end": 278.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "paga",
+"start": 278.439,
+"end": 278.679,
+"punct": "",
+"para_end": false
+},
+{
+"w": "siempre",
+"start": 278.839,
+"end": 279.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "esa",
+"start": 279.319,
+"end": 279.399,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cantidad,",
+"start": 279.479,
+"end": 280.119,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "aunque",
+"start": 280.159,
+"end": 280.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "te",
+"start": 280.439,
+"end": 280.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pidan",
+"start": 280.599,
+"end": 280.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "menos.",
+"start": 280.839,
+"end": 281.439,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Si",
+"start": 281.639,
+"end": 281.719,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tienes",
+"start": 281.799,
+"end": 282.039,
+"punct": "",
+"para_end": false
+},
+{
+"w": "meses",
+"start": 282.159,
+"end": 282.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "sin",
+"start": 282.439,
+"end": 282.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "intereses,",
+"start": 282.639,
+"end": 283.399,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "súmale",
+"start": 283.439,
+"end": 283.799,
+"punct": "",
+"para_end": false
+},
+{
+"w": "esas",
+"start": 283.879,
+"end": 284.039,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mensualidades.",
+"start": 284.119,
+"end": 285.079,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Con",
+"start": 285.319,
+"end": 285.399,
+"punct": "",
+"para_end": false
+},
+{
+"w": "una",
+"start": 285.479,
+"end": 285.559,
+"punct": "",
+"para_end": false
+},
+{
+"w": "deuda",
+"start": 285.639,
+"end": 285.879,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 285.919,
+"end": 285.959,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ejemplo",
+"start": 286.039,
+"end": 286.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 286.439,
+"end": 286.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "veinte",
+"start": 286.559,
+"end": 286.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mil",
+"start": 286.839,
+"end": 286.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pesos,",
+"start": 286.999,
+"end": 287.559,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "el",
+"start": 287.639,
+"end": 287.719,
+"punct": "",
+"para_end": false
+},
+{
+"w": "primer",
+"start": 287.879,
+"end": 288.039,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mínimo",
+"start": 288.119,
+"end": 288.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 288.599,
+"end": 288.679,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 288.719,
+"end": 288.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mil",
+"start": 288.919,
+"end": 288.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuatrocientos",
+"start": 289.079,
+"end": 289.719,
+"punct": "",
+"para_end": false
+},
+{
+"w": "sesenta.",
+"start": 289.799,
+"end": 290.599,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Como",
+"start": 290.679,
+"end": 290.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 290.799,
+"end": 290.839,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pago",
+"start": 290.919,
+"end": 291.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ya",
+"start": 291.319,
+"end": 291.479,
+"punct": "",
+"para_end": false
+},
+{
+"w": "no",
+"start": 291.519,
+"end": 291.559,
+"punct": "",
+"para_end": false
+},
+{
+"w": "se",
+"start": 291.639,
+"end": 291.719,
+"punct": "",
+"para_end": false
+},
+{
+"w": "encoge,",
+"start": 291.799,
+"end": 292.359,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "los",
+"start": 292.439,
+"end": 292.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "niveles",
+"start": 292.559,
+"end": 292.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "llegan",
+"start": 292.959,
+"end": 293.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cada",
+"start": 293.399,
+"end": 293.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "vez",
+"start": 293.719,
+"end": 293.799,
+"punct": "",
+"para_end": false
+},
+{
+"w": "más",
+"start": 293.879,
+"end": 293.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "rápido.",
+"start": 294.039,
+"end": 294.519,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Terminas",
+"start": 294.839,
+"end": 295.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 295.279,
+"end": 295.319,
+"punct": "",
+"para_end": false
+},
+{
+"w": "unos",
+"start": 295.439,
+"end": 295.559,
+"punct": "",
+"para_end": false
+},
+{
+"w": "dos",
+"start": 295.639,
+"end": 295.799,
+"punct": "",
+"para_end": false
+},
+{
+"w": "años",
+"start": 295.879,
+"end": 296.119,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 296.159,
+"end": 296.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "medio",
+"start": 296.279,
+"end": 296.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 296.679,
+"end": 296.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pagas",
+"start": 296.839,
+"end": 297.159,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cerca",
+"start": 297.239,
+"end": 297.399,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 297.479,
+"end": 297.559,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuarenta",
+"start": 297.639,
+"end": 297.959,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 297.999,
+"end": 298.039,
+"punct": "",
+"para_end": false
+},
+{
+"w": "un",
+"start": 298.079,
+"end": 298.119,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mil",
+"start": 298.199,
+"end": 298.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pesos.",
+"start": 298.439,
+"end": 299.239,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Solo",
+"start": 299.359,
+"end": 299.479,
+"punct": "",
+"para_end": false
+},
+{
+"w": "con",
+"start": 299.559,
+"end": 299.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 299.679,
+"end": 299.719,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mínimo",
+"start": 299.799,
+"end": 300.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "serían",
+"start": 300.279,
+"end": 300.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "casi",
+"start": 300.639,
+"end": 300.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "diez",
+"start": 300.999,
+"end": 301.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "años",
+"start": 301.319,
+"end": 301.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 301.719,
+"end": 301.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ochenta",
+"start": 301.799,
+"end": 302.119,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 302.159,
+"end": 302.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tres",
+"start": 302.279,
+"end": 302.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mil.",
+"start": 302.519,
+"end": 303.079,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Con",
+"start": 303.119,
+"end": 303.159,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 303.239,
+"end": 303.319,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mismo",
+"start": 303.479,
+"end": 303.719,
+"punct": "",
+"para_end": false
+},
+{
+"w": "dinero",
+"start": 303.799,
+"end": 304.119,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 304.199,
+"end": 304.279,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ya",
+"start": 304.439,
+"end": 304.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pagabas",
+"start": 304.599,
+"end": 305.079,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 305.119,
+"end": 305.159,
+"punct": "",
+"para_end": false
+},
+{
+"w": "primer",
+"start": 305.239,
+"end": 305.479,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mes.",
+"start": 305.559,
+"end": 305.959,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Paso",
+"start": 306.759,
+"end": 306.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tres:",
+"start": 307.079,
+"end": 307.719,
+"punct": ":",
+"para_end": false
+},
+{
+"w": "aumenta",
+"start": 307.759,
+"end": 308.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 308.239,
+"end": 308.279,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pago",
+"start": 308.439,
+"end": 308.679,
+"punct": "",
+"para_end": false
+},
+{
+"w": "con",
+"start": 308.759,
+"end": 308.839,
+"punct": "",
+"para_end": false
+},
+{
+"w": "lo",
+"start": 308.879,
+"end": 308.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 308.959,
+"end": 308.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Sistema",
+"start": 309.079,
+"end": 309.479,
+"punct": "",
+"para_end": false
+},
+{
+"w": "uno.",
+"start": 309.559,
+"end": 310.079,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Regresa",
+"start": 310.359,
+"end": 310.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 310.799,
+"end": 310.839,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tus",
+"start": 310.879,
+"end": 310.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "dos",
+"start": 311.079,
+"end": 311.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "columnas",
+"start": 311.319,
+"end": 311.799,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 311.879,
+"end": 311.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "marca",
+"start": 311.959,
+"end": 312.279,
+"punct": "",
+"para_end": false
+},
+{
+"w": "dónde",
+"start": 312.439,
+"end": 312.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "puedes",
+"start": 312.839,
+"end": 313.079,
+"punct": "",
+"para_end": false
+},
+{
+"w": "recortar.",
+"start": 313.159,
+"end": 313.839,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Lo",
+"start": 314.039,
+"end": 314.119,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 314.159,
+"end": 314.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "dejas",
+"start": 314.279,
+"end": 314.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 314.559,
+"end": 314.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "gastar",
+"start": 314.639,
+"end": 314.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 314.959,
+"end": 314.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "comida",
+"start": 315.079,
+"end": 315.319,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 315.399,
+"end": 315.426,
+"punct": "",
+"para_end": false
+},
+{
+"w": "domicilio,",
+"start": 315.452,
+"end": 316.199,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "en",
+"start": 316.239,
+"end": 316.279,
+"punct": "",
+"para_end": false
+},
+{
+"w": "suscripciones",
+"start": 316.399,
+"end": 317.079,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 317.159,
+"end": 317.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 317.239,
+"end": 317.319,
+"punct": "",
+"para_end": false
+},
+{
+"w": "compras",
+"start": 317.399,
+"end": 317.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 317.719,
+"end": 317.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "impulso",
+"start": 317.799,
+"end": 318.279,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ya",
+"start": 318.519,
+"end": 318.679,
+"punct": "",
+"para_end": false
+},
+{
+"w": "no",
+"start": 318.719,
+"end": 318.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "se",
+"start": 318.839,
+"end": 318.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "va:",
+"start": 318.999,
+"end": 319.479,
+"punct": ":",
+"para_end": false
+},
+{
+"w": "ahora",
+"start": 319.559,
+"end": 319.879,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tiene",
+"start": 320.039,
+"end": 320.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "trabajo.",
+"start": 320.279,
+"end": 320.999,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Si",
+"start": 321.239,
+"end": 321.319,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 321.359,
+"end": 321.399,
+"punct": "",
+"para_end": false
+},
+{
+"w": "esos",
+"start": 321.479,
+"end": 321.719,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mil",
+"start": 321.799,
+"end": 321.879,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuatrocientos",
+"start": 321.959,
+"end": 322.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "sesenta",
+"start": 322.679,
+"end": 322.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "les",
+"start": 323.079,
+"end": 323.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "sumas",
+"start": 323.319,
+"end": 323.559,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mil",
+"start": 323.719,
+"end": 323.799,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuarenta",
+"start": 323.959,
+"end": 324.279,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pesos",
+"start": 324.359,
+"end": 324.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 324.639,
+"end": 324.679,
+"punct": "",
+"para_end": false
+},
+{
+"w": "recortaste,",
+"start": 324.759,
+"end": 325.559,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "y",
+"start": 325.599,
+"end": 325.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pagas",
+"start": 325.719,
+"end": 326.039,
+"punct": "",
+"para_end": false
+},
+{
+"w": "dos",
+"start": 326.119,
+"end": 326.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mil",
+"start": 326.359,
+"end": 326.439,
+"punct": "",
+"para_end": false
+},
+{
+"w": "quinientos",
+"start": 326.519,
+"end": 326.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "al",
+"start": 326.999,
+"end": 327.079,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mes,",
+"start": 327.159,
+"end": 327.639,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "subes",
+"start": 327.719,
+"end": 328.039,
+"punct": "",
+"para_end": false
+},
+{
+"w": "casi",
+"start": 328.079,
+"end": 328.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "un",
+"start": 328.399,
+"end": 328.439,
+"punct": "",
+"para_end": false
+},
+{
+"w": "nivel",
+"start": 328.519,
+"end": 328.839,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cada",
+"start": 328.999,
+"end": 329.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mes.",
+"start": 329.319,
+"end": 329.639,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Terminas",
+"start": 329.959,
+"end": 330.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 330.399,
+"end": 330.439,
+"punct": "",
+"para_end": false
+},
+{
+"w": "un",
+"start": 330.519,
+"end": 330.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "año",
+"start": 330.679,
+"end": 330.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 330.999,
+"end": 331.079,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pagas",
+"start": 331.159,
+"end": 331.479,
+"punct": "",
+"para_end": false
+},
+{
+"w": "unos",
+"start": 331.559,
+"end": 331.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "veintisiete",
+"start": 331.719,
+"end": 332.279,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mil",
+"start": 332.439,
+"end": 332.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "setecientos.",
+"start": 332.599,
+"end": 333.639,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Son",
+"start": 333.719,
+"end": 333.799,
+"punct": "",
+"para_end": false
+},
+{
+"w": "más",
+"start": 333.879,
+"end": 333.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 334.039,
+"end": 334.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cincuenta",
+"start": 334.239,
+"end": 334.679,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 334.719,
+"end": 334.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cinco",
+"start": 334.839,
+"end": 334.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mil",
+"start": 335.239,
+"end": 335.319,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pesos",
+"start": 335.479,
+"end": 335.719,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 335.759,
+"end": 335.799,
+"punct": "",
+"para_end": false
+},
+{
+"w": "diferencia",
+"start": 335.879,
+"end": 336.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "contra",
+"start": 336.439,
+"end": 336.679,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 336.719,
+"end": 336.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mínimo.",
+"start": 336.839,
+"end": 337.679,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Paso",
+"start": 338.119,
+"end": 338.279,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuatro.",
+"start": 338.439,
+"end": 338.839,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Si",
+"start": 339.159,
+"end": 339.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tienes",
+"start": 339.319,
+"end": 339.559,
+"punct": "",
+"para_end": false
+},
+{
+"w": "varias",
+"start": 339.639,
+"end": 339.959,
+"punct": "",
+"para_end": false
+},
+{
+"w": "deudas,",
+"start": 340.039,
+"end": 340.599,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "pon",
+"start": 340.679,
+"end": 340.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cada",
+"start": 340.919,
+"end": 341.159,
+"punct": "",
+"para_end": false
+},
+{
+"w": "una",
+"start": 341.239,
+"end": 341.399,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 341.479,
+"end": 341.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "un",
+"start": 341.679,
+"end": 341.719,
+"punct": "",
+"para_end": false
+},
+{
+"w": "renglón",
+"start": 341.799,
+"end": 342.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 342.239,
+"end": 342.279,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 342.359,
+"end": 342.439,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tercera",
+"start": 342.519,
+"end": 342.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "columna.",
+"start": 342.839,
+"end": 343.319,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Tarjetas,",
+"start": 343.639,
+"end": 344.439,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "préstamos,",
+"start": 344.479,
+"end": 345.159,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "abonos",
+"start": 345.239,
+"end": 345.479,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 345.559,
+"end": 345.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tiendas",
+"start": 345.719,
+"end": 346.119,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 346.279,
+"end": 346.319,
+"punct": "",
+"para_end": false
+},
+{
+"w": "lo",
+"start": 346.359,
+"end": 346.439,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 346.479,
+"end": 346.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "le",
+"start": 346.599,
+"end": 346.679,
+"punct": "",
+"para_end": false
+},
+{
+"w": "debes",
+"start": 346.719,
+"end": 346.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 346.959,
+"end": 346.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 347.079,
+"end": 347.159,
+"punct": "",
+"para_end": false
+},
+{
+"w": "familia.",
+"start": 347.266,
+"end": 347.639,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "En",
+"start": 347.959,
+"end": 348.119,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cada",
+"start": 348.199,
+"end": 348.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "renglón,",
+"start": 348.439,
+"end": 349.159,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "cuánto",
+"start": 349.199,
+"end": 349.479,
+"punct": "",
+"para_end": false
+},
+{
+"w": "debes,",
+"start": 349.559,
+"end": 350.119,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "la",
+"start": 350.159,
+"end": 350.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tasa,",
+"start": 350.359,
+"end": 350.919,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "el",
+"start": 350.959,
+"end": 350.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mínimo",
+"start": 351.159,
+"end": 351.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 351.679,
+"end": 351.719,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 351.759,
+"end": 351.799,
+"punct": "",
+"para_end": false
+},
+{
+"w": "fecha",
+"start": 351.959,
+"end": 352.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "límite.",
+"start": 352.279,
+"end": 352.839,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "No",
+"start": 352.919,
+"end": 353.079,
+"punct": "",
+"para_end": false
+},
+{
+"w": "le",
+"start": 353.159,
+"end": 353.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pagues",
+"start": 353.346,
+"end": 353.559,
+"punct": "",
+"para_end": false
+},
+{
+"w": "un",
+"start": 353.639,
+"end": 353.719,
+"punct": "",
+"para_end": false
+},
+{
+"w": "poquito",
+"start": 353.799,
+"end": 354.279,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 354.319,
+"end": 354.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cada",
+"start": 354.399,
+"end": 354.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "una.",
+"start": 354.679,
+"end": 355.319,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "A",
+"start": 355.359,
+"end": 355.399,
+"punct": "",
+"para_end": false
+},
+{
+"w": "todas",
+"start": 355.559,
+"end": 355.879,
+"punct": "",
+"para_end": false
+},
+{
+"w": "les",
+"start": 355.959,
+"end": 356.119,
+"punct": "",
+"para_end": false
+},
+{
+"w": "das",
+"start": 356.239,
+"end": 356.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 356.399,
+"end": 356.439,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mínimo,",
+"start": 356.599,
+"end": 357.239,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "menos",
+"start": 357.319,
+"end": 357.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 357.799,
+"end": 357.879,
+"punct": "",
+"para_end": false
+},
+{
+"w": "una.",
+"start": 357.959,
+"end": 358.599,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "A",
+"start": 358.639,
+"end": 358.679,
+"punct": "",
+"para_end": false
+},
+{
+"w": "esa",
+"start": 358.759,
+"end": 359.079,
+"punct": "",
+"para_end": false
+},
+{
+"w": "le",
+"start": 359.159,
+"end": 359.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mandas",
+"start": 359.319,
+"end": 359.799,
+"punct": "",
+"para_end": false
+},
+{
+"w": "todo",
+"start": 359.879,
+"end": 360.119,
+"punct": "",
+"para_end": false
+},
+{
+"w": "lo",
+"start": 360.159,
+"end": 360.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "extra.",
+"start": 360.279,
+"end": 361.079,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "¿A",
+"start": 361.106,
+"end": 361.159,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuál?",
+"start": 361.239,
+"end": 361.879,
+"punct": "?",
+"para_end": false
+},
+{
+"w": "Si",
+"start": 362.199,
+"end": 362.279,
+"punct": "",
+"para_end": false
+},
+{
+"w": "solo",
+"start": 362.359,
+"end": 362.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ves",
+"start": 362.599,
+"end": 362.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "los",
+"start": 362.839,
+"end": 362.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "números,",
+"start": 362.999,
+"end": 363.639,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "gana",
+"start": 363.679,
+"end": 363.879,
+"punct": "",
+"para_end": false
+},
+{
+"w": "atacar",
+"start": 363.999,
+"end": 364.279,
+"punct": "",
+"para_end": false
+},
+{
+"w": "primero",
+"start": 364.359,
+"end": 364.679,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 364.759,
+"end": 364.839,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 364.879,
+"end": 364.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tasa",
+"start": 364.999,
+"end": 365.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "más",
+"start": 365.399,
+"end": 365.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "alta,",
+"start": 365.799,
+"end": 366.199,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "porque",
+"start": 366.279,
+"end": 366.439,
+"punct": "",
+"para_end": false
+},
+{
+"w": "te",
+"start": 366.519,
+"end": 366.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cobra",
+"start": 366.759,
+"end": 366.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "menos",
+"start": 366.999,
+"end": 367.159,
+"punct": "",
+"para_end": false
+},
+{
+"w": "intereses.",
+"start": 367.239,
+"end": 368.279,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Así",
+"start": 368.359,
+"end": 368.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "lo",
+"start": 368.559,
+"end": 368.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "explica",
+"start": 368.719,
+"end": 368.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 369.079,
+"end": 369.159,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Reserva",
+"start": 369.239,
+"end": 369.559,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Federal",
+"start": 369.639,
+"end": 370.039,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 370.079,
+"end": 370.119,
+"punct": "",
+"para_end": false
+},
+{
+"w": "San",
+"start": 370.199,
+"end": 370.359,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Luis,",
+"start": 370.439,
+"end": 370.759,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "en",
+"start": 370.799,
+"end": 370.839,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Estados",
+"start": 370.919,
+"end": 371.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Unidos.",
+"start": 371.319,
+"end": 372.199,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Pero",
+"start": 372.306,
+"end": 372.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "investigadores",
+"start": 372.679,
+"end": 373.319,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 373.359,
+"end": 373.399,
+"punct": "",
+"para_end": false
+},
+{
+"w": "varias",
+"start": 373.559,
+"end": 373.799,
+"punct": "",
+"para_end": false
+},
+{
+"w": "universidades",
+"start": 373.879,
+"end": 374.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "encontraron",
+"start": 374.879,
+"end": 375.479,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 375.519,
+"end": 375.559,
+"punct": "",
+"para_end": false
+},
+{
+"w": "quien",
+"start": 375.639,
+"end": 375.879,
+"punct": "",
+"para_end": false
+},
+{
+"w": "concentra",
+"start": 375.959,
+"end": 376.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "su",
+"start": 376.559,
+"end": 376.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "dinero",
+"start": 376.679,
+"end": 377.079,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 377.199,
+"end": 377.319,
+"punct": "",
+"para_end": false
+},
+{
+"w": "una",
+"start": 377.399,
+"end": 377.559,
+"punct": "",
+"para_end": false
+},
+{
+"w": "sola",
+"start": 377.639,
+"end": 377.879,
+"punct": "",
+"para_end": false
+},
+{
+"w": "deuda",
+"start": 377.959,
+"end": 378.439,
+"punct": "",
+"para_end": false
+},
+{
+"w": "se",
+"start": 378.479,
+"end": 378.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "motiva",
+"start": 378.599,
+"end": 379.079,
+"punct": "",
+"para_end": false
+},
+{
+"w": "más",
+"start": 379.119,
+"end": 379.479,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 379.559,
+"end": 379.639,
+"punct": "",
+"para_end": false
+},
+{
+"w": "paga",
+"start": 379.746,
+"end": 379.959,
+"punct": "",
+"para_end": false
+},
+{
+"w": "más",
+"start": 380.039,
+"end": 380.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "rápido,",
+"start": 380.279,
+"end": 381.079,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "sobre",
+"start": 381.119,
+"end": 381.399,
+"punct": "",
+"para_end": false
+},
+{
+"w": "todo",
+"start": 381.559,
+"end": 381.719,
+"punct": "",
+"para_end": false
+},
+{
+"w": "si",
+"start": 381.799,
+"end": 381.879,
+"punct": "",
+"para_end": false
+},
+{
+"w": "esa",
+"start": 381.959,
+"end": 382.119,
+"punct": "",
+"para_end": false
+},
+{
+"w": "deuda",
+"start": 382.199,
+"end": 382.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 382.599,
+"end": 382.679,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 382.719,
+"end": 382.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "más",
+"start": 382.839,
+"end": 382.919,
+"punct": "",
+"para_end": false
+},
+{
+"w": "chica,",
+"start": 382.999,
+"end": 383.559,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "porque",
+"start": 383.639,
+"end": 383.879,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ves",
+"start": 383.999,
+"end": 384.119,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 384.159,
+"end": 384.199,
+"punct": "",
+"para_end": false
+},
+{
+"w": "se",
+"start": 384.279,
+"end": 384.319,
+"punct": "",
+"para_end": false
+},
+{
+"w": "acaba.",
+"start": 384.359,
+"end": 385.239,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Entonces:",
+"start": 385.359,
+"end": 386.119,
+"punct": ":",
+"para_end": false
+},
+{
+"w": "si",
+"start": 386.199,
+"end": 386.279,
+"punct": "",
+"para_end": false
+},
+{
+"w": "las",
+"start": 386.359,
+"end": 386.439,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tasas",
+"start": 386.519,
+"end": 386.839,
+"punct": "",
+"para_end": false
+},
+{
+"w": "son",
+"start": 386.959,
+"end": 387.079,
+"punct": "",
+"para_end": false
+},
+{
+"w": "muy",
+"start": 387.159,
+"end": 387.239,
+"punct": "",
+"para_end": false
+},
+{
+"w": "distintas,",
+"start": 387.319,
+"end": 388.119,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "ataca",
+"start": 388.279,
+"end": 388.599,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 388.679,
+"end": 388.759,
+"punct": "",
+"para_end": false
+},
+{
+"w": "más",
+"start": 388.839,
+"end": 388.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cara.",
+"start": 389.079,
+"end": 389.719,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Si",
+"start": 389.759,
+"end": 389.799,
+"punct": "",
+"para_end": false
+},
+{
+"w": "se",
+"start": 389.879,
+"end": 389.959,
+"punct": "",
+"para_end": false
+},
+{
+"w": "parecen,",
+"start": 390.039,
+"end": 390.679,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "la",
+"start": 390.759,
+"end": 390.839,
+"punct": "",
+"para_end": false
+},
+{
+"w": "más",
+"start": 390.879,
+"end": 390.999,
+"punct": "",
+"para_end": false
+},
+{
+"w": "chica.",
+"start": 391.079,
+"end": 391.799,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Cuando",
+"start": 391.839,
+"end": 392.039,
+"punct": "",
+"para_end": false
+},
+{
+"w": "terminas",
+"start": 392.199,
+"end": 392.519,
+"punct": "",
+"para_end": false
+},
+{
+"w": "una,",
+"start": 392.639,
+"end": 392.999,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "su",
+"start": 393.039,
+"end": 393.079,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pago",
+"start": 393.239,
+"end": 393.559,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pasa",
+"start": 393.639,
+"end": 393.879,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 393.919,
+"end": 393.959,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 393.999,
+"end": 394.039,
+"punct": "",
+"para_end": false
+},
+{
+"w": "siguiente.",
+"start": 394.119,
+"end": 394.839,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Paso",
+"start": 395.527,
+"end": 395.767,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cinco:",
+"start": 395.927,
+"end": 396.727,
+"punct": ":",
+"para_end": false
+},
+{
+"w": "cuida",
+"start": 396.767,
+"end": 397.127,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 397.207,
+"end": 397.287,
+"punct": "",
+"para_end": false
+},
+{
+"w": "historial.",
+"start": 397.447,
+"end": 397.927,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Si",
+"start": 398.407,
+"end": 398.487,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tienes",
+"start": 398.567,
+"end": 398.967,
+"punct": "",
+"para_end": false
+},
+{
+"w": "o",
+"start": 399.127,
+"end": 399.207,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tuviste",
+"start": 399.367,
+"end": 399.847,
+"punct": "",
+"para_end": false
+},
+{
+"w": "una",
+"start": 399.927,
+"end": 400.007,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tarjeta,",
+"start": 400.087,
+"end": 400.887,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "un",
+"start": 400.967,
+"end": 401.047,
+"punct": "",
+"para_end": false
+},
+{
+"w": "préstamo",
+"start": 401.127,
+"end": 401.687,
+"punct": "",
+"para_end": false
+},
+{
+"w": "o",
+"start": 401.847,
+"end": 402.007,
+"punct": "",
+"para_end": false
+},
+{
+"w": "incluso",
+"start": 402.127,
+"end": 402.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "un",
+"start": 402.647,
+"end": 402.727,
+"punct": "",
+"para_end": false
+},
+{
+"w": "plan",
+"start": 402.807,
+"end": 402.967,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 403.047,
+"end": 403.127,
+"punct": "",
+"para_end": false
+},
+{
+"w": "celular,",
+"start": 403.207,
+"end": 404.007,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "ya",
+"start": 404.087,
+"end": 404.247,
+"punct": "",
+"para_end": false
+},
+{
+"w": "estás",
+"start": 404.367,
+"end": 404.647,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 404.687,
+"end": 404.727,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Buró",
+"start": 404.807,
+"end": 404.967,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 405.007,
+"end": 405.047,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Crédito.",
+"start": 405.127,
+"end": 405.847,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "No",
+"start": 406.087,
+"end": 406.247,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 406.327,
+"end": 406.407,
+"punct": "",
+"para_end": false
+},
+{
+"w": "una",
+"start": 406.487,
+"end": 406.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "lista",
+"start": 406.687,
+"end": 406.807,
+"punct": "",
+"para_end": false
+},
+{
+"w": "negra;",
+"start": 406.887,
+"end": 407.527,
+"punct": ";",
+"para_end": false
+},
+{
+"w": "es",
+"start": 407.607,
+"end": 407.687,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 407.727,
+"end": 407.767,
+"punct": "",
+"para_end": false
+},
+{
+"w": "historial,",
+"start": 407.887,
+"end": 408.567,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "y",
+"start": 408.647,
+"end": 408.727,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ahí",
+"start": 408.807,
+"end": 408.967,
+"punct": "",
+"para_end": false
+},
+{
+"w": "aparece",
+"start": 409.047,
+"end": 409.447,
+"punct": "",
+"para_end": false
+},
+{
+"w": "lo",
+"start": 409.527,
+"end": 409.607,
+"punct": "",
+"para_end": false
+},
+{
+"w": "bueno",
+"start": 409.687,
+"end": 410.007,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 410.167,
+"end": 410.207,
+"punct": "",
+"para_end": false
+},
+{
+"w": "lo",
+"start": 410.247,
+"end": 410.327,
+"punct": "",
+"para_end": false
+},
+{
+"w": "malo.",
+"start": 410.407,
+"end": 410.727,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Cada",
+"start": 411.207,
+"end": 411.367,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mes",
+"start": 411.447,
+"end": 411.687,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 411.767,
+"end": 411.847,
+"punct": "",
+"para_end": false
+},
+{
+"w": "banco",
+"start": 411.927,
+"end": 412.167,
+"punct": "",
+"para_end": false
+},
+{
+"w": "le",
+"start": 412.247,
+"end": 412.327,
+"punct": "",
+"para_end": false
+},
+{
+"w": "dice",
+"start": 412.447,
+"end": 412.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "al",
+"start": 412.607,
+"end": 412.647,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Buró",
+"start": 412.727,
+"end": 412.967,
+"punct": "",
+"para_end": false
+},
+{
+"w": "si",
+"start": 413.047,
+"end": 413.127,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pagaste",
+"start": 413.207,
+"end": 413.527,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 413.567,
+"end": 413.607,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tiempo",
+"start": 413.687,
+"end": 414.087,
+"punct": "",
+"para_end": false
+},
+{
+"w": "o",
+"start": 414.247,
+"end": 414.327,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tarde.",
+"start": 414.407,
+"end": 414.807,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Si",
+"start": 415.207,
+"end": 415.287,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cubres",
+"start": 415.367,
+"end": 415.687,
+"punct": "",
+"para_end": false
+},
+{
+"w": "por",
+"start": 415.767,
+"end": 415.847,
+"punct": "",
+"para_end": false
+},
+{
+"w": "lo",
+"start": 415.927,
+"end": 416.007,
+"punct": "",
+"para_end": false
+},
+{
+"w": "menos",
+"start": 416.087,
+"end": 416.247,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 416.327,
+"end": 416.407,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mínimo",
+"start": 416.567,
+"end": 416.967,
+"punct": "",
+"para_end": false
+},
+{
+"w": "antes",
+"start": 417.047,
+"end": 417.367,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 417.447,
+"end": 417.487,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 417.527,
+"end": 417.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "fecha",
+"start": 417.607,
+"end": 417.847,
+"punct": "",
+"para_end": false
+},
+{
+"w": "límite,",
+"start": 417.927,
+"end": 418.487,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 418.527,
+"end": 418.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tarjeta",
+"start": 418.647,
+"end": 419.047,
+"punct": "",
+"para_end": false
+},
+{
+"w": "queda",
+"start": 419.127,
+"end": 419.287,
+"punct": "",
+"para_end": false
+},
+{
+"w": "al",
+"start": 419.327,
+"end": 419.367,
+"punct": "",
+"para_end": false
+},
+{
+"w": "corriente.",
+"start": 419.447,
+"end": 420.127,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Si",
+"start": 420.327,
+"end": 420.407,
+"punct": "",
+"para_end": false
+},
+{
+"w": "te",
+"start": 420.487,
+"end": 420.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "atrasas,",
+"start": 420.647,
+"end": 421.287,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "aunque",
+"start": 421.327,
+"end": 421.527,
+"punct": "",
+"para_end": false
+},
+{
+"w": "sean",
+"start": 421.607,
+"end": 421.767,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pocos",
+"start": 421.927,
+"end": 422.247,
+"punct": "",
+"para_end": false
+},
+{
+"w": "días,",
+"start": 422.287,
+"end": 422.807,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "puede",
+"start": 422.847,
+"end": 423.047,
+"punct": "",
+"para_end": false
+},
+{
+"w": "quedar",
+"start": 423.127,
+"end": 423.367,
+"punct": "",
+"para_end": false
+},
+{
+"w": "marcado.",
+"start": 423.447,
+"end": 423.927,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Y",
+"start": 424.327,
+"end": 424.407,
+"punct": "",
+"para_end": false
+},
+{
+"w": "un",
+"start": 424.447,
+"end": 424.487,
+"punct": "",
+"para_end": false
+},
+{
+"w": "atraso",
+"start": 424.567,
+"end": 425.127,
+"punct": "",
+"para_end": false
+},
+{
+"w": "no",
+"start": 425.207,
+"end": 425.287,
+"punct": "",
+"para_end": false
+},
+{
+"w": "desaparece",
+"start": 425.367,
+"end": 425.927,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuando",
+"start": 426.007,
+"end": 426.247,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pagas.",
+"start": 426.327,
+"end": 426.967,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Cuánto",
+"start": 427.207,
+"end": 427.487,
+"punct": "",
+"para_end": false
+},
+{
+"w": "dura",
+"start": 427.527,
+"end": 427.767,
+"punct": "",
+"para_end": false
+},
+{
+"w": "depende",
+"start": 427.927,
+"end": 428.287,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 428.327,
+"end": 428.407,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuánto",
+"start": 428.487,
+"end": 428.847,
+"punct": "",
+"para_end": false
+},
+{
+"w": "debías.",
+"start": 428.887,
+"end": 429.447,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Hasta",
+"start": 429.767,
+"end": 430.007,
+"punct": "",
+"para_end": false
+},
+{
+"w": "unos",
+"start": 430.087,
+"end": 430.327,
+"punct": "",
+"para_end": false
+},
+{
+"w": "doscientos",
+"start": 430.407,
+"end": 430.887,
+"punct": "",
+"para_end": false
+},
+{
+"w": "veinte",
+"start": 430.967,
+"end": 431.127,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pesos,",
+"start": 431.207,
+"end": 431.847,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "un",
+"start": 431.887,
+"end": 431.927,
+"punct": "",
+"para_end": false
+},
+{
+"w": "año.",
+"start": 432.007,
+"end": 432.527,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Hasta",
+"start": 432.727,
+"end": 432.967,
+"punct": "",
+"para_end": false
+},
+{
+"w": "unos",
+"start": 433.047,
+"end": 433.207,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuatro",
+"start": 433.287,
+"end": 433.527,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mil",
+"start": 433.607,
+"end": 433.687,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cuatrocientos,",
+"start": 433.767,
+"end": 434.807,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "dos",
+"start": 434.887,
+"end": 434.967,
+"punct": "",
+"para_end": false
+},
+{
+"w": "años.",
+"start": 435.047,
+"end": 435.767,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Hasta",
+"start": 435.847,
+"end": 436.007,
+"punct": "",
+"para_end": false
+},
+{
+"w": "unos",
+"start": 436.087,
+"end": 436.327,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ocho",
+"start": 436.407,
+"end": 436.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mil",
+"start": 436.727,
+"end": 436.807,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ochocientos,",
+"start": 436.887,
+"end": 437.847,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "cuatro",
+"start": 437.887,
+"end": 438.167,
+"punct": "",
+"para_end": false
+},
+{
+"w": "años.",
+"start": 438.247,
+"end": 439.047,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Más",
+"start": 439.127,
+"end": 439.287,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 439.367,
+"end": 439.447,
+"punct": "",
+"para_end": false
+},
+{
+"w": "eso,",
+"start": 439.607,
+"end": 439.927,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "hasta",
+"start": 440.007,
+"end": 440.327,
+"punct": "",
+"para_end": false
+},
+{
+"w": "seis",
+"start": 440.487,
+"end": 440.807,
+"punct": "",
+"para_end": false
+},
+{
+"w": "años,",
+"start": 440.967,
+"end": 441.527,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "contados",
+"start": 441.687,
+"end": 442.087,
+"punct": "",
+"para_end": false
+},
+{
+"w": "desde",
+"start": 442.167,
+"end": 442.367,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 442.407,
+"end": 442.487,
+"punct": "",
+"para_end": false
+},
+{
+"w": "se",
+"start": 442.527,
+"end": 442.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "reportó",
+"start": 442.647,
+"end": 443.047,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 443.087,
+"end": 443.127,
+"punct": "",
+"para_end": false
+},
+{
+"w": "atraso",
+"start": 443.207,
+"end": 443.527,
+"punct": "",
+"para_end": false
+},
+{
+"w": "por",
+"start": 443.607,
+"end": 443.687,
+"punct": "",
+"para_end": false
+},
+{
+"w": "primera",
+"start": 443.767,
+"end": 444.087,
+"punct": "",
+"para_end": false
+},
+{
+"w": "vez.",
+"start": 444.167,
+"end": 444.487,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Si",
+"start": 444.967,
+"end": 445.047,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ya",
+"start": 445.127,
+"end": 445.207,
+"punct": "",
+"para_end": false
+},
+{
+"w": "no",
+"start": 445.287,
+"end": 445.367,
+"punct": "",
+"para_end": false
+},
+{
+"w": "puedes",
+"start": 445.447,
+"end": 445.687,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ni",
+"start": 445.767,
+"end": 445.847,
+"punct": "",
+"para_end": false
+},
+{
+"w": "con",
+"start": 445.927,
+"end": 446.007,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 446.087,
+"end": 446.167,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mínimo,",
+"start": 446.247,
+"end": 446.887,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "no",
+"start": 446.967,
+"end": 447.047,
+"punct": "",
+"para_end": false
+},
+{
+"w": "esperes",
+"start": 447.127,
+"end": 447.527,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 447.567,
+"end": 447.607,
+"punct": "",
+"para_end": false
+},
+{
+"w": "atrasarte.",
+"start": 447.687,
+"end": 448.447,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Habla",
+"start": 448.647,
+"end": 448.967,
+"punct": "",
+"para_end": false
+},
+{
+"w": "antes",
+"start": 449.127,
+"end": 449.287,
+"punct": "",
+"para_end": false
+},
+{
+"w": "con",
+"start": 449.367,
+"end": 449.447,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 449.527,
+"end": 449.607,
+"punct": "",
+"para_end": false
+},
+{
+"w": "banco",
+"start": 449.687,
+"end": 450.007,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 450.047,
+"end": 450.087,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pide",
+"start": 450.167,
+"end": 450.407,
+"punct": "",
+"para_end": false
+},
+{
+"w": "una",
+"start": 450.487,
+"end": 450.647,
+"punct": "",
+"para_end": false
+},
+{
+"w": "reestructura,",
+"start": 450.727,
+"end": 451.687,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "que",
+"start": 451.727,
+"end": 451.767,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 451.847,
+"end": 451.927,
+"punct": "",
+"para_end": false
+},
+{
+"w": "un",
+"start": 452.007,
+"end": 452.087,
+"punct": "",
+"para_end": false
+},
+{
+"w": "nuevo",
+"start": 452.167,
+"end": 452.407,
+"punct": "",
+"para_end": false
+},
+{
+"w": "plan",
+"start": 452.487,
+"end": 452.647,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 452.687,
+"end": 452.727,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pagos.",
+"start": 452.807,
+"end": 453.407,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Se",
+"start": 453.607,
+"end": 453.687,
+"punct": "",
+"para_end": false
+},
+{
+"w": "anota",
+"start": 453.767,
+"end": 454.007,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 454.047,
+"end": 454.087,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 454.127,
+"end": 454.167,
+"punct": "",
+"para_end": false
+},
+{
+"w": "historial,",
+"start": 454.287,
+"end": 454.807,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "pero",
+"start": 454.847,
+"end": 454.927,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 454.967,
+"end": 455.047,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mucho",
+"start": 455.287,
+"end": 455.527,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mejor",
+"start": 455.607,
+"end": 455.847,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 455.927,
+"end": 456.007,
+"punct": "",
+"para_end": false
+},
+{
+"w": "dejar",
+"start": 456.087,
+"end": 456.327,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 456.367,
+"end": 456.407,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pagar.",
+"start": 456.487,
+"end": 457.047,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Y",
+"start": 457.287,
+"end": 457.367,
+"punct": "",
+"para_end": false
+},
+{
+"w": "si",
+"start": 457.407,
+"end": 457.447,
+"punct": "",
+"para_end": false
+},
+{
+"w": "te",
+"start": 457.527,
+"end": 457.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ofrecen",
+"start": 457.607,
+"end": 457.927,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pagar",
+"start": 458.007,
+"end": 458.247,
+"punct": "",
+"para_end": false
+},
+{
+"w": "con",
+"start": 458.327,
+"end": 458.407,
+"punct": "",
+"para_end": false
+},
+{
+"w": "descuento,",
+"start": 458.527,
+"end": 459.127,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "que",
+"start": 459.207,
+"end": 459.287,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 459.327,
+"end": 459.367,
+"punct": "",
+"para_end": false
+},
+{
+"w": "una",
+"start": 459.447,
+"end": 459.607,
+"punct": "",
+"para_end": false
+},
+{
+"w": "quita,",
+"start": 459.687,
+"end": 460.247,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "queda",
+"start": 460.367,
+"end": 460.487,
+"punct": "",
+"para_end": false
+},
+{
+"w": "marcada",
+"start": 460.607,
+"end": 460.967,
+"punct": "",
+"para_end": false
+},
+{
+"w": "como",
+"start": 461.047,
+"end": 461.207,
+"punct": "",
+"para_end": false
+},
+{
+"w": "quebranto.",
+"start": 461.287,
+"end": 461.927,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Y",
+"start": 462.327,
+"end": 462.367,
+"punct": "",
+"para_end": false
+},
+{
+"w": "si",
+"start": 462.407,
+"end": 462.487,
+"punct": "",
+"para_end": false
+},
+{
+"w": "alguien",
+"start": 462.567,
+"end": 462.767,
+"punct": "",
+"para_end": false
+},
+{
+"w": "te",
+"start": 462.807,
+"end": 462.887,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cobra",
+"start": 462.967,
+"end": 463.287,
+"punct": "",
+"para_end": false
+},
+{
+"w": "por",
+"start": 463.367,
+"end": 463.447,
+"punct": "",
+"para_end": false
+},
+{
+"w": "sacarte",
+"start": 463.527,
+"end": 463.927,
+"punct": "",
+"para_end": false
+},
+{
+"w": "del",
+"start": 464.007,
+"end": 464.087,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Buró,",
+"start": 464.167,
+"end": 464.647,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "es",
+"start": 464.727,
+"end": 464.807,
+"punct": "",
+"para_end": false
+},
+{
+"w": "un",
+"start": 464.847,
+"end": 464.887,
+"punct": "",
+"para_end": false
+},
+{
+"w": "fraude.",
+"start": 465.047,
+"end": 465.687,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Nadie",
+"start": 465.927,
+"end": 466.247,
+"punct": "",
+"para_end": false
+},
+{
+"w": "puede",
+"start": 466.407,
+"end": 466.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "borrar",
+"start": 466.647,
+"end": 466.887,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tus",
+"start": 466.927,
+"end": 467.047,
+"punct": "",
+"para_end": false
+},
+{
+"w": "registros",
+"start": 467.127,
+"end": 467.527,
+"punct": "",
+"para_end": false
+},
+{
+"w": "negativos",
+"start": 467.607,
+"end": 468.167,
+"punct": "",
+"para_end": false
+},
+{
+"w": "antes",
+"start": 468.247,
+"end": 468.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "del",
+"start": 468.647,
+"end": 468.727,
+"punct": "",
+"para_end": false
+},
+{
+"w": "plazo",
+"start": 468.807,
+"end": 469.047,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 469.127,
+"end": 469.207,
+"punct": "",
+"para_end": false
+},
+{
+"w": "marca",
+"start": 469.327,
+"end": 469.447,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 469.527,
+"end": 469.607,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ley.",
+"start": 469.727,
+"end": 469.927,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Pero",
+"start": 470.247,
+"end": 470.407,
+"punct": "",
+"para_end": false
+},
+{
+"w": "si",
+"start": 470.487,
+"end": 470.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "hay",
+"start": 470.647,
+"end": 470.727,
+"punct": "",
+"para_end": false
+},
+{
+"w": "un",
+"start": 470.767,
+"end": 470.807,
+"punct": "",
+"para_end": false
+},
+{
+"w": "error",
+"start": 470.887,
+"end": 471.127,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 471.167,
+"end": 471.207,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 471.287,
+"end": 471.367,
+"punct": "",
+"para_end": false
+},
+{
+"w": "reporte,",
+"start": 471.567,
+"end": 472.087,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "eso",
+"start": 472.207,
+"end": 472.327,
+"punct": "",
+"para_end": false
+},
+{
+"w": "sí",
+"start": 472.487,
+"end": 472.607,
+"punct": "",
+"para_end": false
+},
+{
+"w": "se",
+"start": 472.647,
+"end": 472.727,
+"punct": "",
+"para_end": false
+},
+{
+"w": "corrige,",
+"start": 472.807,
+"end": 473.447,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "y",
+"start": 473.487,
+"end": 473.527,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Condusef",
+"start": 473.647,
+"end": 474.087,
+"punct": "",
+"para_end": false
+},
+{
+"w": "te",
+"start": 474.127,
+"end": 474.167,
+"punct": "",
+"para_end": false
+},
+{
+"w": "orienta",
+"start": 474.247,
+"end": 474.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "gratis.",
+"start": 474.807,
+"end": 475.247,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Llamas",
+"start": 475.447,
+"end": 475.847,
+"punct": "",
+"para_end": false
+},
+{
+"w": "al",
+"start": 475.927,
+"end": 476.007,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cincuenta",
+"start": 476.087,
+"end": 476.407,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 476.487,
+"end": 476.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cinco,",
+"start": 476.647,
+"end": 477.127,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "cincuenta",
+"start": 477.167,
+"end": 477.527,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 477.607,
+"end": 477.687,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tres,",
+"start": 477.767,
+"end": 478.007,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "cuatrocientos,",
+"start": 478.167,
+"end": 479.074,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "novecientos",
+"start": 479.1,
+"end": 479.607,
+"punct": "",
+"para_end": false
+},
+{
+"w": "noventa",
+"start": 479.687,
+"end": 479.927,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 480.007,
+"end": 480.087,
+"punct": "",
+"para_end": false
+},
+{
+"w": "nueve.",
+"start": 480.114,
+"end": 480.887,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Ahora",
+"start": 480.967,
+"end": 481.207,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 481.287,
+"end": 481.367,
+"punct": "",
+"para_end": false
+},
+{
+"w": "paso",
+"start": 481.447,
+"end": 481.687,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 481.727,
+"end": 481.767,
+"punct": "",
+"para_end": false
+},
+{
+"w": "hoy,",
+"start": 481.847,
+"end": 482.247,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "con",
+"start": 482.327,
+"end": 482.407,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 482.447,
+"end": 482.487,
+"punct": "",
+"para_end": false
+},
+{
+"w": "celular,",
+"start": 482.567,
+"end": 483.127,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "en",
+"start": 483.207,
+"end": 483.367,
+"punct": "",
+"para_end": false
+},
+{
+"w": "menos",
+"start": 483.447,
+"end": 483.687,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 483.767,
+"end": 483.847,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cinco",
+"start": 483.927,
+"end": 484.167,
+"punct": "",
+"para_end": false
+},
+{
+"w": "minutos.",
+"start": 484.247,
+"end": 484.967,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "En",
+"start": 485.207,
+"end": 485.287,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tus",
+"start": 485.367,
+"end": 485.447,
+"punct": "",
+"para_end": false
+},
+{
+"w": "notas,",
+"start": 485.527,
+"end": 486.087,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "suma",
+"start": 486.167,
+"end": 486.407,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 486.487,
+"end": 486.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tercera",
+"start": 486.687,
+"end": 486.967,
+"punct": "",
+"para_end": false
+},
+{
+"w": "columna,",
+"start": 487.047,
+"end": 487.687,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "con",
+"start": 487.767,
+"end": 487.847,
+"punct": "",
+"para_end": false
+},
+{
+"w": "todas",
+"start": 488.007,
+"end": 488.247,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tus",
+"start": 488.327,
+"end": 488.407,
+"punct": "",
+"para_end": false
+},
+{
+"w": "deudas,",
+"start": 488.487,
+"end": 489.047,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "y",
+"start": 489.087,
+"end": 489.127,
+"punct": "",
+"para_end": false
+},
+{
+"w": "divídela",
+"start": 489.207,
+"end": 489.607,
+"punct": "",
+"para_end": false
+},
+{
+"w": "entre",
+"start": 489.727,
+"end": 489.847,
+"punct": "",
+"para_end": false
+},
+{
+"w": "diez:",
+"start": 489.927,
+"end": 490.567,
+"punct": ":",
+"para_end": false
+},
+{
+"w": "ese",
+"start": 490.647,
+"end": 490.887,
+"punct": "",
+"para_end": false
+},
+{
+"w": "es",
+"start": 490.967,
+"end": 491.047,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 491.127,
+"end": 491.207,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tamaño",
+"start": 491.314,
+"end": 491.527,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 491.607,
+"end": 491.647,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 491.687,
+"end": 491.767,
+"punct": "",
+"para_end": false
+},
+{
+"w": "nivel,",
+"start": 491.847,
+"end": 492.327,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "y",
+"start": 492.407,
+"end": 492.487,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ya",
+"start": 492.567,
+"end": 492.727,
+"punct": "",
+"para_end": false
+},
+{
+"w": "no",
+"start": 492.807,
+"end": 492.887,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cambia.",
+"start": 492.927,
+"end": 493.527,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Después",
+"start": 493.767,
+"end": 494.247,
+"punct": "",
+"para_end": false
+},
+{
+"w": "abre",
+"start": 494.327,
+"end": 494.487,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 494.567,
+"end": 494.607,
+"punct": "",
+"para_end": false
+},
+{
+"w": "calendario",
+"start": 494.647,
+"end": 495.207,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 495.287,
+"end": 495.367,
+"punct": "",
+"para_end": false
+},
+{
+"w": "crea",
+"start": 495.447,
+"end": 495.647,
+"punct": "",
+"para_end": false
+},
+{
+"w": "un",
+"start": 495.687,
+"end": 495.727,
+"punct": "",
+"para_end": false
+},
+{
+"w": "recordatorio",
+"start": 495.767,
+"end": 496.407,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 496.447,
+"end": 496.487,
+"punct": "",
+"para_end": false
+},
+{
+"w": "se",
+"start": 496.567,
+"end": 496.647,
+"punct": "",
+"para_end": false
+},
+{
+"w": "repita",
+"start": 496.727,
+"end": 497.127,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cada",
+"start": 497.207,
+"end": 497.447,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mes,",
+"start": 497.527,
+"end": 498.007,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "dos",
+"start": 498.087,
+"end": 498.247,
+"punct": "",
+"para_end": false
+},
+{
+"w": "días",
+"start": 498.327,
+"end": 498.647,
+"punct": "",
+"para_end": false
+},
+{
+"w": "antes",
+"start": 498.807,
+"end": 498.967,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 499.007,
+"end": 499.047,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 499.127,
+"end": 499.207,
+"punct": "",
+"para_end": false
+},
+{
+"w": "fecha",
+"start": 499.327,
+"end": 499.447,
+"punct": "",
+"para_end": false
+},
+{
+"w": "límite,",
+"start": 499.527,
+"end": 500.087,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "con",
+"start": 500.167,
+"end": 500.247,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 500.327,
+"end": 500.407,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pago",
+"start": 500.487,
+"end": 500.647,
+"punct": "",
+"para_end": false
+},
+{
+"w": "congelado",
+"start": 500.727,
+"end": 501.207,
+"punct": "",
+"para_end": false
+},
+{
+"w": "escrito",
+"start": 501.367,
+"end": 501.767,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 501.807,
+"end": 501.847,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 501.887,
+"end": 501.927,
+"punct": "",
+"para_end": false
+},
+{
+"w": "título.",
+"start": 502.007,
+"end": 502.407,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Y",
+"start": 502.887,
+"end": 502.967,
+"punct": "",
+"para_end": false
+},
+{
+"w": "un",
+"start": 503.007,
+"end": 503.047,
+"punct": "",
+"para_end": false
+},
+{
+"w": "paso",
+"start": 503.127,
+"end": 503.367,
+"punct": "",
+"para_end": false
+},
+{
+"w": "extra:",
+"start": 503.447,
+"end": 504.087,
+"punct": ":",
+"para_end": false
+},
+{
+"w": "la",
+"start": 504.167,
+"end": 504.247,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ley",
+"start": 504.327,
+"end": 504.487,
+"punct": "",
+"para_end": false
+},
+{
+"w": "te",
+"start": 504.567,
+"end": 504.647,
+"punct": "",
+"para_end": false
+},
+{
+"w": "da",
+"start": 504.687,
+"end": 504.727,
+"punct": "",
+"para_end": false
+},
+{
+"w": "derecho",
+"start": 504.807,
+"end": 505.127,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 505.167,
+"end": 505.207,
+"punct": "",
+"para_end": false
+},
+{
+"w": "un",
+"start": 505.287,
+"end": 505.367,
+"punct": "",
+"para_end": false
+},
+{
+"w": "reporte",
+"start": 505.567,
+"end": 505.847,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 505.887,
+"end": 505.927,
+"punct": "",
+"para_end": false
+},
+{
+"w": "crédito",
+"start": 506.007,
+"end": 506.407,
+"punct": "",
+"para_end": false
+},
+{
+"w": "gratis",
+"start": 506.487,
+"end": 506.887,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cada",
+"start": 506.967,
+"end": 507.207,
+"punct": "",
+"para_end": false
+},
+{
+"w": "doce",
+"start": 507.287,
+"end": 507.527,
+"punct": "",
+"para_end": false
+},
+{
+"w": "meses.",
+"start": 507.607,
+"end": 508.087,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Lo",
+"start": 508.407,
+"end": 508.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "pides",
+"start": 508.647,
+"end": 508.807,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 508.887,
+"end": 508.927,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 508.967,
+"end": 509.047,
+"punct": "",
+"para_end": false
+},
+{
+"w": "página",
+"start": 509.127,
+"end": 509.367,
+"punct": "",
+"para_end": false
+},
+{
+"w": "oficial",
+"start": 509.447,
+"end": 509.767,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 509.847,
+"end": 509.927,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Buró",
+"start": 510.007,
+"end": 510.167,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 510.207,
+"end": 510.247,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Crédito,",
+"start": 510.327,
+"end": 510.807,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "y",
+"start": 510.847,
+"end": 510.887,
+"punct": "",
+"para_end": false
+},
+{
+"w": "también",
+"start": 510.967,
+"end": 511.367,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 511.447,
+"end": 511.527,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 511.567,
+"end": 511.607,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 511.687,
+"end": 511.767,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Círculo",
+"start": 511.847,
+"end": 512.247,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 512.327,
+"end": 512.367,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Crédito.",
+"start": 512.407,
+"end": 513.087,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Revisa",
+"start": 513.287,
+"end": 513.767,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 513.847,
+"end": 513.927,
+"punct": "",
+"para_end": false
+},
+{
+"w": "todo",
+"start": 514.087,
+"end": 514.327,
+"punct": "",
+"para_end": false
+},
+{
+"w": "sea",
+"start": 514.407,
+"end": 514.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tuyo.",
+"start": 514.647,
+"end": 515.247,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Con",
+"start": 515.527,
+"end": 515.687,
+"punct": "",
+"para_end": false
+},
+{
+"w": "esto",
+"start": 515.807,
+"end": 515.927,
+"punct": "",
+"para_end": false
+},
+{
+"w": "terminas",
+"start": 516.007,
+"end": 516.407,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Sistema",
+"start": 516.447,
+"end": 516.887,
+"punct": "",
+"para_end": false
+},
+{
+"w": "dos.",
+"start": 516.967,
+"end": 517.287,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Tienes",
+"start": 517.607,
+"end": 517.847,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tu",
+"start": 517.887,
+"end": 517.927,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tercera",
+"start": 518.007,
+"end": 518.327,
+"punct": "",
+"para_end": false
+},
+{
+"w": "columna,",
+"start": 518.407,
+"end": 519.047,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "sabes",
+"start": 519.127,
+"end": 519.447,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 519.487,
+"end": 519.527,
+"punct": "",
+"para_end": false
+},
+{
+"w": "qué",
+"start": 519.607,
+"end": 519.687,
+"punct": "",
+"para_end": false
+},
+{
+"w": "nivel",
+"start": 519.767,
+"end": 520.007,
+"punct": "",
+"para_end": false
+},
+{
+"w": "estás",
+"start": 520.127,
+"end": 520.407,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 520.487,
+"end": 520.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tienes",
+"start": 520.647,
+"end": 520.887,
+"punct": "",
+"para_end": false
+},
+{
+"w": "una",
+"start": 520.967,
+"end": 521.047,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ruta",
+"start": 521.207,
+"end": 521.447,
+"punct": "",
+"para_end": false
+},
+{
+"w": "con",
+"start": 521.527,
+"end": 521.607,
+"punct": "",
+"para_end": false
+},
+{
+"w": "números",
+"start": 521.687,
+"end": 522.007,
+"punct": "",
+"para_end": false
+},
+{
+"w": "para",
+"start": 522.087,
+"end": 522.247,
+"punct": "",
+"para_end": false
+},
+{
+"w": "subir.",
+"start": 522.327,
+"end": 523.047,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Pero",
+"start": 523.1,
+"end": 523.207,
+"punct": "",
+"para_end": false
+},
+{
+"w": "llegar",
+"start": 523.247,
+"end": 523.447,
+"punct": "",
+"para_end": false
+},
+{
+"w": "al",
+"start": 523.527,
+"end": 523.607,
+"punct": "",
+"para_end": false
+},
+{
+"w": "cero",
+"start": 523.687,
+"end": 523.927,
+"punct": "",
+"para_end": false
+},
+{
+"w": "no",
+"start": 524.087,
+"end": 524.167,
+"punct": "",
+"para_end": false
+},
+{
+"w": "basta;",
+"start": 524.247,
+"end": 524.887,
+"punct": ";",
+"para_end": false
+},
+{
+"w": "hay",
+"start": 524.967,
+"end": 525.047,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 525.127,
+"end": 525.207,
+"punct": "",
+"para_end": false
+},
+{
+"w": "quedarse",
+"start": 525.287,
+"end": 525.767,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ahí.",
+"start": 525.847,
+"end": 526.247,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Si",
+"start": 526.487,
+"end": 526.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "mañana",
+"start": 526.647,
+"end": 527.047,
+"punct": "",
+"para_end": false
+},
+{
+"w": "llega",
+"start": 527.087,
+"end": 527.287,
+"punct": "",
+"para_end": false
+},
+{
+"w": "un",
+"start": 527.327,
+"end": 527.367,
+"punct": "",
+"para_end": false
+},
+{
+"w": "gasto",
+"start": 527.447,
+"end": 527.687,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 527.767,
+"end": 527.847,
+"punct": "",
+"para_end": false
+},
+{
+"w": "no",
+"start": 527.887,
+"end": 527.927,
+"punct": "",
+"para_end": false
+},
+{
+"w": "esperabas,",
+"start": 528.007,
+"end": 528.727,
+"punct": ",",
+"para_end": false
+},
+{
+"w": "termina",
+"start": 528.927,
+"end": 529.167,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 529.207,
+"end": 529.247,
+"punct": "",
+"para_end": false
+},
+{
+"w": "la",
+"start": 529.287,
+"end": 529.327,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tarjeta",
+"start": 529.367,
+"end": 529.927,
+"punct": "",
+"para_end": false
+},
+{
+"w": "y",
+"start": 530.007,
+"end": 530.087,
+"punct": "",
+"para_end": false
+},
+{
+"w": "vuelves",
+"start": 530.167,
+"end": 530.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 530.594,
+"end": 530.62,
+"punct": "",
+"para_end": false
+},
+{
+"w": "bajar.",
+"start": 530.647,
+"end": 531.447,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "En",
+"start": 531.487,
+"end": 531.527,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Sistema",
+"start": 531.607,
+"end": 531.927,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tres",
+"start": 532.007,
+"end": 532.327,
+"punct": "",
+"para_end": false
+},
+{
+"w": "vamos",
+"start": 532.407,
+"end": 532.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "a",
+"start": 532.607,
+"end": 532.647,
+"punct": "",
+"para_end": false
+},
+{
+"w": "construir",
+"start": 532.727,
+"end": 533.127,
+"punct": "",
+"para_end": false
+},
+{
+"w": "el",
+"start": 533.207,
+"end": 533.287,
+"punct": "",
+"para_end": false
+},
+{
+"w": "ahorro",
+"start": 533.367,
+"end": 533.687,
+"punct": "",
+"para_end": false
+},
+{
+"w": "que",
+"start": 533.767,
+"end": 533.847,
+"punct": "",
+"para_end": false
+},
+{
+"w": "no",
+"start": 534.007,
+"end": 534.087,
+"punct": "",
+"para_end": false
+},
+{
+"w": "se",
+"start": 534.167,
+"end": 534.327,
+"punct": "",
+"para_end": false
+},
+{
+"w": "puede",
+"start": 534.407,
+"end": 534.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tocar.",
+"start": 534.647,
+"end": 535.447,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "No",
+"start": 535.527,
+"end": 535.607,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tienes",
+"start": 535.714,
+"end": 535.927,
+"punct": "",
+"para_end": false
+},
+{
+"w": "un",
+"start": 535.967,
+"end": 536.007,
+"punct": "",
+"para_end": false
+},
+{
+"w": "problema",
+"start": 536.087,
+"end": 536.407,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 536.487,
+"end": 536.567,
+"punct": "",
+"para_end": false
+},
+{
+"w": "dinero.",
+"start": 536.647,
+"end": 537.287,
+"punct": ".",
+"para_end": false
+},
+{
+"w": "Tienes",
+"start": 537.367,
+"end": 537.607,
+"punct": "",
+"para_end": false
+},
+{
+"w": "un",
+"start": 537.687,
+"end": 537.767,
+"punct": "",
+"para_end": false
+},
+{
+"w": "problema",
+"start": 537.847,
+"end": 538.247,
+"punct": "",
+"para_end": false
+},
+{
+"w": "de",
+"start": 538.287,
+"end": 538.327,
+"punct": "",
+"para_end": false
+},
+{
+"w": "sistema.",
+"start": 538.407,
+"end": 539.447,
+"punct": ".",
+"para_end": true
+},
+{
+"w": "Nos",
+"start": 539.527,
+"end": 539.607,
+"punct": "",
+"para_end": false
+},
+{
+"w": "vemos",
+"start": 539.687,
+"end": 540.087,
+"punct": "",
+"para_end": false
+},
+{
+"w": "en",
+"start": 540.167,
+"end": 540.247,
+"punct": "",
+"para_end": false
+},
+{
+"w": "Sistema",
+"start": 540.38,
+"end": 540.647,
+"punct": "",
+"para_end": false
+},
+{
+"w": "tres.",
+"start": 540.727,
+"end": 541.287,
+"punct": ".",
+"para_end": true
+}
+],
+"segments": [
+{
+"text": "Tienes una tarjeta de crédito, pagas cada mes, y la deuda casi no baja. Hoy vas a ver por qué, con tus propios números.",
+"start": 0.0,
+"end": 8.24
+},
+{
+"text": "Esto es Sistema dos: deuda. Vas a entender tu pago mínimo, vas a dejar de pagar intereses que no necesitas y vas a cuidar tu historial en Buró de Crédito. Y vas a saber exactamente en qué nivel estás.",
+"start": 8.64,
+"end": 22.48
+},
+{
+"text": "Empecemos.",
+"start": 22.72,
+"end": 23.56
+},
+{
+"text": "Abre ahorita la aplicación de tu tarjeta de crédito y entra a tu último estado de cuenta. Si tienes varias tarjetas, empieza por la que más usas.",
+"start": 23.84,
+"end": 32.16
+},
+{
+"text": "Busca cuatro datos: cuánto debes, tu pago mínimo, el pago para no generar intereses y la fecha límite de pago. El primero lo usas ahorita.",
+"start": 32.72,
+"end": 42.96
+},
+{
+"text": "En Sistema uno hiciste dos columnas en las notas de tu teléfono: lo que entra y lo que sale. Hoy agregas una tercera: lo que debo.",
+"start": 43.28,
+"end": 51.68
+},
+{
+"text": "¿En qué nivel estás? El nivel cero es no deber nada. Todo lo que está abajo es negativo, y medirlo es fácil: toma lo que debes y divídelo entre diez. Esa cantidad es un nivel. Si debes veinte mil pesos, cada nivel son dos mil. Si debes algo, hoy estás en menos diez. Cada vez que bajas tu deuda una décima parte, subes uno: menos nueve, menos ocho, hasta llegar a cero.",
+"start": 52.24,
+"end": 78.24
+},
+{
+"text": "Y no eres el único. Según la encuesta Ensafi del Inegi y la Condusef, el treinta y seis por ciento de los adultos en México tenía algún tipo de deuda. Y de quienes tenían deuda, más de uno de cada cuatro se atrasó en algún pago.",
+"start": 78.8,
+"end": 92.64
+},
+{
+"text": "Mira tu pago mínimo. No es una cifra al azar. Sale de una regla de Banxico.",
+"start": 93.36,
+"end": 98.0
+},
+{
+"text": "Tu pago mínimo es lo que salga más alto entre dos cuentas. La primera: el uno punto cinco por ciento de lo que debes, más los intereses del mes y su iva. La segunda: el uno punto veinticinco por ciento de tu límite de crédito.",
+"start": 98.48,
+"end": 113.12
+},
+{
+"text": "Eso es el piso. Tu banco puede pedirte más, pero nunca menos.",
+"start": 113.36,
+"end": 117.68
+},
+{
+"text": "Esta regla existe para que al menos una parte de tu pago baje la deuda. La pregunta es qué tan grande es esa parte.",
+"start": 118.24,
+"end": 125.2
+},
+{
+"text": "Vamos con un ejemplo con números redondos. Debes veinte mil pesos, tu límite es de treinta mil, tu tarjeta cobra sesenta por ciento al año y ya no haces compras nuevas. Es una tasa alta, solo para el ejemplo; la tuya viene en los documentos de tu tarjeta.",
+"start": 125.92,
+"end": 141.6
+},
+{
+"text": "Con esos números, tu primer mínimo sería de unos mil cuatrocientos sesenta pesos. Pero de eso, mil ciento sesenta se van en intereses e iva. Solo trescientos pesos bajan lo que debes.",
+"start": 141.68,
+"end": 153.12
+},
+{
+"text": "Pagas mil cuatrocientos sesenta, y tu deuda baja trescientos.",
+"start": 153.52,
+"end": 157.84
+},
+{
+"text": "Ahora ponlo en el mapa. En este ejemplo, cada nivel son dos mil pesos. Pagando solo el mínimo, subir de menos diez a menos nueve te toma siete meses. Llegar a menos cinco, casi cuatro años. Y como el mínimo se hace más chico conforme baja tu saldo, el final se alarga todavía más: llegarías a cero en casi diez años, y pagarías alrededor de ochenta y tres mil pesos por una deuda de veinte mil.",
+"start": 157.92,
+"end": 184.32
+},
+{
+"text": "Tu estado de cuenta trae un recuadro que te dice cuánto tardarías y cuánto pagarías dando solo el mínimo. Ese número ya no es del ejemplo, es tuyo.",
+"start": 184.56,
+"end": 194.08
+},
+{
+"text": "Y cuando veas tu número, no te enojes con tu banco ni contigo. El pago mínimo no está fallando. Funciona exactamente como lo diseñaron: mantiene tu tarjeta al corriente. Lo que nunca prometió fue sacarte de la deuda. Esa parte te toca a ti, y hasta hoy nadie te había explicado las reglas.",
+"start": 194.759,
+"end": 213.799
+},
+{
+"text": "No es falta de disciplina. Es falta de sistema. Y esta es la ruta.",
+"start": 214.279,
+"end": 219.479
+},
+{
+"text": "Busca en tu estado de cuenta el pago para no generar intereses. Si pagas esa cantidad antes de la fecha límite, ese mes no te cobran intereses.",
+"start": 219.799,
+"end": 228.599
+},
+{
+"text": "Esa cantidad ya trae tus compras normales y las mensualidades de tus meses sin intereses. El pago mínimo, por sí solo, no: esas mensualidades se pagan aparte. Si cubres el mínimo y nada más, Condusef advierte que esa mensualidad se pasa a tu saldo y empieza a cobrar intereses.",
+"start": 228.839,
+"end": 246.679
+},
+{
+"text": "Esa es tu meta de cada mes. Si todavía no llegas, sigue la ruta.",
+"start": 246.719,
+"end": 251.319
+},
+{
+"text": "Paso uno: deja de bajar. Si una tarjeta tiene deuda, quítala de las aplicaciones y tiendas en línea donde está guardada, y de la cartera de tu celular. En Sistema uno borraste las apps de impulso; hoy borras la tarjeta de las que quedaron. Para las compras chicas del día a día, usa efectivo, como ya empezaste a hacer. No vas a subir de nivel mientras la deuda siga creciendo.",
+"start": 251.639,
+"end": 273.959
+},
+{
+"text": "Paso dos: congela tu pago. Toma tu mínimo de este mes y paga siempre esa cantidad, aunque te pidan menos. Si tienes meses sin intereses, súmale esas mensualidades.",
+"start": 274.359,
+"end": 285.079
+},
+{
+"text": "Con una deuda de ejemplo de veinte mil pesos, el primer mínimo es de mil cuatrocientos sesenta. Como tu pago ya no se encoge, los niveles llegan cada vez más rápido. Terminas en unos dos años y medio y pagas cerca de cuarenta y un mil pesos. Solo con el mínimo serían casi diez años y ochenta y tres mil. Con el mismo dinero que ya pagabas el primer mes.",
+"start": 285.319,
+"end": 305.959
+},
+{
+"text": "Paso tres: aumenta tu pago con lo de Sistema uno. Regresa a tus dos columnas y marca dónde puedes recortar. Lo que dejas de gastar en comida a domicilio, en suscripciones y en compras de impulso ya no se va: ahora tiene trabajo.",
+"start": 306.759,
+"end": 320.999
+},
+{
+"text": "Si a esos mil cuatrocientos sesenta les sumas mil cuarenta pesos que recortaste, y pagas dos mil quinientos al mes, subes casi un nivel cada mes. Terminas en un año y pagas unos veintisiete mil setecientos. Son más de cincuenta y cinco mil pesos de diferencia contra el mínimo.",
+"start": 321.239,
+"end": 337.679
+},
+{
+"text": "Paso cuatro. Si tienes varias deudas, pon cada una en un renglón de tu tercera columna. Tarjetas, préstamos, abonos en tiendas y lo que le debes a tu familia. En cada renglón, cuánto debes, la tasa, el mínimo y la fecha límite.",
+"start": 338.119,
+"end": 352.839
+},
+{
+"text": "No le pagues un poquito a cada una. A todas les das el mínimo, menos a una. A esa le mandas todo lo extra.",
+"start": 352.919,
+"end": 361.079
+},
+{
+"text": "¿A cuál? Si solo ves los números, gana atacar primero la de tasa más alta, porque te cobra menos intereses. Así lo explica la Reserva Federal de San Luis, en Estados Unidos. Pero investigadores de varias universidades encontraron que quien concentra su dinero en una sola deuda se motiva más y paga más rápido, sobre todo si esa deuda es la más chica, porque ves que se acaba. Entonces: si las tasas son muy distintas, ataca la más cara. Si se parecen, la más chica. Cuando terminas una, su pago pasa a la siguiente.",
+"start": 361.106,
+"end": 394.839
+},
+{
+"text": "Paso cinco: cuida tu historial. Si tienes o tuviste una tarjeta, un préstamo o incluso un plan de celular, ya estás en Buró de Crédito. No es una lista negra; es tu historial, y ahí aparece lo bueno y lo malo.",
+"start": 395.527,
+"end": 410.727
+},
+{
+"text": "Cada mes tu banco le dice al Buró si pagaste a tiempo o tarde. Si cubres por lo menos el mínimo antes de la fecha límite, tu tarjeta queda al corriente. Si te atrasas, aunque sean pocos días, puede quedar marcado.",
+"start": 411.207,
+"end": 423.927
+},
+{
+"text": "Y un atraso no desaparece cuando pagas. Cuánto dura depende de cuánto debías. Hasta unos doscientos veinte pesos, un año. Hasta unos cuatro mil cuatrocientos, dos años. Hasta unos ocho mil ochocientos, cuatro años. Más que eso, hasta seis años, contados desde que se reportó el atraso por primera vez.",
+"start": 424.327,
+"end": 444.487
+},
+{
+"text": "Si ya no puedes ni con el mínimo, no esperes a atrasarte. Habla antes con tu banco y pide una reestructura, que es un nuevo plan de pagos. Se anota en tu historial, pero es mucho mejor que dejar de pagar. Y si te ofrecen pagar con descuento, que es una quita, queda marcada como quebranto.",
+"start": 444.967,
+"end": 461.927
+},
+{
+"text": "Y si alguien te cobra por sacarte del Buró, es un fraude. Nadie puede borrar tus registros negativos antes del plazo que marca la ley. Pero si hay un error en tu reporte, eso sí se corrige, y Condusef te orienta gratis. Llamas al cincuenta y cinco, cincuenta y tres, cuatrocientos, novecientos noventa y nueve.",
+"start": 462.327,
+"end": 480.887
+},
+{
+"text": "Ahora el paso de hoy, con el celular, en menos de cinco minutos.",
+"start": 480.967,
+"end": 484.967
+},
+{
+"text": "En tus notas, suma tu tercera columna, con todas tus deudas, y divídela entre diez: ese es el tamaño de tu nivel, y ya no cambia. Después abre el calendario y crea un recordatorio que se repita cada mes, dos días antes de tu fecha límite, con tu pago congelado escrito en el título.",
+"start": 485.207,
+"end": 502.407
+},
+{
+"text": "Y un paso extra: la ley te da derecho a un reporte de crédito gratis cada doce meses. Lo pides en la página oficial de Buró de Crédito, y también en la de Círculo de Crédito. Revisa que todo sea tuyo.",
+"start": 502.887,
+"end": 515.247
+},
+{
+"text": "Con esto terminas Sistema dos. Tienes tu tercera columna, sabes en qué nivel estás y tienes una ruta con números para subir.",
+"start": 515.527,
+"end": 523.047
+},
+{
+"text": "Pero llegar al cero no basta; hay que quedarse ahí. Si mañana llega un gasto que no esperabas, termina en la tarjeta y vuelves a bajar. En Sistema tres vamos a construir el ahorro que no se puede tocar.",
+"start": 523.1,
+"end": 535.447
+},
+{
+"text": "No tienes un problema de dinero. Tienes un problema de sistema.",
+"start": 535.527,
+"end": 539.447
+},
+{
+"text": "Nos vemos en Sistema tres.",
+"start": 539.527,
+"end": 541.287
+}
+],
+"duration": 541.238
+}

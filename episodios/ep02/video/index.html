@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>SISTEMA 2 · Deuda</title>
+<link id="theme" rel="stylesheet" href="theme_ledger.css">
+<link rel="stylesheet" href="scenes_g1.css">
+<link rel="stylesheet" href="scenes_g2.css">
+<link rel="stylesheet" href="scenes_g3.css">
+<link rel="stylesheet" href="scenes_g4.css">
+<link rel="stylesheet" href="scenes_g5.css">
+
+<script>if (new URLSearchParams(location.search).get('theme') === 'dark') document.getElementById('theme').href = 'theme.css';</script>
+</head>
+<body>
+<div id="stage"></div>
+<script src="../timing/timing.js"></script>
+<script>
+  // formato: ?fmt=16x9 (1920x1080) | ?fmt=9x16 (1080x1920)
+  (function () {
+    const q = new URLSearchParams(location.search), f = q.get('fmt') || '16x9';
+    const [w, h] = f === '9x16' ? [1080, 1920] : f === '1x1' ? [1080, 1080] : [1920, 1080];
+    document.documentElement.style.setProperty('--W', w + 'px');
+    document.documentElement.style.setProperty('--H', h + 'px');
+    document.documentElement.dataset.fmt = f;
+    if (q.get('debug')) document.documentElement.dataset.debug = '1';
+  })();
+</script>
+<script src="engine.js"></script>
+<script src="components.js"></script>
+<script src="scenes_g1.js"></script>
+<script src="scenes_g2.js"></script>
+<script src="scenes_g3.js"></script>
+<script src="scenes_g4.js"></script>
+<script src="scenes_g5.js"></script>
+<script src="overlays.js"></script>
+<script>
+  // vista previa en navegador: ?play=1 reproduce con audio; ?t=12.5 congela en un tiempo
+  (function () {
+    const q = new URLSearchParams(location.search);
+    window.__ready.then(() => {
+      if (q.get('t')) window.__seek(+q.get('t'));
+      if (q.get('play')) {
+        const a = new Audio(q.get('audio') || '../audio/ep02_master.m4a');
+        const t0 = +(q.get('from') || 0); a.currentTime = t0; a.play();
+        const loop = () => { window.__seek(a.currentTime); requestAnimationFrame(loop); }; loop();
+      }
+    });
+  })();
+</script>
+</body>
+</html>
