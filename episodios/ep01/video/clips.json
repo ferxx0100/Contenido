@@ -1,8 +1,14 @@
 [
-  {"id": "clip1", "file": "SISTEMA_Ep01_clip1_54porciento_9x16.mp4", "t0": 43.45, "freeze": 67.25, "t1": 69.6,
-   "titulo": "El 54% de los mexicanos se queda sin dinero antes de la quincena"},
-  {"id": "clip2", "file": "SISTEMA_Ep01_clip2_falta_de_sistema_9x16.mp4", "t0": 203.5, "freeze": 234.2, "t1": 236.4,
-   "titulo": "15–40% de lo que ganas se va sin que lo notes · No es falta de disciplina"},
-  {"id": "clip3", "file": "SISTEMA_Ep01_clip3_cancela_suscripciones_9x16.mp4", "t0": 273.95, "freeze": 290.86, "t1": 293.1,
-   "titulo": "Cancela tus suscripciones en iPhone en 20 segundos"}
+  {"id": "clip1", "file": "SISTEMA_Ep01_clip1_54porciento_9x16.mp4", "t0": 43.45, "freeze": 67.25, "t1": 69.6, "titulo": "El 54% de los mexicanos se queda sin dinero antes de la quincena"},
+  {"id": "clip2", "file": "SISTEMA_Ep01_clip2_falta_de_sistema_9x16.mp4", "t0": 203.5, "freeze": 234.2, "t1": 236.4, "titulo": "15–40% de lo que ganas se va sin que lo notes · No es falta de disciplina"},
+  {"id": "clip3", "file": "SISTEMA_Ep01_clip3_cancela_suscripciones_9x16.mp4", "t0": 273.95, "freeze": 290.86, "t1": 293.1, "titulo": "Cancela tus suscripciones en iPhone en 20 segundos"},
+  {"id": "clip4", "file": "SISTEMA_Ep01_clip4_pagar_con_celular_9x16.mp4", "t0": 73.65, "freeze": 97.47, "t1": 99.77, "titulo": "Pagar con el celular te hace gastar más (y casi nadie lo nota)"},
+  {"id": "clip5", "file": "SISTEMA_Ep01_clip5_patron_quincena_9x16.mp4", "t0": 98.7, "freeze": 113.9, "t1": 116.2, "titulo": "Por qué a mitad de quincena ya andas contando"},
+  {"id": "clip6", "file": "SISTEMA_Ep01_clip6_suscripciones_39_9x16.mp4", "t0": 115.2, "freeze": 130.0, "t1": 132.3, "titulo": "39% en México paga suscripciones que no usa"},
+  {"id": "clip7", "file": "SISTEMA_Ep01_clip7_test_estado_de_cuenta_9x16.mp4", "t0": 133.0, "freeze": 174.21, "t1": 176.51, "titulo": "Haz este test de 5 minutos con tu estado de cuenta"},
+  {"id": "clip8", "file": "SISTEMA_Ep01_clip8_apps_disenadas_9x16.mp4", "t0": 174.35, "freeze": 194.9, "t1": 197.2, "titulo": "No te enojes contigo: las apps están diseñadas para que compres"},
+  {"id": "clip9", "file": "SISTEMA_Ep01_clip9_falta_de_sistema_v2_9x16.mp4", "t0": 215.3, "freeze": 233.95, "t1": 236.25, "titulo": "No es falta de disciplina. Es falta de sistema"},
+  {"id": "clip10", "file": "SISTEMA_Ep01_clip10_4_pasos_9x16.mp4", "t0": 234.3, "freeze": 274.08, "t1": 276.38, "titulo": "4 pasos para que tu dinero deje de desaparecer"},
+  {"id": "clip11", "file": "SISTEMA_Ep01_clip11_borra_apps_impulso_9x16.mp4", "t0": 290.95, "freeze": 311.11, "t1": 313.41, "titulo": "Borra estas apps de tu celular (te hacen gastar)"},
+  {"id": "clip12", "file": "SISTEMA_Ep01_clip12_3_razones_largo_9x16.mp4", "t0": 56.0, "freeze": 130.0, "t1": 132.3, "titulo": "3 razones por las que se te va el dinero (versión +1 min)"}
 ]

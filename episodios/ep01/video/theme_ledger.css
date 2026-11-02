@@ -428,10 +428,10 @@ html, body { margin: 0; padding: 0; background: var(--papel); }
 [data-fmt="9x16"] .stat.range .stat-n { font-size: 240px; }
 [data-fmt="9x16"] .stat.range .stat-p { font-size: 110px; }
 [data-fmt="9x16"] .stat-dash { font-size: 220px; }
-[data-fmt="9x16"] .vbrand { position: absolute; left: var(--CL); top: 250px; display: flex; gap: 14px; align-items: center; }
+[data-fmt="9x16"] .vbrand { position: absolute; left: var(--CL); top: 165px; display: flex; gap: 14px; align-items: center; }
 [data-fmt="9x16"] .vbrand .hud-mark { width: auto; font-size: 34px; }
 [data-fmt="9x16"] .vbrand .hud-lvl { background: var(--verm); color: var(--papel); font: 700 28px/1 var(--f-display); padding: 6px 10px; margin: 0; }
-[data-fmt="9x16"] .vcap { position: absolute; left: 50%; top: 1290px; width: 880px; transform: translate(-50%, 0); text-align: center; font: 700 64px/1.14 var(--f-display); letter-spacing: -0.02em; color: var(--tinta); }
+[data-fmt="9x16"] .vcap { position: absolute; left: 50%; top: 1290px; width: 880px; transform: translate(-50%, 0); text-align: center; font: 700 64px/1.14 var(--f-display); letter-spacing: -0.02em; color: var(--tinta); padding: 14px 10px; border-radius: 10px; background: color-mix(in srgb, var(--papel) 94%, transparent); box-shadow: 0 6px 24px rgba(0,0,0,.08); }
 [data-fmt="9x16"] .vw { display: inline-block; padding: 0 8px; }
 [data-fmt="9x16"] .vw.now { background: var(--verm); color: var(--papel); }
 [data-debug="1"] #stage .box { outline: 1px dashed rgba(196, 54, 28, .5); }
