@@ -117,3 +117,10 @@
 [data-fmt="9x16"] .g2-phwrap .phone { zoom: 1; }
 [data-fmt="9x16"] .g2-st-row, [data-fmt="9x16"] .g2-st-row b { font-size: 26px; }
 [data-fmt="9x16"] .g2-st-k, [data-fmt="9x16"] .g2-st-bk { font-size: 18px; }
+
+/* relleno gris del estado de cuenta (no es dato) */
+.g2-st-fill { margin-top: 34px; }
+.g2-st-fill .g2-st-k { border-bottom-width: 1px; color: var(--tinta3); }
+.g2-st-ln { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 17px 6px; border-bottom: 1px solid var(--regla); }
+.g2-st-ln i { display: block; height: 12px; border-radius: 6px; background: var(--regla2); }
+.g2-st-ln i:last-child { flex: none; width: 64px; }

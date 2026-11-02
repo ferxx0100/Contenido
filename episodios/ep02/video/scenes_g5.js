@@ -538,6 +538,7 @@
       build(root) {
         const L = layer(root);
         W0 = Words(Box(L, M, V(196, 300), 'col', { width: CW + 'px' }), 'Terminaste *Sistema 2.*', 'd2').sync('Con esto terminas Sistema dos');
+        if (ctx.vertical) { let n = W0.ws[1]; while (n.parentNode !== W0.el) n = n.parentNode; W0.el.insertBefore(h('br'), n); }
         bar = Box(L, M, V(380, 540), 'lvlbar', { width: CW + 'px' });
         bar.append(h('span', { class: 'kicker' }, 'NIVEL 2'), h('div', { class: 'lvlbar-track' }, fill = h('i')), h('span', { class: 'kicker acc' }, 'COMPLETADO'));
         const list = Box(L, M, V(500, 660), 'recap', { width: CW + 'px' });
@@ -589,7 +590,7 @@
         inout(ch2, t, tj - 0.1, out, { dy: 16, s0: 0.92 });
         inout(sc, t, a - 0.2, out, { dy: 0, dx: V(40, 0) });
         const r = row(t), n = Math.round(r);
-        css(band, { top: r * RU, opacity: P(t, a, 0.3) * (1 - P(t, out, 0.3)) });
+        css(band, { top: r * RU, opacity: P(t, a + 0.4, 0.25) * (1 - P(t, out, 0.3)) });
         band.classList.toggle('zero', n === 0);
         band.classList.toggle('down', t > ba - 0.3);
         text(bandT, n === 0 ? 'TÚ · QUÉDATE AQUÍ' : 'TÚ');
@@ -667,7 +668,7 @@
         sub = Box(L, M, V(196, 300), 'col', { width: V(660, 820) + 'px' });
         sub.append(h('div', { class: 'kicker acc-k big-k' }, 'SIGUIENTE · NIVEL 3'), h('div', { class: 'g5-endt' }, 'El ahorro que no se puede tocar.'), h('div', { class: 'd3 muted g5-endn' }, 'Nos vemos en Sistema 3.'));
         // zonas reservadas para los elementos de la pantalla final (se agregan en YouTube Studio)
-        slots = Box(L, V(1000, 120), V(560, 900), 'end-slots');
+        slots = Box(L, V(950, 120), V(560, 900), 'end-slots');
         slots.append(h('div', { class: 'end-slot video' }, h('span', { class: 'kicker' }, 'VIDEO SIGUIENTE')), h('div', { class: 'end-slot sub' }, h('span', { class: 'kicker' }, 'SUSCRÍBETE')));
       },
       update(t) {

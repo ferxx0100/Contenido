@@ -34,13 +34,13 @@
 
   // mapa de niveles (misma geometría que el renglón impreso: 1 nivel = 54 px)
   function Chart(L) {
-    const X0 = V(300, 206), X1 = V(1230, 924), Y0 = V(323, 431), U = 54;
+    const X0 = V(400, 206), X1 = V(1230, 924), Y0 = V(323, 431), U = 54;
     const xm = m => X0 + (m / 120) * (X1 - X0), yl = lv => Y0 - lv * U;
     const W = V(1920, 1080), Hh = V(1080, 1920);
     const svg = h('svg', { class: 'g4-svg', width: W, height: Hh, viewBox: `0 0 ${W} ${Hh}` }); L.append(svg);
     const ylab = [], xlab = [];
     for (let lv = 0; lv >= -10; lv--) {
-      const lab = Box(L, V(108, 84), yl(lv) - 30, 'g4-ylab' + (lv === 0 ? ' zero' : ''), { width: V(118, 100) + 'px' });
+      const lab = Box(L, V(288, 84), yl(lv) - 30, 'g4-ylab' + (lv === 0 ? ' zero' : ''), { width: V(82, 100) + 'px' });
       lab.textContent = lv === 0 ? '0' : '−' + (-lv); ylab.push(lab);
     }
     const axis = h('line', { x1: X0, x2: X1, y1: yl(-10), y2: yl(-10), class: 'g4-axis' });
@@ -174,9 +174,9 @@
           cA = RouteCard(L, M, 1462, CW, 'PAGO FIJO · $1,460', 'unos 2 años y medio', 'cerca de $41,000', 'f1');
           cB = RouteCard(L, M, 1640, CW, 'SOLO EL MÍNIMO', 'casi 10 años', '$83,000', 'min');
         }
-        hoy = Box(L, ch.xm(0) + V(120, 354), ch.yl(-10) - V(78, 84), 'g4-hoy');
+        hoy = Box(L, ch.xm(0) + V(220, 354), ch.yl(-10) - V(118, 84), 'g4-hoy');
         hoy.append(h('div', { class: 'kicker acc-k' }, 'HOY · NIVEL −10'), h('div', { class: 'g4-hoy-v' }, 'Debes ', h('b', { class: 'num-d' }, '$20,000')));
-        note = Box(L, V(720, 470), V(680, 640), 'g4-note', { width: V(500, 450) + 'px' });
+        note = Box(L, V(700, 470), V(530, 640), 'g4-note', { width: V(500, 450) + 'px' });
         N1 = Words(note, 'Tu pago ya *no se encoge:*', 'g4-note-t').sync('Como tu pago ya no se encoge');
         N2 = Words(note, 'los niveles llegan *cada vez más rápido.*', 'g4-note-t').sync('los niveles llegan cada vez más rápido');
         sfx(a + 0.1, 'whoosh', 0.45); sfx(n1460 + 0.1, 'tick', 0.6); sfx(dm, 'pop', 0.6); sfx(so + 0.2, 'riser', 0.35); sfx(cd + 0.1, 'thud', 0.8);
@@ -203,6 +203,7 @@
         inout(cB.el, t, so, out, { dy: 24 });
         css(cB.tm, { opacity: P(t, cd - 0.1, 0.3) }); css(cB.tt, { opacity: P(t, oc - 0.1, 0.3) });
         N1.update(t, so - 0.3); N2.update(t, so - 0.3);
+        css(note, { opacity: P(t, co - 0.3, 0.2) * (1 - P(t, so - 0.3, 0.35, Ease.exit)) });
         inout(hoy, t, vm - 0.1, so - 0.4, { dy: 14 });
       },
     });
@@ -451,7 +452,7 @@
       build(root) {
         const L = layer(root);
         W1 = Words(Box(L, M, V(196, 280), 'col', { width: CW + 'px' }), 'No le pagues *un poquito* a cada una.', 'g4-h').sync('No le pagues un poquito a cada una');
-        css(W1.el, { display: 'inline-block', position: 'relative' }); xs = Strike(W1.el, 'strike');
+        css(W1.el, { display: 'inline-block', position: 'relative', width: 'max-content', maxWidth: CW + 'px' }); xs = Strike(W1.el, 'strike');
         W2 = Words(Box(L, M, V(196, 280), 'col', { width: CW + 'px' }), 'A todas, *el mínimo.*', 'g4-h');
         at(W2, [td, td + 0.2, mn, mn + 0.1]);
         W3 = Words(Box(L, M, V(286, 368), 'col', { width: CW + 'px' }), 'A una, *todo lo extra.*', 'g4-h');
@@ -509,7 +510,7 @@
         D.rows.forEach(({ r }, i) => { const tk = h('div', { class: 'g4-track' }); const b = h('i', { style: { width: (RATE[i] * 100) + '%' } }); tk.append(b); r.append(tk); bars.push(b); });
         one = h('span', { class: 'g4-one' }, '1º'); D.rows[1].r.append(one);
         chip = Box(L, V(M + 300, M), V(y0 + 4 * rh + 6, y0 + 4 * rh + 10), 'g4-res'); chip.innerHTML = '= te cobra <b>menos intereses</b>';
-        src = Box(L, M, V(y0 + 4 * rh + 92, y0 + 4 * rh + 96), 'g4-src kicker', { width: CW + 'px' }); src.textContent = 'ASÍ LO EXPLICA LA RESERVA FEDERAL DE SAN LUIS · EE. UU.';
+        src = Box(L, M, V(y0 + 4 * rh + 92, y0 + 4 * rh + 96), 'g4-src kicker', { width: CW + 'px' }); src.innerHTML = V('ASÍ LO EXPLICA LA RESERVA FEDERAL DE SAN LUIS · EE.&nbsp;UU.', 'ASÍ LO EXPLICA LA RESERVA FEDERAL<br>DE SAN LUIS · EE.&nbsp;UU.');
         sfx(a, 'pop', 0.6); sfx(ga + 0.4, 'whoosh', 0.4); sfx(ta + 0.2, 'tick', 0.6); sfx(mi, 'check', 0.5);
       },
       update(t) {

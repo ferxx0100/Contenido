@@ -28,6 +28,9 @@
       if (id) { const br = h('div', { class: 'bracket' }); r.append(br); out[id] = { row: r, br }; }
       s.append(r);
     });
+    const fill = h('div', { class: 'g2-st-fill' }, h('div', { class: 'g2-st-k' }, 'MOVIMIENTOS'));
+    [0.72, 0.55, 0.8, 0.62, 0.7].forEach(w => fill.append(h('div', { class: 'g2-st-ln' }, h('i', { style: { width: (w * 100) + '%' } }), h('i', {}))));
+    s.append(fill);
     return { wrap, ph, screen: s, rows: out };
   }
 
@@ -44,7 +47,7 @@
         W1 = Words(Box(L, M, V(226, 306), 'col', { width: V(860, 820) + 'px' }), 'Mira tu *pago mínimo.*', 'd2').sync('Mira tu pago mínimo');
         W2 = Words(Box(L, M, V(560, 1470), 'col', { width: V(860, 820) + 'px' }), 'No es una cifra al azar.', 'd3 d3-xl').sync('No es una cifra al azar');
         W3 = Words(Box(L, M, V(646, 1550), 'col', { width: V(860, 820) + 'px' }), 'Sale de una regla de *Banxico.*', 'd3 d3-xl').sync('Sale de una regla de Banxico');
-        st = stmtPhone(L, V(1300, 230), V(160, 530), V(440, 620), V(760, 660), [
+        st = stmtPhone(L, V(1300, 230), V(160, 530), V(440, 620), V(740, 660), [
           ['Saldo al corte', '$ • • • • •'],
           ['Pago para no generar intereses', '$ • • • •'],
           ['Pago mínimo', '$ • • • •', 'pm'],
@@ -240,7 +243,7 @@
         inout(K, t, a, out, { dy: 12 });
         W1.update(t, out);
         inout(big, t, n1460 - 0.1, out, { dy: 40 });
-        cnt.update(t, n1460 - 0.1, 1.3);
+        cnt.update(t, n1460 - 0.1, 0.5);
         inout(bar, t, n1460 + 0.1, out, { dy: 30 });
         inout(tot, t, n1460 + 0.4, out, { dy: 10 });
         const rp = P(t, n1160 - 0.05, 1.1, Ease.move);
@@ -307,7 +310,7 @@
       ch = c('el mínimo se hace más chico', a).s, fi = c('el final se alarga', a).s, ze = c('llegarías a cero', a).s, d10 = c('casi diez años', a).s,
       end = c('y pagarías alrededor').s;
     // geometría (en px del escenario): nivel 0 y −10 sobre renglones impresos
-    const X0 = V(300, 206), X1 = V(1776, 924), Y0 = V(377, 593), U = 54;
+    const X0 = V(400, 206), X1 = V(1776, 924), Y0 = V(377, 593), U = 54;
     const xm = m => X0 + (m / 120) * (X1 - X0), yl = lv => Y0 - lv * U;
     let K, W1, W2, chip, svg, path, head, axis, zl, ylab = [], xlab = [], p1, p2, p3, d1, d2, dot1, dot2, dot3, note;
     Scene({
@@ -322,7 +325,7 @@
         L.append(svg);
         for (let lv = 0; lv >= -10; lv--) {
           const yl0 = yl(lv);
-          const lab = Box(L, V(108, 120), yl0 - V(30, 30), 'g2-ylab' + (lv === 0 ? ' zero' : ''), { width: V(118, 70) + 'px' });
+          const lab = Box(L, V(288, 120), yl0 - V(30, 30), 'g2-ylab' + (lv === 0 ? ' zero' : ''), { width: V(82, 70) + 'px' });
           lab.textContent = lv === 0 ? '0' : '−' + (-lv);
           ylab.push(lab);
         }
@@ -345,7 +348,7 @@
         p3 = Box(L, V(1000, 300), V(296, 470), 'g2-ann zero', { width: V(xm(119) - 1000 - 24, 600) + 'px' });
         p3.append(h('div', { class: 'g2-ann-v' }, h('span', { class: 'g2-ann-k' }, 'LLEGAR A 0 EN'), 'casi 10 años'));
         note = Box(L, V(1240, 520), V(714, 930), 'g2-note2 kicker', { width: V(520, 410) + 'px' });
-        note.textContent = 'EL MÍNIMO SE HACE MÁS CHICO · EL FINAL SE ALARGA';
+        note.append('EL MÍNIMO SE HACE MÁS CHICO', h('br'), 'EL FINAL SE ALARGA');
         sfx(a + 0.1, 'whoosh', 0.45); sfx(sm + 0.1, 'tick', 0.6); sfx(c4 + 0.1, 'tick', 0.6); sfx(d10, 'thud', 0.8);
       },
       update(t) {
@@ -430,7 +433,7 @@
         const tb = Box(L, M, V(420, 1452), 'g2-krow'); tg = tag(tb); tgS = Strike(tg, 'strike'); tuyo = tag(tb, 'TUYO', 'tuyo');
         W2 = Words(Box(L, M, V(490, 1512), 'col', { width: V(900, 820) + 'px' }), 'Ese número ya no es del ejemplo.', V('d3 d3-xl', 'd3')).sync('Ese número ya no es del ejemplo');
         W3 = Words(Box(L, M, V(590, 1590), 'col', { width: V(900, 820) + 'px' }), '*Es tuyo.*', 'd1 hero').sync('es tuyo', en);
-        st = stmtPhone(L, V(1300, 230), V(160, 440), V(440, 620), V(760, 800), [
+        st = stmtPhone(L, V(1300, 230), V(160, 440), V(440, 620), V(740, 800), [
           ['Saldo al corte', '$ • • • • •'],
           ['Pago mínimo', '$ • • • •'],
         ]);
@@ -439,7 +442,7 @@
           r1 = h('div', { class: 'g2-st-row' }, h('span', {}, 'Tiempo para liquidar'), h('b', { class: 'num' }, '• • meses')),
           r2 = h('div', { class: 'g2-st-row' }, h('span', {}, 'Total a pagar'), h('b', { class: 'num' }, '$ • • • • •')));
         br = h('div', { class: 'bracket' }); box.append(br);
-        st.screen.append(box);
+        st.screen.insertBefore(box, st.screen.querySelector('.g2-st-fill'));
         sfx(a + 0.1, 'whoosh', 0.45); sfx(rc + 0.3, 'click', 0.6); sfx(ej + 0.3, 'strike', 0.5); sfx(ty, 'pop', 0.7);
       },
       update(t) {

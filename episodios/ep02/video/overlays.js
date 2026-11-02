@@ -31,7 +31,7 @@
     [c('Mira tu pago mínimo'), c('Vamos con un ejemplo'), 'REGLA', 'Banxico · Circular 13/2011 · cada banco puede pedir más'],
     [c('Vamos con un ejemplo'), c('Y cuando veas tu número'), 'EJEMPLO', 'Ilustrativo: $20,000 · límite $30,000 · 60% anual + IVA · sin compras nuevas'],
     [c('Si cubres el mínimo y nada más'), c('Esa es tu meta de cada mes'), 'FUENTE', 'CONDUSEF · meses sin intereses'],
-    [c('Con una deuda de ejemplo'), c('Paso cuatro'), 'EJEMPLO', 'Ilustrativo: $20,000 · 60% anual + IVA · sin compras nuevas'],
+    [c('Con una deuda de ejemplo'), c('Paso cuatro'), 'EJEMPLO', 'Ilustrativo: $20,000 · límite $30,000 · 60% anual + IVA · sin compras nuevas'],
     [c('Así lo explica la Reserva'), c('Paso cinco'), 'FUENTE', 'Fed de San Luis · Gal y McShane (2012) · Trudel, HBR (2016)'],
     [c('Y un atraso no desaparece'), c('Si ya no puedes ni'), 'FUENTE', 'Ley para Regular las Sociedades de Información Crediticia · montos aprox. en UDIS'],
     [c('la ley te da derecho'), c('Con esto terminas'), 'FUENTE', 'Reporte de Crédito Especial · gratis cada 12 meses'],

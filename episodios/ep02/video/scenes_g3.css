@@ -110,7 +110,8 @@
 
 /* nivel bloqueado + deuda que crece */
 .g3-lvl { width: 300px; }
-.g3-lvl .lvl-n { font-size: 150px; }
+.g3-lvl .lvl-n { font-size: 112px; letter-spacing: -0.04em; white-space: nowrap; }
+[data-fmt="9x16"] .g3-lvl .lvl-n { font-size: 100px; }
 .g3-graph { position: absolute; }
 .g3-graph svg { position: absolute; left: 0; top: 0; overflow: visible; }
 .g3-ax { stroke: var(--tinta); stroke-width: 3; }

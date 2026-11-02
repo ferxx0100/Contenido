@@ -58,11 +58,12 @@
         W1.update(t, pg - 0.25); W2.update(t, dd - 0.2); W3.update(t, hv - 0.3); W4.update(t, out); W5.update(t, out);
         inout(card.parentNode, t, t0, V(out, pg + 0.6), { dx: 120, dy: 0, r: 8, din: 0.7, oy: -30 });
         // sin tarjeta, el gráfico se queda; en vertical sube al lugar de la tarjeta
-        inout(chart, t, pg - 0.25, out, { dy: 40 });
-        if (ctx.vertical) css(chart, { top: lerp(900, 560, P(t, pg + 0.6, 0.6, Ease.move)) });
-        const step = (cn - pg - 0.4) / N;
-        bars.forEach((b, i) => css(b, { transform: `scaleY(${P(t, pg + i * step, 0.4, Ease.outCubic).toFixed(4)})` }));
-        mos.forEach((m, i) => { const p = P(t, pg + 0.05 + i * step, 0.3); css(m, { opacity: p }); });
+        // en vertical entra ya en el lugar de la tarjeta (sin cruzar la franja de subtítulos)
+        inout(chart, t, V(pg - 0.25, pg + 0.7), out, { dy: V(40, 30) });
+        if (ctx.vertical) css(chart, { top: '560px' });
+        const step = (cn - V(pg, pg + 0.6) - 0.4) / N;
+        bars.forEach((b, i) => css(b, { transform: `scaleY(${P(t, V(pg, pg + 0.6) + i * step, 0.4, Ease.outCubic).toFixed(4)})` }));
+        mos.forEach((m, i) => { const p = P(t, V(pg, pg + 0.6) + 0.05 + i * step, 0.3); css(m, { opacity: p }); });
         // referencia: la altura del primer mes, punteada hasta el último
         const barsH = CH - 44 - 74;
         css(flat, { top: Math.round(barsH * (1 - FR[0])) - 2, transform: `scaleX(${P(t, cn - 0.05, 0.7, Ease.move).toFixed(4)})` });
@@ -354,12 +355,12 @@
         const out = end - 0.45;
         A1.update(t, me - 0.3); A2.update(t, me - 0.3); A3.update(t, me - 0.3);
         B1.update(t, sa - 0.3);
-        inout(frm, t, me + 0.4, sa - 0.3, { dy: 30 });
+        inout(frm, t, me + 0.4, md - 1.3, { dy: 30 });
         F1.update(t);
         css(eqk, { opacity: P(t, sd - 0.05, 0.35) });
         F2.update(t); F3.update(t);
         // nivel de hoy
-        inout(Dk, t, sa, out, { dy: 12 });
+        inout(Dk, t, md - 0.95, out, { dy: 12 });
         const row = markRow(t), lvN = Math.round(row);
         text(Dk, t > cv - 0.1 ? 'TU NIVEL' : 'HOY ESTÁS EN');
         text(lv, lvN === 0 ? '0' : MINUS + lvN);

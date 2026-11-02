@@ -61,7 +61,7 @@
 .g4-xlab { text-align: center; font: 600 18px/1 var(--f-mono); letter-spacing: .1em; color: var(--tinta2); }
 [data-fmt="9x16"] .g4-ylab { font-size: 22px; }
 [data-fmt="9x16"] .g4-xlab { font-size: 16px; letter-spacing: .04em; }
-.g4-note { background: var(--papel); }
+.g4-note { background: none; }
 .g4-note-t { font: 600 40px/1.15 var(--f-display); letter-spacing: -0.015em; }
 [data-fmt="9x16"] .g4-note-t { font-size: 36px; }
 
@@ -88,7 +88,7 @@
 [data-fmt="9x16"] .g4-rc-v { font-size: 32px; }
 
 /* diferencia */
-.g4-diff { background: var(--papel); padding: 6px 0; }
+.g4-diff { background: none; padding: 6px 0; }
 .g4-diff-t { font: 700 64px/1.04 var(--f-display); letter-spacing: -0.03em; }
 .g4-diff-k { margin-top: 12px; }
 [data-fmt="9x16"] .g4-diff-t { font-size: 56px; }
@@ -211,7 +211,7 @@
 .g4-roll.on .g4-chip { border-color: var(--verm); }
 .g4-d2s { font-size: 100px; }
 [data-fmt="9x16"] .g4-d2s { font-size: 88px; }
-.g4-hoy { background: var(--papel); padding: 6px 10px 6px 0; }
+.g4-hoy { background: none; padding: 6px 10px 6px 0; }
 .g4-hoy-v { margin-top: 8px; font: 600 36px/1 var(--f-display); }
 .g4-hoy-v b { color: var(--verm); }
 [data-fmt="9x16"] .g4-hoy-v { font-size: 32px; }
@@ -224,3 +224,5 @@
 [data-fmt="9x16"] .g4-step-t { font-size: 84px; }
 .g4-step-t.g4-step-s { font-size: 88px; }
 [data-fmt="9x16"] .g4-step-t.g4-step-s { font-size: 80px; }
+
+[data-fmt="9x16"] .g4-src { font-size: 20px; letter-spacing: .06em; }

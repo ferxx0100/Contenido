@@ -395,9 +395,9 @@
       },
       update(t) {
         const out = end - 0.4;
-        inout(K1, t, a, out, { dy: 12 }); W0.update(t, out);
+        inout(K1, t, a - 0.15, out, { dy: 12 }); W0.update(t, out);
         inout(K2, t, hb - 0.1, out, { dy: 12 }); W1.update(t, out);
-        inout(home, t, a + 0.1, out, { dy: 40 });
+        inout(home, t, a - 0.15, out, { dy: 40 });
         let k = 0;
         icons.forEach((ic, i) => {
           if (imp(i)) {
@@ -451,7 +451,7 @@
         W0 = Words(Box(L, M, V(176, 290), 'col', { width: CW + 'px' }), 'No vas a subir de nivel…', 'd2').sync('No vas a subir de nivel', a);
         W1 = Words(Box(L, M, V(330, 500), 'col', { width: CW + 'px' }), 'mientras la deuda *siga creciendo.*', 'd3 d3-xl').sync('mientras la deuda siga creciendo', a);
         lv = Box(L, M, V(520, 700), 'lvl locked g3-lvl');
-        lv.append(h('div', { class: 'lvl-n' }, '2'), h('div', { class: 'lvl-k' }, 'NIVEL'), h('div', { class: 'lock' }));
+        lv.append(h('div', { class: 'lvl-n' }, '−10'), h('div', { class: 'lvl-k' }, 'TU NIVEL'), h('div', { class: 'lock' }));
         const GW = V(1080, 820), GH = V(360, 340);
         gr = Box(L, V(M + 444, M), V(470, 880), 'g3-graph', { width: GW + 'px', height: GH + 'px' });
         const svg = h('svg', { viewBox: `0 0 ${GW} ${GH}`, width: GW, height: GH });
