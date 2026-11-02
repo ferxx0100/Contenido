@@ -14,7 +14,7 @@ La verificación independiente encontró lo siguiente:
 - **Parte 1 (opcional):** "En México, treinta y nueve por ciento de quienes tienen suscripciones paga alguna que no usa, la cifra más alta de los países de América Latina encuestados."
 - **Parte 2:** "Según datos de la CONDUSEF, los gastos hormiga pueden llevarse más del doce por ciento de lo que ganas. Más de uno de cada diez pesos que trabajas, sin saber a dónde se fue."
 
-Con el audio nuevo, el pipeline realinea la voz solo y las escenas 05 y 16 se ajustan al nuevo dato (kicker "SEGÚN LA CONDUSEF" y la visual de "1 de cada 10 pesos"). Después se re-renderizan el episodio y los clips 1 y 2. **No publiques el clip 2 ni la miniatura `f10b_thumbnail_15_40.png` hasta corregirlo.**
+Con el audio nuevo, el pipeline realinea la voz solo y las escenas 05 y 16 se ajustan al nuevo dato (kicker "SEGÚN LA CONDUSEF" y la visual de "1 de cada 10 pesos"). Después se re-renderiza el episodio. (Los Shorts ya se corrigieron sin regrabar: el clip 1 empieza después de "Según Deloitte" y el clip 2 se eliminó.) **No publiques el clip 2 ni la miniatura `f10b_thumbnail_15_40.png` hasta corregirlo.**
 
 ## 2. Voz con IA: qué declarar
 - **YouTube:** la voz IA está permitida. El riesgo real es la política de "contenido no auténtico" (plantillas repetitivas o producción en masa). Este episodio tiene guion propio, ejercicios y animación hecha a la medida, que es justo lo que cuenta como valor añadido. Declara "contenido alterado o sintético" si Studio te lo pide y menciona la voz IA en la descripción.
@@ -30,4 +30,4 @@ Con el audio nuevo, el pipeline realinea la voz solo y las escenas 05 y 16 se aj
 ## 4. Lista de subida
 - [ ] YouTube: video 16:9, miniatura, SRT es-MX, capítulos, pantalla final, lista de reproducción (`youtube.md`)
 - [ ] Spotify for Creators: el mismo MP4 como video podcast y la portada 3000×3000 (`spotify_y_podcasts.md`)
-- [ ] Shorts: sigue `shorts_plan.md` (10 clips listos; el 1 y el 2 solo después de corregir el audio)
+- [ ] Shorts: sigue `shorts_plan.md` (11 clips listos; el 1 ya corregido y el 2 eliminado)

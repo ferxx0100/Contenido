@@ -25,7 +25,7 @@
   S.CHAPTERS = CH;
   // notas al pie: etiqueta en la columna de margen + texto en la columna de contenido
   const FOOT = [
-    [c('Según Deloitte'), c('El dinero no se te va'), 'FUENTE', 'Deloitte · cada marca es 1 de cada 100 mexicanos'],
+    [c('Según Deloitte'), c('El dinero no se te va'), 'FUENTE', 'CONDUSEF · cada marca es 1 de cada 100 personas'],
     [c('El dinero no se te va'), c('Y esto pasa por tres razones'), 'EJEMPLO', 'Montos ilustrativos'],
     [c('Hay estudios'), c('La segunda'), 'LECTURA', 'Ilustrativo: pagar sin efectivo se siente menos'],
     [c('Los primeros días'), c('Y la tercera'), 'EJEMPLO', 'Compras por día de la quincena: cada bloque es un cargo'],
@@ -39,7 +39,7 @@
   const tabOn = c('Esto se llama Sistema') + 0.4;
 
   let hud, hudSec, tab, foot, footL, footV, progFill, cap, capWords = [], capChunk = -1, brand, cta, curFoot = -1;
-  const CLIP_END = +(ctx.Q.get('t1') || 0);
+  const CLIP_END = +(ctx.Q.get('t1') || 0), CLIP_T0 = +(ctx.Q.get('t0') || 0);
   (window.__afterBuild ||= []).push(() => {
     const stage = document.getElementById('stage');
     if (!ctx.vertical) {
@@ -81,7 +81,7 @@
     for (let i = 0; i < T.chunks.length; i++) { const ch = T.chunks[i]; if (t >= ch.start - 0.05 && t < ch.hold) { k = i; break; } }
     if (k !== capChunk) {
       capChunk = k; cap.textContent = ''; capWords = [];
-      if (k >= 0) { const ch = T.chunks[k]; for (let i = ch.i0; i < ch.i1; i++) { const w = h('span', { class: 'vw' }, T.words[i].c); cap.append(w, ' '); capWords.push([w, T.words[i]]); } }
+      if (k >= 0) { const ch = T.chunks[k]; for (let i = ch.i0; i < ch.i1; i++) { if (T.words[i].s < CLIP_T0 - 0.02) continue; const w = h('span', { class: 'vw' }, T.words[i].c); cap.append(w, ' '); capWords.push([w, T.words[i]]); } }
     }
     if (k >= 0) {
       const ch = T.chunks[k];

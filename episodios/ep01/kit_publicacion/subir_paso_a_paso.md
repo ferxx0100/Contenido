@@ -192,3 +192,21 @@ Episodio completo: Sistema 1 · A dónde se va tu dinero (en el canal).
 
 #finanzaspersonales #gastoshormiga #quincena #dinero #ahorro #shorts
 ```
+
+### Día 11 · Clip 1 (corregido)
+Descargar: [SISTEMA_Ep01_clip1_54porciento_condusef_9x16.mp4](https://github.com/ferxx0100/Contenido/raw/claude/gifted-hawking-w0rvlq/episodios/ep01/out/SISTEMA_Ep01_clip1_54porciento_condusef_9x16.mp4)
+
+**Título (YouTube):**
+```
+El 54% se queda sin dinero antes de la quincena
+```
+**Descripción (YouTube, TikTok, Instagram y Facebook, la misma):**
+```
+Más de la mitad. No es tu carácter: es un patrón. ¿Te pasa? 👇
+Fuente: CONDUSEF, Encuesta Nacional de Salud Financiera.
+
+Contenido educativo; no es asesoría financiera. Voz generada con IA.
+Episodio completo: Sistema 1 · A dónde se va tu dinero (en el canal).
+
+#finanzaspersonales #quincena #dinero #mexico #ahorro #shorts
+```

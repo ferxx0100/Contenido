@@ -8,7 +8,7 @@ Este repositorio guarda todo lo necesario para producir y publicar cada episodio
 | Qué | Dónde |
 |---|---|
 | Video 16:9 para YouTube y video podcast de Spotify (5:47, 1080p30, −14 LUFS) | `episodios/ep01/out/SISTEMA_Ep01_16x9_YouTube.mp4` |
-| 12 clips verticales 9:16 con subtítulos (Shorts, TikTok, Reels, Facebook) · plan en `episodios/ep01/kit_publicacion/shorts_plan.md` | `episodios/ep01/out/SISTEMA_Ep01_clip*_9x16.mp4` |
+| 11 clips verticales 9:16 con subtítulos (Shorts, TikTok, Reels, Facebook) · plan en `episodios/ep01/kit_publicacion/shorts_plan.md` | `episodios/ep01/out/SISTEMA_Ep01_clip*_9x16.mp4` |
 | Audio para podcast (MP3 192 kbps) | `episodios/ep01/audio/SISTEMA_Ep01_audio.mp3` |
 | Subtítulos SRT (es-MX) | `episodios/ep01/timing/ep01_es.srt` |
 | Miniaturas y portada 3000×3000 | `marca/direccion_A_libro_mayor/png/` |

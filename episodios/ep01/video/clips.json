@@ -1,6 +1,5 @@
 [
-  {"id": "clip1", "file": "SISTEMA_Ep01_clip1_54porciento_9x16.mp4", "t0": 43.45, "freeze": 67.25, "t1": 69.6, "titulo": "El 54% de los mexicanos se queda sin dinero antes de la quincena"},
-  {"id": "clip2", "file": "SISTEMA_Ep01_clip2_falta_de_sistema_9x16.mp4", "t0": 203.5, "freeze": 234.2, "t1": 236.4, "titulo": "15–40% de lo que ganas se va sin que lo notes · No es falta de disciplina"},
+  {"id": "clip1", "file": "SISTEMA_Ep01_clip1_54porciento_condusef_9x16.mp4", "t0": 44.5, "freeze": 67.25, "t1": 69.6, "titulo": "El 54% se queda sin dinero antes de la quincena (dato CONDUSEF)"},
   {"id": "clip3", "file": "SISTEMA_Ep01_clip3_cancela_suscripciones_9x16.mp4", "t0": 273.95, "freeze": 290.86, "t1": 293.1, "titulo": "Cancela tus suscripciones en iPhone en 20 segundos"},
   {"id": "clip4", "file": "SISTEMA_Ep01_clip4_pagar_con_celular_9x16.mp4", "t0": 73.65, "freeze": 97.47, "t1": 99.77, "titulo": "Pagar con el celular te hace gastar más (y casi nadie lo nota)"},
   {"id": "clip5", "file": "SISTEMA_Ep01_clip5_patron_quincena_9x16.mp4", "t0": 98.7, "freeze": 113.9, "t1": 116.2, "titulo": "Por qué a mitad de quincena ya andas contando"},

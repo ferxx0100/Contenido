@@ -1,3 +1,5 @@
+> **Desactualizado.** Usa `shorts_plan.md` y `subir_paso_a_paso.md`. El clip 1 se corrigió (`SISTEMA_Ep01_clip1_54porciento_condusef_9x16.mp4`) y el clip 2 se eliminó.
+
 # Clips verticales 9:16 · TikTok, Reels, Shorts y Facebook
 
 Los tres clips están en `out/` (1080×1920, 30 fps, subtítulos palabra por palabra ya integrados) y cierran con "Episodio completo: Sistema 1 · en YouTube y Spotify". Puedes subir el mismo archivo a todas las plataformas: no lleva marca de agua de ninguna app.
