@@ -3,3 +3,4 @@
 *.pcm
 node_modules/
 out/*.log
+**/out/*.log
