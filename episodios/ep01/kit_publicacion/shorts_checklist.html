@@ -1,0 +1,158 @@
+<title>Shorts Sistema 1</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Libro mayor: una hoja de papel con renglones, columna de margen bermellón, una fila por video */
+:root {
+  --papel: #F3EDE3; --hoja: #FBF8F2; --tinta: #1C1916; --gris: #6E655B; --linea: #E2D9CA; --verm: #C4361C; --ok: #2F6B3A; --ok-bg: #E3EDDF;
+  --f-ui: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --papel: #1A1714; --hoja: #24201C; --tinta: #F1EBE2; --gris: #A79C8F; --linea: #3A332C; --verm: #E2563A; --ok: #8CC796; --ok-bg: #22301F; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --papel: #1A1714; --hoja: #24201C; --tinta: #F1EBE2; --gris: #A79C8F; --linea: #3A332C; --verm: #E2563A; --ok: #8CC796; --ok-bg: #22301F; color-scheme: dark }
+* { box-sizing: border-box; }
+body { background: var(--papel); color: var(--tinta); font: 400 16px/1.5 var(--f-ui); }
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 28px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 22px; }
+.brand { display: flex; align-items: center; gap: 8px; font: 800 13px/1 var(--f-ui); letter-spacing: .08em; }
+.brand b { background: var(--verm); color: var(--hoja); padding: 4px 7px; }
+h1 { font: 800 clamp(30px, 7vw, 44px)/1.05 var(--f-ui); letter-spacing: -.03em; margin: 0; text-wrap: balance; }
+.lead { margin: 0; color: var(--gris); max-width: 60ch; }
+.prog { display: grid; gap: 8px; }
+.prog-top { display: flex; justify-content: space-between; font: 700 13px/1 var(--f-mono); letter-spacing: .04em; }
+.bar { height: 8px; background: var(--linea); overflow: hidden; }
+.bar i { display: block; height: 100%; width: 0; background: var(--verm); transition: width .3s; }
+details.how { background: var(--hoja); border: 1px solid var(--linea); padding: 14px 16px; }
+details.how summary { font-weight: 700; cursor: pointer; }
+.how-grid { display: grid; gap: 14px; margin-top: 12px; }
+.how-grid h3 { margin: 0 0 4px; font: 700 12px/1 var(--f-mono); letter-spacing: .08em; color: var(--verm); text-transform: uppercase; }
+.how-grid ol { margin: 0; padding-left: 20px; display: grid; gap: 3px; }
+.list { display: grid; gap: 14px; }
+.clip { background: var(--hoja); border: 1px solid var(--linea); display: grid; grid-template-columns: 56px 1fr; }
+.clip.done { border-color: var(--ok); }
+.day { border-right: 2px solid var(--verm); display: flex; flex-direction: column; align-items: center; padding-top: 14px; gap: 2px; }
+.day small { font: 700 10px/1 var(--f-mono); letter-spacing: .08em; color: var(--gris); }
+.day span { font: 800 26px/1 var(--f-ui); font-variant-numeric: tabular-nums; }
+.clip.done .day span { color: var(--ok); }
+.body { padding: 14px 16px 16px; display: grid; gap: 12px; min-width: 0; }
+.file { font: 500 12px/1.3 var(--f-mono); color: var(--gris); overflow-wrap: anywhere; }
+.file em { font-style: normal; color: var(--verm); font-weight: 700; }
+.field { display: grid; gap: 6px; }
+.field-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.lab { font: 700 11px/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--gris); }
+.txt { margin: 0; white-space: pre-wrap; background: var(--papel); border: 1px solid var(--linea); padding: 10px 12px; font-size: 15px; user-select: all; overflow-wrap: anywhere; }
+.ttl .txt { font-weight: 700; }
+button.copy { font: 700 13px/1 var(--f-ui); background: var(--tinta); color: var(--hoja); border: 0; padding: 9px 14px; cursor: pointer; min-height: 36px; }
+button.copy.ok { background: var(--ok); }
+button:focus-visible, input:focus-visible + span { outline: 3px solid var(--verm); outline-offset: 2px; }
+.checks { display: flex; flex-wrap: wrap; gap: 8px; }
+.checks label { display: flex; align-items: center; gap: 8px; border: 1px solid var(--linea); padding: 8px 12px; cursor: pointer; font-weight: 600; font-size: 14px; background: var(--papel); }
+.checks input { width: 18px; height: 18px; accent-color: var(--ok); margin: 0; }
+.checks label:has(input:checked) { background: var(--ok-bg); border-color: var(--ok); color: var(--ok); }
+.note { font-size: 13px; color: var(--gris); margin: 0; }
+.foot { font-size: 13px; color: var(--gris); margin: 0; }
+@media (prefers-reduced-motion: reduce) { .bar i { transition: none; } }
+</style>
+
+<div class="wrap">
+  <div class="brand">SISTEMA <b>1</b></div>
+  <h1>Tus 11 Shorts, en orden</h1>
+  <p class="lead">Uno por día. En cada video: copia el título y la descripción, pégalos en la app y palomea dónde ya lo subiste. Los videos son los que te mandé en el chat, con el mismo nombre.</p>
+
+  <div class="prog">
+    <div class="prog-top"><span id="progTxt">0 de 11 listos</span><span id="progPct">0%</span></div>
+    <div class="bar"><i id="progBar"></i></div>
+  </div>
+
+  <details class="how" id="how" open>
+    <summary>Dónde se pega en cada app (celular)</summary>
+    <div class="how-grid">
+      <div><h3>YouTube</h3><ol>
+        <li>+ → Crear un Short → elige el video → Siguiente.</li>
+        <li><b>Título</b> en "Agrega un título". Si hay "Descripción", pega ahí la <b>descripción</b>.</li>
+        <li>Público: "No, no es contenido para niños".</li>
+        <li>Si aparece "Contenido alterado o sintético": Sí.</li></ol></div>
+      <div><h3>TikTok</h3><ol>
+        <li>+ → elige el video → Siguiente.</li>
+        <li>Pega la <b>descripción</b> en "Agrega una descripción". El título no se usa.</li>
+        <li>Más opciones → activa "Contenido generado por IA".</li></ol></div>
+      <div><h3>Instagram + Facebook</h3><ol>
+        <li>+ → Reel → elige el video → Siguiente.</li>
+        <li>Pega la <b>descripción</b> en "Escribe un pie de foto". El título no se usa.</li>
+        <li>Activa "Compartir en Facebook" (así sale en las dos).</li>
+        <li>Más opciones → activa "Etiqueta de IA".</li></ol></div>
+    </div>
+  </details>
+
+  <div class="list" id="list"></div>
+  <p class="foot">Las palomitas se guardan solo en este teléfono o navegador.</p>
+</div>
+
+<script>
+const PIE = "\n\nContenido educativo; no es asesoría financiera. Voz generada con IA.\n\n";
+const CLIPS = [
+  ["clip9_falta_de_sistema_v2", "No es falta de disciplina. Es falta de sistema.", "No es que ganes poco. Es que una parte se va antes de que tú decidas qué hacer con ella.", "#finanzaspersonales #ahorro #dinero #educacionfinanciera #quincena #shorts"],
+  ["clip3_cancela_suscripciones", "Cancela tus suscripciones de iPhone en 20 segundos", "Ajustes → tu nombre → Suscripciones → Cancelar suscripción. ¿Cuánto te ahorraste? 👇", "#iphone #suscripciones #tipsdedinero #ahorro #finanzaspersonales #shorts"],
+  ["clip8_apps_disenadas", "Las apps de compras no fallan: funcionan como las diseñaron", "Un botón, sin contraseña, sin ver tu saldo. No te enojes contigo. ¿Cuál app te gana más? 👇", "#compras #gastoshormiga #dinero #finanzaspersonales #ahorro #shorts"],
+  ["clip4_pagar_con_celular", "Pagar con el celular te hace gastar más (y no lo notas)", "Con efectivo sentías el pago. Con el teléfono: acercas, suena y ya.", "#educacionfinanciera #gastos #tarjeta #dinero #finanzaspersonales #shorts"],
+  ["clip5_patron_quincena", "Por qué a mitad de quincena ya andas contando", "Eres la misma persona. Nada más cambió el número. ¿Te pasa? 👇", "#quincena #dinero #finanzaspersonales #ahorro #mexico #shorts"],
+  ["clip11_borra_apps_impulso", "Borra estas apps de tu celular si quieres ahorrar", "Ofertas, cosas que de repente necesitas, gente que parece tener lo que tú no. Sácalas de tu pantalla principal.", "#ahorro #compras #dinero #finanzaspersonales #minimalismo #shorts"],
+  ["clip6_suscripciones_39", "39% en México paga suscripciones que no usa", "Ese cobro sale solo, cada mes, en silencio. Revisa las tuyas hoy.\nFuente: Bango, encuesta LATAM, junio 2024.", "#suscripciones #streaming #ahorro #dinero #mexico #shorts"],
+  ["clip10_4_pasos", "4 pasos para que tu dinero deje de desaparecer", "Guárdalo para tu próxima quincena. ¿Cuál vas a hacer hoy? 👇", "#finanzaspersonales #presupuesto #ahorro #dinero #quincena #shorts"],
+  ["clip7_test_estado_de_cuenta", "Haz este test con tu estado de cuenta (5 minutos)", "Busca Rappi, Apple y tu tienda en línea. Más de 5 cargos al mes = ahí está tu fuga.", "#estadodecuenta #gastoshormiga #dinero #finanzaspersonales #ahorro #shorts"],
+  ["clip12_3_razones_largo", "3 razones por las que se te va el dinero", "No se te va en la renta ni en el súper. Se te va en las cosas chicas, una por una.", "#finanzaspersonales #gastoshormiga #quincena #dinero #ahorro #shorts", "Dura 1:16. Es el único de más de 1 minuto, el que cuenta para que TikTok pague."],
+  ["clip1_54porciento_condusef", "El 54% se queda sin dinero antes de la quincena", "Más de la mitad. No es tu carácter: es un patrón. ¿Te pasa? 👇\nFuente: CONDUSEF, Encuesta Nacional de Salud Financiera.", "#finanzaspersonales #quincena #dinero #mexico #ahorro #shorts"],
+];
+const NETS = [["yt", "YouTube"], ["tt", "TikTok"], ["ig", "Instagram + Facebook"]];
+const KEY = "sistema1-shorts-v1";
+let state = {};
+try { state = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) { state = {}; }
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} };
+
+const el = (tag, attrs = {}, ...kids) => { const n = document.createElement(tag); for (const [k, v] of Object.entries(attrs)) { if (k === "class") n.className = v; else if (k === "text") n.textContent = v; else n.setAttribute(k, v); } n.append(...kids); return n; };
+
+function copyBtn(getText, label) {
+  const b = el("button", { class: "copy", type: "button", text: label });
+  b.addEventListener("click", () => {
+    const done = () => { b.textContent = "Copiado ✓"; b.classList.add("ok"); setTimeout(() => { b.textContent = label; b.classList.remove("ok"); }, 1800); };
+    const fallback = () => { const pre = b.closest(".field").querySelector(".txt"); const r = document.createRange(); r.selectNodeContents(pre); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = "Mantén presionado y copia"; };
+    try { navigator.clipboard.writeText(getText()).then(done, fallback); } catch (e) { fallback(); }
+  });
+  return b;
+}
+function field(lab, text, cls) {
+  const pre = el("p", { class: "txt", text });
+  return el("div", { class: "field " + cls }, el("div", { class: "field-top" }, el("span", { class: "lab", text: lab }), copyBtn(() => text, "Copiar")), pre);
+}
+
+const list = document.getElementById("list");
+CLIPS.forEach(([file, title, desc, tags, note], i) => {
+  const id = file;
+  state[id] ||= {};
+  const full = desc + PIE + tags;
+  const checks = el("div", { class: "checks" });
+  NETS.forEach(([k, name]) => {
+    const inp = el("input", { type: "checkbox", id: `${id}-${k}` });
+    inp.checked = !!state[id][k];
+    inp.addEventListener("change", () => { state[id][k] = inp.checked; save(); refresh(); });
+    checks.append(el("label", { for: `${id}-${k}` }, inp, el("span", { text: name })));
+  });
+  const fileLine = el("div", { class: "file" }, "Video: SISTEMA_Ep01_", el("em", { text: file }), "_9x16.mp4");
+  const body = el("div", { class: "body" }, fileLine, field("Título · solo YouTube", title, "ttl"), field("Descripción · todas las apps", full, "dsc"));
+  if (note) body.append(el("p", { class: "note", text: note }));
+  body.append(el("div", { class: "lab", text: "Ya lo subí a:" }), checks);
+  const card = el("article", { class: "clip", "data-id": id }, el("div", { class: "day" }, el("small", { text: "DÍA" }), el("span", { text: String(i + 1) })), body);
+  list.append(card);
+});
+
+function refresh() {
+  let n = 0;
+  document.querySelectorAll(".clip").forEach(c => { const s = state[c.dataset.id] || {}; const ok = NETS.every(([k]) => s[k]); c.classList.toggle("done", ok); if (ok) n++; });
+  document.getElementById("progTxt").textContent = `${n} de ${CLIPS.length} listos en las 3 apps`;
+  const p = Math.round(n / CLIPS.length * 100);
+  document.getElementById("progPct").textContent = p + "%";
+  document.getElementById("progBar").style.width = p + "%";
+}
+refresh();
+</script>
