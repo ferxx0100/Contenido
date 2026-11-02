@@ -25,7 +25,7 @@
   S.CHAPTERS = CH;
   // notas al pie: etiqueta en la columna de margen + texto en la columna de contenido
   const FOOT = [
-    [c('Según Deloitte'), c('El dinero no se te va'), 'FUENTE', 'CONDUSEF · cada marca es 1 de cada 100 personas'],
+    [c('Según Deloitte'), c('El dinero no se te va'), 'FUENTE', 'Deloitte, Global State of the Consumer Tracker (2025) · cada marca es 1 de cada 100'],
     [c('El dinero no se te va'), c('Y esto pasa por tres razones'), 'EJEMPLO', 'Montos ilustrativos'],
     [c('Hay estudios'), c('La segunda'), 'LECTURA', 'Ilustrativo: pagar sin efectivo se siente menos'],
     [c('Los primeros días'), c('Y la tercera'), 'EJEMPLO', 'Compras por día de la quincena: cada bloque es un cargo'],

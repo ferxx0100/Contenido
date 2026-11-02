@@ -16,7 +16,7 @@ Cada clip empieza en una frase completa y se entiende sin ver el episodio. **Nin
 | 8 | 10 | `SISTEMA_Ep01_clip10_4_pasos_9x16.mp4` | 42 s | Lista de pasos: se guarda |
 | 9 | 7 | `SISTEMA_Ep01_clip7_test_estado_de_cuenta_9x16.mp4` | 44 s | Ejercicio guiado con tu estado de cuenta |
 | 10 | 12 | `SISTEMA_Ep01_clip12_3_razones_largo_9x16.mp4` | 76 s | Versión de más de 1 min: la que cuenta para TikTok Creator Rewards |
-| 11 | 1 | `SISTEMA_Ep01_clip1_54porciento_condusef_9x16.mp4` | 25 s | Corregido: empieza en "el 54%…" (se cortó "Según Deloitte") y en pantalla dice "Dato de la CONDUSEF" |
+| 11 | 1 | `SISTEMA_Ep01_clip1_54porciento_deloitte_9x16.mp4` | 25 s | Corregido: empieza en "el 54%…" (se cortó "Según Deloitte") y en pantalla dice "Según Deloitte · 2025" |
 
 Clip 1: corregido sin regrabar la voz. Clip 2: eliminado; el dato de BBVA era falso y estaba en toda la frase, y el clip 9 da el mismo mensaje sin él.
 

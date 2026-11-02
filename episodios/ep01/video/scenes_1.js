@@ -193,7 +193,7 @@
       build(root) {
         const L = layer(root);
         W0 = Words(Box(L, M, V(330, 520), 'col', { width: CW + 'px' }), 'No eres *el único.*', 'd1 hero').sync('Y no eres el único', a);
-        K = Box(L, M, V(176, 370), 'kicker acc-k'); K.textContent = 'DATO DE LA CONDUSEF';
+        K = Box(L, M, V(176, 370), 'kicker acc-k'); K.textContent = 'SEGÚN DELOITTE · 2025';
         row = Box(L, M - 14, V(196, 410), 'stat-row');
         num = h('span', { class: 'stat-n num-d' }, '0'); cnt = Counter(num, 0, 54);
         const side = h('div', { class: 'stat-side' }, h('span', { class: 'stat-p' }, '%'));

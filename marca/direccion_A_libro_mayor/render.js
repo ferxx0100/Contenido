@@ -23,6 +23,7 @@ const FRAMES = [
   { id: 11, name: 'f11_cover', w: 3000, h: 3000 },
   { id: 12, name: 'f09_clip_vertical_guias', w: 1080, h: 1920 },
   { id: 13, name: 'f10b_thumbnail_15_40', w: 1280, h: 720 },
+  { id: 20, name: 'f20_thumbnail_ep02', w: 1280, h: 720 },
 ];
 
 (async () => {

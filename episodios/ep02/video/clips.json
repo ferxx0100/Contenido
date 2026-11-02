@@ -3,7 +3,7 @@
   {"id": "clip2", "file": "SISTEMA_Ep02_clip2_regla_banxico_9x16.mp4", "t0": 93.21, "freeze": 117.73, "t1": 120.03, "titulo": "Tu pago mínimo no es al azar: la regla de Banxico"},
   {"id": "clip3", "file": "SISTEMA_Ep02_clip3_pago_minimo_ejemplo_9x16.mp4", "t0": 125.77, "freeze": 157.89, "t1": 160.19, "titulo": "Ejemplo: pagas $1,460 y tu deuda solo baja $300"},
   {"id": "clip4", "file": "SISTEMA_Ep02_clip4_falta_de_sistema_9x16.mp4", "t0": 194.61, "freeze": 217.45, "t1": 219.75, "titulo": "No es falta de disciplina. Es falta de sistema."},
-  {"id": "clip5", "file": "SISTEMA_Ep02_clip5_sin_intereses_9x16.mp4", "t0": 219.65, "freeze": 246.7, "t1": 249.0, "titulo": "El número para no pagar intereses este mes"},
+  {"id": "clip5", "file": "SISTEMA_Ep02_clip5_sin_intereses_9x16.mp4", "t0": 219.65, "freeze": 246.7, "t1": 249.0, "titulo": "El número para no pagar intereses este mes", "vfreeze": 246.3},
   {"id": "clip6", "file": "SISTEMA_Ep02_clip6_congela_tu_pago_9x16.mp4", "t0": 276.69, "freeze": 306.01, "t1": 308.31, "titulo": "Congela tu pago: de casi 10 años a dos y medio"},
   {"id": "clip7", "file": "SISTEMA_Ep02_clip7_que_deuda_primero_9x16.mp4", "t0": 339.01, "freeze": 394.89, "t1": 397.19, "titulo": "¿Qué deuda pagar primero? La más cara o la más chica"},
   {"id": "clip8", "file": "SISTEMA_Ep02_clip8_buro_de_credito_9x16.mp4", "t0": 398.26, "freeze": 444.54, "t1": 446.84, "titulo": "Buró de Crédito no es lista negra: lo que sí cuenta"}

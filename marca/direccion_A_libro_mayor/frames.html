@@ -443,6 +443,27 @@ function f10b(){
 }
 
 /* =========================================================================
+   F20 · MINIATURA EP02 1280×720 — "Pagas $1,460. Tu deuda baja $300."
+   ========================================================================= */
+function f20(){
+  const W=1280,H=720,u=36; let s = paper(W,H,u,{marginX:84,mGap:6,mW:2});
+  const L=124;
+  s += T('SISTEMA',{x:L,y:92,f:'d',w:800,s:30,ls:-0.01,ink:'l',id:'twm20'});
+  s += M('tag',{for:'twm20',gap:14,text:'2',w:30,h:38,fill:C.verm});
+  s += T('EJEMPLO',{x:1156,y:92,f:'m',w:700,s:22,ls:0.16,fill:C.verm,a:'end'});
+  s += T('Pagas $1,460.',{x:L,y:262,f:'d',w:800,s:104,ls:-0.04,ink:'l'});
+  s += T('Tu deuda',{x:L,y:400,f:'d',w:800,s:104,ls:-0.04,ink:'l'});
+  s += T('baja $300.',{x:L,y:538,f:'d',w:800,s:104,ls:-0.04,ink:'l',id:'b20'});
+  s += M('dbl',{for:'b20',word:'$300.',t:9,gap:8,off:'auto',pad:0.03,fill:C.verm});
+  // barra del pago: intereses + IVA (rojo) vs lo que baja la deuda
+  const X=124,Y=600,BW=1032,BH=54, red=Math.round(BW*1160/1460);
+  s += R(X+8,Y+8,BW,BH,C.sombra) + R(X,Y,BW,BH,C.hoja,`stroke="${C.tinta}" stroke-width="3"`) + R(X,Y,red,BH,C.verm);
+  s += T('$1,160 INTERESES + IVA',{x:X+22,y:Y+37,f:'m',w:800,s:24,ls:0.06,fill:C.papel,ink:'l'});
+  s += T('$300',{x:X+BW-20,y:Y+37,f:'m',w:800,s:24,fill:C.tinta,a:'end'});
+  return s;
+}
+
+/* =========================================================================
    F11 · PORTADA PODCAST 3000×3000
    ========================================================================= */
 function f11(){
@@ -477,6 +498,7 @@ const FRAMES = [
   {id:10,name:'f10_thumbnail',       w:1280,h:720,  build:f10},
   {id:11,name:'f11_cover',           w:3000,h:3000, build:f11},
   {id:13,name:'f10b_thumbnail_15_40', w:1280,h:720,  build:f10b},
+  {id:20,name:'f20_thumbnail_ep02',   w:1280,h:720,  build:f20},
   {id:12,name:'f09_clip_vertical_guias', w:1080,h:1920, build:()=>f09(true)},
 ];
 

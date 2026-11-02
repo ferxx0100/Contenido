@@ -194,16 +194,16 @@ Episodio completo: Sistema 1 · A dónde se va tu dinero (en el canal).
 ```
 
 ### Día 11 · Clip 1 (corregido)
-Descargar: [SISTEMA_Ep01_clip1_54porciento_condusef_9x16.mp4](https://github.com/ferxx0100/Contenido/raw/claude/gifted-hawking-w0rvlq/episodios/ep01/out/SISTEMA_Ep01_clip1_54porciento_condusef_9x16.mp4)
+Descargar: [SISTEMA_Ep01_clip1_54porciento_deloitte_9x16.mp4](https://github.com/ferxx0100/Contenido/raw/claude/gifted-hawking-w0rvlq/episodios/ep01/out/SISTEMA_Ep01_clip1_54porciento_deloitte_9x16.mp4)
 
 **Título (YouTube):**
 ```
-El 54% se queda sin dinero antes de la quincena
+El 54% llega a fin de mes sin dinero
 ```
 **Descripción (YouTube, TikTok, Instagram y Facebook, la misma):**
 ```
 Más de la mitad. No es tu carácter: es un patrón. ¿Te pasa? 👇
-Fuente: CONDUSEF, Encuesta Nacional de Salud Financiera.
+Fuente: Deloitte, Global State of the Consumer Tracker (2025): el 54% llega a fin de mes sin dinero.
 
 Contenido educativo; no es asesoría financiera. Voz generada con IA.
 Episodio completo: Sistema 1 · A dónde se va tu dinero (en el canal).
