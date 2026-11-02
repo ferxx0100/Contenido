@@ -1,0 +1,606 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SISTEMA · Libro mayor</title>
+<!--
+  SISTEMA — Dirección A: "Libro mayor editorial"
+  Un solo archivo, 100% offline. Todo es texto real + formas SVG.
+  ?frame=N     -> una composición a tamaño nativo (para render.js)
+  ?frame=N&debug=1 -> superpone cajas de tinta y retícula
+  sin parámetros -> hoja de contactos con todas las composiciones
+-->
+<style>
+  :root{
+    --papel:#F3EDE3; --hoja:#FBF8F2; --sombra:#E2D9CA;
+    --tinta:#17140F; --tinta-2:#5A5348;
+    --regla:#DDD5C6; --regla-2:#CFC5B4;
+    --bermellon:#C4361C; --resalte:#F1D5CB;
+  }
+  html,body{margin:0;padding:0}
+  body{background:#24211d;color:#d9d2c6;font:500 13px 'JetBrains Mono',monospace}
+  body.single{background:var(--papel)}
+  body.single svg{display:block}
+  .sheet{display:flex;flex-wrap:wrap;gap:28px;padding:28px;align-items:flex-start}
+  .card p{margin:0 0 8px;letter-spacing:.06em;text-transform:uppercase}
+  .card svg{display:block;height:auto;box-shadow:0 1px 0 #000}
+</style>
+</head>
+<body>
+<script>
+/* =========================================================================
+   TOKENS
+   ========================================================================= */
+const C = {
+  papel:'#F3EDE3',   // fondo: papel de libro mayor
+  hoja:'#FBF8F2',    // hoja suelta (documentos encima del papel)
+  sombra:'#E2D9CA',  // sombra plana de la hoja
+  tinta:'#17140F',   // texto principal, reglas de tinta
+  tinta2:'#5A5348',  // texto secundario (6.5:1 sobre papel)
+  regla:'#DDD5C6',   // renglones impresos del libro
+  regla2:'#CFC5B4',  // columnas impresas / marcas inactivas
+  verm:'#C4361C',    // bermellón: el lápiz del auditor (4.6:1 sobre papel)
+  resalte:'#F1D5CB'  // resaltado de búsqueda (bermellón 18% sobre hoja)
+};
+const FAM = { d:'Inter Display', t:'Inter', m:'JetBrains Mono', s:'Bitstream Charter' };
+const NS = 'http://www.w3.org/2000/svg';
+
+/* =========================================================================
+   PRIMITIVAS DE MARCADO
+   ========================================================================= */
+const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const attr = o => Object.entries(o).filter(([,v])=>v!==undefined&&v!==null&&v!=='').map(([k,v])=>`${k}="${v}"`).join(' ');
+
+/* T(): <text> con estilo tipográfico y atributos de maquetación
+   ink:'l'|'r'  alinea el borde de TINTA (no la caja) a x
+   fit:W        ajusta el cuerpo para que la tinta mida W
+   after:id     x = borde derecho de tinta de id + gap
+   alignx:id    x = borde izquierdo de tinta de id
+   top:id       alinea la parte superior de tinta con la de id
+   anim         primitiva de movimiento para el motor (ver spec.md) */
+function T(str, o={}){
+  const {x=0,y=0,f='d',w=400,s=40,ls=0,fill=C.tinta,a='start',id,ink,fit,after,gap,alignx,top,op,it=false,feat,raw=false,anim,t0,cls} = o;
+  const style = `font-family:'${FAM[f]}';font-weight:${w};font-size:${s}px;letter-spacing:${ls}em;${it?'font-style:italic;':''}${feat?`font-feature-settings:${feat};`:''}`;
+  return `<text ${attr({id,class:cls,x,y,'text-anchor':a,fill,opacity:op,'data-ink':ink,'data-fit':fit,'data-after':after,'data-gap':gap,'data-alignx':alignx,'data-top':top,'data-anim':anim,'data-t':t0})} style="${style}">${raw?str:esc(str)}</text>`;
+}
+const R = (x,y,w,h,fill,extra='') => `<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="${fill}" ${extra}/>`;
+/* Marcas que dependen de la tinta medida: se rellenan en layout() */
+const M = (kind, o) => `<g ${attr(Object.fromEntries(Object.entries({mark:kind,...o}).map(([k,v])=>['data-'+k,v])))}></g>`;
+
+/* Papel: renglones impresos + doble raya de margen */
+function paper(W,H,u,{marginX=240,mGap=8,mW=2,lineW=1,col=null}={}){
+  let s = R(0,0,W,H,C.papel,'data-layer="papel"');
+  s += `<g data-layer="renglones" stroke="${C.regla}" stroke-width="${lineW}" shape-rendering="crispEdges">`;
+  for(let y=u; y<H; y+=u) s += `<line x1="0" x2="${W}" y1="${y+lineW/2}" y2="${y+lineW/2}"/>`;
+  s += `</g>`;
+  if(col!==null){ s += `<g data-layer="columnas" fill="${C.regla2}">${[].concat(col).map(x=>R(x,0,lineW,H,C.regla2)).join('')}</g>`; }
+  if(marginX!==null) s += `<g data-layer="margen" fill="${C.verm}" data-anim="regla">${R(marginX,0,mW,H,C.verm)}${R(marginX+mGap,0,mW,H,C.verm)}</g>`;
+  return s;
+}
+
+/* ---- Constantes 16:9 ---- */
+const U = 54, ML = 108, CL = 288, CR = 1812;
+
+/* Cabeza corrida (running head) */
+function head16(){
+  return `<g data-layer="cabeza" data-anim="tinta">
+    ${T('SISTEMA',{x:ML,y:90,f:'d',w:800,s:26,ls:-0.01,ink:'l',id:'rh'})}
+    ${T(`<tspan fill="${C.verm}" style="font-weight:600">Nivel 1</tspan><tspan dx="14">A dónde se va tu dinero</tspan>`,{x:CL,y:90,f:'t',w:500,s:22,fill:C.tinta2,raw:true})}
+    ${R(ML,106,CR-ML,2,C.tinta)}
+  </g>`;
+}
+/* Pestaña de índice = nivel (baja un escalón por nivel) */
+function tab16(n=1){
+  const y = 108 + (n-1)*108;
+  return `<g data-layer="pestana" data-anim="pestana">${R(1858,y,62,108,C.verm)}${T(String(n),{x:1889,y:y+70,f:'d',w:700,s:46,a:'middle',fill:C.papel})}</g>`;
+}
+/* Pie: etiqueta en la columna de margen + valor en la columna de contenido */
+function foot16(label,value,right){
+  return `<g data-layer="pie">
+    ${R(ML,972,CR-ML,1,C.tinta)}
+    ${label?T(label,{x:ML,y:1011,f:'m',w:500,s:17,ls:0.12,fill:C.tinta2,ink:'l'}):''}
+    ${value?T(value,{x:CL,y:1011,f:'t',w:500,s:22,fill:C.tinta,ink:'l'}):''}
+    ${right?T(right,{x:CR,y:1011,f:'m',w:500,s:17,ls:0.12,fill:C.tinta2,a:'end'}):''}
+  </g>`;
+}
+const kicker = (str,{x=CL,y=200,fill=C.tinta2,s=22,w=600}={}) => T(str,{x,y,f:'m',w,s,ls:0.12,fill,ink:'l',anim:'tinta'});
+
+/* =========================================================================
+   F01 · COLD OPEN — "Te acaban de pagar."
+   ========================================================================= */
+function f01(){
+  const W=1920,H=1080; let s = paper(W,H,U);
+  // Contador de quincena (arriba derecha)
+  s += T('DÍA 1 DE 15',{x:CR,y:200,f:'m',w:600,s:22,ls:0.12,a:'end',fill:C.tinta,anim:'tipo'});
+  const tw=20,tg=7, x0 = CR-(15*tw+14*tg);
+  s += `<g data-anim="conteo">`; for(let i=0;i<15;i++) s += R(x0+i*(tw+tg),222,tw,10,i===0?C.tinta:C.regla2); s += `</g>`;
+  // Titular
+  s += T('Te acaban',{x:CL,y:432,f:'d',w:700,s:236,ls:-0.045,ink:'l',id:'h1',anim:'tinta',t0:0.0});
+  s += T('de pagar.',{x:CL,y:648,f:'d',w:700,s:236,ls:-0.045,ink:'l',id:'h2',anim:'tinta',t0:0.12});
+  // Asiento: abono de nómina (renglón 14)
+  s += T('15 NOV',{x:ML,y:794,f:'m',w:500,s:20,ls:0.06,fill:C.tinta2,ink:'l',anim:'tipo'});
+  s += T('ABONO · NÓMINA QUINCENAL',{x:CL,y:794,f:'m',w:600,s:30,ls:0.02,ink:'l',anim:'tipo',id:'c14'});
+  s += T('+$12,480.00',{x:CR,y:796,f:'m',w:700,s:42,ls:0,a:'end',anim:'conteo',id:'a14'});
+  s += M('leader',{from:'c14',to:'a14',gap:22,stroke:C.regla2,lift:6});
+  // Siguiente renglón: se empieza a escribir solo
+  s += T('15 NOV',{x:ML,y:848,f:'m',w:500,s:20,ls:0.06,fill:C.tinta2,ink:'l'});
+  s += T('RAPPI *REST',{x:CL,y:848,f:'m',w:600,s:30,ls:0.02,fill:C.tinta2,ink:'l',id:'typing'});
+  s += M('caret',{for:'typing',gap:5,w:4,h:36,fill:C.verm});
+  return s;
+}
+
+/* =========================================================================
+   F02 · TÍTULO — SISTEMA · Nivel 1 · A dónde se va tu dinero
+   ========================================================================= */
+function f02(){
+  const W=1920,H=1080; let s = paper(W,H,U) + tab16(1);
+  s += kicker('FUNCIONA POR NIVELES · CADA NIVEL ES UN CAPÍTULO');
+  s += T('SISTEMA',{x:CL,y:540,f:'d',w:800,s:400,ls:-0.03,ink:'l',fit:CR-CL,id:'wm',anim:'tinta'});
+  s += M('dbl',{for:'wm',t:12,gap:9,off:16,fill:C.verm,anim:'cuadrar'});
+  // Izquierda: nivel + título del capítulo
+  s += T('NIVEL 1',{x:CL,y:686,f:'m',w:700,s:24,ls:0.16,fill:C.verm,ink:'l'});
+  s += T('A dónde se va',{x:CL,y:810,f:'d',w:600,s:100,ls:-0.03,ink:'l',anim:'tinta'});
+  s += T('tu dinero',{x:CL,y:918,f:'d',w:600,s:100,ls:-0.03,ink:'l',anim:'tinta'});
+  // Derecha: índice de niveles
+  const IX = 1176;
+  s += T('ÍNDICE',{x:IX,y:686,f:'m',w:500,s:18,ls:0.16,fill:C.tinta2,ink:'l'});
+  s += R(IX,701,CR-IX,2,C.tinta);
+  const rows = [
+    {n:'1',t:'A dónde se va tu dinero',r:'AQUÍ',y:756,c:C.tinta,nc:C.verm,rc:C.verm,w:600},
+    {n:'2',t:'Deuda',r:'SIGUIENTE',y:810,c:C.tinta2,nc:C.tinta2,rc:C.tinta2,w:500},
+    {n:'',t:'· · ·',r:'',y:864,c:C.tinta2,nc:C.tinta2,rc:C.tinta2,w:500},
+    {n:'0',t:'No deber nada',r:'META',y:918,c:C.tinta,nc:C.tinta,rc:C.tinta,w:600},
+  ];
+  rows.forEach((r,i)=>{
+    if(r.n) s += T(r.n,{x:IX,y:r.y,f:'m',w:700,s:26,fill:r.nc,ink:'l'});
+    s += T(r.t,{x:IX+52,y:r.y,f:'t',w:r.w,s:28,fill:r.c,ink:'l',id:`ix${i}t`});
+    if(r.r){ s += T(r.r,{x:CR,y:r.y,f:'m',w:600,s:17,ls:0.12,fill:r.rc,a:'end',id:`ix${i}r`});
+             s += M('leader',{from:`ix${i}t`,to:`ix${i}r`,gap:14,lift:8,stroke:r.n==='1'?C.verm:C.regla2}); }
+  });
+  return s;
+}
+
+/* =========================================================================
+   F03 · DATO DELOITTE — 54%
+   ========================================================================= */
+function f03(){
+  const W=1920,H=1080; let s = paper(W,H,U) + head16() + tab16(1);
+  s += kicker('SEGÚN DELOITTE',{fill:C.verm});
+  s += T('54',{x:CL,y:702,f:'d',w:700,s:600,ls:-0.04,ink:'l',id:'n',anim:'conteo'});
+  s += T('%',{y:0,f:'d',w:600,s:260,after:'n',gap:34,top:'n',id:'pct'});
+  ['de los mexicanos se queda','sin dinero antes de que','termine la quincena.'].forEach((l,i)=>{
+    s += T(l,{y:594+i*54,f:'d',w:500,s:46,ls:-0.01,alignx:'pct',id:`dl${i}`,anim:'tinta'});
+  });
+  // Regla de 100 marcas: 1 marca = 1 de cada 100
+  const pitch = (CR-CL)/100, tw = 6;
+  s += `<g data-anim="conteo">`;
+  for(let i=0;i<100;i++){
+    const x = CL + i*pitch + (pitch-tw)/2, on = i<54;
+    s += R(x.toFixed(2), on?810:837, tw, on?54:27, on?C.verm:C.regla2);
+  }
+  s += `</g>`;
+  s += R(CL,864,CR-CL,2,C.tinta);
+  const xm = CL+50*pitch; // la mitad
+  s += R(xm-1,772,2,110,C.tinta);
+  s += T('LA MITAD',{x:xm-14,y:794,f:'m',w:600,s:18,ls:0.12,a:'end',fill:C.tinta});
+  s += T('0',{x:CL,y:902,f:'m',w:500,s:20,fill:C.tinta2,ink:'l'});
+  s += T('100',{x:CR,y:902,f:'m',w:500,s:20,fill:C.tinta2,a:'end'});
+  s += T('54',{x:CL+54*pitch,y:904,f:'m',w:700,s:26,fill:C.verm,a:'middle'});
+  s += foot16('LECTURA','Cada marca es 1 de cada 100 mexicanos. Más de la mitad del país.');
+  return s;
+}
+
+/* =========================================================================
+   F04 · RAZÓN 2 — No gastas igual toda la quincena
+   ========================================================================= */
+function f04(){
+  const W=1920,H=1080; let s = paper(W,H,U) + head16() + tab16(1);
+  s += kicker('RAZÓN 2 DE 3',{fill:C.verm});
+  s += T('No gastas igual',{x:CL,y:324,f:'d',w:700,s:112,ls:-0.035,ink:'l',anim:'tinta'});
+  s += T('toda la quincena.',{x:CL,y:432,f:'d',w:700,s:112,ls:-0.035,ink:'l',anim:'tinta'});
+  const n = [5,4,4,3,3,2,2,2,1,1,1,1,1,1,1];
+  const colW = (CR-CL)/15, bw = 66, base = 918;
+  s += `<g data-anim="asiento">`;
+  n.forEach((k,d)=>{
+    const x = CL + d*colW + (colW-bw)/2;
+    for(let j=0;j<k;j++) s += R(x.toFixed(1), base-(j+1)*U+4, bw, U-8, d<5?C.verm:C.tinta);
+    s += T(String(d+1),{x:(x+bw/2).toFixed(1),y:956,f:'m',w:d<5?700:500,s:22,a:'middle',fill:d<5?C.verm:C.tinta2});
+  });
+  s += `</g>`;
+  s += R(CL,base,CR-CL,2,C.tinta);
+  // Corchetes de grupo
+  const g = (d0,d1,label,col) => {
+    const x1 = CL + d0*colW + (colW-bw)/2, x2 = CL + d1*colW + (colW-bw)/2 + bw;
+    const top = base - Math.max(...n.slice(d0,d1+1))*U + 4, by = top - 26;
+    return R(x1,by,x2-x1,3,col) + R(x1,by,3,14,col) + R(x2-3,by,3,14,col) +
+           T(label,{x:x1,y:by-14,f:'m',w:700,s:20,ls:0.12,fill:col,ink:'l'});
+  };
+  s += g(0,4,'PRIMEROS DÍAS',C.verm) + g(10,14,'ÚLTIMOS DÍAS',C.tinta);
+  s += foot16('EJEMPLO','Compras por día de la quincena: cada bloque es un cargo.', 'DÍA DE LA QUINCENA →');
+  return s;
+}
+
+/* =========================================================================
+   F05 · ESTADO DE CUENTA — búsqueda "rappi"
+   ========================================================================= */
+function f05(){
+  const W=1920,H=1080; let s = paper(W,H,U) + head16() + tab16(1);
+  // Hoja del estado de cuenta (sangra por abajo)
+  const X=CL, Y=162, SW=852, P=40;
+  s += R(X+14,Y+14,SW,H,C.sombra) + R(X,Y,SW,H,C.hoja,`stroke="${C.regla2}" stroke-width="1"`);
+  s += T('Estado de cuenta',{x:X+P,y:Y+60,f:'d',w:700,s:34,ls:-0.01,ink:'l'});
+  s += T('PERIODO 01–30 NOV',{x:X+SW-P,y:Y+58,f:'m',w:500,s:17,ls:0.08,a:'end',fill:C.tinta2});
+  s += T('CUENTA DE DÉBITO •••• 4821',{x:X+P,y:Y+92,f:'m',w:500,s:17,ls:0.08,fill:C.tinta2,ink:'l'});
+  // Campo de búsqueda (activo)
+  const sy = Y+118;
+  s += `<rect x="${X+P}" y="${sy}" width="${SW-2*P}" height="66" rx="8" fill="#FFFFFF" stroke="${C.tinta}" stroke-width="2"/>`;
+  s += `<g fill="none" stroke="${C.tinta}" stroke-width="3" stroke-linecap="round"><circle cx="${X+P+36}" cy="${sy+30}" r="11"/><line x1="${X+P+44}" y1="${sy+38}" x2="${X+P+54}" y2="${sy+48}"/></g>`;
+  s += T('rappi',{x:X+P+76,y:sy+44,f:'m',w:600,s:30,id:'q',ink:'l',anim:'tipo'});
+  s += M('caret',{for:'q',gap:4,w:3,h:34,fill:C.verm});
+  s += T('1 de 7',{x:X+SW-P-96,y:sy+42,f:'m',w:600,s:20,a:'end',fill:C.verm});
+  s += `<g fill="none" stroke="${C.tinta2}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="${X+SW-P-70},${sy+38} ${X+SW-P-60},${sy+28} ${X+SW-P-50},${sy+38}"/><polyline points="${X+SW-P-38},${sy+28} ${X+SW-P-28},${sy+38} ${X+SW-P-18},${sy+28}"/></g>`;
+  // Tabla de movimientos
+  const ty = Y+226;
+  s += T('FECHA',{x:X+P,y:ty,f:'m',w:500,s:16,ls:0.12,fill:C.tinta2,ink:'l'});
+  s += T('CONCEPTO',{x:X+P+130,y:ty,f:'m',w:500,s:16,ls:0.12,fill:C.tinta2});
+  s += T('CARGO',{x:X+SW-P,y:ty,f:'m',w:500,s:16,ls:0.12,fill:C.tinta2,a:'end'});
+  s += R(X+P,ty+12,SW-2*P,2,C.tinta);
+  const mov = [
+    ['01 NOV','RAPPI *RESTAURANTES','289.00',1],
+    ['02 NOV','OXXO','87.00',0],
+    ['03 NOV','RAPPI *TURBO','164.00',1],
+    ['03 NOV','APPLE.COM/BILL','179.00',0],
+    ['05 NOV','RAPPI *RESTAURANTES','312.00',1],
+    ['07 NOV','UBER *VIAJE','146.50',0],
+    ['09 NOV','RAPPI *RESTAURANTES','238.00',1],
+    ['12 NOV','MERCADOLIBRE','649.00',0],
+    ['14 NOV','RAPPI *PRIME','119.00',1],
+    ['18 NOV','RAPPI *RESTAURANTES','276.00',1],
+    ['21 NOV','APPLE.COM/BILL','49.00',0],
+    ['24 NOV','RAPPI *TURBO','204.00',1],
+  ];
+  const rh = 50; let k=0;
+  mov.forEach((m,i)=>{
+    const top = ty+14+i*rh, by = top+rh-17, hit = m[3]===1;
+    if(hit){ s += M('hl',{for:`mv${i}`,word:'RAPPI',pad:6,y1:top+9,y2:top+rh-8,fill:C.resalte,current:k===0?1:0}); s += R(X+16,top+10,4,rh-20,C.verm); k++; }
+    s += T(m[0],{x:X+P,y:by,f:'m',w:500,s:23,fill:hit?C.tinta:C.tinta2,ink:'l'});
+    s += T(m[1],{x:X+P+130,y:by,f:'m',w:hit?600:500,s:23,fill:hit?C.tinta:C.tinta2,id:`mv${i}`});
+    s += T(m[2],{x:X+SW-P,y:by,f:'m',w:hit?600:500,s:23,fill:hit?C.tinta:C.tinta2,a:'end'});
+    s += R(X+P,top+rh,SW-2*P,1,C.regla);
+  });
+  // Columna derecha: el conteo
+  const RX = 1236;
+  s += T(`<tspan fill="${C.tinta}">1 RAPPI</tspan><tspan dx="22">2 APPLE</tspan><tspan dx="22">3 TU TIENDA</tspan>`,{x:RX,y:200,f:'m',w:600,s:20,ls:0.1,fill:C.tinta2,raw:true});
+  s += T('7',{x:RX,y:486,f:'d',w:700,s:330,ls:-0.04,ink:'l',fill:C.verm,id:'siete',anim:'conteo'});
+  s += T('cargos de',{y:432,f:'d',w:600,s:44,ls:-0.01,after:'siete',gap:30,id:'c1'});
+  s += T('Rappi en un mes',{y:486,f:'d',w:600,s:44,ls:-0.01,alignx:'c1'});
+  s += T('Más de cinco cargos al mes:',{x:RX,y:594,f:'d',w:500,s:34,fill:C.tinta2,ink:'l'});
+  s += T('ahí está tu fuga.',{x:RX,y:658,f:'d',w:800,s:62,ls:-0.025,ink:'l',id:'fuga'});
+  s += M('dbl',{for:'fuga',t:5,gap:5,off:12,fill:C.verm,anim:'cuadrar'});
+  // Libreta: anota tus 4 números
+  s += T('ANOTA TUS 4 NÚMEROS',{x:RX,y:794,f:'m',w:600,s:18,ls:0.14,fill:C.tinta2,ink:'l'});
+  s += R(RX,809,CR-RX,2,C.tinta);
+  const nums = [['1','Rappi','$1,602.00'],['2','Apple',''],['3','Tu tienda en línea',''],['4','Días 1–5 vs. últimos 5','']];
+  nums.forEach((r,i)=>{
+    const y = 848+i*54;
+    s += T(r[0],{x:RX,y,f:'m',w:700,s:22,fill:C.verm,ink:'l'});
+    s += T(r[1],{x:RX+40,y,f:'t',w:500,s:26,fill:r[2]?C.tinta:C.tinta2,ink:'l'});
+    if(r[2]) s += T(r[2],{x:CR,y,f:'m',w:700,s:26,a:'end'});
+    else s += R(CR-150,y+2,150,2,C.tinta2);
+  });
+  return s;
+}
+
+/* =========================================================================
+   F06 · DATO BBVA — 15–40% = 1 día de trabajo a la semana
+   ========================================================================= */
+function f06(){
+  const W=1920,H=1080; let s = paper(W,H,U) + head16() + tab16(1);
+  s += kicker('SEGÚN BBVA, TODO ESTO JUNTO TE PUEDE COSTAR',{fill:C.tinta2});
+  s += T('15\u2009–\u200940',{x:CL,y:540,f:'d',w:700,s:360,ls:-0.04,ink:'l',id:'rng',feat:"'case' 1",anim:'conteo'});
+  s += T('%',{y:0,f:'d',w:600,s:170,after:'rng',gap:26,top:'rng',id:'pct'});
+  s += T('de lo que ganas.',{y:540,f:'d',w:500,s:52,ls:-0.01,alignx:'pct',id:'dlq'});
+  // "=" : la doble raya funciona como operador de igualdad
+  s += `<g data-anim="cuadrar">${R(CL,795,64,9,C.verm)}${R(CL,813,64,9,C.verm)}</g>`;
+  // Semana laboral: 5 celdas, el viernes se va
+  const SX0 = CL+104, days = ['LUN','MAR','MIÉ','JUE','VIE'], gp=14, cw=(CR-SX0-4*gp)/5, cy=702, ch=216;
+  days.forEach((d,i)=>{
+    const x = SX0 + i*(cw+gp), last = i===4;
+    if(last){ s += R(x,cy,cw,ch,C.verm); }
+    else { s += `<rect x="${x+1}" y="${cy+1}" width="${cw-2}" height="${ch-2}" fill="none" stroke="${C.tinta}" stroke-width="2"/>`; }
+    s += T(d,{x:x+22,y:cy+44,f:'m',w:700,s:24,ls:0.1,fill:last?C.papel:C.tinta,ink:'l'});
+    if(!last) s += T('8 h',{x:x+22,y:cy+ch-24,f:'m',w:500,s:22,fill:C.tinta2,ink:'l'});
+    else {
+      s += T('1 día',{x:x+22,y:cy+130,f:'d',w:700,s:76,ls:-0.035,fill:C.papel,ink:'l'});
+      s += T('sin saber a',{x:x+22,y:cy+ch-50,f:'t',w:500,s:22,fill:C.papel,ink:'l'});
+      s += T('dónde se fue',{x:x+22,y:cy+ch-22,f:'t',w:500,s:22,fill:C.papel,ink:'l'});
+    }
+  });
+  s += foot16('FUENTE','BBVA', 'ES COMO TRABAJAR UN DÍA ENTERO A LA SEMANA');
+  return s;
+}
+
+/* =========================================================================
+   F07 · TAGLINE — No es falta de disciplina. Es falta de sistema.
+   ========================================================================= */
+function f07(){
+  const W=1920,H=1080; let s = paper(W,H,U) + head16() + tab16(1);
+  s += T('No es falta de disciplina.',{x:CL,y:324,f:'s',w:400,it:true,s:96,ls:-0.01,fill:C.tinta2,ink:'l',id:'l1',anim:'tinta'});
+  s += M('strike',{for:'l1',word:'disciplina',t:9,ext:6,h:'x',fill:C.verm,anim:'tachar'});
+  s += T('Es falta de',{x:CL,y:648,f:'d',w:800,s:290,ls:-0.045,ink:'l',anim:'tinta'});
+  s += T('sistema.',{x:CL,y:918,f:'d',w:800,s:290,ls:-0.045,ink:'l',id:'l3',anim:'tinta'});
+  s += M('dbl',{for:'l3',word:'sistema',t:11,gap:10,off:'auto',pad:0.06,fill:C.verm,anim:'cuadrar'});
+  return s;
+}
+
+/* =========================================================================
+   F08 · PASO 1 — Dos columnas: lo que entra y lo que sale
+   ========================================================================= */
+function f08(){
+  const W=1920,H=1080; let s = paper(W,H,U) + head16() + tab16(1);
+  s += T(`<tspan fill="${C.verm}">PASO 1 DE 4</tspan><tspan dx="18" fill="${C.tinta2}">EN LAS NOTAS DE TU TELÉFONO</tspan>`,{x:CL,y:200,f:'m',w:600,s:22,ls:0.12,raw:true});
+  s += T('CIFRAS ILUSTRATIVAS',{x:CR,y:200,f:'m',w:500,s:17,ls:0.12,a:'end',fill:C.tinta2});
+  s += T('Dos columnas:',{x:CL,y:324,f:'d',w:700,s:104,ls:-0.035,ink:'l'});
+  s += T('lo que entra y lo que sale.',{x:CL,y:432,f:'d',w:700,s:104,ls:-0.035,ink:'l'});
+  // Cuenta T
+  const SX = 1050, TY = 594;
+  s += T('ENTRA',{x:CL,y:TY-16,f:'d',w:800,s:46,ls:0.02,ink:'l'});
+  s += T('SALE',{x:SX+40,y:TY-16,f:'d',w:800,s:46,ls:0.02,ink:'l'});
+  s += R(CL,TY-2,CR-CL,6,C.tinta) + R(SX-3,TY-2,6,972-TY+2,C.tinta);
+  s += T('Quincena',{x:CL,y:TY+38,f:'t',w:500,s:30,ink:'l'});
+  s += T('12,480.00',{x:SX-40,y:TY+38,f:'m',w:600,s:30,a:'end'});
+  const out = [['Renta','4,500.00'],['Súper','1,850.00'],['Rappi','1,602.00'],['Transporte','980.00'],['Apple','228.00']];
+  out.forEach((o,i)=>{ const y=TY+38+i*54;
+    s += T(o[0],{x:SX+40,y,f:'t',w:500,s:30,ink:'l'});
+    s += T(o[1],{x:CR,y,f:'m',w:600,s:30,a:'end'}); });
+  // Totales: raya sencilla arriba, doble raya abajo (la firma, a escala de tabla)
+  s += T('TOTAL',{x:CL,y:950,f:'m',w:600,s:18,ls:0.14,fill:C.tinta2,ink:'l'});
+  s += T('12,480.00',{x:SX-40,y:950,f:'m',w:700,s:32,a:'end',id:'te'});
+  s += T('TOTAL',{x:SX+40,y:950,f:'m',w:600,s:18,ls:0.14,fill:C.tinta2,ink:'l'});
+  s += T('9,160.00',{x:CR,y:950,f:'m',w:700,s:32,a:'end',id:'ts'});
+  s += R(SX-240,906,200,2,C.tinta) + R(CR-200,906,200,2,C.tinta);
+  s += M('dbl',{for:'te',t:3,gap:4,off:10,ext:4,fill:C.verm,anim:'cuadrar'});
+  s += M('dbl',{for:'ts',t:3,gap:4,off:10,ext:4,fill:C.verm,anim:'cuadrar'});
+  return s;
+}
+
+/* =========================================================================
+   F09 · CLIP VERTICAL 1080×1920 — Razón 3 · 39%
+   Zonas seguras: 250 arriba, 380 abajo, 140 a la derecha
+   ========================================================================= */
+const V = {W:1080,H:1920,L:96,R:940,top:250,bot:1540};
+function f09(guides=false){
+  const {W,H,L,R:RR} = V; let s = paper(W,H,U,{marginX:48,mGap:8});
+  // Lockup
+  s += T('SISTEMA',{x:L,y:308,f:'d',w:800,s:34,ls:-0.01,ink:'l',id:'vwm'});
+  s += M('tag',{for:'vwm',gap:16,text:'1',w:34,h:42,fill:C.verm});
+  s += kicker('RAZÓN 3 DE 3 · SUSCRIPCIONES',{x:L,y:416,fill:C.verm,s:24});
+  s += T('39',{x:L,y:810,f:'d',w:700,s:430,ls:-0.04,ink:'l',id:'n',anim:'conteo'});
+  s += T('%',{y:0,f:'d',w:600,s:190,after:'n',gap:22,top:'n'});
+  s += T('paga suscripciones',{x:L,y:918,f:'d',w:600,s:74,ls:-0.025,ink:'l'});
+  s += T('que no ocupa.',{x:L,y:999,f:'d',w:600,s:74,ls:-0.025,ink:'l'});
+  // Renglones: las que no usas se tachan
+  const subs = [['STREAMING DE VIDEO','$299.00',1],['MÚSICA','$129.00',0],['NUBE 200 GB','$49.00',1],['GIMNASIO','$699.00',1]];
+  subs.forEach((r,i)=>{ const y = 1118+i*54;
+    s += T(r[0],{x:L,y,f:'m',w:r[2]?500:600,s:30,fill:r[2]?C.tinta2:C.tinta,ink:'l',id:`sb${i}`});
+    s += T(r[1],{x:RR,y,f:'m',w:r[2]?500:600,s:30,a:'end',fill:r[2]?C.tinta2:C.tinta,id:`sa${i}`});
+    if(r[2]) s += M('strike',{for:`sb${i}`,to:`sa${i}`,t:4,ext:10,h:'cap',fill:C.verm,anim:'tachar'});
+  });
+  // Subtítulos (renglón de captions)
+  s += `<g data-layer="captions">${R(L,1349,RR-L,2,C.tinta)}`;
+  s += T('el porcentaje más alto',{x:L,y:1428,f:'d',w:600,s:56,ls:-0.015,ink:'l',id:'cap1'});
+  s += T('de América Latina.',{x:L,y:1496,f:'d',w:600,s:56,ls:-0.015,ink:'l',id:'cap2'});
+  s += M('dbl',{for:'cap1',word:'alto',t:6,gap:0,single:1,off:12,fill:C.verm,anim:'karaoke'});
+  s += `</g>`;
+  if(guides){
+    s += `<g opacity="1">
+      ${R(0,0,W,V.top,'rgba(23,20,15,0.55)')}${R(0,V.bot,W,H-V.bot,'rgba(23,20,15,0.55)')}${R(V.R,V.top,W-V.R,V.bot-V.top,'rgba(23,20,15,0.35)')}
+      <rect x="1" y="${V.top}" width="${V.R-1}" height="${V.bot-V.top}" fill="none" stroke="#2BB3A3" stroke-width="3" stroke-dasharray="14 10"/>
+      ${T('UI DE LA APP · 250 PX',{x:L,y:140,f:'m',w:600,s:26,ls:0.1,fill:'#FFFFFF'})}
+      ${T('UI DE LA APP · 380 PX',{x:L,y:1740,f:'m',w:600,s:26,ls:0.1,fill:'#FFFFFF'})}
+      <text x="1010" y="900" transform="rotate(90 1010 900)" text-anchor="middle" fill="#FFFFFF" style="font-family:'JetBrains Mono';font-weight:600;font-size:24px;letter-spacing:.1em">ÍCONOS · 140 PX</text>
+    </g>`;
+  }
+  return s;
+}
+
+/* =========================================================================
+   F10 · MINIATURA 1280×720 — "Tu fuga está aquí."
+   ========================================================================= */
+function f10(){
+  const W=1280,H=720,u=36; let s = paper(W,H,u,{marginX:84,mGap:6,mW:2});
+  const L=124;
+  s += T('SISTEMA',{x:L,y:92,f:'d',w:800,s:30,ls:-0.01,ink:'l',id:'twm'});
+  s += M('tag',{for:'twm',gap:14,text:'1',w:30,h:38,fill:C.verm});
+  s += T('Tu fuga',{x:L,y:324,f:'d',w:800,s:150,ls:-0.045,ink:'l'});
+  s += T('está aquí.',{x:L,y:468,f:'d',w:800,s:150,ls:-0.045,ink:'l',id:'aq'});
+  s += M('dbl',{for:'aq',word:'aquí',t:9,gap:8,off:'auto',pad:0.05,fill:C.verm});
+  // Fragmento de estado de cuenta (sangra a la derecha)
+  const X=850,Y=144,SW=520,rh=54;
+  s += R(X+12,Y+12,SW,452,C.sombra) + R(X,Y,SW,452,C.hoja,`stroke="${C.regla2}"`);
+  const rows=[['CAFETERÍA','87.00'],['RAPPI ×7','1,602.00'],['TRANSPORTE APP','146.50'],['APPLE.COM/BILL','228.00'],['TIENDA EN LÍNEA','649.00']];
+  rows.forEach((r,i)=>{
+    const top=Y+34+i*(rh+24), by=top+38, hot=i===1;
+    if(hot){ s += R(X-28,top-8,SW+28,rh+16,C.verm); }
+    s += T(r[0],{x:X+26,y:by,f:'m',w:hot?800:500,s:hot?34:24,fill:hot?C.papel:C.tinta2,ink:'l'});
+    s += T(r[1],{x:X+SW-140,y:by,f:'m',w:hot?800:500,s:hot?34:24,fill:hot?C.papel:C.tinta2,a:'end'});
+  });
+  return s;
+}
+
+
+function f10b(){
+  const W=1280,H=720,u=36; let s = paper(W,H,u,{marginX:84,mGap:6,mW:2});
+  const L=124;
+  s += T('SISTEMA',{x:L,y:92,f:'d',w:800,s:30,ls:-0.01,ink:'l',id:'twm2'});
+  s += M('tag',{for:'twm2',gap:14,text:'1',w:30,h:38,fill:C.verm});
+  s += T('15–40%',{x:L-6,y:400,f:'d',w:800,s:300,ls:-0.05,ink:'l',id:'big2'});
+  s += T('de tu sueldo se va',{x:L,y:520,f:'d',w:700,s:76,ls:-0.03,ink:'l'});
+  s += T('sin que lo notes.',{x:L,y:604,f:'d',w:700,s:76,ls:-0.03,ink:'l',id:'sq2'});
+  s += M('dbl',{for:'sq2',word:'notes',t:7,gap:6,off:'auto',pad:0.05,fill:C.verm});
+  return s;
+}
+
+/* =========================================================================
+   F11 · PORTADA PODCAST 3000×3000
+   ========================================================================= */
+function f11(){
+  const W=3000,H=3000,u=75; let s = paper(W,H,u,{marginX:252,mGap:16,mW:5,lineW:2});
+  const L=150, Rr=2850;
+  s += T('FINANZAS PERSONALES',{x:330,y:357,f:'m',w:600,s:62,ls:0.16,fill:C.tinta2,ink:'l'});
+  s += T('POR NIVELES',{x:Rr,y:357,f:'m',w:600,s:62,ls:0.16,fill:C.verm,a:'end'});
+  s += R(330,372,Rr-330,6,C.tinta);
+  s += T('SISTEMA',{x:330,y:1500,f:'d',w:900,s:700,ls:-0.03,ink:'l',fit:Rr-330,id:'cwm'});
+  s += M('dbl',{for:'cwm',t:32,gap:24,off:42,fill:C.verm});
+  s += T('No es falta de disciplina.',{x:330,y:2100,f:'s',w:400,it:true,s:150,fill:C.tinta2,ink:'l',id:'ct1'});
+  s += M('strike',{for:'ct1',word:'disciplina',t:13,ext:14,h:'x',fill:C.verm});
+  s += T('Es falta de sistema.',{x:330,y:2325,f:'d',w:800,s:180,ls:-0.035,ink:'l'});
+  s += R(330,2624,Rr-330,3,C.tinta);
+  s += T('META · NIVEL 0 · NO DEBER NADA',{x:330,y:2700,f:'m',w:600,s:56,ls:0.14,fill:C.tinta,ink:'l'});
+  return s;
+}
+
+/* =========================================================================
+   REGISTRO
+   ========================================================================= */
+const FRAMES = [
+  {id:1, name:'f01_cold_open',       w:1920,h:1080, build:f01},
+  {id:2, name:'f02_title',           w:1920,h:1080, build:f02},
+  {id:3, name:'f03_stat_deloitte',   w:1920,h:1080, build:f03},
+  {id:4, name:'f04_razon',           w:1920,h:1080, build:f04},
+  {id:5, name:'f05_estado_de_cuenta',w:1920,h:1080, build:f05},
+  {id:6, name:'f06_stat_bbva',       w:1920,h:1080, build:f06},
+  {id:7, name:'f07_tagline',         w:1920,h:1080, build:f07},
+  {id:8, name:'f08_paso',            w:1920,h:1080, build:f08},
+  {id:9, name:'f09_clip_vertical',   w:1080,h:1920, build:()=>f09(false)},
+  {id:10,name:'f10_thumbnail',       w:1280,h:720,  build:f10},
+  {id:11,name:'f11_cover',           w:3000,h:3000, build:f11},
+  {id:13,name:'f10b_thumbnail_15_40', w:1280,h:720,  build:f10b},
+  {id:12,name:'f09_clip_vertical_guias', w:1080,h:1920, build:()=>f09(true)},
+];
+
+/* =========================================================================
+   MAQUETACIÓN: medición de tinta (canvas) + marcas dependientes
+   ========================================================================= */
+const cv = document.createElement('canvas').getContext('2d');
+function measure(str, el){
+  const cs = getComputedStyle(el);
+  cv.font = `${cs.fontStyle} ${cs.fontWeight} ${cs.fontSize} ${cs.fontFamily}`;
+  cv.letterSpacing = (parseFloat(cs.letterSpacing)||0)+'px';
+  cv.fontKerning = 'normal';
+  const m = cv.measureText(str);
+  return { l:-m.actualBoundingBoxLeft, r:m.actualBoundingBoxRight, asc:m.actualBoundingBoxAscent, desc:m.actualBoundingBoxDescent, adv:m.width,
+           size:parseFloat(cs.fontSize) };
+}
+function inkBox(el){
+  const m = measure(el.textContent, el);
+  const x = parseFloat(el.getAttribute('x')), y = parseFloat(el.getAttribute('y'));
+  const a = el.getAttribute('text-anchor')||'start';
+  const ox = a==='end' ? x-m.adv : a==='middle' ? x-m.adv/2 : x;
+  return { x1:ox+m.l, x2:ox+m.r, y1:y-m.asc, y2:y+m.desc, ox, base:y, m };
+}
+function wordBox(el, word){
+  const b = inkBox(el); if(!word) return b;
+  const full = el.textContent, i = full.indexOf(word);
+  const pre = measure(full.slice(0,i), el), mw = measure(word, el);
+  const wx = b.ox + pre.adv;
+  return { x1:wx+mw.l, x2:wx+mw.r, y1:b.base-mw.asc, y2:b.base+mw.desc, base:b.base, ox:wx, m:mw };
+}
+function rect(x,y,w,h,fill,extra=''){ const r=document.createElementNS(NS,'rect'); r.setAttribute('x',x); r.setAttribute('y',y); r.setAttribute('width',Math.max(0,w)); r.setAttribute('height',h); r.setAttribute('fill',fill); if(extra) extra.split(';').forEach(p=>{const [k,v]=p.split('=');if(k)r.setAttribute(k,v)}); return r; }
+
+function layout(svg){
+  const byId = id => svg.querySelector('#'+id);
+  svg.querySelectorAll('text').forEach(el=>{
+    const d = el.dataset;
+    if(d.fit){ for(let i=0;i<3;i++){ const m=measure(el.textContent,el); el.style.fontSize = (m.size*parseFloat(d.fit)/(m.r-m.l))+'px'; } }
+    if(d.after){ const b=inkBox(byId(d.after)); el.setAttribute('x', b.x2 + parseFloat(d.gap||0)); d.ink = d.ink||'l'; }
+    if(d.alignx){ const b=inkBox(byId(d.alignx)); el.setAttribute('x', b.x1); d.ink = d.ink||'l'; }
+    if(d.ink){ const m=measure(el.textContent,el); const x=parseFloat(el.getAttribute('x'));
+      el.setAttribute('x', d.ink==='r' ? x-m.r : x-m.l); el.setAttribute('text-anchor','start'); }
+    if(d.top){ const b=inkBox(byId(d.top)); const m=measure(el.textContent,el); el.setAttribute('y', b.y1 + m.asc); }
+  });
+  svg.querySelectorAll('[data-mark]').forEach(g=>{
+    const d = g.dataset, k = d.mark;
+    if(k==='dbl'){
+      const b = wordBox(byId(d.for), d.word), t=+d.t, gap=+d.gap, ext=+(d.ext||0);
+      const off = d.off==='auto' ? Math.max(0,b.m.desc) + Math.round(b.m.size*(+d.pad||0.07)) : +d.off;
+      const y = b.base + off;
+      g.appendChild(rect(b.x1-ext, y, b.x2-b.x1+2*ext, t, d.fill));
+      if(!d.single) g.appendChild(rect(b.x1-ext, y+t+gap, b.x2-b.x1+2*ext, t, d.fill));
+    }
+    if(k==='strike'){
+      const el = byId(d.for), b = wordBox(el, d.word), t=+d.t, ext=+(d.ext||0);
+      const ref = measure(d.h==='cap'?'H':'x', el);
+      const y = b.base - ref.asc/2 - t/2;
+      const x2 = d.to ? inkBox(byId(d.to)).x2 : b.x2;
+      g.appendChild(rect(b.x1-ext, y, x2-b.x1+2*ext, t, d.fill));
+    }
+    if(k==='hl'){
+      const b = wordBox(byId(d.for), d.word), p=+d.pad;
+      const r = rect(b.x1-p, +d.y1, b.x2-b.x1+2*p, (+d.y2)-(+d.y1), d.fill);
+      g.appendChild(r);
+      if(d.current==='1'){ r.setAttribute('stroke', C.verm); r.setAttribute('stroke-width','2'); }
+    }
+    if(k==='leader'){
+      const a = inkBox(byId(d.from)), b = inkBox(byId(d.to)), gp=+d.gap;
+      const ln = document.createElementNS(NS,'line');
+      Object.entries({x1:a.x2+gp, x2:b.x1-gp, y1:a.base-(+d.lift||5), y2:a.base-(+d.lift||5), stroke:d.stroke, 'stroke-width':3, 'stroke-linecap':'round', 'stroke-dasharray':'0 11'}).forEach(([k,v])=>ln.setAttribute(k,v));
+      g.appendChild(ln);
+    }
+    if(k==='caret'){
+      const b = inkBox(byId(d.for));
+      g.appendChild(rect(b.x2 + +d.gap, b.base - (+d.h)*0.82, +d.w, +d.h, d.fill));
+    }
+    if(k==='tag'){
+      const b = inkBox(byId(d.for)), w=+d.w, h=+d.h;
+      const x = b.x2 + +d.gap, y = b.base - h + Math.round(h*0.14);
+      g.appendChild(rect(x, y, w, h, d.fill));
+      const t = document.createElementNS(NS,'text');
+      t.setAttribute('x', x+w/2); t.setAttribute('y', y+h*0.74); t.setAttribute('text-anchor','middle'); t.setAttribute('fill', C.papel);
+      t.setAttribute('style', `font-family:'Inter Display';font-weight:700;font-size:${Math.round(h*0.66)}px`);
+      t.textContent = d.text; g.appendChild(t);
+    }
+  });
+}
+function debug(svg){
+  const g = document.createElementNS(NS,'g');
+  svg.querySelectorAll('text').forEach(el=>{ const b=inkBox(el);
+    g.appendChild(rect(b.x1,b.y1,b.x2-b.x1,b.y2-b.y1,'none','stroke=#00B3FF;stroke-width=1')); });
+  [ML,CL,CR].forEach(x=>g.appendChild(rect(x,0,1,4000,'#00B3FF')));
+  svg.appendChild(g);
+}
+
+/* =========================================================================
+   ARRANQUE
+   ========================================================================= */
+function makeSVG(f){
+  const svg = document.createElementNS(NS,'svg');
+  svg.setAttribute('xmlns',NS); svg.setAttribute('width',f.w); svg.setAttribute('height',f.h);
+  svg.setAttribute('viewBox',`0 0 ${f.w} ${f.h}`); svg.setAttribute('data-frame',f.name);
+  svg.innerHTML = f.build();
+  return svg;
+}
+(async function(){
+  const q = new URLSearchParams(location.search), n = parseInt(q.get('frame'));
+  const specs = ["400 20px 'Inter'","500 20px 'Inter'","600 20px 'Inter'","400 20px 'Inter Display'","500 20px 'Inter Display'","600 20px 'Inter Display'","700 20px 'Inter Display'","800 20px 'Inter Display'","900 20px 'Inter Display'","500 20px 'JetBrains Mono'","600 20px 'JetBrains Mono'","700 20px 'JetBrains Mono'","800 20px 'JetBrains Mono'","italic 400 20px 'Bitstream Charter'"];
+  await Promise.all(specs.map(s=>document.fonts.load(s).catch(()=>{})));
+  await document.fonts.ready;
+  if(n){
+    document.body.className='single';
+    const f = FRAMES.find(x=>x.id===n); const svg = makeSVG(f);
+    document.body.appendChild(svg); layout(svg); if(q.get('debug')) debug(svg);
+  } else {
+    const wrap = document.createElement('div'); wrap.className='sheet'; document.body.appendChild(wrap);
+    FRAMES.forEach(f=>{
+      const card = document.createElement('div'); card.className='card';
+      card.innerHTML = `<p>${String(f.id).padStart(2,'0')} · ${f.name} · ${f.w}×${f.h}</p>`;
+      const svg = makeSVG(f); const sc = f.w>=3000 ? 0.16 : f.h>f.w ? 0.25 : 0.25;
+      svg.style.width = (f.w*sc)+'px'; card.appendChild(svg); wrap.appendChild(card); layout(svg);
+    });
+  }
+  window.__ready = true;
+})();
+</script>
+</body>
+</html>

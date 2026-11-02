@@ -1,0 +1,5 @@
+*.wav
+*.parts/
+*.pcm
+node_modules/
+out/*.log

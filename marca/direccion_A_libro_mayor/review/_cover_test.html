@@ -1,0 +1,5 @@
+<!doctype html><meta charset="utf-8"><body style="margin:0;background:#1b1916;display:flex;gap:24px;padding:20px;align-items:flex-start;color:#ccc;font:12px monospace">
+      <div><img src="file:///home/user/Contenido/marca/direccion_A_libro_mayor/png/f11_cover.png" style="width:60px;height:60px;display:block"><p>60px</p></div>
+      <div><img src="file:///home/user/Contenido/marca/direccion_A_libro_mayor/png/f11_cover.png" style="width:120px;height:120px;display:block"><p>120px</p></div>
+      <div><canvas id="c" width="240" height="240" style="image-rendering:pixelated;width:240px;height:240px"></canvas><p>60px ampliado x4</p></div>
+      <script>const i=new Image();i.onload=()=>{const s=document.createElement('canvas');s.width=s.height=60;const x=s.getContext('2d');x.imageSmoothingQuality='high';x.drawImage(i,0,0,60,60);const c=document.getElementById('c').getContext('2d');c.imageSmoothingEnabled=false;c.drawImage(s,0,0,240,240);window.done=1};i.src='file:///home/user/Contenido/marca/direccion_A_libro_mayor/png/f11_cover.png';</script></body>

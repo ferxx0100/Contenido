@@ -1,0 +1,7658 @@
+{
+ "parts": [
+  {
+   "name": "Audio_01_Gancho_y_Razones",
+   "duration": 130.0,
+   "segments": [
+    {
+     "start": 0.05,
+     "end": 1.12,
+     "text": "Te acaban de pagar."
+    },
+    {
+     "start": 1.41,
+     "end": 4.76,
+     "text": "Y en unos días vas a preguntarte en qué se te fue el dinero."
+    },
+    {
+     "start": 5.21,
+     "end": 6.44,
+     "text": "Hoy lo vas a saber."
+    },
+    {
+     "start": 6.9,
+     "end": 8.38,
+     "text": "Esto se llama Sistema,"
+    },
+    {
+     "start": 8.61,
+     "end": 9.89,
+     "text": "y funciona por niveles."
+    },
+    {
+     "start": 10.29,
+     "end": 11.82,
+     "text": "Cada nivel es un capítulo."
+    },
+    {
+     "start": 12.18,
+     "end": 13.73,
+     "text": "Este es el nivel uno:"
+    },
+    {
+     "start": 13.99,
+     "end": 17.3,
+     "text": "encontrar en tu estado de cuenta a dónde se va tu dinero."
+    },
+    {
+     "start": 17.76,
+     "end": 20.17,
+     "text": "No te saltes al dos sin hacer este primero,"
+    },
+    {
+     "start": 20.37,
+     "end": 23.15,
+     "text": "porque el dos se construye con lo que encuentres hoy."
+    },
+    {
+     "start": 23.52,
+     "end": 29.04,
+     "text": "Vas a ver tu número exacto y vas a eliminar lo que te esté cobrando cada mes sin que te des cuenta."
+    },
+    {
+     "start": 29.51,
+     "end": 30.16,
+     "text": "Empecemos."
+    },
+    {
+     "start": 30.63,
+     "end": 35.25,
+     "text": "Abre ahorita la aplicación de tu banco y ve a tus movimientos de los últimos tres meses."
+    },
+    {
+     "start": 35.59,
+     "end": 38.4,
+     "text": "Mira el saldo que traes hoy y quédatelo en la cabeza."
+    },
+    {
+     "start": 38.71,
+     "end": 39.44,
+     "text": "Déjalo abierto,"
+    },
+    {
+     "start": 39.62,
+     "end": 40.94,
+     "text": "lo vamos a usar en un momento."
+    },
+    {
+     "start": 41.35,
+     "end": 43.3,
+     "text": "Y no eres el único al que esto le pasa."
+    },
+    {
+     "start": 43.6,
+     "end": 44.43,
+     "text": "Según Deloitte,"
+    },
+    {
+     "start": 44.53,
+     "end": 50.03,
+     "text": "el cincuenta y cuatro por ciento de los mexicanos se queda sin dinero antes de que termine la quincena."
+    },
+    {
+     "start": 50.41,
+     "end": 52.27,
+     "text": "Más de la mitad del país."
+    },
+    {
+     "start": 52.72,
+     "end": 54.62,
+     "text": "Esto no es un problema de tu carácter,"
+    },
+    {
+     "start": 54.87,
+     "end": 55.66,
+     "text": "es un patrón."
+    },
+    {
+     "start": 56.08,
+     "end": 58.71,
+     "text": "El dinero no se te va en la renta ni en el súper."
+    },
+    {
+     "start": 58.95,
+     "end": 59.91,
+     "text": "Esos los ves,"
+    },
+    {
+     "start": 60.04,
+     "end": 60.86,
+     "text": "los recuerdas,"
+    },
+    {
+     "start": 60.98,
+     "end": 62.36,
+     "text": "hasta te quejas de ellos."
+    },
+    {
+     "start": 62.7,
+     "end": 65.75,
+     "text": "Se te va en las cosas chicas que decidiste sin pensar,"
+    },
+    {
+     "start": 66.11,
+     "end": 67.03,
+     "text": "una por una."
+    },
+    {
+     "start": 67.48,
+     "end": 69.37,
+     "text": "Y esto pasa por tres razones."
+    },
+    {
+     "start": 69.64,
+     "end": 72.32,
+     "text": "Las tres las vamos a comprobar con tu propio dinero."
+    },
+    {
+     "start": 72.85,
+     "end": 73.38,
+     "text": "La primera:"
+    },
+    {
+     "start": 73.75,
+     "end": 75.6,
+     "text": "ya no sientes cuando pagas."
+    },
+    {
+     "start": 76.05,
+     "end": 80.03,
+     "text": "Cuando pagabas en efectivo, tu cerebro registraba una pequeña incomodidad,"
+    },
+    {
+     "start": 80.35,
+     "end": 81.62,
+     "text": "algo parecido al dolor,"
+    },
+    {
+     "start": 81.95,
+     "end": 83.96,
+     "text": "y eso te hacía pensar dos veces."
+    },
+    {
+     "start": 84.33,
+     "end": 86.68,
+     "text": "Con el teléfono, acercas, suena,"
+    },
+    {
+     "start": 86.81,
+     "end": 88.38,
+     "text": "y ese aviso ya no llega."
+    },
+    {
+     "start": 88.8,
+     "end": 92.64,
+     "text": "Hay estudios que confirman que gastamos más cuando no usamos efectivo."
+    },
+    {
+     "start": 93.01,
+     "end": 94.39,
+     "text": "El efecto no es enorme,"
+    },
+    {
+     "start": 94.5,
+     "end": 95.27,
+     "text": "pero es real,"
+    },
+    {
+     "start": 95.49,
+     "end": 97.25,
+     "text": "y se acumula mes con mes."
+    },
+    {
+     "start": 97.82,
+     "end": 98.44,
+     "text": "La segunda:"
+    },
+    {
+     "start": 98.79,
+     "end": 100.89,
+     "text": "no gastas igual toda la quincena."
+    },
+    {
+     "start": 101.33,
+     "end": 107.98,
+     "text": "Los primeros días gastas como si tuvieras más de lo que en verdad tienes, porque el saldo está alto y todo se siente accesible."
+    },
+    {
+     "start": 108.37,
+     "end": 110.49,
+     "text": "Los últimos días ya andas contando."
+    },
+    {
+     "start": 110.89,
+     "end": 112.11,
+     "text": "Eres la misma persona,"
+    },
+    {
+     "start": 112.35,
+     "end": 113.68,
+     "text": "nada más cambió el número."
+    },
+    {
+     "start": 114.25,
+     "end": 114.91,
+     "text": "Y la tercera:"
+    },
+    {
+     "start": 115.28,
+     "end": 117.77,
+     "text": "estás pagando cosas que ya no usas."
+    },
+    {
+     "start": 118.14,
+     "end": 118.76,
+     "text": "En México,"
+    },
+    {
+     "start": 118.89,
+     "end": 122.83,
+     "text": "treinta y nueve por ciento de la gente paga suscripciones que no ocupa,"
+    },
+    {
+     "start": 123.17,
+     "end": 126.06,
+     "text": "el porcentaje más alto de toda América Latina."
+    },
+    {
+     "start": 126.47,
+     "end": 127.79,
+     "text": "Ese cobro sale solo,"
+    },
+    {
+     "start": 128.1,
+     "end": 128.76,
+     "text": "cada mes,"
+    },
+    {
+     "start": 129.08,
+     "end": 129.83,
+     "text": "en silencio."
+    }
+   ],
+   "words": [
+    {
+     "w": "Te",
+     "start": 0.05,
+     "end": 0.21,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "acaban",
+     "start": 0.21,
+     "end": 0.616,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 0.616,
+     "end": 0.776,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "pagar.",
+     "start": 0.776,
+     "end": 1.12,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Y",
+     "start": 1.41,
+     "end": 1.51,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "en",
+     "start": 1.51,
+     "end": 1.673,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "unos",
+     "start": 1.673,
+     "end": 1.962,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "días",
+     "start": 1.962,
+     "end": 2.251,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "vas",
+     "start": 2.251,
+     "end": 2.476,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "a",
+     "start": 2.476,
+     "end": 2.577,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "preguntarte",
+     "start": 2.577,
+     "end": 3.305,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "en",
+     "start": 3.305,
+     "end": 3.468,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "qué",
+     "start": 3.468,
+     "end": 3.631,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "se",
+     "start": 3.631,
+     "end": 3.794,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "te",
+     "start": 3.794,
+     "end": 3.957,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "fue",
+     "start": 3.957,
+     "end": 4.183,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 4.183,
+     "end": 4.346,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dinero.",
+     "start": 4.346,
+     "end": 4.76,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Hoy",
+     "start": 5.21,
+     "end": 5.41,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "lo",
+     "start": 5.41,
+     "end": 5.61,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "vas",
+     "start": 5.61,
+     "end": 5.886,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "a",
+     "start": 5.886,
+     "end": 6.009,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "saber.",
+     "start": 6.009,
+     "end": 6.44,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Esto",
+     "start": 6.9,
+     "end": 7.251,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "se",
+     "start": 7.251,
+     "end": 7.449,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "llama",
+     "start": 7.449,
+     "end": 7.8,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "Sistema,",
+     "start": 7.8,
+     "end": 8.38,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "y",
+     "start": 8.61,
+     "end": 8.706,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "funciona",
+     "start": 8.706,
+     "end": 9.22,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "por",
+     "start": 9.22,
+     "end": 9.435,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "niveles.",
+     "start": 9.435,
+     "end": 9.89,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Cada",
+     "start": 10.29,
+     "end": 10.583,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "nivel",
+     "start": 10.583,
+     "end": 10.94,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "es",
+     "start": 10.94,
+     "end": 11.106,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "un",
+     "start": 11.106,
+     "end": 11.272,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "capítulo.",
+     "start": 11.272,
+     "end": 11.82,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Este",
+     "start": 12.18,
+     "end": 12.555,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "es",
+     "start": 12.555,
+     "end": 12.767,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 12.767,
+     "end": 12.979,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "nivel",
+     "start": 12.979,
+     "end": 13.436,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "uno:",
+     "start": 13.436,
+     "end": 13.73,
+     "punct": ":",
+     "para_end": false
+    },
+    {
+     "w": "encontrar",
+     "start": 13.99,
+     "end": 14.599,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "en",
+     "start": 14.599,
+     "end": 14.764,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tu",
+     "start": 14.764,
+     "end": 14.928,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "estado",
+     "start": 14.928,
+     "end": 15.347,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 15.347,
+     "end": 15.512,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cuenta",
+     "start": 15.512,
+     "end": 15.93,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "a",
+     "start": 15.93,
+     "end": 16.032,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dónde",
+     "start": 16.032,
+     "end": 16.387,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "se",
+     "start": 16.387,
+     "end": 16.552,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "va",
+     "start": 16.552,
+     "end": 16.717,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tu",
+     "start": 16.717,
+     "end": 16.881,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dinero.",
+     "start": 16.881,
+     "end": 17.3,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "No",
+     "start": 17.76,
+     "end": 17.923,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "te",
+     "start": 17.923,
+     "end": 18.086,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "saltes",
+     "start": 18.086,
+     "end": 18.501,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "al",
+     "start": 18.501,
+     "end": 18.664,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dos",
+     "start": 18.664,
+     "end": 18.89,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "sin",
+     "start": 18.89,
+     "end": 19.116,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "hacer",
+     "start": 19.116,
+     "end": 19.404,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "este",
+     "start": 19.404,
+     "end": 19.693,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "primero,",
+     "start": 19.693,
+     "end": 20.17,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "porque",
+     "start": 20.37,
+     "end": 20.708,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 20.708,
+     "end": 20.866,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dos",
+     "start": 20.866,
+     "end": 21.083,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "se",
+     "start": 21.083,
+     "end": 21.24,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "construye",
+     "start": 21.24,
+     "end": 21.82,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "con",
+     "start": 21.82,
+     "end": 22.038,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "lo",
+     "start": 22.038,
+     "end": 22.195,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 22.195,
+     "end": 22.352,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "encuentres",
+     "start": 22.352,
+     "end": 22.993,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "hoy.",
+     "start": 22.993,
+     "end": 23.15,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Vas",
+     "start": 23.52,
+     "end": 23.745,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "a",
+     "start": 23.745,
+     "end": 23.845,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ver",
+     "start": 23.845,
+     "end": 24.071,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tu",
+     "start": 24.071,
+     "end": 24.233,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "número",
+     "start": 24.233,
+     "end": 24.647,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "exacto",
+     "start": 24.647,
+     "end": 25.06,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "y",
+     "start": 25.06,
+     "end": 25.16,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "vas",
+     "start": 25.16,
+     "end": 25.385,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "a",
+     "start": 25.385,
+     "end": 25.485,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "eliminar",
+     "start": 25.485,
+     "end": 26.023,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "lo",
+     "start": 26.023,
+     "end": 26.186,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 26.186,
+     "end": 26.349,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "te",
+     "start": 26.349,
+     "end": 26.512,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "esté",
+     "start": 26.512,
+     "end": 26.799,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cobrando",
+     "start": 26.799,
+     "end": 27.338,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cada",
+     "start": 27.338,
+     "end": 27.626,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "mes",
+     "start": 27.626,
+     "end": 27.851,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "sin",
+     "start": 27.851,
+     "end": 28.076,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 28.076,
+     "end": 28.239,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "te",
+     "start": 28.239,
+     "end": 28.402,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "des",
+     "start": 28.402,
+     "end": 28.627,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cuenta.",
+     "start": 28.627,
+     "end": 29.04,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Empecemos.",
+     "start": 29.51,
+     "end": 30.16,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Abre",
+     "start": 30.63,
+     "end": 30.895,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ahorita",
+     "start": 30.895,
+     "end": 31.275,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "la",
+     "start": 31.275,
+     "end": 31.425,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "aplicación",
+     "start": 31.425,
+     "end": 32.036,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 32.036,
+     "end": 32.185,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tu",
+     "start": 32.185,
+     "end": 32.335,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "banco",
+     "start": 32.335,
+     "end": 32.658,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "y",
+     "start": 32.658,
+     "end": 32.75,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ve",
+     "start": 32.75,
+     "end": 32.9,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "a",
+     "start": 32.9,
+     "end": 32.992,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tus",
+     "start": 32.992,
+     "end": 33.199,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "movimientos",
+     "start": 33.199,
+     "end": 33.867,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 33.867,
+     "end": 34.017,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "los",
+     "start": 34.017,
+     "end": 34.225,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "últimos",
+     "start": 34.225,
+     "end": 34.662,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tres",
+     "start": 34.662,
+     "end": 34.927,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "meses.",
+     "start": 34.927,
+     "end": 35.25,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Mira",
+     "start": 35.59,
+     "end": 35.873,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 35.873,
+     "end": 36.034,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "saldo",
+     "start": 36.034,
+     "end": 36.379,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 36.379,
+     "end": 36.539,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "traes",
+     "start": 36.539,
+     "end": 36.884,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "hoy",
+     "start": 36.884,
+     "end": 37.044,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "y",
+     "start": 37.044,
+     "end": 37.143,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "quédatelo",
+     "start": 37.143,
+     "end": 37.673,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "en",
+     "start": 37.673,
+     "end": 37.833,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "la",
+     "start": 37.833,
+     "end": 37.993,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cabeza.",
+     "start": 37.993,
+     "end": 38.4,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Déjalo",
+     "start": 38.71,
+     "end": 39.049,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "abierto,",
+     "start": 39.049,
+     "end": 39.44,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "lo",
+     "start": 39.62,
+     "end": 39.746,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "vamos",
+     "start": 39.746,
+     "end": 40.018,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "a",
+     "start": 40.018,
+     "end": 40.096,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "usar",
+     "start": 40.096,
+     "end": 40.319,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "en",
+     "start": 40.319,
+     "end": 40.445,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "un",
+     "start": 40.445,
+     "end": 40.571,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "momento.",
+     "start": 40.571,
+     "end": 40.94,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Y",
+     "start": 41.35,
+     "end": 41.442,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "no",
+     "start": 41.442,
+     "end": 41.591,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "eres",
+     "start": 41.591,
+     "end": 41.855,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 41.855,
+     "end": 42.004,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "único",
+     "start": 42.004,
+     "end": 42.325,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "al",
+     "start": 42.325,
+     "end": 42.474,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 42.474,
+     "end": 42.623,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "esto",
+     "start": 42.623,
+     "end": 42.887,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "le",
+     "start": 42.887,
+     "end": 43.036,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "pasa.",
+     "start": 43.036,
+     "end": 43.3,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Según",
+     "start": 43.6,
+     "end": 43.981,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "Deloitte,",
+     "start": 43.981,
+     "end": 44.43,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 44.53,
+     "end": 44.685,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cincuenta",
+     "start": 44.685,
+     "end": 45.256,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "y",
+     "start": 45.256,
+     "end": 45.351,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cuatro",
+     "start": 45.351,
+     "end": 45.744,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "por",
+     "start": 45.744,
+     "end": 45.959,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ciento",
+     "start": 45.959,
+     "end": 46.351,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 46.351,
+     "end": 46.506,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "los",
+     "start": 46.506,
+     "end": 46.72,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "mexicanos",
+     "start": 46.72,
+     "end": 47.292,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "se",
+     "start": 47.292,
+     "end": 47.447,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "queda",
+     "start": 47.447,
+     "end": 47.72,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "sin",
+     "start": 47.72,
+     "end": 47.935,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dinero",
+     "start": 47.935,
+     "end": 48.328,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "antes",
+     "start": 48.328,
+     "end": 48.661,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 48.661,
+     "end": 48.816,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 48.816,
+     "end": 48.97,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "termine",
+     "start": 48.97,
+     "end": 49.423,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "la",
+     "start": 49.423,
+     "end": 49.578,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "quincena.",
+     "start": 49.578,
+     "end": 50.03,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Más",
+     "start": 50.41,
+     "end": 50.706,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 50.706,
+     "end": 50.92,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "la",
+     "start": 50.92,
+     "end": 51.134,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "mitad",
+     "start": 51.134,
+     "end": 51.595,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "del",
+     "start": 51.595,
+     "end": 51.891,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "país.",
+     "start": 51.891,
+     "end": 52.27,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Esto",
+     "start": 52.72,
+     "end": 52.971,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "no",
+     "start": 52.971,
+     "end": 53.113,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "es",
+     "start": 53.113,
+     "end": 53.255,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "un",
+     "start": 53.255,
+     "end": 53.397,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "problema",
+     "start": 53.397,
+     "end": 53.867,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 53.867,
+     "end": 54.009,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tu",
+     "start": 54.009,
+     "end": 54.15,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "carácter,",
+     "start": 54.15,
+     "end": 54.62,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "es",
+     "start": 54.87,
+     "end": 55.044,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "un",
+     "start": 55.044,
+     "end": 55.218,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "patrón.",
+     "start": 55.218,
+     "end": 55.66,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "El",
+     "start": 56.08,
+     "end": 56.236,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dinero",
+     "start": 56.236,
+     "end": 56.632,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "no",
+     "start": 56.632,
+     "end": 56.789,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "se",
+     "start": 56.789,
+     "end": 56.945,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "te",
+     "start": 56.945,
+     "end": 57.101,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "va",
+     "start": 57.101,
+     "end": 57.257,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "en",
+     "start": 57.257,
+     "end": 57.413,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "la",
+     "start": 57.413,
+     "end": 57.569,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "renta",
+     "start": 57.569,
+     "end": 57.905,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ni",
+     "start": 57.905,
+     "end": 58.062,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "en",
+     "start": 58.062,
+     "end": 58.218,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 58.218,
+     "end": 58.374,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "súper.",
+     "start": 58.374,
+     "end": 58.71,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Esos",
+     "start": 58.95,
+     "end": 59.324,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "los",
+     "start": 59.324,
+     "end": 59.617,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ves,",
+     "start": 59.617,
+     "end": 59.91,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "los",
+     "start": 60.04,
+     "end": 60.264,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "recuerdas,",
+     "start": 60.264,
+     "end": 60.86,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "hasta",
+     "start": 60.98,
+     "end": 61.297,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "te",
+     "start": 61.297,
+     "end": 61.477,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "quejas",
+     "start": 61.477,
+     "end": 61.863,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 61.863,
+     "end": 62.043,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ellos.",
+     "start": 62.043,
+     "end": 62.36,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Se",
+     "start": 62.7,
+     "end": 62.867,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "te",
+     "start": 62.867,
+     "end": 63.033,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "va",
+     "start": 63.033,
+     "end": 63.2,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "en",
+     "start": 63.2,
+     "end": 63.366,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "las",
+     "start": 63.366,
+     "end": 63.597,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cosas",
+     "start": 63.597,
+     "end": 63.956,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "chicas",
+     "start": 63.956,
+     "end": 64.315,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 64.315,
+     "end": 64.481,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "decidiste",
+     "start": 64.481,
+     "end": 65.096,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "sin",
+     "start": 65.096,
+     "end": 65.327,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "pensar,",
+     "start": 65.327,
+     "end": 65.75,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "una",
+     "start": 66.11,
+     "end": 66.417,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "por",
+     "start": 66.417,
+     "end": 66.723,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "una.",
+     "start": 66.723,
+     "end": 67.03,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Y",
+     "start": 67.48,
+     "end": 67.594,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "esto",
+     "start": 67.594,
+     "end": 67.921,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "pasa",
+     "start": 67.921,
+     "end": 68.247,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "por",
+     "start": 68.247,
+     "end": 68.503,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tres",
+     "start": 68.503,
+     "end": 68.83,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "razones.",
+     "start": 68.83,
+     "end": 69.37,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Las",
+     "start": 69.64,
+     "end": 69.841,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tres",
+     "start": 69.841,
+     "end": 70.098,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "las",
+     "start": 70.098,
+     "end": 70.299,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "vamos",
+     "start": 70.299,
+     "end": 70.612,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "a",
+     "start": 70.612,
+     "end": 70.701,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "comprobar",
+     "start": 70.701,
+     "end": 71.237,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "con",
+     "start": 71.237,
+     "end": 71.438,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tu",
+     "start": 71.438,
+     "end": 71.583,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "propio",
+     "start": 71.583,
+     "end": 71.952,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dinero.",
+     "start": 71.952,
+     "end": 72.32,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "La",
+     "start": 72.85,
+     "end": 72.985,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "primera:",
+     "start": 72.985,
+     "end": 73.38,
+     "punct": ":",
+     "para_end": false
+    },
+    {
+     "w": "ya",
+     "start": 73.75,
+     "end": 73.942,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "no",
+     "start": 73.942,
+     "end": 74.135,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "sientes",
+     "start": 74.135,
+     "end": 74.697,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cuando",
+     "start": 74.697,
+     "end": 75.186,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "pagas.",
+     "start": 75.186,
+     "end": 75.6,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Cuando",
+     "start": 76.05,
+     "end": 76.436,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "pagabas",
+     "start": 76.436,
+     "end": 76.881,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "en",
+     "start": 76.881,
+     "end": 77.033,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "efectivo,",
+     "start": 77.033,
+     "end": 77.537,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "tu",
+     "start": 77.537,
+     "end": 77.689,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cerebro",
+     "start": 77.689,
+     "end": 78.134,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "registraba",
+     "start": 78.134,
+     "end": 78.754,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "una",
+     "start": 78.754,
+     "end": 78.965,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "pequeña",
+     "start": 78.965,
+     "end": 79.351,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "incomodidad,",
+     "start": 79.351,
+     "end": 80.03,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "algo",
+     "start": 80.35,
+     "end": 80.623,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "parecido",
+     "start": 80.623,
+     "end": 81.133,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "al",
+     "start": 81.133,
+     "end": 81.288,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dolor,",
+     "start": 81.288,
+     "end": 81.62,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "y",
+     "start": 81.95,
+     "end": 82.064,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "eso",
+     "start": 82.064,
+     "end": 82.321,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "te",
+     "start": 82.321,
+     "end": 82.506,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "hacía",
+     "start": 82.506,
+     "end": 82.834,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "pensar",
+     "start": 82.834,
+     "end": 83.304,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dos",
+     "start": 83.304,
+     "end": 83.561,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "veces.",
+     "start": 83.561,
+     "end": 83.96,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Con",
+     "start": 84.33,
+     "end": 84.632,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 84.632,
+     "end": 84.85,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "teléfono,",
+     "start": 84.85,
+     "end": 85.572,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "acercas,",
+     "start": 85.572,
+     "end": 86.21,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "suena,",
+     "start": 86.21,
+     "end": 86.68,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "y",
+     "start": 86.81,
+     "end": 86.932,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ese",
+     "start": 86.932,
+     "end": 87.206,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "aviso",
+     "start": 87.206,
+     "end": 87.633,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ya",
+     "start": 87.633,
+     "end": 87.831,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "no",
+     "start": 87.831,
+     "end": 88.029,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "llega.",
+     "start": 88.029,
+     "end": 88.38,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Hay",
+     "start": 88.8,
+     "end": 88.959,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "estudios",
+     "start": 88.959,
+     "end": 89.487,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 89.487,
+     "end": 89.647,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "confirman",
+     "start": 89.647,
+     "end": 90.235,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 90.235,
+     "end": 90.395,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "gastamos",
+     "start": 90.395,
+     "end": 90.922,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "más",
+     "start": 90.922,
+     "end": 91.143,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cuando",
+     "start": 91.143,
+     "end": 91.548,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "no",
+     "start": 91.548,
+     "end": 91.708,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "usamos",
+     "start": 91.708,
+     "end": 92.112,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "efectivo.",
+     "start": 92.112,
+     "end": 92.64,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "El",
+     "start": 93.01,
+     "end": 93.181,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "efecto",
+     "start": 93.181,
+     "end": 93.615,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "no",
+     "start": 93.615,
+     "end": 93.785,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "es",
+     "start": 93.785,
+     "end": 93.956,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "enorme,",
+     "start": 93.956,
+     "end": 94.39,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "pero",
+     "start": 94.5,
+     "end": 94.8,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "es",
+     "start": 94.8,
+     "end": 94.97,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "real,",
+     "start": 94.97,
+     "end": 95.27,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "y",
+     "start": 95.49,
+     "end": 95.615,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "se",
+     "start": 95.615,
+     "end": 95.817,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "acumula",
+     "start": 95.817,
+     "end": 96.409,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "mes",
+     "start": 96.409,
+     "end": 96.689,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "con",
+     "start": 96.689,
+     "end": 96.97,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "mes.",
+     "start": 96.97,
+     "end": 97.25,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "La",
+     "start": 97.82,
+     "end": 97.978,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "segunda:",
+     "start": 97.978,
+     "end": 98.44,
+     "punct": ":",
+     "para_end": false
+    },
+    {
+     "w": "no",
+     "start": 98.79,
+     "end": 98.974,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "gastas",
+     "start": 98.974,
+     "end": 99.443,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "igual",
+     "start": 99.443,
+     "end": 99.84,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "toda",
+     "start": 99.84,
+     "end": 100.166,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "la",
+     "start": 100.166,
+     "end": 100.351,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "quincena.",
+     "start": 100.351,
+     "end": 100.89,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Los",
+     "start": 101.33,
+     "end": 101.539,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "primeros",
+     "start": 101.539,
+     "end": 102.039,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "días",
+     "start": 102.039,
+     "end": 102.307,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "gastas",
+     "start": 102.307,
+     "end": 102.69,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "como",
+     "start": 102.69,
+     "end": 102.958,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "si",
+     "start": 102.958,
+     "end": 103.109,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tuvieras",
+     "start": 103.109,
+     "end": 103.609,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "más",
+     "start": 103.609,
+     "end": 103.818,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 103.818,
+     "end": 103.969,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "lo",
+     "start": 103.969,
+     "end": 104.12,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 104.12,
+     "end": 104.271,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "en",
+     "start": 104.271,
+     "end": 104.422,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "verdad",
+     "start": 104.422,
+     "end": 104.806,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tienes,",
+     "start": 104.806,
+     "end": 105.19,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "porque",
+     "start": 105.19,
+     "end": 105.515,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 105.515,
+     "end": 105.666,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "saldo",
+     "start": 105.666,
+     "end": 105.992,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "está",
+     "start": 105.992,
+     "end": 106.259,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "alto",
+     "start": 106.259,
+     "end": 106.527,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "y",
+     "start": 106.527,
+     "end": 106.62,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "todo",
+     "start": 106.62,
+     "end": 106.887,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "se",
+     "start": 106.887,
+     "end": 107.038,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "siente",
+     "start": 107.038,
+     "end": 107.422,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "accesible.",
+     "start": 107.422,
+     "end": 107.98,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Los",
+     "start": 108.37,
+     "end": 108.604,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "últimos",
+     "start": 108.604,
+     "end": 109.098,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "días",
+     "start": 109.098,
+     "end": 109.397,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ya",
+     "start": 109.397,
+     "end": 109.567,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "andas",
+     "start": 109.567,
+     "end": 109.931,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "contando.",
+     "start": 109.931,
+     "end": 110.49,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Eres",
+     "start": 110.89,
+     "end": 111.165,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "la",
+     "start": 111.165,
+     "end": 111.321,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "misma",
+     "start": 111.321,
+     "end": 111.655,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "persona,",
+     "start": 111.655,
+     "end": 112.11,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "nada",
+     "start": 112.35,
+     "end": 112.605,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "más",
+     "start": 112.605,
+     "end": 112.804,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cambió",
+     "start": 112.804,
+     "end": 113.17,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 113.17,
+     "end": 113.314,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "número.",
+     "start": 113.314,
+     "end": 113.68,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Y",
+     "start": 114.25,
+     "end": 114.339,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "la",
+     "start": 114.339,
+     "end": 114.485,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tercera:",
+     "start": 114.485,
+     "end": 114.91,
+     "punct": ":",
+     "para_end": false
+    },
+    {
+     "w": "estás",
+     "start": 115.28,
+     "end": 115.727,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "pagando",
+     "start": 115.727,
+     "end": 116.333,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cosas",
+     "start": 116.333,
+     "end": 116.78,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 116.78,
+     "end": 116.988,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ya",
+     "start": 116.988,
+     "end": 117.195,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "no",
+     "start": 117.195,
+     "end": 117.403,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "usas.",
+     "start": 117.403,
+     "end": 117.77,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "En",
+     "start": 118.14,
+     "end": 118.315,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "México,",
+     "start": 118.315,
+     "end": 118.76,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "treinta",
+     "start": 118.89,
+     "end": 119.352,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "y",
+     "start": 119.352,
+     "end": 119.449,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "nueve",
+     "start": 119.449,
+     "end": 119.79,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "por",
+     "start": 119.79,
+     "end": 120.009,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ciento",
+     "start": 120.009,
+     "end": 120.41,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 120.41,
+     "end": 120.568,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "la",
+     "start": 120.568,
+     "end": 120.726,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "gente",
+     "start": 120.726,
+     "end": 121.067,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "paga",
+     "start": 121.067,
+     "end": 121.346,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "suscripciones",
+     "start": 121.346,
+     "end": 122.173,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 122.173,
+     "end": 122.331,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "no",
+     "start": 122.331,
+     "end": 122.49,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ocupa,",
+     "start": 122.49,
+     "end": 122.83,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 123.17,
+     "end": 123.346,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "porcentaje",
+     "start": 123.346,
+     "end": 124.061,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "más",
+     "start": 124.061,
+     "end": 124.304,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "alto",
+     "start": 124.304,
+     "end": 124.615,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 124.615,
+     "end": 124.791,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "toda",
+     "start": 124.791,
+     "end": 125.101,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "América",
+     "start": 125.101,
+     "end": 125.614,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "Latina.",
+     "start": 125.614,
+     "end": 126.06,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Ese",
+     "start": 126.47,
+     "end": 126.728,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cobro",
+     "start": 126.728,
+     "end": 127.13,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "sale",
+     "start": 127.13,
+     "end": 127.46,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "solo,",
+     "start": 127.46,
+     "end": 127.79,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "cada",
+     "start": 128.1,
+     "end": 128.47,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "mes,",
+     "start": 128.47,
+     "end": 128.76,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "en",
+     "start": 129.08,
+     "end": 129.254,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "silencio.",
+     "start": 129.254,
+     "end": 129.83,
+     "punct": ".",
+     "para_end": true
+    }
+   ]
+  },
+  {
+   "name": "Audio_02_Pasos",
+   "duration": 144.08,
+   "segments": [
+    {
+     "start": 0.03,
+     "end": 0.61,
+     "text": "Ahora sí,"
+    },
+    {
+     "start": 0.81,
+     "end": 2.71,
+     "text": "vamos a comprobarlo con tu dinero."
+    },
+    {
+     "start": 3.11,
+     "end": 4.48,
+     "text": "Vuelve a tu estado de cuenta."
+    },
+    {
+     "start": 4.83,
+     "end": 6.35,
+     "text": "Busca la palabra Rappi,"
+    },
+    {
+     "start": 6.59,
+     "end": 8.9,
+     "text": "o el nombre de la aplicación donde pides comida."
+    },
+    {
+     "start": 9.37,
+     "end": 13.18,
+     "text": "Cuenta cuántas veces aparece en tres meses y suma el total."
+    },
+    {
+     "start": 13.82,
+     "end": 15.15,
+     "text": "Ahora busca la palabra Apple."
+    },
+    {
+     "start": 15.36,
+     "end": 15.78,
+     "text": "Ahí están"
+    },
+    {
+     "start": 16.21,
+     "end": 19.65,
+     "text": "las suscripciones que activaste hace tiempo y ya olvidaste."
+    },
+    {
+     "start": 20.08,
+     "end": 22.91,
+     "text": "Y busca el nombre de la tienda donde más compras en línea."
+    },
+    {
+     "start": 23.42,
+     "end": 24.01,
+     "text": "Falta una."
+    },
+    {
+     "start": 24.46,
+     "end": 28.77,
+     "text": "Localiza el día que te pagaron y suma lo que gastaste los primeros cinco días."
+    },
+    {
+     "start": 29.18,
+     "end": 31.1,
+     "text": "Ahora suma los últimos cinco."
+    },
+    {
+     "start": 31.53,
+     "end": 32.99,
+     "text": "Compara los dos números."
+    },
+    {
+     "start": 33.41,
+     "end": 35.83,
+     "text": "Esa diferencia es el patrón de la quincena,"
+    },
+    {
+     "start": 36.13,
+     "end": 37.38,
+     "text": "en tu propia cuenta."
+    },
+    {
+     "start": 37.85,
+     "end": 41.86,
+     "text": "Si en cualquiera de esas búsquedas encontraste más de cinco cargos en un mes,"
+    },
+    {
+     "start": 42.19,
+     "end": 43.99,
+     "text": "ahí está una parte de tu fuga."
+    },
+    {
+     "start": 44.45,
+     "end": 45.81,
+     "text": "Y cuando veas esos números,"
+    },
+    {
+     "start": 45.94,
+     "end": 47.23,
+     "text": "no te enojes contigo."
+    },
+    {
+     "start": 47.56,
+     "end": 52.18,
+     "text": "Esas aplicaciones están diseñadas por profesionales para que compres sin pensarlo:"
+    },
+    {
+     "start": 52.53,
+     "end": 53.07,
+     "text": "un botón,"
+    },
+    {
+     "start": 53.27,
+     "end": 55.37,
+     "text": "sin contraseña, sin ver tu saldo."
+    },
+    {
+     "start": 55.72,
+     "end": 56.77,
+     "text": "No están fallando,"
+    },
+    {
+     "start": 57.0,
+     "end": 59.78,
+     "text": "están funcionando exactamente como las diseñaron."
+    },
+    {
+     "start": 60.21,
+     "end": 64.67,
+     "text": "Hasta hoy no sabías que estabas jugando un juego con reglas que no conocías."
+    },
+    {
+     "start": 65.08,
+     "end": 66.67,
+     "text": "Anota esos cuatro números."
+    },
+    {
+     "start": 67.0,
+     "end": 69.24,
+     "text": "Ese es tu punto de partida real."
+    },
+    {
+     "start": 69.65,
+     "end": 71.07,
+     "text": "Y con esos números en la mano,"
+    },
+    {
+     "start": 71.31,
+     "end": 73.16,
+     "text": "este dato te va a caer distinto."
+    },
+    {
+     "start": 73.64,
+     "end": 74.98,
+     "text": "Según BBVA, todo esto"
+    },
+    {
+     "start": 75.24,
+     "end": 80.37,
+     "text": "junto te puede estar costando entre el quince y el cuarenta por ciento de lo que ganas."
+    },
+    {
+     "start": 80.76,
+     "end": 84.99,
+     "text": "Es como trabajar un día entero a la semana sin saber a dónde se fue ese sueldo."
+    },
+    {
+     "start": 85.41,
+     "end": 86.44,
+     "text": "No es que ganes poco."
+    },
+    {
+     "start": 86.75,
+     "end": 91.55,
+     "text": "Es que una parte de lo que ya ganas se va antes de que tú decidas qué hacer con ella."
+    },
+    {
+     "start": 91.96,
+     "end": 94.03,
+     "text": "Y esto no pasa porque seas indisciplinado."
+    },
+    {
+     "start": 94.35,
+     "end": 98.18,
+     "text": "Pasa porque nunca tuviste con qué ver hacia dónde se iba tu dinero."
+    },
+    {
+     "start": 98.57,
+     "end": 99.98,
+     "text": "No es falta de disciplina."
+    },
+    {
+     "start": 100.28,
+     "end": 101.72,
+     "text": "Es falta de sistema."
+    },
+    {
+     "start": 102.13,
+     "end": 103.88,
+     "text": "Por eso este canal se llama así."
+    },
+    {
+     "start": 104.39,
+     "end": 104.69,
+     "text": "Uno:"
+    },
+    {
+     "start": 105.06,
+     "end": 107.78,
+     "text": "abre las notas de tu teléfono y haz dos columnas."
+    },
+    {
+     "start": 108.08,
+     "end": 109.7,
+     "text": "De un lado lo que entra al mes,"
+    },
+    {
+     "start": 109.84,
+     "end": 111.08,
+     "text": "del otro lo que sale."
+    },
+    {
+     "start": 111.47,
+     "end": 113.33,
+     "text": "Ponle los números que acabas de encontrar."
+    },
+    {
+     "start": 113.7,
+     "end": 116.36,
+     "text": "Porque si trabajas todo el mes y se te va en tontería,"
+    },
+    {
+     "start": 116.58,
+     "end": 118.15,
+     "text": "entonces para qué trabajas."
+    },
+    {
+     "start": 118.57,
+     "end": 119.02,
+     "text": "Dos:"
+    },
+    {
+     "start": 119.36,
+     "end": 124.64,
+     "text": "si sueles pagar con el teléfono, para las compras chicas del día a día vuelve al efectivo por un tiempo."
+    },
+    {
+     "start": 124.9,
+     "end": 126.46,
+     "text": "Vas a sentir la diferencia."
+    },
+    {
+     "start": 126.9,
+     "end": 127.29,
+     "text": "Tres:"
+    },
+    {
+     "start": 127.64,
+     "end": 130.55,
+     "text": "revisa tu estado de cuenta un día fijo a la semana,"
+    },
+    {
+     "start": 130.81,
+     "end": 132.5,
+     "text": "no solo cuando algo te preocupa."
+    },
+    {
+     "start": 132.83,
+     "end": 134.06,
+     "text": "Así lo controlas tú,"
+    },
+    {
+     "start": 134.36,
+     "end": 135.31,
+     "text": "y no al revés."
+    },
+    {
+     "start": 135.72,
+     "end": 136.12,
+     "text": "Cuatro:"
+    },
+    {
+     "start": 136.47,
+     "end": 139.8,
+     "text": "si sabes que viene un cobro, una suscripción, un pago fijo,"
+    },
+    {
+     "start": 140.02,
+     "end": 142.16,
+     "text": "anótalo el día que decidiste tenerlo,"
+    },
+    {
+     "start": 142.41,
+     "end": 143.88,
+     "text": "no el día que te sorprenda."
+    }
+   ],
+   "words": [
+    {
+     "w": "Ahora",
+     "start": 0.03,
+     "end": 0.401,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "sí,",
+     "start": 0.401,
+     "end": 0.61,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "vamos",
+     "start": 0.81,
+     "end": 1.147,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "a",
+     "start": 1.147,
+     "end": 1.243,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "comprobarlo",
+     "start": 1.243,
+     "end": 1.94,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "con",
+     "start": 1.94,
+     "end": 2.157,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tu",
+     "start": 2.157,
+     "end": 2.313,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dinero.",
+     "start": 2.313,
+     "end": 2.71,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Vuelve",
+     "start": 3.11,
+     "end": 3.45,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "a",
+     "start": 3.45,
+     "end": 3.532,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tu",
+     "start": 3.532,
+     "end": 3.666,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "estado",
+     "start": 3.666,
+     "end": 4.006,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 4.006,
+     "end": 4.14,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cuenta.",
+     "start": 4.14,
+     "end": 4.48,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Busca",
+     "start": 4.83,
+     "end": 5.247,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "la",
+     "start": 5.247,
+     "end": 5.441,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "palabra",
+     "start": 5.441,
+     "end": 6.007,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "Rappi,",
+     "start": 6.007,
+     "end": 6.35,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "o",
+     "start": 6.59,
+     "end": 6.673,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 6.673,
+     "end": 6.809,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "nombre",
+     "start": 6.809,
+     "end": 7.152,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 7.152,
+     "end": 7.287,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "la",
+     "start": 7.287,
+     "end": 7.422,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "aplicación",
+     "start": 7.422,
+     "end": 7.974,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "donde",
+     "start": 7.974,
+     "end": 8.265,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "pides",
+     "start": 8.265,
+     "end": 8.557,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "comida.",
+     "start": 8.557,
+     "end": 8.9,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Cuenta",
+     "start": 9.37,
+     "end": 9.831,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cuántas",
+     "start": 9.831,
+     "end": 10.361,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "veces",
+     "start": 10.361,
+     "end": 10.752,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "aparece",
+     "start": 10.752,
+     "end": 11.282,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "en",
+     "start": 11.282,
+     "end": 11.463,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tres",
+     "start": 11.463,
+     "end": 11.784,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "meses",
+     "start": 11.784,
+     "end": 12.175,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "y",
+     "start": 12.175,
+     "end": 12.287,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "suma",
+     "start": 12.287,
+     "end": 12.608,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 12.608,
+     "end": 12.789,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "total.",
+     "start": 12.789,
+     "end": 13.18,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Ahora",
+     "start": 13.82,
+     "end": 14.065,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "busca",
+     "start": 14.065,
+     "end": 14.363,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "la",
+     "start": 14.363,
+     "end": 14.501,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "palabra",
+     "start": 14.501,
+     "end": 14.905,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "Apple.",
+     "start": 14.905,
+     "end": 15.15,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Ahí",
+     "start": 15.36,
+     "end": 15.493,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "están",
+     "start": 15.493,
+     "end": 15.78,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "las",
+     "start": 16.21,
+     "end": 16.442,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "suscripciones",
+     "start": 16.442,
+     "end": 17.318,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 17.318,
+     "end": 17.486,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "activaste",
+     "start": 17.486,
+     "end": 18.104,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "hace",
+     "start": 18.104,
+     "end": 18.336,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tiempo",
+     "start": 18.336,
+     "end": 18.761,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "y",
+     "start": 18.761,
+     "end": 18.864,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ya",
+     "start": 18.864,
+     "end": 19.032,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "olvidaste.",
+     "start": 19.032,
+     "end": 19.65,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Y",
+     "start": 20.08,
+     "end": 20.165,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "busca",
+     "start": 20.165,
+     "end": 20.463,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 20.463,
+     "end": 20.601,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "nombre",
+     "start": 20.601,
+     "end": 20.952,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 20.952,
+     "end": 21.091,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "la",
+     "start": 21.091,
+     "end": 21.229,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tienda",
+     "start": 21.229,
+     "end": 21.58,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "donde",
+     "start": 21.58,
+     "end": 21.878,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "más",
+     "start": 21.878,
+     "end": 22.07,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "compras",
+     "start": 22.07,
+     "end": 22.474,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "en",
+     "start": 22.474,
+     "end": 22.612,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "línea.",
+     "start": 22.612,
+     "end": 22.91,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Falta",
+     "start": 23.42,
+     "end": 23.779,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "una.",
+     "start": 23.779,
+     "end": 24.01,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Localiza",
+     "start": 24.46,
+     "end": 24.99,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 24.99,
+     "end": 25.15,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "día",
+     "start": 25.15,
+     "end": 25.371,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 25.371,
+     "end": 25.531,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "te",
+     "start": 25.531,
+     "end": 25.691,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "pagaron",
+     "start": 25.691,
+     "end": 26.159,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "y",
+     "start": 26.159,
+     "end": 26.258,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "suma",
+     "start": 26.258,
+     "end": 26.541,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "lo",
+     "start": 26.541,
+     "end": 26.701,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 26.701,
+     "end": 26.861,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "gastaste",
+     "start": 26.861,
+     "end": 27.391,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "los",
+     "start": 27.391,
+     "end": 27.612,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "primeros",
+     "start": 27.612,
+     "end": 28.142,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cinco",
+     "start": 28.142,
+     "end": 28.487,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "días.",
+     "start": 28.487,
+     "end": 28.77,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Ahora",
+     "start": 29.18,
+     "end": 29.52,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "suma",
+     "start": 29.52,
+     "end": 29.859,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "los",
+     "start": 29.859,
+     "end": 30.125,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "últimos",
+     "start": 30.125,
+     "end": 30.686,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cinco.",
+     "start": 30.686,
+     "end": 31.1,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Compara",
+     "start": 31.53,
+     "end": 32.025,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "los",
+     "start": 32.025,
+     "end": 32.26,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dos",
+     "start": 32.26,
+     "end": 32.495,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "números.",
+     "start": 32.495,
+     "end": 32.99,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Esa",
+     "start": 33.41,
+     "end": 33.635,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "diferencia",
+     "start": 33.635,
+     "end": 34.296,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "es",
+     "start": 34.296,
+     "end": 34.458,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 34.458,
+     "end": 34.62,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "patrón",
+     "start": 34.62,
+     "end": 35.032,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 35.032,
+     "end": 35.194,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "la",
+     "start": 35.194,
+     "end": 35.356,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "quincena,",
+     "start": 35.356,
+     "end": 35.83,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "en",
+     "start": 36.13,
+     "end": 36.307,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tu",
+     "start": 36.307,
+     "end": 36.483,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "propia",
+     "start": 36.483,
+     "end": 36.932,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cuenta.",
+     "start": 36.932,
+     "end": 37.38,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Si",
+     "start": 37.85,
+     "end": 38.0,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "en",
+     "start": 38.0,
+     "end": 38.15,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cualquiera",
+     "start": 38.15,
+     "end": 38.705,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 38.705,
+     "end": 38.855,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "esas",
+     "start": 38.855,
+     "end": 39.121,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "búsquedas",
+     "start": 39.121,
+     "end": 39.618,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "encontraste",
+     "start": 39.618,
+     "end": 40.288,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "más",
+     "start": 40.288,
+     "end": 40.496,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 40.496,
+     "end": 40.647,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cinco",
+     "start": 40.647,
+     "end": 40.97,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cargos",
+     "start": 40.97,
+     "end": 41.352,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "en",
+     "start": 41.352,
+     "end": 41.502,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "un",
+     "start": 41.502,
+     "end": 41.652,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "mes,",
+     "start": 41.652,
+     "end": 41.86,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "ahí",
+     "start": 42.19,
+     "end": 42.369,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "está",
+     "start": 42.369,
+     "end": 42.685,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "una",
+     "start": 42.685,
+     "end": 42.932,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "parte",
+     "start": 42.932,
+     "end": 43.317,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 43.317,
+     "end": 43.495,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tu",
+     "start": 43.495,
+     "end": 43.674,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "fuga.",
+     "start": 43.674,
+     "end": 43.99,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Y",
+     "start": 44.45,
+     "end": 44.537,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cuando",
+     "start": 44.537,
+     "end": 44.896,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "veas",
+     "start": 44.896,
+     "end": 45.146,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "esos",
+     "start": 45.146,
+     "end": 45.397,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "números,",
+     "start": 45.397,
+     "end": 45.81,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "no",
+     "start": 45.94,
+     "end": 46.113,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "te",
+     "start": 46.113,
+     "end": 46.286,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "enojes",
+     "start": 46.286,
+     "end": 46.725,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "contigo.",
+     "start": 46.725,
+     "end": 47.23,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Esas",
+     "start": 47.56,
+     "end": 47.837,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "aplicaciones",
+     "start": 47.837,
+     "end": 48.597,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "están",
+     "start": 48.597,
+     "end": 48.935,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "diseñadas",
+     "start": 48.935,
+     "end": 49.514,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "por",
+     "start": 49.514,
+     "end": 49.731,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "profesionales",
+     "start": 49.731,
+     "end": 50.552,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "para",
+     "start": 50.552,
+     "end": 50.829,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 50.829,
+     "end": 50.986,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "compres",
+     "start": 50.986,
+     "end": 51.444,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "sin",
+     "start": 51.444,
+     "end": 51.661,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "pensarlo:",
+     "start": 51.661,
+     "end": 52.18,
+     "punct": ":",
+     "para_end": false
+    },
+    {
+     "w": "un",
+     "start": 52.53,
+     "end": 52.701,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "botón,",
+     "start": 52.701,
+     "end": 53.07,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "sin",
+     "start": 53.27,
+     "end": 53.525,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "contraseña,",
+     "start": 53.525,
+     "end": 54.277,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "sin",
+     "start": 54.277,
+     "end": 54.533,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ver",
+     "start": 54.533,
+     "end": 54.788,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tu",
+     "start": 54.788,
+     "end": 54.973,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "saldo.",
+     "start": 54.973,
+     "end": 55.37,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "No",
+     "start": 55.72,
+     "end": 55.893,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "están",
+     "start": 55.893,
+     "end": 56.265,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "fallando,",
+     "start": 56.265,
+     "end": 56.77,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "están",
+     "start": 57.0,
+     "end": 57.334,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "funcionando",
+     "start": 57.334,
+     "end": 58.026,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "exactamente",
+     "start": 58.026,
+     "end": 58.718,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "como",
+     "start": 58.718,
+     "end": 58.993,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "las",
+     "start": 58.993,
+     "end": 59.207,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "diseñaron.",
+     "start": 59.207,
+     "end": 59.78,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Hasta",
+     "start": 60.21,
+     "end": 60.519,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "hoy",
+     "start": 60.519,
+     "end": 60.694,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "no",
+     "start": 60.694,
+     "end": 60.868,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "sabías",
+     "start": 60.868,
+     "end": 61.312,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 61.312,
+     "end": 61.486,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "estabas",
+     "start": 61.486,
+     "end": 61.997,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "jugando",
+     "start": 61.997,
+     "end": 62.507,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "un",
+     "start": 62.507,
+     "end": 62.682,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "juego",
+     "start": 62.682,
+     "end": 63.058,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "con",
+     "start": 63.058,
+     "end": 63.3,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "reglas",
+     "start": 63.3,
+     "end": 63.743,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 63.743,
+     "end": 63.918,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "no",
+     "start": 63.918,
+     "end": 64.092,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "conocías.",
+     "start": 64.092,
+     "end": 64.67,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Anota",
+     "start": 65.08,
+     "end": 65.445,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "esos",
+     "start": 65.445,
+     "end": 65.745,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cuatro",
+     "start": 65.745,
+     "end": 66.175,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "números.",
+     "start": 66.175,
+     "end": 66.67,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Ese",
+     "start": 67.0,
+     "end": 67.276,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "es",
+     "start": 67.276,
+     "end": 67.476,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tu",
+     "start": 67.476,
+     "end": 67.675,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "punto",
+     "start": 67.675,
+     "end": 68.105,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 68.105,
+     "end": 68.304,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "partida",
+     "start": 68.304,
+     "end": 68.887,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "real.",
+     "start": 68.887,
+     "end": 69.24,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Y",
+     "start": 69.65,
+     "end": 69.734,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "con",
+     "start": 69.734,
+     "end": 69.921,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "esos",
+     "start": 69.921,
+     "end": 70.162,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "números",
+     "start": 70.162,
+     "end": 70.558,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "en",
+     "start": 70.558,
+     "end": 70.694,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "la",
+     "start": 70.694,
+     "end": 70.83,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "mano,",
+     "start": 70.83,
+     "end": 71.07,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "este",
+     "start": 71.31,
+     "end": 71.601,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dato",
+     "start": 71.601,
+     "end": 71.893,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "te",
+     "start": 71.893,
+     "end": 72.058,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "va",
+     "start": 72.058,
+     "end": 72.222,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "a",
+     "start": 72.222,
+     "end": 72.324,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "caer",
+     "start": 72.324,
+     "end": 72.615,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "distinto.",
+     "start": 72.615,
+     "end": 73.16,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Según",
+     "start": 73.64,
+     "end": 73.961,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "BBVA,",
+     "start": 73.961,
+     "end": 74.453,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "todo",
+     "start": 74.453,
+     "end": 74.717,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "esto",
+     "start": 74.717,
+     "end": 74.98,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "junto",
+     "start": 75.24,
+     "end": 75.607,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "te",
+     "start": 75.607,
+     "end": 75.778,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "puede",
+     "start": 75.778,
+     "end": 76.145,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "estar",
+     "start": 76.145,
+     "end": 76.513,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "costando",
+     "start": 76.513,
+     "end": 77.077,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "entre",
+     "start": 77.077,
+     "end": 77.444,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 77.444,
+     "end": 77.615,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "quince",
+     "start": 77.615,
+     "end": 77.982,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "y",
+     "start": 77.982,
+     "end": 78.087,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 78.087,
+     "end": 78.258,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cuarenta",
+     "start": 78.258,
+     "end": 78.822,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "por",
+     "start": 78.822,
+     "end": 79.058,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ciento",
+     "start": 79.058,
+     "end": 79.491,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 79.491,
+     "end": 79.662,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "lo",
+     "start": 79.662,
+     "end": 79.832,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 79.832,
+     "end": 80.003,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ganas.",
+     "start": 80.003,
+     "end": 80.37,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Es",
+     "start": 80.76,
+     "end": 80.912,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "como",
+     "start": 80.912,
+     "end": 81.182,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "trabajar",
+     "start": 81.182,
+     "end": 81.686,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "un",
+     "start": 81.686,
+     "end": 81.838,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "día",
+     "start": 81.838,
+     "end": 82.049,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "entero",
+     "start": 82.049,
+     "end": 82.436,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "a",
+     "start": 82.436,
+     "end": 82.529,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "la",
+     "start": 82.529,
+     "end": 82.682,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "semana",
+     "start": 82.682,
+     "end": 83.068,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "sin",
+     "start": 83.068,
+     "end": 83.279,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "saber",
+     "start": 83.279,
+     "end": 83.607,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "a",
+     "start": 83.607,
+     "end": 83.701,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dónde",
+     "start": 83.701,
+     "end": 84.029,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "se",
+     "start": 84.029,
+     "end": 84.181,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "fue",
+     "start": 84.181,
+     "end": 84.392,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ese",
+     "start": 84.392,
+     "end": 84.603,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "sueldo.",
+     "start": 84.603,
+     "end": 84.99,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "No",
+     "start": 85.41,
+     "end": 85.559,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "es",
+     "start": 85.559,
+     "end": 85.708,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 85.708,
+     "end": 85.856,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ganes",
+     "start": 85.856,
+     "end": 86.177,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "poco.",
+     "start": 86.177,
+     "end": 86.44,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Es",
+     "start": 86.75,
+     "end": 86.926,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 86.926,
+     "end": 87.102,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "una",
+     "start": 87.102,
+     "end": 87.345,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "parte",
+     "start": 87.345,
+     "end": 87.724,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 87.724,
+     "end": 87.899,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "lo",
+     "start": 87.899,
+     "end": 88.075,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 88.075,
+     "end": 88.251,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ya",
+     "start": 88.251,
+     "end": 88.427,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ganas",
+     "start": 88.427,
+     "end": 88.805,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "se",
+     "start": 88.805,
+     "end": 88.981,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "va",
+     "start": 88.981,
+     "end": 89.157,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "antes",
+     "start": 89.157,
+     "end": 89.535,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 89.535,
+     "end": 89.711,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 89.711,
+     "end": 89.887,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tú",
+     "start": 89.887,
+     "end": 90.063,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "decidas",
+     "start": 90.063,
+     "end": 90.576,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "qué",
+     "start": 90.576,
+     "end": 90.752,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "hacer",
+     "start": 90.752,
+     "end": 91.063,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "con",
+     "start": 91.063,
+     "end": 91.307,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ella.",
+     "start": 91.307,
+     "end": 91.55,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Y",
+     "start": 91.96,
+     "end": 92.047,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "esto",
+     "start": 92.047,
+     "end": 92.296,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "no",
+     "start": 92.296,
+     "end": 92.437,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "pasa",
+     "start": 92.437,
+     "end": 92.686,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "porque",
+     "start": 92.686,
+     "end": 92.99,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "seas",
+     "start": 92.99,
+     "end": 93.239,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "indisciplinado.",
+     "start": 93.239,
+     "end": 94.03,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Pasa",
+     "start": 94.35,
+     "end": 94.65,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "porque",
+     "start": 94.65,
+     "end": 95.014,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "nunca",
+     "start": 95.014,
+     "end": 95.379,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tuviste",
+     "start": 95.379,
+     "end": 95.874,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "con",
+     "start": 95.874,
+     "end": 96.109,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "qué",
+     "start": 96.109,
+     "end": 96.278,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ver",
+     "start": 96.278,
+     "end": 96.513,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "hacia",
+     "start": 96.513,
+     "end": 96.812,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dónde",
+     "start": 96.812,
+     "end": 97.177,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "se",
+     "start": 97.177,
+     "end": 97.346,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "iba",
+     "start": 97.346,
+     "end": 97.581,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tu",
+     "start": 97.581,
+     "end": 97.75,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dinero.",
+     "start": 97.75,
+     "end": 98.18,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "No",
+     "start": 98.57,
+     "end": 98.723,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "es",
+     "start": 98.723,
+     "end": 98.876,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "falta",
+     "start": 98.876,
+     "end": 99.204,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 99.204,
+     "end": 99.357,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "disciplina.",
+     "start": 99.357,
+     "end": 99.98,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Es",
+     "start": 100.28,
+     "end": 100.483,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "falta",
+     "start": 100.483,
+     "end": 100.922,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 100.922,
+     "end": 101.125,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "sistema.",
+     "start": 101.125,
+     "end": 101.72,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Por",
+     "start": 102.13,
+     "end": 102.353,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "eso",
+     "start": 102.353,
+     "end": 102.577,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "este",
+     "start": 102.577,
+     "end": 102.862,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "canal",
+     "start": 102.862,
+     "end": 103.21,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "se",
+     "start": 103.21,
+     "end": 103.371,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "llama",
+     "start": 103.371,
+     "end": 103.657,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "así.",
+     "start": 103.657,
+     "end": 103.88,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Uno:",
+     "start": 104.39,
+     "end": 104.69,
+     "punct": ":",
+     "para_end": false
+    },
+    {
+     "w": "abre",
+     "start": 105.06,
+     "end": 105.344,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "las",
+     "start": 105.344,
+     "end": 105.567,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "notas",
+     "start": 105.567,
+     "end": 105.913,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 105.913,
+     "end": 106.074,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tu",
+     "start": 106.074,
+     "end": 106.235,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "teléfono",
+     "start": 106.235,
+     "end": 106.766,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "y",
+     "start": 106.766,
+     "end": 106.865,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "haz",
+     "start": 106.865,
+     "end": 107.026,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dos",
+     "start": 107.026,
+     "end": 107.248,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "columnas.",
+     "start": 107.248,
+     "end": 107.78,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "De",
+     "start": 108.08,
+     "end": 108.237,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "un",
+     "start": 108.237,
+     "end": 108.394,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "lado",
+     "start": 108.394,
+     "end": 108.672,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "lo",
+     "start": 108.672,
+     "end": 108.83,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 108.83,
+     "end": 108.987,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "entra",
+     "start": 108.987,
+     "end": 109.325,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "al",
+     "start": 109.325,
+     "end": 109.482,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "mes,",
+     "start": 109.482,
+     "end": 109.7,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "del",
+     "start": 109.84,
+     "end": 110.088,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "otro",
+     "start": 110.088,
+     "end": 110.405,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "lo",
+     "start": 110.405,
+     "end": 110.584,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 110.584,
+     "end": 110.763,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "sale.",
+     "start": 110.763,
+     "end": 111.08,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Ponle",
+     "start": 111.47,
+     "end": 111.743,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "los",
+     "start": 111.743,
+     "end": 111.918,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "números",
+     "start": 111.918,
+     "end": 112.288,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 112.288,
+     "end": 112.415,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "acabas",
+     "start": 112.415,
+     "end": 112.736,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 112.736,
+     "end": 112.863,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "encontrar.",
+     "start": 112.863,
+     "end": 113.33,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Porque",
+     "start": 113.7,
+     "end": 114.009,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "si",
+     "start": 114.009,
+     "end": 114.153,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "trabajas",
+     "start": 114.153,
+     "end": 114.627,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "todo",
+     "start": 114.627,
+     "end": 114.881,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 114.881,
+     "end": 115.024,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "mes",
+     "start": 115.024,
+     "end": 115.223,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "y",
+     "start": 115.223,
+     "end": 115.311,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "se",
+     "start": 115.311,
+     "end": 115.455,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "te",
+     "start": 115.455,
+     "end": 115.598,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "va",
+     "start": 115.598,
+     "end": 115.742,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "en",
+     "start": 115.742,
+     "end": 115.885,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tontería,",
+     "start": 115.885,
+     "end": 116.36,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "entonces",
+     "start": 116.58,
+     "end": 117.133,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "para",
+     "start": 117.133,
+     "end": 117.429,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "qué",
+     "start": 117.429,
+     "end": 117.597,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "trabajas.",
+     "start": 117.597,
+     "end": 118.15,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Dos:",
+     "start": 118.57,
+     "end": 119.02,
+     "punct": ":",
+     "para_end": false
+    },
+    {
+     "w": "si",
+     "start": 119.36,
+     "end": 119.506,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "sueles",
+     "start": 119.506,
+     "end": 119.877,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "pagar",
+     "start": 119.877,
+     "end": 120.191,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "con",
+     "start": 120.191,
+     "end": 120.394,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 120.394,
+     "end": 120.54,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "teléfono,",
+     "start": 120.54,
+     "end": 121.023,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "para",
+     "start": 121.023,
+     "end": 121.281,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "las",
+     "start": 121.281,
+     "end": 121.483,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "compras",
+     "start": 121.483,
+     "end": 121.91,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "chicas",
+     "start": 121.91,
+     "end": 122.225,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "del",
+     "start": 122.225,
+     "end": 122.427,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "día",
+     "start": 122.427,
+     "end": 122.629,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "a",
+     "start": 122.629,
+     "end": 122.719,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "día",
+     "start": 122.719,
+     "end": 122.921,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "vuelve",
+     "start": 122.921,
+     "end": 123.292,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "al",
+     "start": 123.292,
+     "end": 123.438,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "efectivo",
+     "start": 123.438,
+     "end": 123.921,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "por",
+     "start": 123.921,
+     "end": 124.123,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "un",
+     "start": 124.123,
+     "end": 124.269,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tiempo.",
+     "start": 124.269,
+     "end": 124.64,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Vas",
+     "start": 124.9,
+     "end": 125.125,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "a",
+     "start": 125.125,
+     "end": 125.224,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "sentir",
+     "start": 125.224,
+     "end": 125.636,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "la",
+     "start": 125.636,
+     "end": 125.799,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "diferencia.",
+     "start": 125.799,
+     "end": 126.46,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Tres:",
+     "start": 126.9,
+     "end": 127.29,
+     "punct": ":",
+     "para_end": false
+    },
+    {
+     "w": "revisa",
+     "start": 127.64,
+     "end": 128.052,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tu",
+     "start": 128.052,
+     "end": 128.215,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "estado",
+     "start": 128.215,
+     "end": 128.627,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 128.627,
+     "end": 128.789,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cuenta",
+     "start": 128.789,
+     "end": 129.201,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "un",
+     "start": 129.201,
+     "end": 129.364,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "día",
+     "start": 129.364,
+     "end": 129.588,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "fijo",
+     "start": 129.588,
+     "end": 129.876,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "a",
+     "start": 129.876,
+     "end": 129.975,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "la",
+     "start": 129.975,
+     "end": 130.138,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "semana,",
+     "start": 130.138,
+     "end": 130.55,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "no",
+     "start": 130.81,
+     "end": 130.958,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "solo",
+     "start": 130.958,
+     "end": 131.221,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cuando",
+     "start": 131.221,
+     "end": 131.598,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "algo",
+     "start": 131.598,
+     "end": 131.861,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "te",
+     "start": 131.861,
+     "end": 132.009,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "preocupa.",
+     "start": 132.009,
+     "end": 132.5,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Así",
+     "start": 132.83,
+     "end": 133.071,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "lo",
+     "start": 133.071,
+     "end": 133.244,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "controlas",
+     "start": 133.244,
+     "end": 133.886,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tú,",
+     "start": 133.886,
+     "end": 134.06,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "y",
+     "start": 134.36,
+     "end": 134.483,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "no",
+     "start": 134.483,
+     "end": 134.682,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "al",
+     "start": 134.682,
+     "end": 134.881,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "revés.",
+     "start": 134.881,
+     "end": 135.31,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Cuatro:",
+     "start": 135.72,
+     "end": 136.12,
+     "punct": ":",
+     "para_end": false
+    },
+    {
+     "w": "si",
+     "start": 136.47,
+     "end": 136.638,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "sabes",
+     "start": 136.638,
+     "end": 136.999,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 136.999,
+     "end": 137.167,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "viene",
+     "start": 137.167,
+     "end": 137.528,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "un",
+     "start": 137.528,
+     "end": 137.696,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cobro,",
+     "start": 137.696,
+     "end": 138.058,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "una",
+     "start": 138.058,
+     "end": 138.29,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "suscripción,",
+     "start": 138.29,
+     "end": 139.038,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "un",
+     "start": 139.038,
+     "end": 139.206,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "pago",
+     "start": 139.206,
+     "end": 139.503,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "fijo,",
+     "start": 139.503,
+     "end": 139.8,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "anótalo",
+     "start": 140.02,
+     "end": 140.504,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 140.504,
+     "end": 140.67,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "día",
+     "start": 140.67,
+     "end": 140.899,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 140.899,
+     "end": 141.065,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "decidiste",
+     "start": 141.065,
+     "end": 141.676,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tenerlo,",
+     "start": 141.676,
+     "end": 142.16,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "no",
+     "start": 142.41,
+     "end": 142.572,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 142.572,
+     "end": 142.734,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "día",
+     "start": 142.734,
+     "end": 142.958,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 142.958,
+     "end": 143.12,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "te",
+     "start": 143.12,
+     "end": 143.282,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "sorprenda.",
+     "start": 143.282,
+     "end": 143.88,
+     "punct": ".",
+     "para_end": true
+    }
+   ]
+  },
+  {
+   "name": "Audio_03_Bonus_y_Cierre",
+   "duration": 62.64,
+   "segments": [
+    {
+     "start": 0.03,
+     "end": 3.57,
+     "text": "Y esas suscripciones que encontraste, vamos a quitarlas ahora mismo."
+    },
+    {
+     "start": 3.94,
+     "end": 4.74,
+     "text": "Si tienes iPhone:"
+    },
+    {
+     "start": 5.09,
+     "end": 5.92,
+     "text": "abre Ajustes,"
+    },
+    {
+     "start": 6.17,
+     "end": 8.73,
+     "text": "toca tu nombre arriba, luego Suscripciones."
+    },
+    {
+     "start": 9.08,
+     "end": 11.02,
+     "text": "Ahí ves todo lo que te cobra cada mes."
+    },
+    {
+     "start": 11.3,
+     "end": 14.01,
+     "text": "Tocas la que quieras y dice Cancelar suscripción."
+    },
+    {
+     "start": 14.43,
+     "end": 15.28,
+     "text": "Hazlo ahora,"
+    },
+    {
+     "start": 15.47,
+     "end": 16.46,
+     "text": "con el video corriendo."
+    },
+    {
+     "start": 16.99,
+     "end": 17.78,
+     "text": "Y una cosa más."
+    },
+    {
+     "start": 18.07,
+     "end": 20.6,
+     "text": "Elimina las aplicaciones donde compras por impulso."
+    },
+    {
+     "start": 20.89,
+     "end": 22.55,
+     "text": "Porque ahí no solo pierdes tiempo,"
+    },
+    {
+     "start": 22.84,
+     "end": 26.15,
+     "text": "ahí te están mostrando justo lo que te hace comprar sin pensarlo:"
+    },
+    {
+     "start": 26.47,
+     "end": 29.08,
+     "text": "ofertas, cosas que de repente necesitas,"
+    },
+    {
+     "start": 29.32,
+     "end": 30.99,
+     "text": "gente que parece tener lo que tú no."
+    },
+    {
+     "start": 31.35,
+     "end": 32.94,
+     "text": "Eso es lo que te empuja a gastar."
+    },
+    {
+     "start": 33.24,
+     "end": 36.81,
+     "text": "Mejor bórralas de tu pantalla principal, o de tu teléfono directamente."
+    },
+    {
+     "start": 37.45,
+     "end": 39.28,
+     "text": "Con esto terminas Sistema uno."
+    },
+    {
+     "start": 39.61,
+     "end": 41.07,
+     "text": "Encontraste tu número real,"
+    },
+    {
+     "start": 41.24,
+     "end": 45.1,
+     "text": "tienes tus dos columnas y ya quitaste lo que te estaba costando en silencio."
+    },
+    {
+     "start": 45.58,
+     "end": 46.49,
+     "text": "En Sistema dos,"
+    },
+    {
+     "start": 46.63,
+     "end": 47.14,
+     "text": "deuda,"
+    },
+    {
+     "start": 47.37,
+     "end": 52.19,
+     "text": "vas a agarrar esas dos columnas y te voy a enseñar a manejar tu deuda de forma profesional,"
+    },
+    {
+     "start": 52.46,
+     "end": 57.46,
+     "text": "para que dejes de pagar intereses que no necesitas y avances lo antes posible al nivel cero."
+    },
+    {
+     "start": 57.83,
+     "end": 58.92,
+     "text": "Y el nivel cero es"
+    },
+    {
+     "start": 59.24,
+     "end": 60.59,
+     "text": "simple: no deber nada."
+    },
+    {
+     "start": 61.02,
+     "end": 62.53,
+     "text": "Nos vemos en Sistema dos."
+    }
+   ],
+   "words": [
+    {
+     "w": "Y",
+     "start": 0.03,
+     "end": 0.124,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "esas",
+     "start": 0.124,
+     "end": 0.396,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "suscripciones",
+     "start": 0.396,
+     "end": 1.198,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 1.198,
+     "end": 1.352,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "encontraste,",
+     "start": 1.352,
+     "end": 2.036,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "vamos",
+     "start": 2.036,
+     "end": 2.366,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "a",
+     "start": 2.366,
+     "end": 2.461,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "quitarlas",
+     "start": 2.461,
+     "end": 2.968,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ahora",
+     "start": 2.968,
+     "end": 3.24,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "mismo.",
+     "start": 3.24,
+     "end": 3.57,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Si",
+     "start": 3.94,
+     "end": 4.081,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tienes",
+     "start": 4.081,
+     "end": 4.437,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "iPhone:",
+     "start": 4.437,
+     "end": 4.74,
+     "punct": ":",
+     "para_end": false
+    },
+    {
+     "w": "abre",
+     "start": 5.09,
+     "end": 5.403,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "Ajustes,",
+     "start": 5.403,
+     "end": 5.92,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "toca",
+     "start": 6.17,
+     "end": 6.475,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tu",
+     "start": 6.475,
+     "end": 6.648,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "nombre",
+     "start": 6.648,
+     "end": 7.085,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "arriba,",
+     "start": 7.085,
+     "end": 7.457,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "luego",
+     "start": 7.457,
+     "end": 7.828,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "Suscripciones.",
+     "start": 7.828,
+     "end": 8.73,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Ahí",
+     "start": 9.08,
+     "end": 9.236,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ves",
+     "start": 9.236,
+     "end": 9.451,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "todo",
+     "start": 9.451,
+     "end": 9.727,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "lo",
+     "start": 9.727,
+     "end": 9.882,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 9.882,
+     "end": 10.038,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "te",
+     "start": 10.038,
+     "end": 10.194,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cobra",
+     "start": 10.194,
+     "end": 10.529,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cada",
+     "start": 10.529,
+     "end": 10.804,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "mes.",
+     "start": 10.804,
+     "end": 11.02,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Tocas",
+     "start": 11.3,
+     "end": 11.646,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "la",
+     "start": 11.646,
+     "end": 11.807,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 11.807,
+     "end": 11.968,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "quieras",
+     "start": 11.968,
+     "end": 12.377,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "y",
+     "start": 12.377,
+     "end": 12.476,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dice",
+     "start": 12.476,
+     "end": 12.76,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "Cancelar",
+     "start": 12.76,
+     "end": 13.292,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "suscripción.",
+     "start": 13.292,
+     "end": 14.01,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Hazlo",
+     "start": 14.43,
+     "end": 14.855,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ahora,",
+     "start": 14.855,
+     "end": 15.28,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "con",
+     "start": 15.47,
+     "end": 15.645,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 15.645,
+     "end": 15.771,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "video",
+     "start": 15.771,
+     "end": 16.043,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "corriendo.",
+     "start": 16.043,
+     "end": 16.46,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Y",
+     "start": 16.99,
+     "end": 17.084,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "una",
+     "start": 17.084,
+     "end": 17.297,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cosa",
+     "start": 17.297,
+     "end": 17.568,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "más.",
+     "start": 17.568,
+     "end": 17.78,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Elimina",
+     "start": 18.07,
+     "end": 18.469,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "las",
+     "start": 18.469,
+     "end": 18.658,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "aplicaciones",
+     "start": 18.658,
+     "end": 19.319,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "donde",
+     "start": 19.319,
+     "end": 19.613,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "compras",
+     "start": 19.613,
+     "end": 20.012,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "por",
+     "start": 20.012,
+     "end": 20.201,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "impulso.",
+     "start": 20.201,
+     "end": 20.6,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Porque",
+     "start": 20.89,
+     "end": 21.204,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ahí",
+     "start": 21.204,
+     "end": 21.35,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "no",
+     "start": 21.35,
+     "end": 21.496,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "solo",
+     "start": 21.496,
+     "end": 21.754,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "pierdes",
+     "start": 21.754,
+     "end": 22.18,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tiempo,",
+     "start": 22.18,
+     "end": 22.55,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "ahí",
+     "start": 22.84,
+     "end": 22.99,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "te",
+     "start": 22.99,
+     "end": 23.141,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "están",
+     "start": 23.141,
+     "end": 23.465,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "mostrando",
+     "start": 23.465,
+     "end": 24.02,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "justo",
+     "start": 24.02,
+     "end": 24.345,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "lo",
+     "start": 24.345,
+     "end": 24.495,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 24.495,
+     "end": 24.645,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "te",
+     "start": 24.645,
+     "end": 24.796,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "hace",
+     "start": 24.796,
+     "end": 25.004,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "comprar",
+     "start": 25.004,
+     "end": 25.444,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "sin",
+     "start": 25.444,
+     "end": 25.652,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "pensarlo:",
+     "start": 25.652,
+     "end": 26.15,
+     "punct": ":",
+     "para_end": false
+    },
+    {
+     "w": "ofertas,",
+     "start": 26.47,
+     "end": 27.027,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "cosas",
+     "start": 27.027,
+     "end": 27.438,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 27.438,
+     "end": 27.628,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 27.628,
+     "end": 27.819,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "repente",
+     "start": 27.819,
+     "end": 28.376,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "necesitas,",
+     "start": 28.376,
+     "end": 29.08,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "gente",
+     "start": 29.32,
+     "end": 29.624,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 29.624,
+     "end": 29.765,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "parece",
+     "start": 29.765,
+     "end": 30.122,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tener",
+     "start": 30.122,
+     "end": 30.426,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "lo",
+     "start": 30.426,
+     "end": 30.567,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 30.567,
+     "end": 30.708,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tú",
+     "start": 30.708,
+     "end": 30.849,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "no.",
+     "start": 30.849,
+     "end": 30.99,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Eso",
+     "start": 31.35,
+     "end": 31.549,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "es",
+     "start": 31.549,
+     "end": 31.692,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "lo",
+     "start": 31.692,
+     "end": 31.836,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 31.836,
+     "end": 31.979,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "te",
+     "start": 31.979,
+     "end": 32.123,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "empuja",
+     "start": 32.123,
+     "end": 32.487,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "a",
+     "start": 32.487,
+     "end": 32.576,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "gastar.",
+     "start": 32.576,
+     "end": 32.94,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Mejor",
+     "start": 33.24,
+     "end": 33.554,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "bórralas",
+     "start": 33.554,
+     "end": 33.981,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 33.981,
+     "end": 34.127,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tu",
+     "start": 34.127,
+     "end": 34.273,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "pantalla",
+     "start": 34.273,
+     "end": 34.699,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "principal,",
+     "start": 34.699,
+     "end": 35.238,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "o",
+     "start": 35.238,
+     "end": 35.328,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 35.328,
+     "end": 35.474,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tu",
+     "start": 35.474,
+     "end": 35.62,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "teléfono",
+     "start": 35.62,
+     "end": 36.103,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "directamente.",
+     "start": 36.103,
+     "end": 36.81,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Con",
+     "start": 37.45,
+     "end": 37.685,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "esto",
+     "start": 37.685,
+     "end": 37.986,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "terminas",
+     "start": 37.986,
+     "end": 38.548,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "Sistema",
+     "start": 38.548,
+     "end": 39.045,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "uno.",
+     "start": 39.045,
+     "end": 39.28,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Encontraste",
+     "start": 39.61,
+     "end": 40.277,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tu",
+     "start": 40.277,
+     "end": 40.426,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "número",
+     "start": 40.426,
+     "end": 40.806,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "real,",
+     "start": 40.806,
+     "end": 41.07,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "tienes",
+     "start": 41.24,
+     "end": 41.612,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tus",
+     "start": 41.612,
+     "end": 41.816,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dos",
+     "start": 41.816,
+     "end": 42.019,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "columnas",
+     "start": 42.019,
+     "end": 42.504,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "y",
+     "start": 42.504,
+     "end": 42.594,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "ya",
+     "start": 42.594,
+     "end": 42.741,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "quitaste",
+     "start": 42.741,
+     "end": 43.17,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "lo",
+     "start": 43.17,
+     "end": 43.317,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 43.317,
+     "end": 43.463,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "te",
+     "start": 43.463,
+     "end": 43.61,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "estaba",
+     "start": 43.61,
+     "end": 43.983,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "costando",
+     "start": 43.983,
+     "end": 44.468,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "en",
+     "start": 44.468,
+     "end": 44.615,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "silencio.",
+     "start": 44.615,
+     "end": 45.1,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "En",
+     "start": 45.58,
+     "end": 45.751,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "Sistema",
+     "start": 45.751,
+     "end": 46.253,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dos,",
+     "start": 46.253,
+     "end": 46.49,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "deuda,",
+     "start": 46.63,
+     "end": 47.14,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "vas",
+     "start": 47.37,
+     "end": 47.58,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "a",
+     "start": 47.58,
+     "end": 47.673,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "agarrar",
+     "start": 47.673,
+     "end": 48.057,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "esas",
+     "start": 48.057,
+     "end": 48.325,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dos",
+     "start": 48.325,
+     "end": 48.534,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "columnas",
+     "start": 48.534,
+     "end": 49.035,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "y",
+     "start": 49.035,
+     "end": 49.128,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "te",
+     "start": 49.128,
+     "end": 49.279,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "voy",
+     "start": 49.279,
+     "end": 49.489,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "a",
+     "start": 49.489,
+     "end": 49.582,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "enseñar",
+     "start": 49.582,
+     "end": 50.024,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "a",
+     "start": 50.024,
+     "end": 50.118,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "manejar",
+     "start": 50.118,
+     "end": 50.56,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "tu",
+     "start": 50.56,
+     "end": 50.711,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "deuda",
+     "start": 50.711,
+     "end": 51.037,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 51.037,
+     "end": 51.189,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "forma",
+     "start": 51.189,
+     "end": 51.515,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "profesional,",
+     "start": 51.515,
+     "end": 52.19,
+     "punct": ",",
+     "para_end": false
+    },
+    {
+     "w": "para",
+     "start": 52.46,
+     "end": 52.736,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 52.736,
+     "end": 52.893,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dejes",
+     "start": 52.893,
+     "end": 53.229,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "de",
+     "start": 53.229,
+     "end": 53.385,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "pagar",
+     "start": 53.385,
+     "end": 53.722,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "intereses",
+     "start": 53.722,
+     "end": 54.299,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "que",
+     "start": 54.299,
+     "end": 54.455,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "no",
+     "start": 54.455,
+     "end": 54.611,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "necesitas",
+     "start": 54.611,
+     "end": 55.188,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "y",
+     "start": 55.188,
+     "end": 55.285,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "avances",
+     "start": 55.285,
+     "end": 55.741,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "lo",
+     "start": 55.741,
+     "end": 55.898,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "antes",
+     "start": 55.898,
+     "end": 56.234,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "posible",
+     "start": 56.234,
+     "end": 56.691,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "al",
+     "start": 56.691,
+     "end": 56.847,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "nivel",
+     "start": 56.847,
+     "end": 57.184,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cero.",
+     "start": 57.184,
+     "end": 57.46,
+     "punct": ".",
+     "para_end": false
+    },
+    {
+     "w": "Y",
+     "start": 57.83,
+     "end": 57.933,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "el",
+     "start": 57.933,
+     "end": 58.099,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "nivel",
+     "start": 58.099,
+     "end": 58.458,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "cero",
+     "start": 58.458,
+     "end": 58.753,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "es",
+     "start": 58.753,
+     "end": 58.92,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "simple:",
+     "start": 59.24,
+     "end": 59.699,
+     "punct": ":",
+     "para_end": false
+    },
+    {
+     "w": "no",
+     "start": 59.699,
+     "end": 59.88,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "deber",
+     "start": 59.88,
+     "end": 60.27,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "nada.",
+     "start": 60.27,
+     "end": 60.59,
+     "punct": ".",
+     "para_end": true
+    },
+    {
+     "w": "Nos",
+     "start": 61.02,
+     "end": 61.256,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "vemos",
+     "start": 61.256,
+     "end": 61.624,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "en",
+     "start": 61.624,
+     "end": 61.795,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "Sistema",
+     "start": 61.795,
+     "end": 62.294,
+     "punct": "",
+     "para_end": false
+    },
+    {
+     "w": "dos.",
+     "start": 62.294,
+     "end": 62.53,
+     "punct": ".",
+     "para_end": true
+    }
+   ]
+  }
+ ]
+}
