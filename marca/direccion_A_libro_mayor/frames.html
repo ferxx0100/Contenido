@@ -464,6 +464,23 @@ function f20(){
 }
 
 /* =========================================================================
+   F21 · MINIATURA EPISODIO COMPLETO SISTEMA 1 Y 2
+   ========================================================================= */
+function f21(){
+  const W=1280,H=720,u=36; let s = paper(W,H,u,{marginX:84,mGap:6,mW:2});
+  const L=124;
+  s += T('SISTEMA',{x:L,y:92,f:'d',w:800,s:30,ls:-0.01,ink:'l',id:'twm21'});
+  s += M('tag',{for:'twm21',gap:14,text:'1+2',w:58,h:38,fill:C.verm});
+  s += T('EPISODIO COMPLETO',{x:1156,y:92,f:'m',w:700,s:22,ls:0.16,fill:C.verm,a:'end'});
+  s += T('¿A dónde se va',{x:L,y:262,f:'d',w:800,s:104,ls:-0.04,ink:'l'});
+  s += T('tu dinero?',{x:L,y:400,f:'d',w:800,s:104,ls:-0.04,ink:'l'});
+  s += T('Y cómo salir de deudas.',{x:L,y:520,f:'d',w:700,s:64,ls:-0.03,fill:C.verm,ink:'l',id:'sd21'});
+  s += M('dbl',{for:'sd21',word:'deudas.',t:7,gap:6,off:'auto',pad:0.03,fill:C.verm});
+  s += T('NIVEL 1 · NIVEL 2',{x:L,y:640,f:'m',w:700,s:24,ls:0.16,fill:C.tinta2,ink:'l'});
+  return s;
+}
+
+/* =========================================================================
    F11 · PORTADA PODCAST 3000×3000
    ========================================================================= */
 function f11(){
@@ -499,6 +516,7 @@ const FRAMES = [
   {id:11,name:'f11_cover',           w:3000,h:3000, build:f11},
   {id:13,name:'f10b_thumbnail_15_40', w:1280,h:720,  build:f10b},
   {id:20,name:'f20_thumbnail_ep02',   w:1280,h:720,  build:f20},
+  {id:21,name:'f21_thumbnail_especial01', w:1280,h:720,  build:f21},
   {id:12,name:'f09_clip_vertical_guias', w:1080,h:1920, build:()=>f09(true)},
 ];
 

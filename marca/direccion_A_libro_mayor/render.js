@@ -24,6 +24,7 @@ const FRAMES = [
   { id: 12, name: 'f09_clip_vertical_guias', w: 1080, h: 1920 },
   { id: 13, name: 'f10b_thumbnail_15_40', w: 1280, h: 720 },
   { id: 20, name: 'f20_thumbnail_ep02', w: 1280, h: 720 },
+  { id: 21, name: 'f21_thumbnail_especial01', w: 1280, h: 720 },
 ];
 
 (async () => {
