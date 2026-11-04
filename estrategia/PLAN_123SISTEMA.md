@@ -38,8 +38,10 @@ Este archivo se explica solo: si abres una sesión nueva de Claude Code, pásale
 | **YouTube Shorts** | Clips del largo | 25 a 45 s | Suscriptores; cada Short se liga al largo con "Video relacionado" | 10% |
 | **TikTok** | Los mismos clips + 1 versión de 61 a 90 s por video | 25 a 90 s | Crecer rápido; paga en México desde 10,000 seguidores | 20% |
 | **Facebook** | Clips como Reels + el video largo | Cualquiera | Puede pagar por Reels y videos (confirmar en el panel de la página) | 10% |
-| **Spotify** | Los videos largos como videopodcast | Igual que YouTube | Su programa de pagos llega a México en otoño de 2026; paga por consumo de usuarios Premium | 10% |
+| **Spotify** | Los videos largos como **videopodcast** (el mismo MP4 de YouTube, no solo audio) | Igual que YouTube | Su programa de pagos llega a México en otoño de 2026 y paga según cuánto ven el video los usuarios Premium | 10% |
 | **Instagram** | Los mismos clips como Reels | 25 a 45 s | Solo alcance; no hay pago confirmado en México | 5% |
+
+**El porcentaje es de tu tiempo, no de importancia.** Spotify lleva poco tiempo porque se sube el mismo archivo ya terminado; puede pagar tanto como cualquier otra red.
 
 **Cuánto paga cada cosa** (estimaciones de terceros, no oficiales):
 - Video largo de finanzas, público mexicano: unos **$2 a $7 dólares por cada 1,000 vistas**.
