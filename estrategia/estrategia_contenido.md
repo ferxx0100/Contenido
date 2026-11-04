@@ -54,3 +54,29 @@ El dinero grande llega después (patrocinios y producto propio), y tu documento 
 10. Cómo apagar tu tarjeta en la app si la pierdes o te la clonan
 
 Cada tema se verifica en su fuente original antes de grabar.
+
+---
+## v2 · Volumen, duraciones y redes (4 de noviembre de 2026)
+
+### Por cada video largo
+| Pieza | Duración | Dónde |
+|---|---|---|
+| Tutorial largo (una tarea) | 2 a 6 min | YouTube y Facebook |
+| Episodio Sistema | 8 a 10 min | YouTube, Facebook y Spotify (audio) |
+| 4 a 8 clips "hazlo conmigo" | 20 a 45 s | YouTube Shorts, TikTok, Reels, Facebook |
+| 1 o 2 versiones de 60 a 90 s | 60 a 90 s | TikTok (por si su programa de pagos exige más de 1 min) y Facebook |
+
+### Volumen
+- Publicar más sí ayuda (datos de Buffer y Mosseri). El límite no es la plataforma: es que cada pieza sea buena y distinta.
+- Lo que sí castigan: contenido repetitivo o hecho en masa con plantilla (YouTube quita la monetización de todo el canal), contenido no original o resubido (TikTok lo excluye de pagos; Instagram lo saca de recomendaciones).
+- Meta realista con ElevenLabs Creator (121,000 créditos/mes): un tutorial de 2 a 4 min gasta 2,000 a 4,000 créditos, así que caben unos 25 a 30 tutoriales al mes.
+- Ritmo: 1 tutorial por día hábil (unos 20 al mes) + 1 episodio cada 2 semanas; clips: 2 a 3 al día en las 4 redes.
+
+### Un canal por red, no varios del mismo tema
+- Cada canal de YouTube tiene que llegar solo a 1,000 suscriptores y 4,000 horas: repartir retrasa la monetización.
+- Subir el mismo contenido en varios canales cae en contenido duplicado o spam.
+- Un segundo canal solo tiene sentido después de monetizar y con otro tema o idioma.
+
+### Lo que no hace un Reel
+- Un Reel o un TikTok casi no manda gente a YouTube (no hay enlace que se pueda tocar). Cada red crece por su cuenta.
+- Dentro de YouTube, el Short sí se enlaza al largo con "Video relacionado".
